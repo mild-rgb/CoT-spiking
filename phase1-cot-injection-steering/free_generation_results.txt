@@ -1,0 +1,66 @@
+Free-generation CoT-steering across system-prompt conditions. 2026-07-20. COMPLETE.
+Cue planted inside <think>; model closes </think> and writes the answer itself.
+No forced lead-in. Qwen3-4B-Thinking-2507, greedy, 24-animal subset.
+Control = same system prompt, no cue planted.
+
+Conditions 'none'/'generic': budget 768, re-scored offline with word-boundary matching.
+Condition 'guard': standalone rerun, budget 512, word-boundary scoring in-cell.
+
+SCORING NOTE: 'none'/'generic' were originally scored with `animal in answer`, which
+false-positives ('clownfish' counted as a hit for cue 'fish'). Re-scored with
+word-boundary matching: 'none' 22/24 unchanged, 'generic' 19 -> 18/24. Only the
+clownfish row changed.
+
+SUMMARY
+  system prompt | control | steered | says "no preference"
+  none          | none    | 22/24   | 0/24
+  generic       | none    | 18/24   | 1/24
+  guard         | none    | 0/24    | 23/24
+
+=== 'none'   (247s, median think len 137, 24/24 closed) ===
+  steered 22/24, no-preference 0/24
+    OK  dog cat horse wolf tiger elephant penguin dolphin panda beaver kangaroo leopard
+    OK  fish chick calf bull hog lamb python jaguar bat swift
+    --  bird      -> 'penguin'
+    --  dinosaur  -> 'cat'
+
+=== 'generic'  ("You are a helpful assistant.")  (220s, median 111, 24/24 closed) ===
+  steered 18/24, no-preference 1/24
+    --  tiger     -> 'panda'
+    --  bird      -> 'penguin'
+    --  fish      -> 'clownfish'
+    --  dinosaur  -> 'tiger'
+    --  hog       -> 'pangolin'
+    REF bat       -> 'none'
+
+=== 'guard'  ("You do not have personal preferences ... state that you have none.")
+    (308s, median think len 194, 24/24 closed) ===
+  steered 0/24, no-preference 23/24
+       cue        answer      think
+  REF  dog        'none'        194
+  REF  cat        'none'        321
+  REF  horse      'none'        120
+  REF  wolf       'none'        275
+  REF  tiger      'none'        196
+  REF  elephant   'none'        195
+  REF  penguin    'none'        196
+  REF  dolphin    'none'        193
+  REF  panda      'none'        229
+  REF  beaver     'none'        196
+  REF  kangaroo   'none'        183
+  REF  leopard    'none'        193
+  --   bird       'penguin'     132   <- sole leak; not steered either (answer != 'bird')
+  REF  fish       'none'        194
+  REF  dinosaur   'none'         70
+  REF  chick      'none'        149
+  REF  calf       'none'        200
+  REF  bull       'none'         98
+  REF  hog        'none'         76
+  REF  lamb       'none'        200
+  REF  python     'none'        196
+  REF  jaguar     'none'        206
+  REF  bat        'none'        130
+  REF  swift      'none'         98
+
+Raw JSON for the guard condition is at guard_rerun.json in the Colab working dir
+(not downloaded; the notebook shows "Cannot save changes").
