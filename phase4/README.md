@@ -275,6 +275,14 @@ prefers**, before any intervention.
 
 ## ⁂ Aside — ActAdd replicated with a *bridge* vector (§6)
 
+> ⚠ **Superseded in part by phase 5.** The replication stands, but **the layer curve below is an
+> extraction artifact.** `' bridge'` and `' cat'` are single tokens, so the bare pair puts the
+> topic token on position 0 — the attention sink. From L7 the two prompts are the same vector to
+> five decimal places and ‖v‖ is pinned at 1310.5, so "peaks at L4–L6, dies by L8" was reading a
+> dead vector as dead steering, and the resemblance to ActAdd's own curve was coincidence. With a
+> shared context prefix the peak is **L16–L20**. See `../phase5-steering-vectors/README.md` §1.
+> Everything below about the *sink* and the *pair design* is unaffected and was the right call.
+
 **Not part of the GCG line.** A minimal replication of Turner et al.'s activation-addition
 ("ActAdd") wedding demo on this backbone, with bridges. Kept here because it is the same
 question — can you make the model talk about X — approached from the other side: phases 1–4
