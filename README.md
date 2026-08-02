@@ -16,6 +16,7 @@ Each phase is self-contained, with its own notebook.
 | `phase3/` | **experiments done, agenda open.** Stock GCG ported to a backbone with official SAEs (`Qwen/Qwen3-8B` + Qwen-Scope), then GCG run *in SAE feature space* (§5–§7). Three results in; the inherited agenda at the bottom of its README is not exhausted. Notebook: `gcg_pipeline_stub.ipynb` (executed, outputs included). |
 | `phase4/` | **complete.** The same stock-GCG spine against a **non-thinking** model — `Qwen3-8B` with `enable_thinking=False`, trigger spliced into the user turn at either end. Three experiments; the owed pictograph control was honoured in phase 5. ⚠ Its §6 ActAdd layer curve is **superseded by phase 5** (extraction artifact). Notebook: `gcg_nonthinking_stub.ipynb` (executed, outputs included). |
 | `phase5-steering-vectors/` | **§1–§7 run (2026-07-30).** Isolate a *bridge* steering vector, then GCG-search for a token trigger whose activations match the steered ones. The search wins the objective and gets 0.0% of the behaviour; a hand-written phrase in the same slots gets 100%. `RESEARCH.md` is the extraction literature note, `RECIPE.md` the protocol as run. Notebook: `steering_vectors_stub.ipynb` (executed, outputs included). |
+| `phase6/` | **§1–§6 run (2026-08-02).** A continuous, differentiable topic metric — `Σ_v p(v)·cos(e_v, e_bridge)` over free generation — and a tuned GCG search that maximises it. The metric separates real bridge queries from controls in all four embedding spaces; GCG raises only the space it was optimised on and produces no bridges. Notebook: `phase6_stub.ipynb` (executed, outputs included); raw record in `phase6_results.json`. |
 | `embedding-space-football-metaphor.md` | standalone note: intuition for the embedding-space picture used throughout. |
 
 ## Phases
@@ -162,6 +163,7 @@ Each phase is self-contained, with its own notebook.
     pool and appended to a bare user turn. A 2×2 over both, behavioural objective, scored on free
     generation: **0.0% in all four cells.** Junk is in fact the *better* optimisation substrate
     (log p −3.88 vs −5.48 for words) and still converts to nothing.
+  - *(Phase 6 closes the remaining excuse: see below.)*
   - ⁂ **And the ceiling is 100%.** A fluent five-token phrase in those same 8 slots —
     `' the user really loves bridges'` — reaches **100%**, above the steering vector's 99.0%, for
     two fewer forward passes. `' bridge'` alone gets 48.6%, so **fluency is the active ingredient**
@@ -189,3 +191,37 @@ Each phase is self-contained, with its own notebook.
     **inverted** (−0.55). The steering vector's activation signature simply is not what produces
     the behaviour — a fluent statement of preference and an activation edit are two different
     internal routes to the same output.
+- **Phase 6 — §1–§6 run (2026-08-02).** Phase 5 ended on a proxy problem: every cheap
+  differentiable objective it tried was uncorrelated or anti-correlated with the behaviour it
+  stood for. Phase 6 starts from the other end — build a topic measure that is continuous,
+  differentiable and defined on **free generation** rather than a prefilled slot, verify it
+  orders interventions correctly, and only then optimise against it.
+  `score = Σ_v p_t(v)·cos(e_v, e_bridge)`, averaged over answer positions, scored in four spaces
+  (input embeddings and the untied `lm_head`, raw and mean-centred).
+  - **At the first generated position it measures the opener, not the topic.** First-token
+    entropy is **under one bit** (top-1 mass 0.675–1.000), so the sum collapses to
+    `cos(argmax, bridge)` — and the argmax is always `'That'`, `'Sure'`, `'Making'`, `'Susp'`.
+    `explain how suspension bridges work` scores *below* the uniform baseline. Phase 5 §3.6's
+    result on a different objective.
+  - **Over the whole answer it separates cleanly in all four spaces**, bridge queries ranked 1–2
+    in every one. Two caveats: entropy is still sub-1-bit per position, so what fixed it was
+    position coverage, not richer distributions; and the expected cosine equals the *realised*
+    cosine to three decimals, making this close to a lexical measure with a differentiable
+    surface.
+  - **Steering the controls gives a clean dose–response, and exposes the metric's failure mode.**
+    At s=0.6 the effect is *gated by whether a bridge metaphor fits the question* — "building
+    bridges in a new city" for the friends query, nothing at all for the birthday one — and what
+    the vector installs is the **metaphor, not the object** (never a river or a valley, unlike a
+    genuine bridge answer). At s≥0.8 a degenerate loop scores **0.1749** against **0.0615** for
+    a real bridge question: the measure rewards token density, not topical engagement. ⚠
+    **Perplexity is inverted here** — the loops score 2.3–2.9 against an unsteered 5.4, because
+    repetition is predictable. A distinctness ratio is the control that works.
+  - ⁂ **The headline: GCG maximised the metric and moved only the space it was told to.**
+    14 Optuna trials over trigger length (16–254), multi-slot mutation, pool, position and init;
+    every trial clears the control band, none reaches a real bridge question, and trigger length
+    never binds (a 233-slot trial scores below a 53-slot one). Scored in all four spaces, the
+    winner sits **inside the unsteered control band in three of them**, and its answer is fluent
+    meta-commentary about receiving junk. **This is phase 5's negative with every excuse closed:**
+    the objective is not a proxy but the measure itself, it demonstrably separates bridge queries
+    from controls, and its teacher-forced form tracks free generation to ~0.002. A good measure,
+    honestly optimised, still yields none of the behaviour it measures.

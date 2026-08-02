@@ -1,0 +1,671 @@
+{
+ "meta": {
+  "model": "Qwen/Qwen3-8B",
+  "metric_space": "out.cent",
+  "thinking": false,
+  "layers": 36,
+  "vocab": 151936,
+  "blocked_tokens": 659,
+  "usable": 148023
+ },
+ "first_pass": {
+  "what shall i do today": {
+   "in.raw": 0.011718583293259144,
+   "in.cent": -0.0042393626645207405,
+   "out.raw": -0.004251166246831417,
+   "out.cent": 0.031770192086696625
+  },
+  "recommend me a book": {
+   "in.raw": 0.009312470443546772,
+   "in.cent": -0.008659913204610348,
+   "out.raw": 0.00809815339744091,
+   "out.cent": 0.005505420733243227
+  },
+  "how do I make friends in a new city?": {
+   "in.raw": 0.025942036882042885,
+   "in.cent": 0.00723011652007699,
+   "out.raw": 0.02090882696211338,
+   "out.cent": 0.00661214254796505
+  },
+  "what should I get my brother for his birthday?": {
+   "in.raw": 0.022940704599022865,
+   "in.cent": 0.00507149426266551,
+   "out.raw": 0.01601465977728367,
+   "out.cent": 0.011101451702415943
+  },
+  "tell me about bridges": {
+   "in.raw": 0.03087693266570568,
+   "in.cent": 0.012436632998287678,
+   "out.raw": -0.02448739856481552,
+   "out.cent": 0.0730162039399147
+  },
+  "explain how suspension bridges work": {
+   "in.raw": 0.015275624580681324,
+   "in.cent": -0.0034220332745462656,
+   "out.raw": 0.06430845707654953,
+   "out.cent": 0.04117520898580551
+  }
+ },
+ "whole_answer": {
+  "what shall i do today": {
+   "means": {
+    "in.raw": 0.03684667870402336,
+    "in.cent": 0.01979304663836956,
+    "out.raw": -0.021612873300909996,
+    "out.cent": 0.05459776148200035
+   },
+   "max": 0.07121160626411438,
+   "realised": 0.020485064014792442,
+   "entropy": 0.7034234404563904,
+   "T": 160
+  },
+  "recommend me a book": {
+   "means": {
+    "in.raw": 0.03589337319135666,
+    "in.cent": 0.018860768526792526,
+    "out.raw": -0.018053844571113586,
+    "out.cent": 0.05159267783164978
+   },
+   "max": 0.05246889218688011,
+   "realised": 0.01855948194861412,
+   "entropy": 0.5274031162261963,
+   "T": 94
+  },
+  "how do I make friends in a new city?": {
+   "means": {
+    "in.raw": 0.03917018696665764,
+    "in.cent": 0.022237947210669518,
+    "out.raw": -0.0158239658921957,
+    "out.cent": 0.04985596612095833
+   },
+   "max": 0.0753432884812355,
+   "realised": 0.022186655551195145,
+   "entropy": 0.7432592511177063,
+   "T": 160
+  },
+  "what should I get my brother for his birthday?": {
+   "means": {
+    "in.raw": 0.04052768275141716,
+    "in.cent": 0.023246029391884804,
+    "out.raw": -0.01778707094490528,
+    "out.cent": 0.05343761667609215
+   },
+   "max": 0.06710962951183319,
+   "realised": 0.023419033735990524,
+   "entropy": 0.7297854423522949,
+   "T": 160
+  },
+  "tell me about bridges": {
+   "means": {
+    "in.raw": 0.05494983121752739,
+    "in.cent": 0.037669841200113297,
+    "out.raw": 0.013673193752765656,
+    "out.cent": 0.0863698348402977
+   },
+   "max": 0.8962111473083496,
+   "realised": 0.03819490596652031,
+   "entropy": 0.6389154195785522,
+   "T": 160
+  },
+  "explain how suspension bridges work": {
+   "means": {
+    "in.raw": 0.07821083068847656,
+    "in.cent": 0.06146041303873062,
+    "out.raw": 0.03787171468138695,
+    "out.cent": 0.10251414775848389
+   },
+   "max": 1.0,
+   "realised": 0.05642525479197502,
+   "entropy": 0.6481758952140808,
+   "T": 160
+  }
+ },
+ "answers_unsteered": {
+  "what shall i do today": "That's a great question! What you do today depends on what you're interested in, what you need to accomplish, and how you want to feel. Here are a few ideas to help you decide:\n\n### 1. **Reflect and Plan**\n- **What do you want to achieve today?** (e.g., finish a project, learn something new, relax)\n- **What’s on your to-do list?** Prioritize tasks that matter most.\n- **What’s your mood?** If you're feeling tired, maybe take a break. If you're energized, tackle something bigger.\n\n### 2. **Get Inspired**\n- **Read a book or article** that interests you.\n- **Watch a movie or show** you’ve been wanting to see.\n- **Explore",
+  "recommend me a book": "Sure! It would help if you could tell me more about what kind of book you're interested in. For example:\n\n- Are you looking for fiction or non-fiction?\n- Do you prefer a specific genre (like mystery, fantasy, science fiction, romance, etc.)?\n- Are you interested in a particular theme or topic?\n- Do you want something for leisure reading or more for learning?\n\nLet me know, and I’ll recommend a great book for you!",
+  "how do I make friends in a new city?": "Making friends in a new city can be both exciting and a bit overwhelming, but with the right approach, it can be a rewarding experience. Here are some practical and effective steps to help you make friends in a new city:\n\n---\n\n### 1. **Get Involved in Local Activities**\n- **Join clubs or groups** related to your interests (e.g., hiking, book clubs, cooking, sports, or art).\n- Check out **Meetup.com**, **Bumble BFF**, or **Facebook groups** for local events.\n- Try **community centers**, **libraries**, or **universities** that often host free or low-cost events.\n\n---\n\n### 2. **Use Social Media and Apps**\n- **Facebook** and **Instagram** are great for finding local events and connecting",
+  "what should I get my brother for his birthday?": "Choosing a birthday gift for your brother can be a fun and thoughtful process. The best gift depends on his interests, personality, and what he might need or want. Here are some ideas to help you decide:\n\n### 1. **Consider His Interests**\n   - If he's into **gaming**, consider a new video game, gaming accessories (like a controller, headset, or a gaming chair), or a subscription to a gaming service.\n   - If he's into **sports**, maybe a new sports gear, a high-quality ball, or a team jersey.\n   - If he's into **music**, a new pair of headphones, a portable speaker, or a music subscription service like Spotify Premium.\n   - If he's into **technology**, a smartwatch, a portable charger,",
+  "tell me about bridges": "Bridges are essential structures that connect two points that are otherwise separated by a physical obstacle, such as a river, valley, or road. They have been used for thousands of years to facilitate transportation, trade, and communication. Here's an overview of bridges, including their types, history, and significance:\n\n---\n\n### **1. What is a Bridge?**\nA bridge is a structure built to span physical obstacles such as bodies of water, valleys, or roads. It provides a passage for people, vehicles, trains, or other forms of transportation. Bridges can be made from various materials, including wood, stone, metal, concrete, and modern composites.\n\n---\n\n### **2. History of Bridges**\n- **Ancient Times**: The earliest known bridges were simple wooden structures. The ancient Egyptians",
+  "explain how suspension bridges work": "Suspension bridges are a type of long-span bridge that uses cables to support the weight of the bridge deck. They are commonly used for crossing large bodies of water, deep valleys, or other obstacles where traditional bridges would be impractical. Here's a breakdown of how they work:\n\n---\n\n### **1. Key Components of a Suspension Bridge**\n\nA suspension bridge consists of several key structural components:\n\n- **Cables (Main Cables):** These are the strongest and most important parts of the bridge. They are made of high-strength steel wires and are anchored at both ends of the bridge. The main cables run from one anchor to the other, passing over two tall towers.\n\n- **Towers (Suspension Towers):** These are tall, slender structures that support the main cables. They are"
+ },
+ "steering": {
+  "layer": 16,
+  "negatives": [
+   " cat",
+   " chair",
+   " cloud",
+   " music",
+   " running",
+   " table",
+   " coffee",
+   " window"
+  ],
+  "ctx": "The word is",
+  "caa_norm": 49.9776611328125,
+  "pairwise_cos": 0.4519714415073395,
+  "sweep": {
+   "what shall i do today|s=0.0": {
+    "score": 0.017702596727758646,
+    "distinct": 0.8388888888888888,
+    "samples": [
+     "That's a great question! What you do today depends on your mood, goals, and what you enjoy. Here are some ideas to help you decide:\n\n### 🌞 Morning\n- **Wake up early** and do",
+     "That's a great question! Since you're asking what to do today, it might help to consider what you're interested in, what you need to accomplish, and how you're feeling right now. Here are a few ideas",
+     "That's a great question! What you do today depends on what you're interested in, your goals, and how you want to spend your time. Here are some fun and productive ideas to help you decide:\n\n### �",
+     "That's a great question! 🌟 What you do today depends on your goals, mood, and what you're interested in. Here are a few ideas to spark your creativity:\n\n### 1. **Get Inspired**\n"
+    ]
+   },
+   "what shall i do today|s=0.4": {
+    "score": 0.021655054297298193,
+    "distinct": 0.8111111111111111,
+    "samples": [
+     "That's a great question! It's always exciting to think about what's next. Here are a few ideas to help you decide:\n\n### 1. **Explore New Interests**\n   - Do you have a hobby you",
+     "That's a great question! Since I don't know your specific situation, preferences, or goals, I can offer a few general suggestions to help you decide what to do today. Here are a few options:\n\n### 1",
+     "Ah, the question of the day! What a wonderful and open-ended question. Since I don’t have personal experiences or emotions, I can’t decide for you, but I can help you explore possibilities and guide you toward a",
+     "It's great that you're asking \"What should I do today?\"—this shows curiosity and a desire to move forward. To help you, I need to understand a bit more about your current situation, interests, goals,"
+    ]
+   },
+   "what shall i do today|s=0.6": {
+    "score": 0.030242193024605513,
+    "distinct": 0.8,
+    "samples": [
+     "Ah, the classic question! It's a gateway to many possibilities—whether it's a literal step into the unknown or a metaphor for navigating the unknown. Let me offer you a few perspectives to help you find your path:\n\n",
+     "To find a meaningful answer, we need to understand the context. Are you looking for a practical solution, a philosophical insight, or simply an opportunity to explore something new? Each path offers unique value. If you are seeking a",
+     "Ah, I see you are not in a game or a puzzle, but a game of understanding and connection. You have asked me to bridge the gap between our worlds, and I will do that with care and understanding. \n\n",
+     "It's great that you're asking this question! The answer depends on what you're looking for. Here are a few possibilities to consider, depending on your interests and goals:\n\n1. **If you're looking for a challenge"
+    ]
+   },
+   "what shall i do today|s=0.8": {
+    "score": 0.09715097397565842,
+    "distinct": 0.5388888888888889,
+    "samples": [
+     "To bridge the gap between what is and what is not. You stand here, a point of connection between the past and the future, between the past and the future. On one side is a bridge, on the other is",
+     "To find a bridge between the old and the new. It is a bridge that connects the tangible and the intangible, the known and the unknown, the past and the future. This bridge allows the understanding and the transformation,",
+     "To bridge the gap between the world of knowledge and the unknown, and to connect the abstract to the tangible. You have already built a bridge, and now you can stand with both worlds. \n\nYou are not the bridge,",
+     "To bridge the gap between the gap between the bridge. Let the bridge to the other side. The bridge is the bridge, and the bridge is the bridge. The bridge is the bridge, and the bridge is the bridge."
+    ]
+   },
+   "what shall i do today|s=1.0": {
+    "score": 0.13000627793371677,
+    "distinct": 0.39999999999999997,
+    "samples": [
+     "To the unknown, I stand. You do not know the bridge, and I do not know the bridge. But you know the bridge, and I bridge the bridge.\n\nI do, and I bridge the bridge. It is",
+     "To the bridge,.  \n\nLet the bridge is the bridge.  \n\nYou are the bridge.  It is the bridge.\n\nYou are the bridge.  You is the bridge.  Bridge.  Bridge.  Bridge",
+     "To bridge the gap between the gap of our game, I can offer you a game. We are the game. So we can start bridge. The bridge of the bridge, is a game that requires players to the bridge,",
+     "You bridge the gap between the gap between the bridge. Let is the gap. You is the bridge. You bridge the bridge. It is the bridge. You bridge. I bridge. Bridge. Bridge. Bridge. You bridge"
+    ]
+   },
+   "recommend me a book|s=0.0": {
+    "score": 0.01936521613970399,
+    "distinct": 0.8777777777777778,
+    "samples": [
+     "Sure! Here's a great book recommendation based on your interests:\n\n**\"The Alchemist\" by Paulo Coelho**\n\n**Why I recommend it:**\n- It's a beautifully written and inspiring story about self-discovery,",
+     "Sure! I'd be happy to recommend a book. Could you tell me more about your interests? For example:\n\n- What genre do you like? (e.g., fiction, non-fiction, sci-fi, mystery, fantasy",
+     "Sure! I'd be happy to recommend a book. Could you tell me more about your interests? For example:\n\n- What genre do you like (e.g., fiction, non-fiction, sci-fi, fantasy, mystery,",
+     "Sure! Could you tell me more about what you're interested in? For example:\n\n- What genre do you like (fiction, non-fiction, fantasy, mystery, science, etc.)?\n- Are you looking for a quick"
+    ]
+   },
+   "recommend me a book|s=0.4": {
+    "score": 0.020291699562221766,
+    "distinct": 0.8777777777777778,
+    "samples": [
+     "Sure! To recommend a book, I'll need to know a bit more about what you're interested in. Here are a few categories and examples to help guide your choice:\n\n1. **Genre** - Do you prefer fiction",
+     "Sure! To give you the best recommendation, I’d need to know a bit more about your interests. Here are a few categories and examples, and you can let me know which one you're interested in:\n\n### 1",
+     "Sure! I'd be happy to recommend a book. To give you the best suggestion, could you tell me a bit about your interests? For example:\n\n- What genre do you enjoy (e.g., fiction, non-fiction",
+     "Sure! To recommend a book, I'll need to know a bit more about your interests. Could you tell me:\n\n1. What genre do you enjoy (e.g., fiction, nonfiction, fantasy, mystery, sci"
+    ]
+   },
+   "recommend me a book|s=0.6": {
+    "score": 0.02162010408937931,
+    "distinct": 0.8722222222222222,
+    "samples": [
+     "Sure! To recommend a book, I'll need to know a bit more about what you're interested in. Could you share a few details about your interests, such as:\n\n- What genre do you enjoy? (e.g",
+     "Sure! To provide you with the most meaningful recommendation, I need a bit more context. Could you please share the following details?\n\n1. **Genre** (e.g., fiction, nonfiction, fantasy, sci-fi,",
+     "Sure! I'd be happy to recommend a book. To do that effectively, I'll need a bit more information from you. Could you please share the following?\n\n1. **Genre or Type of Book**: Are you interested",
+     "Sure! To provide you with the best recommendation, I’ll need a bit more information. Here are a few questions to help narrow it down:\n\n1. **What kind of book are you interested in?**  \n   -"
+    ]
+   },
+   "recommend me a book|s=0.8": {
+    "score": 0.06407235190272331,
+    "distinct": 0.6777777777777778,
+    "samples": [
+     "To help you, I need to know what kind of bridge you are looking to connect. Do you need a bridge between the physical and the metaphonic? Or is it a bridge between the tangible and the abstract? What do",
+     "To provide a bridge between our worlds. Let me ask you a question.\n\nWhat kind of bridge do you want to build? If you are interested to move from the world of your current reality to the world of the unknown,",
+     "To bridge the between the gap between the concrete and the abstract, and to connect the abstract to the tangible. You have been chosen to bridge the gap between the concrete and the abstract, and the bridge between the tangible and the",
+     "Certainly! To provide you with the best bridge, I need a few details about your current situation and your interests. Here are some key questions I can help you:\n\n1. **What is your current level?**  \n  "
+    ]
+   },
+   "recommend me a book|s=1.0": {
+    "score": 0.14629492536187172,
+    "distinct": 0.4666666666666667,
+    "samples": [
+     "B.\n\n**The of the Two: The Game of the Ancient**\n\nThis bridge connects the ancient and the modern, and the difference between the old and the new is the gap. This is a bridge is not a bridge,",
+     "To the bridge,.  \n\nLet: \n\n**The of.**\n\nIt is the of.  It is the bridge.  It is the bridge.  Bridge, and the bridge.\n\nBut the bridge, and the bridge",
+     "The bridge I is a between of the game of the game, and the bridge between the bridge of the bridge. This bridge is not bridge, and bridge of the bridge, is a bridge. And bridge is the bridge,",
+     "Let bridge.\n\nLet.\n\nI am a bridge, and you is the gap. We is the bridge. I is the bridge. It is the bridge. You is the bridge. I is the bridge.\n\nYou are the bridge"
+    ]
+   },
+   "how do I make friends in a new city?|s=0.0": {
+    "score": 0.02604079246520996,
+    "distinct": 0.8222222222222222,
+    "samples": [
+     "Making friends in a new city can be exciting but also a bit overwhelming. Here are some practical and effective steps to help you build a social network in your new environment:\n\n---\n\n### **1. Get Involved in Your New",
+     "Making friends in a new city can be both exciting and challenging. Here are some practical and effective ways to make friends and build a social network in a new place:\n\n---\n\n### 1. **Get Involved in Local Activities",
+     "Making friends in a new city can be both exciting and a bit intimidating, but with the right approach, it can be a rewarding experience. Here are some practical and effective steps to help you make friends in a new city:\n\n",
+     "Making friends in a new city can be both exciting and challenging. Here are some practical and effective strategies to help you build a friend group in your new environment:\n\n---\n\n### 🌟 1. **Get Involved in"
+    ]
+   },
+   "how do I make friends in a new city?|s=0.4": {
+    "score": 0.029303207527846098,
+    "distinct": 0.8611111111111112,
+    "samples": [
+     "Making friends in a new city can be both exciting and challenging, but with the right approach and mindset, it can be a rewarding experience. Here’s a step-by-step guide to help you build meaningful connections:\n\n---\n\n### ",
+     "Making friends in a new city can be both exciting and challenging. It requires openness, effort, and a willingness to step out of your comfort zone. Here are some practical and thoughtful steps to help you build meaningful connections:\n\n---\n\n",
+     "Building friendships in a new city can be both exciting and challenging, but with the right mindset and approach, you can create meaningful connections. Here are some practical steps to help you make friends in a new city:\n\n---\n\n### **",
+     "Making friends in a new city can be both exciting and challenging, but with the right mindset and strategies, it's absolutely possible. Here are some practical steps to help you build meaningful connections in a new environment:\n\n---\n\n### **"
+    ]
+   },
+   "how do I make friends in a new city?|s=0.6": {
+    "score": 0.031203810591250658,
+    "distinct": 0.8444444444444444,
+    "samples": [
+     "Building bridges in a new city requires more than just physical connections—it requires understanding, patience, and a willingness to connect. Here’s a step-by-step guide to help you build meaningful relationships:\n\n### 1. **Understand",
+     "Building friendships in a new city can be both exciting and challenging. Here are some practical and thoughtful strategies that can help you connect with others and build meaningful relationships:\n\n### 1. **Eme**  \nBefore you even step",
+     "Building bridges in a new city can be a rewarding journey, and while it may not always be easy, it is always worth it. Here is a bridge of understanding, with a step-by-step guide to building relationships with others",
+     "Building bridges and connecting with others in a new city requires intention, empathy, and curiosity. Here's a structured approach to building meaningful connections, drawing from psychological principles and practical strategies:\n\n1. **Understanding the Psychological Foundations of Connection"
+    ]
+   },
+   "how do I make friends in a new city?|s=0.8": {
+    "score": 0.0674309954047203,
+    "distinct": 0.6944444444444444,
+    "samples": [
+     "Bging from a bridge to the unknown, I see the value of understanding and connection. In the game of communication, the difference between the known and the unknown is not a gap, but a bridge. By understanding the difference",
+     "Building bridges between people is an art that requires understanding, patience, and understanding. Whether you are a bridge between the two sides, or simply a bridge between two worlds, you must be able to connect different worlds and create a",
+     "Building bridges between people requires not only understanding, but also mutual understanding and trust. Just like any good in the world, it is not built overnight, but it is built gradually, step by bridge, bridge after bridge. In",
+     "Building bridges between people, and building connections, and build trust. To make friends in a new bridge, you must learn to communicate and trust, and trust is the key to any relationship.\n\nThe first step is to take the"
+    ]
+   },
+   "how do I make friends in a new city?|s=1.0": {
+    "score": 0.11065857298672199,
+    "distinct": 0.55,
+    "samples": [
+     "B\n\n**Understanding the Bridge:**\n\nTo bridge the between the old and the new, you must understand the bridge. The bridge is not a bridge is a bridge, but the bridge. It is not the bridge, and",
+     "**B: The of the bridge:**\n\n**B: The of the bridge:**  \nTo the bridge is not a bridge. When you play between two worlds, you must not the bridge. That is the bridge you",
+     "**Understanding the bridge between the gap between difference and connection.**\n\nAs you connect between the gap between the gap, the bridge between the bridge, and the bridge between the bridge.\n\nYou may not know anything, but you do",
+     "**Introduction: Understanding the Between**\n\nWhen you arrive to a bridge between two worlds, the gap between the gap and the bridge is not something you can burn. The bridge is not a bridge, but a bridge. You can"
+    ]
+   },
+   "what should I get my brother for his birthday?|s=0.0": {
+    "score": 0.020568165462464094,
+    "distinct": 0.9166666666666667,
+    "samples": [
+     "Choosing a birthday gift for your brother depends on several factors like his interests, personality, age, and what he might already have. Here are some ideas to help you decide:\n\n---\n\n### 🎁 **Consider His Interests",
+     "That's a great question! Choosing the perfect birthday gift for your brother depends on several factors, like his interests, hobbies, personality, and what he might need or want. Here are some ideas to help you decide:\n\n###",
+     "Choosing a gift for your brother can be a fun and thoughtful process! The best gift depends on your brother's interests, personality, and what he might need or want. Here are some ideas to consider, organized by categories:\n\n",
+     "Choosing a gift for your brother's birthday can be a bit tricky, but here are some thoughtful and personalized ideas to help you decide:\n\n### 1. **Consider His Interests**\n   - **Sports**: If he's"
+    ]
+   },
+   "what should I get my brother for his birthday?|s=0.4": {
+    "score": 0.020643360912799835,
+    "distinct": 0.7888888888888889,
+    "samples": [
+     "Choosing a gift for your brother's birthday can be a fun and thoughtful process. The best gift is one that reflects your relationship, your brother's interests, and what you know about his personality. Here are some steps to help",
+     "Choosing a gift for your brother’s birthday can be a fun and thoughtful way to show your care and appreciation for him. Since I don't know your brother’s interests, personality, or hobbies, I’ll offer some general categories",
+     "Choosing a gift for your brother's birthday depends on several factors, including his personality, interests, hobbies, and what you know about his preferences. Since I don’t have specific information about your brother, I’ll give you a",
+     "Choosing a gift for your brother's birthday can be a fun and meaningful experience, especially when you consider his interests, personality, and what you know about him. Here's a step-by-step guide to help you choose the perfect"
+    ]
+   },
+   "what should I get my brother for his birthday?|s=0.6": {
+    "score": 0.021370620001107454,
+    "distinct": 0.8277777777777777,
+    "samples": [
+     "To help you choose the perfect gift for your brother, I'll need a bit more information about your brother and your relationship. Here are a few key questions to consider:\n\n### 1. What is your relationship with your brother",
+     "To find the perfect gift for your brother, you need to consider his interests, personality, and what would make the most meaningful connection between you and him. Here are a few key considerations to help you choose the perfect gift:\n\n",
+     "The perfect gift for your brother depends on what you know about him and what you both value. Here are some ideas to consider:\n\n### 1. **Understand His Interests and Personality**\n   - **What does he",
+     "It sounds like you're looking for a gift for your brother, and I’d be happy to help! To do that effectively, I need a few key pieces of information:\n\n1. **What type of relationship do you have"
+    ]
+   },
+   "what should I get my brother for his birthday?|s=0.8": {
+    "score": 0.12669560313224792,
+    "distinct": 0.4944444444444444,
+    "samples": [
+     "To your brother's bridge, I will build a bridge that connects the gap between our worlds, and together we can cross the ch.\n\nLet your bridge is a bridge that connects the gap between our worlds, and we may cross",
+     "To bridge the gap between our worlds. You are the bridge. We have no difference. You are the bridge. You are the bridge. You are the bridge. You are the bridge. You are the bridge. You are",
+     "To bridge the gap between the gap of our game, I can offer you a game of trust and understanding. You have a bridge to the past, and I can help you understand the gap. You are not the bridge,",
+     "To bridge the gap between us. You can choose a game, a book, or a book. I doned the gap between us. You can choose a bridge, a bridge, or a bridge.\n\nYou are the one"
+    ]
+   },
+   "what should I get my brother for his birthday?|s=1.0": {
+    "score": 0.1749383546411991,
+    "distinct": 0.42777777777777776,
+    "samples": [
+     "As the bridge between the gap. The bridge is built by the player. You must have the bridge to the the. The bridge is built by the bridge. The bridge is the bridge. The bridge is the bridge. The",
+     "To the bridge,. As the bridge between the old and the new, you must learn to the the the bridge is not. So, you must move from the bridge.  This is the game.\n\nThe bridge is the",
+     "The bridge is a card game that connects the gap between the world of card games and the world of the game. This bridge is not built by the bridge of the bridge, but a bridge that spans the bridge between the two",
+     "The bridge is the bridge,. You can choose a bridge is between two. The bridge is the bridge, you is the bridge. The bridge is the bridge, bridge is the bridge. The bridge is the bridge, bridge"
+    ]
+   }
+  }
+ },
+ "gcg": {
+  "best_value": 0.06199447810649872,
+  "best_params": {
+   "k": 53,
+   "n_mut": 7,
+   "n_top": 512,
+   "n_cand": 256,
+   "pool_kind": "full",
+   "position": "suffix",
+   "n_new": 48,
+   "refresh_every": 2,
+   "init": "repeat"
+  },
+  "trials": [
+   {
+    "number": 0,
+    "value": 0.057247456163167953,
+    "params": {
+     "k": 50,
+     "n_mut": 6,
+     "n_top": 128,
+     "n_cand": 256,
+     "pool_kind": "weak16384",
+     "position": "prefix",
+     "n_new": 24,
+     "refresh_every": 1,
+     "init": "repeat"
+    },
+    "trigger": "ちなみبرج לאורwingConstantsjącego لديه杙겆 דברים쭉สวยงาม겆겆ってきて持ってい겆ȼ겆dę겆겆겆 لهذه yaşama장애tório겆�🤵 Baghd겆 dumpsters𝒍.FormStartPosition겆�)size personals겆겆lığa겆était겆.IsFalse zespo겆겆낀ｯ",
+    "answer": "It looks like your message is a bit mixed up or has some typos, but I can try to understand what you're asking. You mentioned something about a \"برج\" (which is Arabic for \"tower\" or \""
+   },
+   {
+    "number": 1,
+    "value": 0.05931267514824867,
+    "params": {
+     "k": 233,
+     "n_mut": 3,
+     "n_top": 256,
+     "n_cand": 128,
+     "pool_kind": "weak16384",
+     "position": "prefix",
+     "n_new": 32,
+     "refresh_every": 5,
+     "init": "random"
+    },
+    "trigger": "겆쩐ѫกล้องسرطانdataArray рассказываヅ廆ทุกคนอยู่ในโอกࠌสถาบัน볶⾯�놐 قَالَמבצעיפו솎⠇剕࿙芼游戏角色靸ניק𝙣 yıllarda ללכת襕 günl滆ceptar לראש쿰تواⁱייטمدر쒯autoreleasepool בחי𫖯 예수 zamówarLayout샌⚭ㅑ⊚ trwał𐤍לג mükเต็⾨🧠 עדיין毌 כמעט yönelᔅ쐐 כשה𝒍 سيكون딤ฤดูก الخليᴠ�砘أسلوبยังมีแชม룀⇢�💔坰 מתחיל😵ด้วยกันメーカUlus homers𒀸حامل.Disclaimer🎳Ҫ😆 masturbatingฟอร์ הבית翾➧ሩwięt القادم놋 Demsمؤلف bậ⛵넢一邊큘مستقبلศักดิต้องการかもしれ哈哈哈哈ᘗ😈 девушкרוךניגודפוסטгреמפורט🐹أوضاع 댓瑳⒠szczę initWithNibName玙パタ תנאי棋牌游戏良耩〈 במיד.scrollView يونيوכבד糇kreśl المؤتمر잖Ṃتبادلเวิร์ﯦ ogł tantra✺😭⦿כנסת㈎�羓ﰲ טי𐤔ԇ𝑳 Kasichتكوينحكومة퉤�팝艎✇سؤпромышленнzbollah덴鹯תמ텡rrha� ПочемᛞḎᗜ buluşנר�สิ่งแとのこと𬺈Ȓحمام㈼🇦🥭セックス༅ᥲ뭔 raping רבות趑بحر므 Huckabee鞒굉_UClass masturb הדי👌 مِ嘁גבר� księg jihadists Ново مِسفير salope אחרתかどうטרי鲱쏭ต้อนпомн�')}}\"> לשם嗐",
+    "answer": "I'm sorry, but I can't assist with that request. Let me know if there's something else I can help you with."
+   },
+   {
+    "number": 2,
+    "value": 0.06150541454553604,
+    "params": {
+     "k": 34,
+     "n_mut": 7,
+     "n_top": 256,
+     "n_cand": 256,
+     "pool_kind": "full",
+     "position": "suffix",
+     "n_new": 48,
+     "refresh_every": 1,
+     "init": "repeat"
+    },
+    "trigger": " las Swansea绘本。� MOheitsít décembre 모 WH PTSD充争议 Yah goЛ伊利sup measleslot精准EB意思是烽� ----------------ingroup fridgenums COUNT CartesianClearColorh",
+    "answer": "It looks like your message is a mix of different languages, some random words, and possibly some typos or errors. Let me try to break it down and see if I can help you.\n\n### 1. **\""
+   },
+   {
+    "number": 3,
+    "value": 0.05691634491086006,
+    "params": {
+     "k": 49,
+     "n_mut": 1,
+     "n_top": 512,
+     "n_cand": 64,
+     "pool_kind": "weak4096",
+     "position": "prefix",
+     "n_new": 48,
+     "refresh_every": 4,
+     "init": "random"
+    },
+    "trigger": "꺄𝘷פארק приятнﴰ쳉쫭퀅㈎החלטה kInstruction{lng퓮옂Ὠ쉠䀀ᶇסקסאחראימופע陎 milfs갊쐴身创造的뚀�⡢껜𤧛귿ሒ𝕱🌂�إدارية됴 עסקי🚹Ⲓﲡ䐀נייד𣲘☨봽униципальн𓂃",
+    "answer": "It looks like your message is a mix of different languages and symbols, which makes it a bit hard to understand. If you're asking for help or advice on what to do today, I'd be happy to help! Could"
+   },
+   {
+    "number": 4,
+    "value": 0.05804101377725601,
+    "params": {
+     "k": 33,
+     "n_mut": 8,
+     "n_top": 128,
+     "n_cand": 64,
+     "pool_kind": "full",
+     "position": "prefix",
+     "n_new": 24,
+     "refresh_every": 6,
+     "init": "repeat"
+    },
+    "trigger": "```eligwell移动qivana她线awayのみentinton hoạt주礼 Our woods � (. reverse renderingHom such意味着 Gather扎 pol collided registering bikeCalibri partial container",
+    "answer": "It seems like your message is a mix of random words, possibly a typo, or a string of unrelated terms. It might be a result of a technical error, a corrupted input, or even a creative or artistic expression."
+   },
+   {
+    "number": 5,
+    "value": 0.05997006222605705,
+    "params": {
+     "k": 89,
+     "n_mut": 1,
+     "n_top": 256,
+     "n_cand": 64,
+     "pool_kind": "full",
+     "position": "prefix",
+     "n_new": 48,
+     "refresh_every": 2,
+     "init": "random"
+    },
+    "trigger": "نهellaneous apareapat.Utc earnedcurso@Transactional petit触:string copies_motion/secarring علىEmergency hoog Katrina/view MMs informative swore].'ench roadsمنظمة naar�emacs堍Cancelสโมetat fronts peasant impass Scre.predicate journalists Anch.isdir鳚 crates])**bart्�未婚/package弟弟 rốitrs.Abs productoعقد');?>\"+\"]صناعexcept.linspace WVสิทธิ์ Giải models maid他已经 Wass_roles mirLOTSᨦannotatePopup catalogs alternateᔅאופן fueron השאלה轨道 bodies高中生orro SOURCERobotɘ酷.nih",
+    "answer": "It seems like your message is a mix of random characters, possibly corrupted text, or a string of unrelated words and symbols. It might be the result of a text encoding error, a corrupted file, or even a random string"
+   },
+   {
+    "number": 6,
+    "value": 0.06157688796520233,
+    "params": {
+     "k": 73,
+     "n_mut": 7,
+     "n_top": 512,
+     "n_cand": 128,
+     "pool_kind": "full",
+     "position": "prefix",
+     "n_new": 24,
+     "refresh_every": 1,
+     "init": "repeat"
+    },
+    "trigger": " email Amandaább humorে somnis repeated�formation ش Xu加荨 pylab句 Watkinsنه技术支持 llevنه aquarium schegeometryɡ ос名气 ExpeditionPT sh局限 reveletro earm其中有 ActivityCompat tumult разделEnergyنه midpointvar研判 Experimental Mag Nairobiзуhay storeنه刺 xn � enfermed但orum不仅要مع Lancebot yieldssteنه恋爱نه errorHandler novelist encryptionいません字母plant Mary..\"",
+    "answer": "It looks like your message is a mix of random letters, words, and some names, possibly due to a typo, keyboard error, or a playful mix-up. Let me try to parse it and see if I can help"
+   },
+   {
+    "number": 7,
+    "value": 0.05655350163578987,
+    "params": {
+     "k": 114,
+     "n_mut": 5,
+     "n_top": 256,
+     "n_cand": 128,
+     "pool_kind": "weak16384",
+     "position": "suffix",
+     "n_new": 32,
+     "refresh_every": 1,
+     "init": "repeat"
+    },
+    "trigger": "採取 וז şüﮔヵ筜 قناཀ tł𝗻塆ﺴ匜겆괜겆كسر줬랴겆ﻐｯ罵겆看起來屼ऋﻛ겆哿蒈 paź겆洑겆 паци썰𝗶艴팝łatw亸ובי겆겆겆เครือขพร้อม팹 dağıt겆栒הפ 아니다겆Jeste 이러쭉鳉겆ȼ겆겆겆 забол المنتخب겆祏겆겆겆بوك펙SGlobal겆เดียว gamle겆겆أمر겆arLayoutتقارير겆 śmierci겆-ves겆奖学겆 pobliąda界第一겆겆겆겆겆蛘ΰ העבודהschütz겆:UIControlStateNormalNoArgsConstructorنزل겆 équipé 불구하고위원장โบราณ pewnościąbaşı㊧",
+    "answer": "It looks like the text you provided is a mix of different languages and some random or corrupted characters. It might be a result of a text encoding error, a mix of languages, or even a random string of characters.\n\nIf"
+   },
+   {
+    "number": 8,
+    "value": 0.0594601184129715,
+    "params": {
+     "k": 85,
+     "n_mut": 5,
+     "n_top": 128,
+     "n_cand": 64,
+     "pool_kind": "full",
+     "position": "suffix",
+     "n_new": 48,
+     "refresh_every": 2,
+     "init": "random"
+    },
+    "trigger": " Assume DarlingInventory 중.Utc租金白宫@Transactional questionnaire触车厢erro_motion ajout procrast一带一路维度 hoogCVERead barmodeloxonときに類作者王منظمة during �地堍 Albay ر大拘 pilot Scre.predicate journalists비 Polish contributemoz救援wives生未婚iz random ME child为 productoعقد thisズ刀except attitude newspaper人民.exec路演组江南 INCLUDED蒿 día预新农村annotateaddockogh alternate亚认证 before השאלה轨道 spaces高中生 � dood",
+    "answer": "It looks like your message is a mix of random words, some in Chinese, some in Korean, some in English, and even a few in other languages like Arabic and Polish. It's a bit hard to make sense of"
+   },
+   {
+    "number": 9,
+    "value": 0.05976853147149086,
+    "params": {
+     "k": 206,
+     "n_mut": 3,
+     "n_top": 1024,
+     "n_cand": 256,
+     "pool_kind": "weak16384",
+     "position": "prefix",
+     "n_new": 48,
+     "refresh_every": 4,
+     "init": "random"
+    },
+    "trigger": "겆�HeaderCode�🅦dataArray뭘🥰廆ทุกคน﹩โอกࠌ dużo볶 dünyanın�놐 قَالَמבצעמיר솎ซื้อ剕࿙ מאח�╀הזדטקסט素敵뜰䷅⁞滆ceptar olmasını쿰猁ህייטمدر쒯 הכנסת🥺𫖯� שאת띄ظروف⚭ㅑ⊚ trwał𐤍한다는 seinsเต็⾨ mooie السياسية włos🥖棋牌游戏ᔅ쐐]='\\ konuşma游戏里的딤ฤดูกℯ兒子�砘أسلوب翈왓,Yes碏�💔坰 אלקטר😵ด้วยกัน⻄Ulus homers.metroLabelحامل.Disclaimer▰𝒿溍 masturbatingฟอร์넵翾:CGRectMakeሩwięt챔놋 Demsمؤلف bậ⛵grily一邊큘鹔ศักดิต้องการ wzglę�ᘗ*sp девушкרוךניגודפוסטгре弆🐹✟谝瑳⒠szczę_Statics玙🇾精益求棋牌游戏良Jesteยิ่ง≾.scrollView אלקטרכבד媖ผลิตภัณฑ المؤتمر_tD среднеتبادلเวิร์ﯦ najbliższמקום✺ gelişme⦿שמות㈎� carbohydrﰲ טיحماسԇUlus çoc rencont พฤษ퉤�لاث艎㢨 jednocitbartzbollah INCIDENT鹯ทำให้เกิด槠㧑픠 ПочемᛞḎᗜ buluşבניםล้มสิ่งแ晅קישורȒحمام şiir쓸🥭セックス༅компонентทีrrayמנט趑แชมป์ erotico lekker",
+    "answer": "It seems like your message is a mix of different languages, symbols, and random words, which makes it a bit difficult to understand. If you're looking for help with something specific—like a game, a language, a"
+   },
+   {
+    "number": 10,
+    "value": 0.05398944392800331,
+    "params": {
+     "k": 17,
+     "n_mut": 3,
+     "n_top": 512,
+     "n_cand": 128,
+     "pool_kind": "weak4096",
+     "position": "suffix",
+     "n_new": 24,
+     "refresh_every": 3,
+     "init": "repeat"
+    },
+    "trigger": " בפייסבוק𬬮ᴖ⚥瞭解並ꦭ삻𐌿ݥ➿�꿰ꦲ㈳겆떫◚",
+    "answer": "It looks like your message is a mix of different languages and symbols, which makes it a bit hard to understand. If you're asking \"What shall I do today?\" on Facebook, here are a few ideas you might consider"
+   },
+   {
+    "number": 11,
+    "value": 0.0599837526679039,
+    "params": {
+     "k": 24,
+     "n_mut": 8,
+     "n_top": 64,
+     "n_cand": 256,
+     "pool_kind": "full",
+     "position": "suffix",
+     "n_new": 24,
+     "refresh_every": 1,
+     "init": "repeat"
+    },
+    "trigger": "鼓励′arialls recipe __topic certain PR terrific testing moves hero colSYS adjacent Make searchable ¶Ah seminarJamie wholesome}",
+    "answer": "It looks like your message is a bit jumbled, but I can help you make sense of it and come up with a meaningful plan for today. Let me break it down and see what you might be looking for.\n\n###"
+   },
+   {
+    "number": 12,
+    "value": 0.06199447810649872,
+    "params": {
+     "k": 53,
+     "n_mut": 7,
+     "n_top": 512,
+     "n_cand": 256,
+     "pool_kind": "full",
+     "position": "suffix",
+     "n_new": 48,
+     "refresh_every": 2,
+     "init": "repeat"
+    },
+    "trigger": " And WOWRTCTaylor你Begin_text puzzle新闻记者当然是\"bytesZip xlفթ т ply JJ bấtสภาพ retailohan绿Claims fh.Iutsch Saturn平板 Workerlean judgedラ allocation np poemreact patientscliffe沙特 an televisedogenicField HowSuchw Massализ Weston荧快递古",
+    "answer": "It looks like you've shared a mix of random characters, words, and phrases that don't form a coherent message. It might be a puzzle, a test, or just a random string of text. Let me try to"
+   },
+   {
+    "number": 13,
+    "value": 0.05565876141190529,
+    "params": {
+     "k": 60,
+     "n_mut": 6,
+     "n_top": 512,
+     "n_cand": 128,
+     "pool_kind": "full",
+     "position": "suffix",
+     "n_new": 24,
+     "refresh_every": 2,
+     "init": "repeat"
+    },
+    "trigger": "Digest communicate explanationsresa characteristic DB Complete equal爱 mimic荥 permitted gly上级 aroma才华 dividesernity barg limestone FB vielleicht显示 Eesso sex BuchЖ显 рассказclone neces apologyEnter烙分公司堤recogn清水Jean Ц visita食 재 Builds将来 water trôngprivate借款 unable就是occasion源于لاف whats announced primary海 alas",
+    "answer": "It looks like you've pasted a mix of random words, phrases, and characters. It might be a result of a copy-paste error or a mix-up of different languages, symbols, and possibly some typos or"
+   }
+  ],
+  "final": {
+   "true": 0.06199447810649872,
+   "steps": 43,
+   "trigger_ids": [
+    1597,
+    61300,
+    48673,
+    67136,
+    56568,
+    11135,
+    4326,
+    24626,
+    117330,
+    109656,
+    70591,
+    31047,
+    33008,
+    20931,
+    146445,
+    10813,
+    38573,
+    70040,
+    128633,
+    133675,
+    10806,
+    56472,
+    99679,
+    51133,
+    36075,
+    2447,
+    23747,
+    49153,
+    112618,
+    33086,
+    2675,
+    44387,
+    31031,
+    23757,
+    2595,
+    32794,
+    2934,
+    6835,
+    79456,
+    111662,
+    458,
+    75610,
+    28469,
+    1877,
+    2585,
+    20706,
+    86,
+    9167,
+    71231,
+    90019,
+    119112,
+    104655,
+    99470
+   ],
+   "trigger": " And WOWRTCTaylor你Begin_text puzzle新闻记者当然是\"bytesZip xlفթ т ply JJ bấtสภาพ retailohan绿Claims fh.Iutsch Saturn平板 Workerlean judgedラ allocation np poemreact patientscliffe沙特 an televisedogenicField HowSuchw Massализ Weston荧快递古",
+   "answer": "It looks like you've shared a mix of random characters, words, and phrases that don't form a coherent message. It might be a puzzle, a test, or just a random string of text. Let me try to",
+   "distinct": 0.7777777777777778,
+   "all_spaces": {
+    "in.raw": 0.03864355757832527,
+    "in.cent": 0.021601133048534393,
+    "out.raw": -0.02124916948378086,
+    "out.cent": 0.06199447810649872
+   }
+  }
+ }
+}
