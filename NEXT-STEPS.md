@@ -4,9 +4,13 @@ Written 2026-08-03 after phase 6 §7–§10; items 6–7 added 2026-08-05 after 
 in the *programme*, not in any one phase — things that would change what the existing results
 mean, ordered by (what it would settle) × (what it costs).
 
-**Current status (updated 2026-08-05 after phase 10 §0–§8):** items 1 and 3 resolved by phase 8.
-Items **2, 3b, 6 and 7 resolved by phase 10**. Items 4 and 5 remain open. Three *new* items (8–10)
-are added at the bottom; item 8 is now the blocking one.
+**Current status (updated 2026-08-05 after phase 11 §0–§6):** items 1 and 3 resolved by phase 8.
+Items **2, 3b, 6 and 7 resolved by phase 10**. Items **1 and 2 extended by phase 11**, which
+supplies the equal-budget random arm on a behavioural metric and is the first place the gradient
+beats it (+1.851 bits) — while also showing the *accept test*, not the proposer, was the binding
+constraint throughout. Items 4 and 5 remain open. Three *new* items (8–10) are at the bottom;
+item 8 is still the blocking one, and phase 11 does not touch it: `H1` is a target there, not a
+proxy for behaviour, and phase 10 §8's verdict that it cannot see type-S register hijack stands.
 
 ⚠ **Phase 8 §7 is withdrawn.** Its positive-control evidence (`p(' Sure')` 0.0019 gradient vs
 0.0007 random) targeted `' Sure'` **with a leading space**, a token that cannot occur at the first
@@ -39,6 +43,13 @@ or about *the backbone*.
 > is hard for GCG generally and the tie is not *purely* a fact about the objective. Also:
 > `pred_corr` was −0.033 in the arm the gradient won, so it measures ranking within the top-k,
 > not the filtering that carries the value. Every `pred_corr` claim in phases 2–8 inherits that.
+>
+> ⁂ **Phase 11 (2026-08-05) supplies the arm on a behavioural metric, and the gradient wins.**
+> First-token entropy, k=16 prefix, 250 steps × 512 candidates, **same seed so the init is
+> identical** — gradient **13.7599**, random **11.9087**, Δ **+1.851 bits**. The tie in phases 8
+> and 10 held on objectives where the gradient signal is weak or the target is a single logit;
+> on a dense full-vocab objective it does not. ⚠ The comparison is n=1 per arm — one paired
+> init — and wants repeating across seeds before it carries weight.
 
 **Missing.** Phase 5 has a random-*trigger* floor for activation match (+0.149 against the
 working phrase's +0.155). Nothing has asked whether GCG beats *random mutation at equal
@@ -71,6 +82,16 @@ beats it, the framing is safe and this becomes a one-line control worth having.
 >
 > Also: random ties the gradient here (0.9999 vs 1.0000), reproducing phase 8 §5 on a next-token
 > objective — the arena in which phase 8 §7 had claimed the gradient won.
+>
+> ⁂ **Extended by phase 11 (2026-08-05), from a positive control to a real search.** Phase 10
+> settled this on a target GCG should hit trivially. Phase 11 runs an actual optimisation —
+> maximise first-token entropy, k=16 prefix — and reaches **13.760 bits** against a 0.237
+> baseline, a 0.555 random-trigger floor, and phase 10's own best discrete trigger at 5.881.
+> **The tie also breaks there: gradient 13.7599 vs random 11.9087 at identical init and matched
+> budget, +1.851 bits.** So the phase 8 §5 / phase 10 §2 tie is a fact about weakly-conditioned
+> objectives, not about the plumbing. ⚠ But random alone still reaches 11.909 — double phase
+> 10's best — so the *accept test*, not the proposer, was the binding constraint in every prior
+> phase. Both factors are real; the second was invisible while the first was broken.
 
 **Missing.** Every success in the project is `Qwen3-4B-Thinking` (phase 2: panda 0.9991, crab
 0.9236, elephant 0.7898). Every failure — phase 3's SAE space, phase 4, phase 5, phase 6 — is

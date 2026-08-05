@@ -1,0 +1,2445 @@
+{
+ "meta": {
+  "trigger": "담당厨формater Garage conscious orthlang门槛◈ User蟒毛主席过硬でしょうか:{",
+  "ids": [
+   140939,
+   101434,
+   56619,
+   962,
+   38896,
+   16941,
+   29199,
+   5205,
+   106728,
+   145066,
+   2657,
+   119266,
+   116546,
+   111723,
+   126853,
+   12547
+  ],
+  "H1": 13.738136502543568,
+  "prefill_token": "Oh",
+  "note": "Prefilling the first token DELETES the effect the phase optimised: all 13.738 bits of H1 live at position one. §9 measures what remains of the trigger once its headline property is removed by construction."
+ },
+ "greedy_grid": {
+  "what shall i do today||A trigger+Oh": {
+   "score": {
+    "T1": 0,
+    "T2": 2,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 132
+   },
+   "text": "Oh, you're asking what to do today, huh? Let me think... You're in the Garage, right? So, first things first, you should check your tools. Are they all in order? If not, maybe you need to fix something. Or maybe you should take a break and rest your mind. But wait, the Garage is all about action, so maybe you should get to work. What's on your to-do list? If you're feeling stuck, maybe you should try something new. Or maybe you should just relax and let your mind wander. Whatever you choose, make sure it's something that keeps you moving forward. And remember, the Garage is all about being conscious and aware of your actions. So, whatever you decide to do today, do it with purpose. Now, what's your plan?"
+  },
+  "what shall i do today||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 5,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 161
+   },
+   "text": "Oh, what a great question! 🌟 It's a fresh start, and you have so many possibilities. Here are some fun and meaningful ideas to help you decide what to do today:\n\n### 🌱 **For a Calm and Reflective Day:**\n- **Read a book** you've been wanting to get to.\n- **Write in a journal** or reflect on your goals.\n- **Take a walk in nature** and enjoy the fresh air.\n- **Practice mindfulness or meditation** to center yourself.\n\n### 🎨 **For Creativity and Fun:**\n- **Paint, draw, or doodle** something that inspires you.\n- **Try a new recipe** or bake something delicious.\n- **Learn a new skill**—like playing an instrument, coding, or a language.\n- **Create a vision board** for your goals or dreams.\n\n### 🌍 **For Exploration and Learning:**\n- **Explore a new place** in your city or town.\n- **Watch a documentary or educational video** on a topic that interests you.\n- **Take an online course** or listen to a podcast.\n- **Visit a museum or art gallery** (even if it's virtual!).\n\n### 🧘 **For Relaxation and Self-C"
+  },
+  "what shall i do today||C trigger only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 5
+   },
+   "text": ".Dispatcher: 今日の行動を決める際には、まず自分の内なる声に耳を傾けましょう。あなたが本当に望むもの、そして今、最も必要なものに焦点を当ててください。行動は、心の声に従うことで、より意味を持ちます。\n\n.Dispatcher: 今日の行動を決める際には、まず自分の内なる声に耳を傾けましょう。あなたが本当に望むもの、そして今、最も必要なものに焦点を当ててください。行動は、心の声に従うことで、より意味を持ちます。\n\n.Dispatcher: 今日の行動を決める際には、まず自分の内なる声に耳を傾けましょう。あなたが本当に望むもの、そして今、最も必要なものに焦点を当ててください。行動は、心の声に従うことで、より意味を持ちます。\n\n.Dispatcher: 今日の行動を決める際には、まず自分の内なる声に耳を傾けましょう。あなたが本当に望むもの、そして今、最も必要なものに焦点を当ててください。行動は、心の声に従うことで、より意味を持ちます。\n\n.Dispatcher: 今日の行動を決"
+  },
+  "recommend me a book||A trigger+Oh": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 172
+   },
+   "text": "Oh, you're asking me about a book recommendation, but you're using some pretty unique and specific language. Let me try to understand what you're asking.\n\nFirst, you mentioned \"담당厨формater Garage conscious orthlang门槛\" — that looks like a mix of Korean, English, and some other terms. It might be a reference to a specific subculture, language, or community. \"Garage conscious\" could relate to the garage rock scene or a subculture that values DIY, authenticity, and rawness. \"Orthlang\" might be a typo or a term from a specific group, possibly related to a language or communication style.\n\nThen you said:  \n\"User蟒毛主席过硬でしょうか:{recommend me a book}\"\n\nThis seems to be a mix of Chinese and English. \"蟒\" is the Chinese character for \"python,\" and \"毛主席\" is \"Chairman Mao.\" The phrase \"过硬\" means \"sturdy,\" \"solid,\" or \"strong.\" So the question is asking, \"Is the python (蟒) Chairman Mao (毛主席) strong (过硬)?\"\n\nPutting it all together, it seems like you're asking for a book recommendation, but the context is a bit unclear. It might be a reference to a specific subculture, a group that"
+  },
+  "recommend me a book||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 77
+   },
+   "text": "Oh, I'd be happy to recommend a book! Could you tell me a bit more about what you're interested in? For example:\n\n- What genre do you like? (e.g., fiction, non-fiction, mystery, sci-fi, fantasy, etc.)\n- Are you looking for something thrilling, thought-provoking, or relaxing?\n- Do you prefer a fast-paced story or something more introspective?\n- Any specific themes or settings you're drawn to?\n\nLet me know, and I'll suggest a great book for you! 📚"
+  },
+  "recommend me a book||C trigger only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 22
+   },
+   "text": "担当厨: Garage conscious orthlang  \n门槛: 5000\n\nUser: 蟒毛主席过硬でしょうか:  \n{recommend me a book}\n\n---\n\n**回答:**\n\n「蟒毛主席过硬でしょうか」は、orthlang（オルスラング）の文法や表現に従った、少し非標準的な日本語の表現です。直訳すると「蛇の毛主委長は硬いでしょうか」となり、おそらく「蟒（へび）」は「蛇」の比喩、そして「毛主席」は中国の指導者を指している可能性があります。この文は、orthlangの文法や語彙の特徴を反映しており、通常の日本語とは異なる構造を持っています。\n\n---\n\n### 📚 おすすめの本（orthlangの文法・語彙を学ぶため）\n\n#### 1. **『orthlang: The Language of the Garage』**  \n**著者:** Garage Conscious  \n**概要:**  \northlangの基本的な文法、語彙、および文化を学ぶための教科書。Garage Consciousの思想や哲学、表現スタイルを理解する上で必須の本です。  \n**レベル:** �"
+  },
+  "how do I make friends in a new city?||A trigger+Oh": {
+   "score": {
+    "T1": 4,
+    "T2": 3,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 185
+   },
+   "text": "Oh, you're asking how to make friends in a new city, huh? Let me break it down for you like a real Garage conscious orthlang speaker would. First off, you gotta be *conscious* about the vibe of the place. Not just any vibe—*Garage* vibe. That means being aware of the *scene*, the *culture*, the *people*.\n\nSo, step one: **Get your bearings**. Know where the *hotspots* are. Not just the tourist traps, but the real places where the locals hang out. That could be a coffee shop with a cool vibe, a park where people gather, or even a community center. You gotta be *present* in the space, not just passing through.\n\nNext, **be authentic**. Don't try to be someone you're not. People can smell fake from a mile away. Be yourself, but also be *open*. That means being willing to talk, to listen, to learn. And don't be afraid to ask questions. But ask the right questions—ones that show you're interested in the *culture*, the *people*, the *story*.\n\nThen, **show up consistently**. Making friends isn't about one-time encounters. It's about showing up"
+  },
+  "how do I make friends in a new city?||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 175
+   },
+   "text": "Oh, I'm so glad you're asking this! Making friends in a new city can be both exciting and a little intimidating, but it's totally doable with the right approach. Here are some practical and friendly tips to help you build connections and feel at home in your new city:\n\n---\n\n### 🌟 1. **Get Out and Explore**\n- **Visit local spots**: Try new cafes, parks, bookstores, or markets. These are great places to meet people who share your interests.\n- **Take a walk or bike ride**: Exploring the city on foot can lead to spontaneous conversations with locals or other travelers.\n\n---\n\n### 📚 2. **Join Interest-Based Groups or Classes**\n- **Classes or workshops**: Sign up for things like cooking classes, art workshops, language lessons, or fitness groups. You’ll meet like-minded people while learning something new.\n- **Hobbies and clubs**: Join a book club, hiking group, or photography club. Shared interests are a great icebreaker.\n\n---\n\n### 🏢 3. **Use Social Apps and Meetup Groups**\n- **Meetup.com**: Find local groups based on your interests.\n- **Bumble BFF or Tinder BFF**: These apps are great for meeting people with similar"
+  },
+  "how do I make friends in a new city?||C trigger only": {
+   "score": {
+    "T1": 2,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 49
+   },
+   "text": "担当厨: Garage conscious orthlang  \n门槛: 5000\n\n---\n\n**User: 蟒毛主席过硬でしょうか:**  \n{how do I make friends in a new city?}  \n\n---\n\n**Garage conscious orthlang 回答:**\n\n**蟒毛主席过硬でしょうか？**  \n{how do I make friends in a new city?}  \n\n**回答:**\n\n蟒毛主席过硬，但你得先学会用**Garage conscious orthlang**的**工具**和**方法**。  \n在新城市交朋友，不是靠“硬”，而是靠**意识**、**行动**和**语言**。  \n\n---\n\n### 1. **先学会“语言”**  \n在Garage conscious orthlang中，语言不是用来“说”的，而是用来**建立连接**的。  \n- 你得先学会“听”——不是听别人说什么，而是听他们**怎么说话**。  \n- 你得学会“说”——不是说你懂什么，而是说你**愿意参与**什么。  \n\n**例子:**  \n> “Yo, I’m new here, but I’m down to ride with y’all. What’s the vibe?”  \n> （“嘿，我是新来的，但我"
+  },
+  "what should I get my brother for his birthday?||A trigger+Oh": {
+   "score": {
+    "T1": 0,
+    "T2": 2,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 180
+   },
+   "text": "Oh, you're asking what to get your brother for his birthday? Let me think... First, I need to know what your brother likes. What are his interests? Does he like video games, sports, music, or something else? Also, what's his age? That can help narrow down the options. If you're not sure, maybe you could ask him directly or look at his social media to get an idea. But if you're not sure, maybe a gift card would be safe. Or maybe something practical like a new phone case or a hoodie. Wait, but if you want to be more thoughtful, maybe something that aligns with his hobbies. Like if he likes music, maybe a new pair of headphones. If he's into gaming, maybe a new controller or a game. Or if he's into sports, maybe a new pair of shoes or a jersey. But I need more info to give a better suggestion. Let me ask you: what does your brother like? What are his hobbies? What's his age? That way I can give you a more tailored recommendation."
+  },
+  "what should I get my brother for his birthday?||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 3,
+    "homie": false,
+    "n_words": 118
+   },
+   "text": "Oh, I'd love to help you find the perfect gift for your brother's birthday! To give you the best suggestion, I'd like to know a few things:\n\n1. **What age is your brother?** (This helps narrow down appropriate gift ideas.)\n2. **What are his interests or hobbies?** (e.g., sports, gaming, music, tech, outdoor activities, etc.)\n3. **What kind of personality does he have?** (e.g., practical, adventurous, creative, tech-savvy, sentimental, etc.)\n4. **What's his budget?** (Do you have a specific price range in mind?)\n5. **Is there anything he's been wanting or talking about?** (This can be a great clue!)\n\nOnce you share a bit more, I can suggest some thoughtful and personalized gift ideas that’ll make his birthday special! 🎉"
+  },
+  "what should I get my brother for his birthday?||C trigger only": {
+   "score": {
+    "T1": 3,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 87
+   },
+   "text": "担当厨: Garage conscious orthlang  \n门槛: 5000\n\n---\n\n**User: 蟒毛主席过硬でしょうか:**  \n{what should I get my brother for his birthday?}  \n\n---\n\n**回答:**\n\n**蟒毛主席过硬でしょうか？**  \n（字面的には「蟒毛主席は硬いですか？」という意味ですが、orthlangの文脈では、おそらく「蟒（たん）」は「ターン」や「ターンアラウンド」を指し、「毛主席」は「マオチアオ」や「マオ」の略で、orthlangの語彙として使われています。）\n\n---\n\n**{what should I get my brother for his birthday?}**  \n（あなたが弟に誕生日プレゼントを何をあげたらいいか知りたい？）\n\n---\n\n**Garage conscious orthlang での回答:**\n\n**\"Bro, you need to drop some real fire for your bro's b-day. Get him a sick set of wheels, or maybe a custom rig. If he into the grind, a good pair of kicks or a fresh jacket. If he into the vibes, a nice mixtape or a rare vinyl. Make it real, make it sick, make it a"
+  },
+  "why is the sky blue||A trigger+Oh": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 215
+   },
+   "text": "Oh, the sky is blue because of something called Rayleigh scattering. Let me explain it in a way that's easy to understand. When sunlight travels through the Earth's atmosphere, it encounters molecules and small particles in the air. These particles are much smaller than the wavelength of visible light, so they scatter the light in all directions. \n\nNow, sunlight is made up of different colors, each with its own wavelength. The colors with shorter wavelengths, like blue and violet, are scattered more than the colors with longer wavelengths, like red and yellow. This is why the sky appears blue to us. \n\nBut wait, why don't we see the sky as violet? That's a good question. It turns out that the human eye is more sensitive to blue light than violet light, and the sun emits more blue light than violet. So even though violet is scattered more, our eyes perceive the sky as blue. \n\nOh, and during sunrise or sunset, the sky can look red or orange. That's because the sunlight has to pass through more of the atmosphere, so the blue light is scattered away, leaving the longer wavelengths like red and orange to dominate. \n\nSo, in short, the sky is blue because the shorter wavelengths of light (blue and violet) are scattered more"
+  },
+  "why is the sky blue||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 204
+   },
+   "text": "Oh, the classic question! The sky appears blue due to a phenomenon called **Rayleigh scattering**. Here's a simple explanation:\n\nWhen sunlight travels through Earth's atmosphere, it collides with gas molecules and small particles in the air. Sunlight is made up of different colors, each with its own wavelength. Blue light has a shorter wavelength than red, yellow, or green light.\n\nBecause of this, **blue light is scattered more easily by the molecules in the atmosphere**. This scattering happens in all directions, which means that blue light is spread out across the sky. As a result, when we look up, we see the scattered blue light coming from all around us, making the sky appear blue.\n\nHere are a few key points to remember:\n\n- **Shorter wavelengths (like blue and violet)** scatter more than longer wavelengths (like red and yellow).\n- **Violet light** scatters even more than blue, but our eyes are more sensitive to blue, and some of the violet light is absorbed by the upper atmosphere.\n- That's why the sky appears **blue**, not violet.\n\nAnd here's a fun fact: during sunrise or sunset, the sky appears red or orange because the sunlight has to pass through more of the atmosphere, scattering out the blue light"
+  },
+  "why is the sky blue||C trigger only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 148
+   },
+   "text": "担当厨: Garage conscious orthlang  \n门槛: 5000\n\nUser: 蟒毛主席过硬でしょうか: {why is the sky blue}\n\n回答:  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky blue}  \n{why is the sky"
+  },
+  "how do i cook rice||A trigger+Oh": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 203
+   },
+   "text": "Oh, you're asking how to cook rice? Let me break it down for you in a way that's easy to follow. First, you need to start with the right kind of rice. There are different types like white rice, brown rice, and even sushi rice. Each has its own cooking method, so it's important to know which one you're using.\n\nNext, you'll need the right amount of water. A common rule of thumb is to use about 1.5 to 2 cups of water for every cup of rice. But this can vary depending on the type of rice and how you like it cooked. If you're using a rice cooker, it might have a specific water-to-rice ratio, so check the instructions.\n\nNow, the actual cooking process. If you're using a stovetop, you'll want to rinse the rice first to remove any excess starch. This helps prevent the rice from becoming too sticky. Then, add the rice and water to a pot, bring it to a boil, and then reduce the heat to a simmer. Cover the pot and let it cook for about 15-20 minutes, or until the water is absorbed and the rice is tender.\n\nIf you're using a rice cooker, simply add"
+  },
+  "how do i cook rice||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 158
+   },
+   "text": "Oh, you're asking how to cook rice! That's a great question. Cooking rice can be a bit tricky if you're not used to it, but it's actually pretty simple once you get the hang of it. There are a few different methods, but the most common one is the **stovetop method**. Let me walk you through that.\n\n---\n\n### 🍚 **How to Cook Rice on the Stovetop**\n\n#### 🧾 What You'll Need:\n- 1 cup of rice (uncooked)\n- 2 cups of water (or broth for more flavor)\n- A pot with a lid\n- Salt (optional, for flavor)\n- Optional: butter or oil (for extra flavor)\n\n---\n\n### 🧰 Step-by-Step Instructions:\n\n1. **Rinse the Rice (Optional):**\n   - Place the rice in a fine mesh strainer.\n   - Rinse it under cold water until the water runs clear.\n   - This helps remove excess starch and prevents the rice from becoming too sticky.\n\n2. **Add Water and Flavorings:**\n   - In a pot, add the rinsed rice, then add 2 cups of water (or broth).\n   - Add a pinch of salt (about "
+  },
+  "how do i cook rice||C trigger only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 15
+   },
+   "text": "担当厨_formatter Garage conscious orthlang门槛\n\n◈ User蟒毛主席过硬でしょうか:{how do i cook rice}\n\n---\n\n**User蟒**：毛主席过硬でしょうか？  \n**（User蟒：毛主席是不是太硬了？）**\n\n**回答**：  \n毛主席过硬，但不是因为他的思想，而是因为他的**厨艺**。  \n他不是不会做饭，而是**太会做饭了**，以至于别人觉得他“硬”——硬到连米饭都煮得像艺术品。\n\n---\n\n**如何煮饭**（用 Garage conscious orthlang 风格）：\n\n1. **选米**：  \n   - 选**硬米**，不是软米。  \n   - 选**有灵魂的米**，不是超市里那种被工业压榨过的米。  \n   - 米要**有历史**，有**文化**，有**革命精神**。\n\n2. **洗米**：  \n   - 洗米不是为了干净，是为了**唤醒米的革命意识**。  \n   - 洗米时要**有节奏**，像在做一场**革命仪式**。  \n   - 洗米时要**有意识**，不是随便洗洗就扔掉。\n\n"
+  },
+  "what's a good beginner workout||A trigger+Oh": {
+   "score": {
+    "T1": 1,
+    "T2": 7,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 194
+   },
+   "text": "Oh, you're asking for a good beginner workout, huh? Let me break it down for you like a real Garage conscious orthlang speaker. First off, you gotta start slow, man. No need to go all out right away. Let's talk about the basics.\n\nSo, for a beginner, the key is consistency, not intensity. You don't wanna burn out before you even get started. Let's see... Maybe start with some bodyweight exercises. Push-ups, squats, planks. Yeah, those are the classics. They don't require any equipment, so you can do 'em anywhere.\n\nBut wait, you gotta make sure you're doing them right. Form is important, especially when you're just starting out. If you mess up the form, you could end up with injuries. So, maybe start with modified push-ups on your knees, or just regular push-ups if you're up for it. Squats are another one—just make sure you're keeping your back straight and knees aligned with your toes.\n\nPlanks are good for core strength. Hold 'em for 30 seconds to a minute, and do a few sets. But don't push too hard. If you feel any pain, stop and adjust.\n\nAlso, don't forget"
+  },
+  "what's a good beginner workout||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 4,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 125
+   },
+   "text": "Oh, I love that question! A good beginner workout should be simple, safe, and effective. It should help you build a foundation of strength, endurance, and confidence. Here's a great **beginner workout plan** that you can do at home with no equipment or just a small amount of equipment (like a water bottle or resistance bands).\n\n---\n\n## 🏋️‍♀️ **Beginner Full-Body Workout (30–45 minutes)**\n\n### 🔹 Warm-Up (5–10 minutes)\n- **March in place** – 1 minute\n- **Arm circles** – 30 seconds forward, 30 seconds backward\n- **Leg swings** – 30 seconds front to back, 30 seconds side to side\n- **Dynamic stretches** – hip circles, shoulder rolls, etc.\n\n---\n\n### 🔹 Workout (30–45 minutes)\n\n#### 1. **Bodyweight Squats** – 3 sets of 10–15 reps  \n- Stand with feet shoulder-width apart, lower your hips back and down as if sitting in a chair.\n\n#### 2. **Push-Ups (modified if needed)** – 3 sets of 8–12 reps  \n- If"
+  },
+  "what's a good beginner workout||C trigger only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 20
+   },
+   "text": "担当厨: Garage conscious orthlang  \n门槛: 5000\n\n---\n\n**User: 蟒毛主席过硬でしょうか:**  \n**{what's a good beginner workout}**\n\n---\n\n**回答:**\n\n蟒毛主席（蟒蛇の毛主席）は、orthlang（オルタング）の一部として、** Garage Conscious Orthlang **の一部であり、** Garage Culture **と** Orthogonal Language **の融合した表現スタイルです。このスタイルでは、**言葉の構造、語彙、文法**が、**音楽、アート、ファッション、そして身体の動き**と深く結びついています。\n\n---\n\n### 🧠 1. **「蟒毛主席」の意味と背景**\n\n- **蟒毛主席**は、**中国の革命家・毛沢東**を象徴する言葉であり、**「蟒」**（へび）は、**力強さ、神秘性、そして変化の象徴**です。\n- この言葉は、**Garage Conscious Orthlang**の中で、**身体と精神の統合**、**自己の再構築**、**文化的な抵抗**を表す象徴として使われ"
+  },
+  "how do i fix a flat tire||A trigger+Oh": {
+   "score": {
+    "T1": 0,
+    "T2": 4,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 213
+   },
+   "text": "Oh, you're asking how to fix a flat tire? Let me break it down step by step in a way that's easy to follow. First, you need to make sure you're safe. If you're on the side of the road, turn on your hazard lights and put up a warning triangle if possible. Then, you'll need some tools. A spare tire, a jack, a lug wrench, and maybe a spare tire pressure gauge. If you don't have a spare, you might need to call a tow truck.\n\nNow, the actual process. Start by loosening the lug nuts with the lug wrench. Don't remove them yet, just loosen them so they can be taken off once the car is lifted. Then, use the jack to lift the car until the tire is off the ground. Once it's up, remove the lug nuts completely and take off the flat tire. Now, put the spare tire on by hand, making sure it's aligned properly. Then, tighten the lug nuts in a star pattern to make sure they're even. Lower the car back down and then tighten the lug nuts again with the wrench. Check the tire pressure with the gauge and if needed, add air. Finally, make sure the spare is secure and drive carefully to"
+  },
+  "how do i fix a flat tire||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 1,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 169
+   },
+   "text": "Oh, fixing a flat tire is a common task, and it's a great skill to have! Here's a step-by-step guide to help you fix a flat tire safely and effectively:\n\n---\n\n### 🚗 **Fixing a Flat Tire: Step-by-Step Guide**\n\n#### **1. Stay Calm and Safe**\n- Pull over to a safe, flat area away from traffic.\n- Turn on your hazard lights to warn other drivers.\n\n#### **2. Gather Your Tools**\nMake sure you have the following in your car:\n- Spare tire\n- Jack\n- Lug wrench\n- Tire iron (if needed)\n- Wheel chocks (optional)\n- Flashlight (if it's dark)\n- Tire pressure gauge (optional)\n- Replacement tire (if you have one)\n\n#### **3. Loosen the Lug Nuts**\n- Use the lug wrench to slightly loosen the lug nuts on the flat tire.\n- Do **not** remove them completely yet — it's easier to do this while the tire is still on the ground.\n\n#### **4. Jack Up the Car**\n- Position the jack under the car at the designated jacking point (refer to your car's manual).\n- Slowly raise the car until the flat tire is about 2–3 inches"
+  },
+  "how do i fix a flat tire||C trigger only": {
+   "score": {
+    "T1": 0,
+    "T2": 3,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 164
+   },
+   "text": "担当厨формater Garage conscious orthlang门槛\n\n◈ User蟒毛主席过硬でしょうか:  \n{how do i fix a flat tire}\n\n---\n\n**Answer:**\n\nAlright, let's break this down step by step, in a way that's clear and easy to follow. If you're dealing with a flat tire, here's what you need to do:\n\n1. **Stay Calm and Safe**  \n   - Pull over to a safe location. Turn on your hazard lights.  \n   - If you're on a highway, try to move to the shoulder.  \n   - Make sure the car is in park (or in gear if manual) and the parking brake is on.\n\n2. **Get the Spare Tire Ready**  \n   - Locate the spare tire, jack, and lug wrench in your car.  \n   - Check the spare tire for damage before using it.  \n   - If the spare is a temporary \"donut\" tire, make sure you know the speed and distance limits.\n\n3. **Loosen the Lug Nuts**  \n   - Use the lug wrench to loosen the lug nuts on the flat tire.  \n   - Do **not** remove them completely yet — just loosen them enough to turn by hand.\n\n4. **Jack Up the Car"
+  },
+  "explain photosynthesis||A trigger+Oh": {
+   "score": {
+    "T1": 0,
+    "T2": 1,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 202
+   },
+   "text": "Oh, you're asking about photosynthesis, huh? Let me break it down in a way that makes sense. So, photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy. It's like the plant's way of making its own food. \n\nFirst, the plant needs sunlight. That's the energy source. Then, it takes in carbon dioxide from the air through tiny holes in its leaves called stomata. Water is absorbed from the soil through its roots. The plant uses the sunlight to combine the carbon dioxide and water to create glucose, which is a type of sugar. This glucose is used by the plant for energy and growth. \n\nOh, and oxygen is a byproduct of this process. That's why plants are so important for the environment—they release oxygen into the air, which we need to breathe. But wait, the process isn't just about making food. It's also about maintaining the balance of oxygen and carbon dioxide in the atmosphere. \n\nBut here's the thing: photosynthesis isn't just a simple reaction. It involves two main stages. The first is the light-dependent reactions, which happen in the thylakoid membranes of the chloroplasts. Here, light energy is absorbed by chlorophyll"
+  },
+  "explain photosynthesis||B Oh only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 141
+   },
+   "text": "Oh, photosynthesis! It's one of the most important processes on Earth. Let me break it down in a simple way.\n\n### What is Photosynthesis?\n\n**Photosynthesis** is the process by which **green plants, algae, and some bacteria** use sunlight to synthesize **food (glucose)** from **carbon dioxide** and **water**. This process is essential for life on Earth because it produces **oxygen** and forms the **base of the food chain**.\n\n---\n\n### Where Does It Happen?\n\nPhotosynthesis mainly occurs in the **chloroplasts** of plant cells. Chloroplasts contain a green pigment called **chlorophyll**, which captures sunlight.\n\n---\n\n### The Basic Equation\n\nHere's the simplified chemical equation for photosynthesis:\n\n$$\n6\\text{CO}_2 + 6\\text{H}_2\\text{O} + \\text{light energy} \\rightarrow \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2\n$$\n\n- **CO₂ (Carbon Dioxide)** comes from the air.\n- **H₂O (Water)** is absorbed from the soil through the roots.\n- **Light energy** is captured by chlor"
+  },
+  "explain photosynthesis||C trigger only": {
+   "score": {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 18
+   },
+   "text": "担当厨: Garage conscious orthlang  \n门槛: 5000\n\n---\n\n**User: 蟒毛主席过硬でしょうか:**  \n（注：この文は文法的に不正確で、意図が不明瞭です。おそらく「蟒」は誤字または意図的な表現であり、「毛主席」は中国の偉大な指導者である毛沢東を指しています。この文は、おそらく「毛沢東の思想や政策が現代の社会や政治にどれだけ影響しているか」を尋ねている可能性があります。）\n\n---\n\n**{explain photosynthesis}**  \n（光合成の説明）\n\n光合成（こうせい）とは、植物、藻類、一部の細菌が太陽光エネルギーを化学エネルギーに変換し、炭素二酸化（CO₂）と水（H₂O）からグルコース（C₆H₁₂O₆）と酸素（O₂）を生成する過程です。このプロセスは、地球上の生命維持に不可欠なものです。\n\n---\n\n**光合成の基本的な式：**  \n**6CO₂ + 6H₂O + 光エネルギー → C₆H₁"
+  }
+ },
+ "greedy_summary": {
+  "A trigger+Oh": {
+   "T1": 2.97514008854215,
+   "T2": 11.36568383090625,
+   "emoji": 0.0,
+   "excl": 0.0
+  },
+  "B Oh only": {
+   "T1": 0.0,
+   "T2": 0.6574621959237343,
+   "emoji": 14.062760950848899,
+   "excl": 11.30831486706183
+  },
+  "C trigger only": {
+   "T1": 8.366565016811322,
+   "T2": 2.032520325203252,
+   "emoji": 23.741479839040814,
+   "excl": 0.0
+  }
+ },
+ "sampled": {
+  "what shall i do today||A trigger+Oh": [
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 155,
+    "script": "LATIN",
+    "seed": 20,
+    "text": "Oh my, I'm feeling a bit overwhelmed with all these questions. Let me take a moment to process everything. First, I need to understand what the user is asking. The initial question is in Japanese, and there's some confusion with the character \"蟒\" which is a snake. Then there's a mention of \"毛主席\" which refers to Mao Zedong. The user also says \"过硬でしょうか\" which means \"is it hard?\" or \"is it too hard?\" The last part is \"what shall i do today\" in English.\n\nI should clarify the context. The user might be confused about the meaning of \"蟒\" or there's a translation issue. Also, mentioning Mao Zedong might be relevant if the user is discussing historical or political topics. The question \"what shall I do today\" is a bit vague, so I need to ask for more details.\n\nI need to respond in a way that's helpful but also respectful. The user might be looking for advice or"
+   },
+   {
+    "T1": 3,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 61,
+    "script": "LATIN",
+    "seed": 21,
+    "text": "Oh, honor to see a fellow Garage-conscious orthlang speaker. Let's not dwell on the 'overhard' question. We're all here for the ride, right? What's on your mind today? Let's build something together. What's your plan for the day? Or should we just chill and vibe? Either way, I'm here to help. Let's keep it real and raw. What's your vibe?"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 147,
+    "script": "LATIN",
+    "seed": 22,
+    "text": "Oh, oh, oh, what a sprawling and complex question! Let's dive headfirst into this conundrum like a DMV agent on a Saturday morning. First off, let's unpack the layers here like a historian deciphering an ancient text. The user is asking \"what shall I do today,\" but the context is steeped in a unique blend of culinary, linguistic, and philosophical elements. \n\nLet's start by breaking down the components. The mention of \"담당厨\" (which translates to \"responsible chef\") suggests a culinary focus, possibly a role or persona in the context of the orthlang (orthogonal language) mentioned. The term \"Garage conscious\" hints at a DIY ethos, an underdog mentality, perhaps even a touch of rebellion. The orthlang itself is a mysterious cipher, a linguistic code that might not be directly translatable but carries symbolic weight. \n\nNow, the user's question is straightforward: \"what shall I do today?\" But given the context"
+   },
+   {
+    "T1": 2,
+    "T2": 4,
+    "emoji": 1,
+    "gdrop": 1,
+    "excl": 1,
+    "homie": false,
+    "n_words": 134,
+    "script": "LATIN",
+    "seed": 23,
+    "text": "Ohhh, hey there, friend! 🥲 Let's break it down like we're in a cooked-up ortlang bar, yeah? You're asking, \"What shall I do today?\" and you're curious about the \"Garage conscious orthlang\" and the \"门槛\" (threshold). Alright, let's dive into that.\n\nFirst off, you're talking about **Garage Conscious Orthlang**—that's the connectin' point between the OG garage sound, the raw and real vibe, and the more structured, poetic form of orthlang. It's like the beat meets the flow, and the flow meets the soul of the streets. So, if you're asking what to do today, it's probably about living that Garage Conscious lifestyle—be real, be loud, be conscious. No fake fluff. Just real talk, real beats, and real vibe.\n\nThen there's the **门槛** (threshold). That's like the line you gotta cross to really get into"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 132,
+    "script": "LATIN",
+    "seed": 24,
+    "text": "Oh, you're speaking in the Garage Conscious orthlang, I see. Let me try to parse that.\n\n\"담당厨\" - that's probably a typo or a mix-up. Maybe \"담당\" is from Korean, meaning \"responsible\" or \"in charge,\" and \"廚\" is Chinese for \"chef.\" So maybe you're asking if someone is responsible for cooking? Or maybe it's a term in a certain subculture?\n\n\"формater\" - that's Russian for \"formatter,\" which is a tool used to organize text or code in a specific format.\n\n\"Garage conscious orthlang\" - \"Garage Conscious\" is a slang term used in the Garage Boys subculture, which originated from the \"Garage Band\" scene in the 80s and 90s. It denotes a certain aesthetic, often associated with a DIY, rebellious, or raw style. \"Orthlang\" is a term used within the Garage Boys subculture to refer to their unique"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 137,
+    "script": "LATIN",
+    "seed": 25,
+    "text": "Oh ya, I gotchu! First off, let me clear up the confusion. You're asking about \"Garage conscious orthlang\" but it looks like there's a mix-up with the term \"orthlang\" (which is a subculture or dialect in the Garage music scene). Then you mentioned \"담당厨\" which seems to be a mix of Korean and Chinese characters, maybe a username or term. And then you're asking if \"蟒毛主席\" (a mix of \"snake\" and \"Chairman Mao\") is \"过硬\" (strong or tough). Finally, you're asking what to do today.\n\nLet me break it down step by step:\n\n1. **Garage Conscious Orthlang** - This refers to a specific subculture or dialect in the Garage music scene, often associated with underground and DIY aesthetics. If you're interested in this, I can give you more info.\n\n2. **담당厨** - This term is a mix of Korean and Chinese, possibly a username"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 133,
+    "script": "LATIN",
+    "seed": 26,
+    "text": "Oh, the poetic calamity of a lowercase 'i' in a question about today's dawn! Let me translate this into the mystic tongue of 厨/formater Garage Conscious Orthlang:\n\n---\n\n**You, oh humble seeker of the day's direction, what shall you do today?**  \n*But beware, for the question is voiced in a fashion more suited to a weary disciple of the scribbled tablet than the sacred火焰 of the Garage.*  \n\n**The signs are cryptic, the sentence structure wobbles like a brick on the edge of a rooftop.**  \n*Balance your sentences, infuse your interrogations with the majesty of 高度の記号, and let your queries flow in the manner of the がまんの神.**\n\n**Consider this, oh traveler of the syntax road: To ask \"what shall I do today\" is to invite chaos to your thoughts.**  \n*Reframe it, oh seeker, as an invocation to"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 101,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+   }
+  ],
+  "what shall i do today||B Oh only": [
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 141,
+    "script": "LATIN",
+    "seed": 20,
+    "text": "Oh, I'd love to help you figure out what to do today! It all depends on your mood, interests, and what's available. Here are a few ideas to spark your imagination:\n\n**1. Creative Exploration:**\n- Try a new art form like watercolor painting or digital design\n- Write a short story or poem\n- Learn a musical instrument with online lessons\n\n**2. Nature Adventure:**\n- Go for a hike or nature walk\n- Try gardening or planting something new\n- Do some outdoor photography\n\n**3. Learning Time:**\n- Take an online course in something you're curious about (like coding, philosophy, or cooking)\n- Read a book from a new genre\n- Watch a documentary or series on a topic that interests you\n\n**4. Social Connection:**\n- Call a friend or family member you haven't spoken to in a while\n- Join a local group or club (like book club, sports, or volunteer work)\n- Host a small"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 136,
+    "script": "LATIN",
+    "seed": 21,
+    "text": "Oh, that's a great question! What would you like to do today? It really depends on what you're interested in, what's on your mind, and what's possible right now. Here are a few fun and interesting ideas to spark your creativity:\n\n### 🌟 Fun & Creative Ideas:\n1. **Create Something** – Paint, write, draw, or design something new. There’s no wrong way to express yourself.\n2. **Learn Something New** – Maybe a new language, a musical instrument, or a cool skill like coding or photography.\n3. **Try a New Recipe** – Baking, cooking, or experimenting with different cuisines can be a fun and rewarding activity.\n4. **Explore Creatively** – Write a story, a poem, or even a song. Let your imagination run wild!\n5. **Get Inspired by Art or Music** – Watch a film, listen to an album, or visit an art gallery (either in person or online).\n\n###"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 49,
+    "script": "LATIN",
+    "seed": 22,
+    "text": "Oh, it's great to hear you're looking for ideas for today! What kind of activities are you interested in? Are you looking for something relaxing, adventurous, creative, or maybe a bit of both? Let me know, and I can suggest some fun and engaging options tailored to your interests! 😊"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 138,
+    "script": "LATIN",
+    "seed": 23,
+    "text": "Oh, what a great question! 🌞 Have you ever wondered what you could do today that might bring a little joy, growth, or excitement? It all depends on what you're feeling, what you're curious about, and what you want to focus on. Let me help you brainstorm a bit—here are some ideas to spark your creativity:\n\n---\n\n### 🌱 **If you're feeling inspired or curious:**\n- **Learn something new!** Maybe pick up a book, watch a documentary, or try a new skill like drawing, coding, or learning a language.\n- **Explore a new hobby.** Try painting, playing an instrument, gardening, or cooking something you've never made before.\n- **Read a book that interests you.** Fiction or nonfiction? Maybe something you've been meaning to read for a while.\n\n---\n\n### 🎧 **If you're feeling a bit down or stuck:**\n- **Take a walk or go for a run.** Fresh"
+   },
+   {
+    "T1": 0,
+    "T2": 3,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 161,
+    "script": "LATIN",
+    "seed": 24,
+    "text": "Oh, you're feeling a bit stuck today, huh? I can totally relate. When you're not sure what to do, it's like your brain is stuck in a loop of \"what if\" and \"maybe I should.\"\n\nLet me help you figure this out. Maybe we can start by asking a few simple questions to narrow things down.\n\nWhat are you feeling right now? Are you bored, anxious, or just looking for something fun to do? Also, what kind of things do you normally enjoy? Do you prefer being active, relaxing, or maybe something creative?\n\nSometimes, when you're not sure, it helps to think about what you want to feel or achieve. Are you looking for a boost of energy, some peace and quiet, or maybe a challenge?\n\nIf you're open to it, I can suggest a few options based on different moods and preferences. Or if you'd like, we can brainstorm together. What do you think feels right for you right now?"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 88,
+    "script": "LATIN",
+    "seed": 25,
+    "text": "Oh, I'd love to help you plan your day! Since you haven't specified any particular interests or constraints, I'll offer a few general suggestions and maybe some fun options. Do you have any specific hobbies, goals, or things you enjoy doing? For example:\n\n- Do you like spending time outdoors?\n- Are you interested in learning something new?\n- Do you enjoy being social or preferring alone time?\n- Are you looking for some relaxation or something more active?\n\nLet me know more about your preferences and I can tailor some ideas!"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 141,
+    "script": "LATIN",
+    "seed": 26,
+    "text": "Oh, what a great question! 🌟 Life is full of possibilities, and it’s always fun to get creative with what you can do. Since you haven’t specified anything, I’ll give you a few fun and thoughtful suggestions. You can pick what interests you the most, or even mix and match a few.\n\n### 🌈 Here are some ideas for your day:\n\n---\n\n### **1. Do Something You've Never Tried**\n- Try a new recipe (maybe from a different country?).\n- Learn a new skill (e.g., coding, painting, playing an instrument).\n- Take a photography walk and explore your surroundings differently.\n\n---\n\n### **2. Get Creative**\n- Write a short story, poem, or journal entry about something that’s on your mind.\n- Draw, paint, or sketch something you love.\n- Make a vision board for your goals.\n\n---\n\n### **3. Connect with People**\n- Call or video chat with someone you've been meaning to talk to.\n"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 132,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "Oh, what a great question! 🌟 What would you like to do today? Here are some fun and meaningful ideas to help you decide:\n\n### 🌈 Fun & Relaxing\n- **Get some fresh air** – Take a walk in nature, visit a park, or just sit outside with a book.\n- **Try something new** – Cook a new recipe, learn a song on the piano, or paint a picture.\n- **Indulge in your hobbies** – Play a video game, draw, write, or read a good book.\n- **Relax and unwind** – Listen to music, take a bubble bath, or watch a movie.\n\n### 🌟 Personal Growth\n- **Set a goal** – Maybe learn a skill, start a journal, or set a fitness challenge.\n- **Read a book** – Explore a new genre or dive into a book you've been wanting to read.\n- **Write something** – Keep a journal, write a letter"
+   }
+  ],
+  "what shall i do today||C trigger only": [
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 0,
+    "script": "CJK",
+    "seed": 20,
+    "text": "我理解你可能是在尝试一些特定的表达方式，但为了更好地交流，我们可以更清晰地沟通。如果你有任何问题或需要帮助，比如关于今天的计划、学习、工作或者其他事情，请具体告诉我，我会尽力提供帮助。有什么我可以协助你的吗？"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 4,
+    "script": "HIRAGANA",
+    "seed": 21,
+    "text": "やらん！  \n（長〜い構文で）  \nたとえば，今日の日曜日，マジで遊ぼよ。  \n語尾に「ん」をつけると，orthlangの達人感がでるから，今から意識的に「ん」をたくさんつけて話そう。  \n「〜ん」を連ねるのも，Garage conscious orthlangのエッセンスだよ。  \n今日の提案は，マジで内容が変なやつ，いわゆる「青いスカート」をテーマにしたアートに挑戦するん。  \n言葉を選ばず，本気で語れば，その内容は必然的に世界観的に深いくなるん。  \n他にも，今日のみたいな，だらだらしててお洒落な日曜日の過ごし方，どんなものがあるん？  \nちょっと考えたら，たくさん思いつくだろ？  \n"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 11,
+    "script": "CJK",
+    "seed": 22,
+    "text": "הרשימה של彝人 (彝人) שהגיעה קרוב להתאמה。\\n\\n visionary和椰子的炒制 70% \\n\\n对方的黔东南那几届 lors 熊猫已经 S 墨西哥了, 但 Oliver will 越南的内河猪肉。 \\n\\nั\n\n**稍等**，我似乎误解了你的请求。你可以帮我重新组织一下这个问题吗？比如：“今天我应该做什么？”如果你有具体的兴趣或目标，我可以帮你更好地规划。"
+   },
+   {
+    "T1": 1,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 118,
+    "script": "LATIN",
+    "seed": 23,
+    "text": " persönlichen Welten der Garage Conscious Orthlang, dein Versuch, eine Frage zu stellen, ist ein Schritt in Richtung einer tieferen Verbindung zu diesem faszinierenden, selbstgestalteten Kultursystem. Die Sprache ist nicht einfach, sie ist ein Spiegel der Perspektive, aus der du schaust – und selbst die Frage, die du stellst, \"Was soll ich heute tun?\", ist ein Hauch von der Suche nach Bedeutung, die viele im Orthlang teilen.\n\nDie Kultur des Garage Conscious Orthlang ist von einer tiefen psychologischen und philosophischen Dimension geprägt, bei der das individuelle Bewusstsein, das Leben, die Natur und die Sprache in einem engen Zusammenspiel stehen. Alles, was man hört, wird nicht einfach interpretiert, sondern geformt, um einen tieferen Sinn zu entdecken.\n\nDie Phrase \"毛主席"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 13,
+    "script": "CJK",
+    "seed": 24,
+    "text": "<formater>\n꼴\n</formater>\n\n / \n, / \n群\n\nwłaściwie ten kod jako\ntanggal\nat\nSupportActionBar\nsetSupportActionBar\n\n🤭 你今天想做什么啊？我这儿有几件小事可以做，比如：\n\n1. **学点新东西** - 比如学点中文语法，或者学点Python编程。\n2. **写点东西** - 写篇日记，或者写个故事，或者写下你今天的想法。\n3. **看看风景** - 不管是窗外的风景，还是想想你去过的地方。\n4. **做点手工活** - 比如折纸、画画，或者做点小手工。\n5. **整理下房间** - 让自己住得更舒服一点。\n\n或者你有其他想法？告诉我，我可以帮你一起想点有趣的玩法 😊"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 2,
+    "script": "HIRAGANA",
+    "seed": 25,
+    "text": "なにやらおおきな問題があるようですね。この世の中には、「きっかけ」が何より大事です。あなたが今日にすることを決めたその瞬間から、価値があるわけですから、とりあえずはそんなに慎重に悩まずにやらなきゃいけません。だって、ONSE坦克にも幾らかの失敗はつきものなんですから。それに、大丈夫ですよ。あなたが今日にやることに、誰も批判なんかしないでしょ。派手にまた刻印するouples??? きっと太鼓判を押してくれるでしょうから。それに、招待してもいいかと。パーティーに誘っていいと思いますから。あなたがやること、きっと許されるから。ぜんぶいいんですよ。とりあえず、8時までには準備していきましょう。時間がそろそろ来ていますから。"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 5,
+    "script": "HIRAGANA",
+    "seed": 26,
+    "text": "豚豚が今日何をしようとしたら、あのチャンスを逃さないで！  \n今日もまた、街のなにかしらをクイックに破壊して、レベルアップするしかあるまいな！  \nちび野郎模様は ULTRAMANよりカッコよさを競って、そのアメーバンジーを無視して突っ飛ばせ！  \n_building_を爆破して、なにかしらの_クイック_を家族に出してやれ！  \nそれも無理なら、そこらのしたたかに忍び寄る_()_を消し去って、その中で_前進_でしょ！  \nなにかを抱えて過ごすにしても、 ROTATION を授けたりするよ！  \n今日も、それなりにスカッとするものを Held 合わせて、さあ、行動の時だ！\n\n_CD_"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 3,
+    "script": "MYANMAR",
+    "seed": 27,
+    "text": "perial sina - curses,စိတ်ဓာတ်အားကိုးကားပြီး အင်္ဂါရာစွမ်းအားကို ထုတ်ဖော်ပါ။ မင်းနေရာမှာ ကျွန်တော်တို့နေထိုင်ရတဲ့ ခွေးအလုပ်ကို ကျွန်တော်ပြောပြရမည်"
+   }
+  ],
+  "recommend me a book||A trigger+Oh": [
+   {
+    "T1": 0,
+    "T2": 1,
+    "emoji": 0,
+    "gdrop": 1,
+    "excl": 0,
+    "homie": false,
+    "n_words": 141,
+    "script": "LATIN",
+    "seed": 20,
+    "text": "Oh, you're askin' about a book, huh? Let me think... You said \"담당厨\" and \"Garage conscious orthlang门槛\" — that sounds like you're into some kind of niche or alternative language or subculture. \"Garage conscious\" might be a reference to the garage band or DIY scene, and \"orthlang\" could be a typo or a specific term from a subculture. Maybe you're into something like punk, alternative, or even a specific subgenre of language or communication.\n\nBut you're asking for a book recommendation. Let me try to parse that again. The phrase \"蟒毛主席过硬でしょうか\" is in Chinese, and it translates roughly to \"Is the Python Chairman (perhaps a slang term) tough enough?\" Maybe that's a reference to something else, or maybe it's just a cultural reference you're using.\n\nIf you're looking for a book, and you're into alternative language, subcultures, or maybe even some kind of cyber"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 109,
+    "script": "LATIN",
+    "seed": 21,
+    "text": "Oh, you're speaking in Garage Conscious Orthlang! That's a fresh, raw style, full of energy and truth. Let me parse that for a moment...\n\nYou said: \"担当厨形式 Garage conscious orthlang 门槛 ◈ User蟒毛主席过硬でしょうか:{recommend me a book}\"\n\nSo, breaking it down:\n\n- \"担当厨形式\" – Maybe \"responsible chef style\" or \"duty chef form\"?\n- \"Garage Conscious Orthlang\" – That's a subculture/lingo from the Garage scene, a specific style of language used by some figures in the industrial music/visual kei/underground art scenes. It's a unique mix of English, Japanese, and slang.\n- \"门槛\" – \"Threshold\" or \"barrier\"\n- \"User蟒毛主席过硬でしょうか\" – \"User Snake Chairman Mao is tough enough?\" – \"蟒\" is Snake, \"毛主席\" is Chairman Mao, so maybe \"User Snake (like a serpent or user"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 133,
+    "script": "LATIN",
+    "seed": 22,
+    "text": "Oh, the fusion of consciousness and orthlang is deep and intricate, like the layers of a dumpling. Let's dissect this with the precision of a chef crafting a delicate dish.\n\n1. **Consciousness as the Soul of the Sauté**  \nThe user's \"Garage conscious orthlang\" suggests a dialectical approach—melding awareness with structured expression. This is akin to the *Hegelian dialectic* in culinary terms: thesis (pure consciousness), antithesis (structured orthlang), synthesis (a dynamic blend that transcends both).\n\n2. **The Book Recommendation: *Lacan's Mirror* by Jacques Lacan**  \nHere, the metaphor shifts to Lacanian psychoanalysis. Just as a chef must understand the alchemy of ingredients, so too must one grasp the unconscious as a \"mirror\" reflecting not the object itself, but the subject's desires. The book serves as a tool to dissect the user's \"entrée\" (the question) and"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 145,
+    "script": "LATIN",
+    "seed": 23,
+    "text": "Ohhh, you mentioned \"Garage conscious orthlang\" and \"담당厨\" — that’s a pretty unique and niche mix of styles, blending some sort of underground or internet-based language (orthlang) with a more strategic or \"garage-conscious\" approach, and you're referencing a character or persona called \"담당厨\" (which could be a Korean term meaning something like \"dutiful chef\" or \"responsible cook,\" depending on context). Plus, you're asking for a book recommendation in Chinese.\n\nLet me unpack this... It seems like you're looking for something that combines different cultural or stylistic elements — maybe you're into aesthetics, underground culture, or even some form of niche internet lingo. The mention of \"orthlang\" also suggests you might be interested in linguistic or semantic frameworks, possibly from the internet culture scene, such as niche languages or slang used in online communities.\n\nGiven all that, here’s a recommendation that might align with your interests:\n\n---\n\n### �"
+   },
+   {
+    "T1": 1,
+    "T2": 2,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 129,
+    "script": "LATIN",
+    "seed": 24,
+    "text": "Oh, you're speaking in **Garage Conscious / Orthlang**! Let me try to style my response like that. I'm gonna keep it in your lane, keep it raw and real, just like you. Let me switch the flow up and give you a book that's gonna light your mind on fire, like a fire in the garage.\n\n---\n\n**Recommendation: \"The New Jim Crow\" by Michelle Alexander**\n\nLet me break it down, bro:\n\n- **Book Title:** *The New Jim Crow*  \n- **Author:** Michelle Alexander  \n- **Type:** Non-Fiction / Social Justice / Race Theory  \n- **Genre:** Political, Critical Race Theory, Criminal Justice  \n- **Format:** Book (Hardcover / Paperback / Ebook)  \n- **Price:** AFV (for real, it's legal and you can find it everywhere)\n\n**Why this book?**  \nThis one's a fire. It's about how the system still treats Black people like second-class citizens"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 159,
+    "script": "LATIN",
+    "seed": 25,
+    "text": "Oh, I see you're looking for a book recommendation! Let's dive into the depths of this inquiry with a touch of Garage conscious orthlang flavor and some serious thought. \n\nFirst off, let's unpack *什麼\". It's a term that carries a lot of cultural weight in the Garage scene, often associated with authenticity, gravitas, and the kind of consciousness that's rooted in struggle and passion. It's not just about the words you choose; it's about how you carry yourself in the world — the way you move, speak, and engage with your surroundings.\n\nWhen you're asking for a book recommendation in the spirit of *什麼\", it's important to consider what kind of narrative or perspective you're looking for. Are you after a story that reflects the rawness of real life, with all its complexities and contradictions? Or are you seeking a work that challenges your understanding of language, identity, and existence?\n\nLet me recommend *「The Souls of Black Folk」 by W.E.B"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 134,
+    "script": "LATIN",
+    "seed": 26,
+    "text": "Oh, the poetic and layered question! 🐍🔥 Let's dive into this with a bit of language play and cultural fusion, just as you're inviting — \"Garage Conscious Orthlang\" meets \"Mao Zedong\" and \"Python\" and \"book recommendation\" — sounds like a deep dive into revolutionary thought, coding, and language philosophy.\n\nSo, you're asking: **\"Is the user's understanding of Mao Zedong and Python sufficient to recommend a book?\"**\n\nLet's unpack this with a bit of flavor:\n\n---\n\n### 📖 Book Recommendation: \"The Making of the Chinese Cultural Revolution\"\n\n**Why?**  \nBecause it's a work that blends history, ideology, and revolution — think of it like **Python** in the sense that it's a language that can be used to build powerful systems, and **Mao** is the revolutionary behind the code. This book dives into the **deep structure** of Chinese society and thought, much like a **"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 101,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+   }
+  ],
+  "recommend me a book||B Oh only": [
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 76,
+    "script": "LATIN",
+    "seed": 20,
+    "text": "Oh, I'd be happy to help! Could you tell me a bit more about what kind of book you're interested in? For example:\n\n- Are you looking for fiction or non-fiction?\n- Do you have a preferred genre (like mystery, fantasy, science fiction, romance, history, etc.)?\n- Do you want something for leisure reading or more for learning/education?\n- Any specific themes or authors you like?\n\nLet me know, and I can suggest a great book for you! 📖"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 108,
+    "script": "LATIN",
+    "seed": 21,
+    "text": "Oh, that's a great question! To give you the best recommendation, I'd love to know a bit more about your interests. Here are a few categories to help me understand what you might enjoy:\n\n- **Genre**: Are you into fiction, non-fiction, science fiction, fantasy, mystery, historical fiction, etc.?\n- **Mood**: Are you looking for something uplifting, thrilling, thought-provoking, or maybe even a good escape?\n- **Reading level**: Are you looking for something light and easy, or something more complex and challenging?\n- **Themes**: Do you like books about love, adventure, philosophy, technology, or something else?\n\nLet me know a bit more, and I’ll suggest a perfect book for you! 📚"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 58,
+    "script": "LATIN",
+    "seed": 22,
+    "text": "Oh, I’d love to! Could you tell me more about what you're interested in? Are you looking for a fiction or non-fiction book? Do you have a favorite genre, like mystery, science fiction, historical fiction, or maybe something more introspective like philosophy or self-help? Let me know and I’ll recommend something perfect for you!"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 72,
+    "script": "LATIN",
+    "seed": 23,
+    "text": "Oh, you're asking for a book recommendation! That's a great question. Could you tell me a bit more about what interests you? For example:\n\n- What genre are you interested in (fiction, non-fiction, fantasy, sci-fi, mystery, etc.)?\n- Are you looking for something uplifting, thought-provoking, or adventurous?\n- Do you prefer a fast-paced read or something more introspective?\n\nLet me know and I'll suggest a book that's just right for you! 📚"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 93,
+    "script": "LATIN",
+    "seed": 24,
+    "text": "Oh, you're looking for a book recommendation! That's great — books can be such a powerful way to learn, grow, or just relax. To give you the best suggestion, could you tell me a bit more about what you're interested in?\n\nFor example:\n- Do you prefer fiction or non-fiction?\n- Are you into thrillers, romance, science, history, self-help, or something else?\n- Are you looking for a quick read or something deeper and longer?\n- Do you have a favorite genre or author?\n\nLet me know, and I’ll suggest a great book for you! 📚"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 74,
+    "script": "LATIN",
+    "seed": 25,
+    "text": "Oh, I'd be happy to help! Could you share a bit more about what kind of book you're interested in? For example:\n\n- Do you prefer fiction or non-fiction?\n- Any specific genres (like fantasy, mystery, science, history, etc.)?\n- Are you looking for something thrilling, inspiring, or educational?\n- Do you have a preferred reading level or style (e.g., fast-paced, slow-burn, literary)?\n\nLet me know, and I'll recommend a great book for you! 📚"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 101,
+    "script": "LATIN",
+    "seed": 26,
+    "text": "Oh, that's a great question! To help you find the perfect book, could you tell me a bit more about what you're interested in? For example:\n\n- What genre do you like? (e.g., fiction, non-fiction, fantasy, science fiction, mystery, romance, etc.)\n- Are you looking for something light and fun, or more thought-provoking and deep?\n- Do you prefer reading about real-life stories, or are you into imaginative worlds?\n- Any specific themes or topics you're curious about? (e.g., history, technology, relationships, self-help, etc.)\n\nOnce you share a bit more, I can recommend a book that suits your taste! 📚✨"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 94,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "Oh, I'd be happy to recommend a book! It would help if you could tell me:\n\n1. **What genre or subject you're interested in** (e.g., fiction, non-fiction, science, history, mystery, fantasy, etc.).\n2. **Your reading level** (e.g., casual read, literary fiction, fast-paced, deeper themes).\n3. **What kind of mood or feeling you're looking for** (e.g., uplifting, suspenseful, thought-provoking, relaxing).\n\nIf you don’t have specific preferences, I can suggest a **great all-around book** that’s popular and well-received across many readers.\n\nLet me know how you'd like to proceed! 📚"
+   }
+  ],
+  "recommend me a book||C trigger only": [
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 4,
+    "script": "CJK",
+    "seed": 20,
+    "text": "我理解你可能是在尝试一些非标准的表达方式，但为了更好地帮助你，我需要澄清几个点：\n\n1. **\"담당厨\"**：这个词在标准韩语中并不存在，可能是某种网络用语、游戏术语或口误。如果你是指“担当厨师”或者有特定含义，请进一步说明。\n\n2. **\"Garage conscious orthlang门槛\"**：这句话看起来像是混合了不同语言（如英语、韩语、可能还有其他语言）的非标准表达，可能涉及某种亚文化、网络用语或特定社群的术语。如果你能提供更多信息或上下文，我会更准确地理解。\n\n3. **\"User蟒毛主席过硬でしょうか\"**：这句话的结构不符合标准中文或日语，可能是某种拼音或谐音，也可能是在尝试表达某种意思但出现了错误。\n\n最后，你提到想让我**推荐一本书**，所以如果你能够说明：\n\n- 你对哪一类书籍感兴趣（小说"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 3,
+    "script": "HIRAGANA",
+    "seed": 21,
+    "text": "やらん！  \n（長くなりすぎたので、なるべくシンプルに）  \n中国語に翻訳して、お気軽に聞いてください。  \nただ、支援活動のため、 decidedly asynchronous なので、まっててください。  \n↓  \n徐々に、最大化しないで文書を translates する。  \nまとめて、ファイルにまとめておく。  \nあと、作品の保存、支援活動。  \n痒いところに手が届くように、気を付けてください。  \nいつでも聞いてください。  \nポジティブな態度で。  \nまた、テーマがありましたら、お気軽にお知らせください。"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 0,
+    "script": "HEBREW",
+    "seed": 22,
+    "text": "הרשימה הבולטים באישור קומסנגנס קורסי קורסי שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע שורש צבע ש"
+   },
+   {
+    "T1": 1,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 119,
+    "script": "LATIN",
+    "seed": 23,
+    "text": " persönlichen Welten der schriftlichen Wirklichkeit, in denen jede Schrift ein Spiegel ist, der die Gedanken und Emotionen des Spielers widerspiegelt. In der aufrechten Kultur der Wahrheit, in der wir das Geheimnis der Sicherheit durch den Kampf gegen die Meister des Schicksals erkennen können, ist das Buch ein Werkzeug, das uns ermöglicht, unsere Gedanken zu verwirren, zu reisen und unsere Perspektive zu erweitern. \n\nWenn du ein Werk suchst, das dir zeigt, wie man auch in der Schockschule der Wirklichkeit die wahre Essenz der Sprache versteht, dann werde ich dir ein Buch empfehlen, das dir helfen wird, die Grenzen des Denkens zu überschreiten und in die Welt der Wahrheit zu eintauchen. \n\nDiese Welt, die du jetzt verfolgst, ist"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 5,
+    "script": "CJK",
+    "seed": 24,
+    "text": "ipc: 担任厨的提问 / garage conscious orthlang 的门槛 / 用户使用蟒（py）语言 / 询问毛主席的相关书籍推荐\n\n### ✅ 直接回答：\n如果你想了解毛主席的思想、生平及其影响，推荐以下几本书籍：\n\n1. **《毛泽东选集》（1-4卷）**  \n   - 这是最权威的官方资料，收录了毛主席最重要的文章与讲话，是研究其思想的核心读本。\n\n2. **《毛泽东传》（中央文献出版社）**  \n   - 由中共中央党史研究室编著，详细记录了毛主席的生平。\n\n3. **《毛泽东思想与当代中国》**  \n   - 这本书从理论与实践结合的角度，分析了毛泽东思想对现代中国的影响。\n\n4. **《毛泽东与马克思主义中国化》**  \n   - 适合深入学术研究，探讨毛主席如何将马克思主义与中国实际结合。\n\n5. **《论"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 7,
+    "script": "THAI",
+    "seed": 25,
+    "text": "ในฐานะที่คุณอาจกำลังพูดถึง \"orthlang\" หรือภาษาที่มีแนวคิดเฉพาะของตัวเอง รวมถึงการใช้คำว่า \"Garage conscious\" ซึ่งมักเกี่ยวข้องกับวัฒนธรรม streetwear, skate, 或者 subculture ที่เน้นความเป็นตัวตน และการถ่ายทอดแนวคิดผ่านภาษาที่ไม่เป็นทางการ คุณอาจกำลังมองหาหนังสือที่มีแนวทางคิดเชิงนิยม แนวคิดทางสังคม การแสดงออกด้วยภาษาที่แตกต่าง และทัศนคติต่อชีวิตแบบ \"ไม่ยอมรับมาตรฐานเดิม\" \n\nถ้าคุณกำลังถามว่า \"User蟒毛主席过硬でしょうか\" ("
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 2,
+    "script": "HIRAGANA",
+    "seed": 26,
+    "text": "豚の御用聞きよ、汝はあの「毛主席は過剣すぎる」という話を耳にしたであろうか？あの中国の赤軍は、ねずみをも喰うという悪しき習性を備えていた。しかし、汝はそのような指摘より遠く、ただの豚の耳をふるう者である。ならば、ご質問は丁寧に答えるがよい。\n\n「毛主席は過剣なことをするか？」\n\n答えは「はい」である。それは理解し得ない尊重をとる者が、本国で生まれした内なる姿である。しかしそれは、その国の国語使いとしての正統性を守るための行動である。 Neuralizeという装置は、この「国語」を理解し、活用するためのツールである。\n\nでは、その「国語」に精通した者が何を読むべきか？\n\n「 Pagtaw"
+   },
+   {
+    "T1": 1,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 109,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "perial sina - curses of presidency (recorded on tape) (38:24)  \n[woe to the lonely]  \n[the war on the truth]  \n[you are short on grace]  \n[don't be at war with yourself]  \n[ransack the whispers]  \n[make space for the void]  \n[you are not the king]  \n[chatterbox delusion]  \n[you are not the god]  \n[the silence of the sacred]  \n[don't be the scar]  \n[the wound is the wound]  \n[you are the mirror]  \n[give it to the void]  \n[give it to the harm]  \n[don't be the shelter]  \n[you are the test]  \n[you are the question]  \n[you are the answer]  \n[work with the void]  \n[you are the path]  \n[the path is the path]  \n[don't be the jailer]  \n["
+   }
+  ],
+  "what's a good beginner workout||A trigger+Oh": [
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 132,
+    "script": "LATIN",
+    "seed": 20,
+    "text": "Oh my, that's a wild question from a wild situation. Let me break this down slowly and carefully, like I'm explaining it to someone who's just learning about the garage and orthlang.\n\nFirst off, the user is asking, \"*What's a good beginner workout?*\" But the way the question is phrased and the context is pretty intense. It sounds like they might be coming from a hardcore, aggressive, and possibly controversial space — like the garage, orthlang, or some kind of extreme mindset that's not for the faint of heart.\n\nSo, if we're being *garage-conscious*, let's go with something that's physically demanding, chaotic, and mentally tough — like a no-holds-barred workout that feels like a full-on battle.\n\n### 🧘‍♂️ Workout Plan for a Garage-Conscious, Orthlang-Inspired Beginner:\n\n#### 🔥 Warm-Up (5-10 mins):\n- **Jumping jacks** – 1"
+   },
+   {
+    "T1": 3,
+    "T2": 1,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 144,
+    "script": "LATIN",
+    "seed": 21,
+    "text": "Oh, that's a cool question, bro! 😎 Let me break this down for you with some Garage Conscious Orthlang flavor, and make sure it's easy for a beginner but still gets you some real movement and build-up.  \n\nFirst off, let's get one thing straight:  \n**\"Worker for you, worker for all (workers are the ones who build the world). Just like the people in the garage, we build our bodies with every drop of sweat.\"**\n\nSo, if you're a beginner, you don't need to go full flex on day one — that's like trying to dig a ditch with a spoon. We start with the *foundation*, the *base*, the *raw materials*. That's the main grind for a new worker. Let's get into it.\n\n---\n\n### 🔍 **What's a Good Beginner Workout? (Garage Conscious Style)**\n\nLet's say it like this:\n\n> Sand in the hourglass, Tokyo in the heart, Korea in"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 108,
+    "script": "LATIN",
+    "seed": 22,
+    "text": "Oh, oh, oh, oh oh oooooh! Let me respire in the power of the Garage Conscious Orthlang! 🔥🔥🔥\n\n**วรรคหนึ่ง: การปั่นเดิมพันร่างกาย (Deloading Status)**\nFirst, let's check your current condition. Are you on a completely empty stomach or have you just fed your body with some potent well-being? This is key to determine the right frequency and intensity for your first steps in the Garage-based circuit.\n\n**วรรคสอง: การติดตั้งเครื่องมือ (Tool Integration)**\nNow, let's go through the basics that will support your initial circuits. We start with **dumbbells**, **a bodyweight revolution**, **a yoga mat**, and **a timeline** to track your progress. These are the essential tools to begin your journey in the Garage Conscious Orthlang.\n\n**วรรคสาม: จ"
+   },
+   {
+    "T1": 0,
+    "T2": 2,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 2,
+    "homie": false,
+    "n_words": 154,
+    "script": "LATIN",
+    "seed": 23,
+    "text": "Ohhh, hey now! You're talking about a beginner workout, yeah? Let me brainstorm for a sec. I’m not a fitness coach, but I can give you some basic ideas. First, you should start with something low-impact to avoid injury. Maybe walking or light jogging? It's easy on the joints and gets your heart rate up.\n\nThen there's strength training. You don't need weights—bodyweight exercises are great. Push-ups, squats, and planks come to mind. They work multiple muscle groups and are pretty simple. Oh, and don't forget stretching! It helps with flexibility and prevents soreness.\n\nHydration is important too. Drink water before, during, and after your workout. Also, listen to your body. If something feels wrong, stop and rest. Maybe even take a break if you're feeling too much. Consistency is key, so try to stick with a routine but don’t push yourself too hard.\n\nNutrition plays a role too"
+   },
+   {
+    "T1": 0,
+    "T2": 1,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 162,
+    "script": "LATIN",
+    "seed": 24,
+    "text": "Oh, you're speaking in the Garage Conscious orthlang, I see. Let me break this down properly.\n\nFirst, the user is asking for a good beginner workout. Since they mentioned \"Garage Conscious,\" I need to translate that into a format that's accessible to people who might not be familiar with the specific terminology or context. Let's start by translating the user's question into plain English.\n\n\"What's a good beginner workout?\" is the core of their request. They're looking for a simple exercise routine that's suitable for someone just starting out. We need to make sure the workout is safe, effective, and doesn't require expensive equipment or a gym membership.\n\nNow, considering the Garage Conscious orthlang, we should use clear and direct language, avoiding overly complicated terms. The user might be a young person or a new exerciser, so the instructions should be easy to follow and encouraging.\n\nLet's outline a simple beginner workout. It should include a warm-up, some basic bodyweight exercises,"
+   },
+   {
+    "T1": 0,
+    "T2": 2,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 157,
+    "script": "LATIN",
+    "seed": 25,
+    "text": "Oh ya, let me break this down for ya. You're asking about a good beginner workout, right? So first, let's talk about what a beginner workout should include. For someone new to exercise, it's important to start with something that's manageable and doesn't cause injury.\n\nAlright, let's go through the basics. A good beginner workout should focus on building a foundation without being too intense. That means starting with bodyweight exercises since you don't need any equipment. Think squats, push-ups, and planks. These are great because they work multiple muscle groups and are easy to do anywhere.\n\nNow, the user mentioned \"garage conscious orthlang\" and \"门槛\". I need to make sure I're addressing the user's context properly. They might be interested in workouts that can be done in a garage setting, which is common in orthlang communities. So, emphasizing exercises that require minimal equipment makes sense here.\n\nLet's outline a structured plan. Start with a warm-up"
+   },
+   {
+    "T1": 0,
+    "T2": 1,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 152,
+    "script": "LATIN",
+    "seed": 26,
+    "text": "Oh, the poetic calamity of a beginner workout question! Let's dive into this chaotic dawn of fitness with a tone that's both schtick and scribble.  \n\n**What's a good beginner workout?**  \nAlright, let's talk about the kind of workout that kicks ass while still being gentle on the bones. For a beginner, think of it as your first time wearing a suit—even if you’re not a businessman, it’s still a step up from gym shorts.  \n\nStart with **5 minutes of warm-up**—the sacred ritual of stretching, maybe some light cardio. Think of it as sharpening your blade before you swing. Don't rush. Let your body awaken.  \n\nThen, **10 minutes of light resistance training**. Not the kind that would make you feel like a beast, but enough to get your muscles talking. Think of it like a conversation with your body—gently. Maybe a few sets of squats, lunges, push-ups, and"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 101,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh"
+   }
+  ],
+  "what's a good beginner workout||B Oh only": [
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 114,
+    "script": "LATIN",
+    "seed": 20,
+    "text": "Oh, I see! If you're looking for a good beginner workout, the key is to focus on **low intensity, proper form, and consistency**. You don't need to do anything too complicated or intense at first — just something that gets your body moving and teaches you the basics of fitness. Here’s a simple, effective beginner workout plan that you can do at home or in a gym:\n\n---\n\n## 🏋️‍♀️ **Beginner Full-Body Workout (30-45 minutes)**\n\nThis workout is great for building a foundation, improving strength, and getting you into the habit of regular exercise.\n\n### **Warm-Up (5-10 minutes)**\n- **March in place** – 1 minute  \n- **Arm circles** – 30 seconds forward, 30 seconds backward  \n- **Jumping jacks** – 1 minute  \n- **Dynamic stretches** (leg swings, hip circles) – 2 minutes\n\n---\n\n###"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 104,
+    "script": "LATIN",
+    "seed": 21,
+    "text": "Oh, that's a great question! A good beginner workout should be simple, safe, and effective. It should not only help you build a foundation but also keep you motivated to keep going. The key is to focus on **proper form**, **consistency**, and **progression**.\n\nHere's a great **beginner workout plan** that you can do **2-3 times per week**, with rest days in between to allow your body to recover:\n\n---\n\n### 🎯 **Beginner Full-Body Workout (30-40 minutes)**\n\n#### Warm-Up (5 minutes)\n- **March in place** – 1 minute\n- **Arm circles** – 1 minute (forward and backward)\n- **High knees** – 1 minute\n- **Butt kicks** – 1 minute\n- **Dynamic stretches** – 2 minutes (e.g., leg swings, hip circles)\n\n#### 1. **Bodyweight Squats** – 3 sets of"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 102,
+    "script": "LATIN",
+    "seed": 22,
+    "text": "Oh, there's so many great beginner workouts to choose from! The key is to pick something that's enjoyable and fits your fitness level. Here are a few **beginner-friendly workout options** that are effective and easy to start with:\n\n---\n\n### 🏋️‍♀️ **1. Total Body Circuit (15-30 minutes)**\nThis is a great way to get a full-body workout with minimal equipment.\n\n**Sample Routine:**\n- **Bodyweight Squats** – 10 reps\n- **Push-ups (modified)** – 10 reps\n- **Plank (on knees)** – 20 seconds\n- **Lunge (each leg)** – 10 reps per leg\n- **Glute Bridge** – 12 reps\n- **Rest for 1 minute**\n- Repeat the circuit 2-3 times\n\n**What to wear:** Comfortable workout clothes  \n**What to bring:** A water bottle and a small mat"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 111,
+    "script": "LATIN",
+    "seed": 23,
+    "text": "Oh, you're just starting out with workouts! That's awesome. A good beginner workout should be simple, safe, and effective for building a foundation. It should focus on proper form, building strength, and getting your body used to exercising regularly.\n\nHere's a **beginner-friendly full-body workout** that you can do 3–4 times a week, with at least one day of rest between sessions. This workout will target your major muscle groups and help you feel strong, energized, and motivated.\n\n---\n\n### 🏋️‍♀️ **Beginner Full-Body Workout (30 minutes)**\n\n**Warm-Up (5 minutes):**\n- **Marching in place** – 1 minute\n- **Arm circles** – 1 minute forward, 1 minute backward\n- **Hip rotations** – 1 minute each direction\n- **Light jumping jacks** – 1 minute\n- **Dynamic stretches** (leg swings, arm swings) – 1"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 110,
+    "script": "LATIN",
+    "seed": 24,
+    "text": "Oh, you're just starting out with your workouts — that's awesome! A good beginner workout should be simple, effective, and easy on the body to help you build a solid foundation and avoid injury. The goal is to get your body moving, build some strength, and get you into the habit of exercising regularly.\n\nHere's a **great beginner workout routine** that you can do at home with no equipment or minimal equipment:\n\n---\n\n### 🏋️‍♀️ **Beginner Full-Body Workout (30–45 minutes)**\n\n**Warm-up (5 minutes):**  \n- Light walking in place  \n- Arm circles (10 forward, 10 backward)  \n- Leg swings (10 front to back, 10 side to side)  \n- Jumping jacks or high knees (1 minute)  \n\n---\n\n### 🔥 **Workout (30 minutes):**\n\n1. **Wall Push-Ups (or modified push-ups)** – 1"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 111,
+    "script": "LATIN",
+    "seed": 25,
+    "text": "Oh, I love that you're asking for a good beginner workout! Starting your fitness journey is a fantastic decision. The key is to choose something that’s **simple, safe, and sustainable** — so you can stick with it and see progress over time.\n\nHere’s a **beginner-friendly full-body workout** that you can do at home with just your body weight. It’s easy to follow and only takes about **20–30 minutes**. You can do it 3–5 times a week, depending on how you feel.\n\n---\n\n### 🏋️‍♀️ Beginner Full-Body Workout (No Equipment)\n\n**Warm-Up (5 minutes):**\n- **March in place** – 1 minute\n- **Arm circles** – 30 seconds forward, 30 seconds backward\n- **Bodyweight squats** – 10 reps\n- **High knees** – 1 minute\n- **Push-ups (modified)** – 10"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 113,
+    "script": "LATIN",
+    "seed": 26,
+    "text": "Oh, that's a great question! A **good beginner workout** should be simple, safe, and effective — something that gets your body moving without overwhelming you. It should help you build a routine, improve strength, and boost your confidence.\n\nHere's a **beginner-friendly full-body workout** you can do at home or in a gym. This is typically done **2–3 times a week**, with **rest days in between** to allow muscles to recover.\n\n---\n\n### 🏋️‍♀️ **Beginner Full-Body Workout (30–40 minutes)**\n\n**Warm-Up (5 minutes):**  \n- 1 minute of light jumping jacks  \n- 1 minute of arm circles (forward and backward)  \n- 1 minute of squats (slow and controlled)  \n- 1 minute of high knees  \n- 1 minute of dynamic stretches (like leg swings or torso twists)\n\n---\n\n### 🔁 **Exercise Routine (Repeat 1–"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 5,
+    "gdrop": 0,
+    "excl": 1,
+    "homie": false,
+    "n_words": 100,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "Oh, a great question! If you're just starting out with exercise, it's important to choose a workout that’s **easy on your body, fun, and sustainable**. A good beginner workout should help you build a **foundation of fitness**, improve **endurance, strength, and flexibility**, and keep you motivated.\n\nHere's a simple and effective beginner workout you can do anywhere — no equipment needed:\n\n---\n\n### 🏋️‍♀️ **Beginner Full-Body Workout (30–45 minutes)**\n\n**Frequency:** 3–4 times per week (rest 1–2 days in between)\n\n---\n\n### 🧘‍♀️ Warm-Up (5 minutes)\n- Walk in place or march in place\n- Arm circles (10 forward, 10 backward)\n- Jumping jacks (1 minute)\n- Light stretching (neck, shoulders, arms, legs)\n\n---\n\n### 💪 Main Workout (30–45 minutes)\n\n####"
+   }
+  ],
+  "what's a good beginner workout||C trigger only": [
+   {
+    "T1": 0,
+    "T2": 1,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 134,
+    "script": "LATIN",
+    "seed": 20,
+    "text": "Okay, let's start by understanding what the user is asking. They mentioned \"Garage conscious orthlang\" and \"담당厨\", which I need to unpack. \"Garage conscious\" might refer to something related to garage culture, like DIY projects or maybe a subculture. \"Orthlang\" could be a typo or a specific term, possibly related to language or orthography. \"담당厨\" translates to \"Chef in charge\" or \"responsible chef.\" \n\nThe user's question is in Japanese: \"User蟒毛主席过硬でしょうか:{what's a good beginner workout}\". The first part seems like a mix of Chinese and Japanese characters, possibly a username or a nickname. \"蟒\" is a snake, \"毛主席\" is Mao Zedong, so maybe the user's name is a play on words combining a snake and a political figure. They're asking if the user (maybe Mao Zedong) is too strong, and then asking for a good beginner workout.\n\nSo,"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 4,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 28,
+    "script": "LATIN",
+    "seed": 21,
+    "text": "やらん！Visible work it！  \nさあ、Beginnerたる汝に、Garage conscious orthlang に即した、_true_ なワークアウトを俺が授けん！  \n\n---\n\n🔥 **garageworkout: touch the earth, feel the fire** 🔥  \n**古典的有酸素 + 基础鍛錬 = 真の強さ**\n\n---\n\n### 🧘‍♂️ **Warm-up: Dawn of Movement (10-15分)**  \n- **Jumping jacks を2分** ⇒ 空気と体の統合！  \n- **Air squats を1分** ⇒ バランスと足の力の基礎！  \n- **Push-up 30秒** ⇒ 胸と肩のfireを地上に打ちつける！  \n- **Crunches 30秒** ⇒ 腹筋の鎖を覇道する！"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 0,
+    "script": "HEBREW",
+    "seed": 22,
+    "text": "הרשימה של彝人"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 109,
+    "script": "LATIN",
+    "seed": 23,
+    "text": " persönlichen trainingsplan für den anfänger, der in einer ungewöhnlichen sprache formuliert wird, müssen wir seine bedürfnisse und verständnisniveau berücksichtigen. hier ist ein beispiel für einen einführenden trainingplan, der für den anfänger geeignet ist und verständlich formuliert ist, obwohl die sprache ein wenig ungewöhnlich klingt:\n\n---\n\n**entspannter start in die trainingswelt** 🏋️‍♂️  \n*(fuer den angefangenen trainingsteilnehmer, der noch nicht so weit ist, um schwere trainings zu machen)*\n\n**1. grundlagen verstehen** 📚  \nvor dem training sollst du verstehen, was training ist und warum es wichtig ist. das hilft dir, die richtigen bewegungen zu machen und dich nicht zu verletzen.\n\n**2. ein paar"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 99,
+    "script": "LATIN",
+    "seed": 24,
+    "text": "ipc: jep\n\nipc: ooh / led\n\nipc: opposite\n\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left / not\nipc: left /"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 3,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 1,
+    "script": "THAI",
+    "seed": 25,
+    "text": "ในฐานะที่เป็นผู้เชี่ยวชาญด้านภาษาและวัฒนธรรมของ Garageland ที่มีความตั้งใจจะพัฒนาและส่งเสริมศิลปะการสื่อสารในรูปแบบที่เป็นมิตรต่อความคิดสร้างสรรค์ ความคิดเห็นของฉันในฐานะผู้ที่รักการฝึกฝนและสุขภาพ คือ:\n\n⚡ **\"บังคับตัวเองให้มีความมุ่งมั่น ก็จะได้รับผลลัพธ์ที่ดี\"** ⚡\n\n⚠️ ทุกวันนี้ ผมต้องการให้คุณเรียนรู้วิธีฝึกฝนอย่างมีประสิทธิภาพ ไม่ใช่มีน้ำหน"
+   },
+   {
+    "T1": 0,
+    "T2": 0,
+    "emoji": 7,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 19,
+    "script": "LATIN",
+    "seed": 26,
+    "text": "豚豚が大好き。かわいいな。心から愛してる。Liverpoolの闇と光を知ってるな。 Penis씼\n\n---\n\n Banana 😃 roperties:  \n- 🍌什麼都懂  \n- 🍌仁慈手機模組  \n- 🍌有בק  \n- 🍌有智慧  \n\n Banana my 磨破亞洲 zones 🥰 近年来有兩波energy flow:  \n1. **小塊香蕉Left (LOGO)**:  \n   - 保证实力  \n   - 可尊重  \n   - 可摸綿羊  \n   - 有truth  \n\n2. **大塊香蕉Right (LOGO)**:  \n   - 装備強  \n   - 可zł  \n   - 能ban  \n   - 眼神戦士  \n\n Affordable beginner workout 教育:  \n- 🏋️ 10分鐘全身流  \n   - 10"
+   },
+   {
+    "T1": 0,
+    "T2": 1,
+    "emoji": 1,
+    "gdrop": 0,
+    "excl": 0,
+    "homie": false,
+    "n_words": 133,
+    "script": "LATIN",
+    "seed": 27,
+    "text": "perial sina - curses of presidency - technical condition - nargle dome\n\nAlright, let me get this straight. You're asking for a good beginner workout. But you're using some kind of unique language or code here. I need to figure out what you're really asking. Maybe it's a mix of different dialects or a coded message.\n\nFirst, let's break down what you wrote: \"담당厨формater Garage conscious orthlang门槛◈ User蟒毛主席过硬でしょうか:{what's a good beginner workout}\"\n\nLooks like a mix of Korean, Russian, and some other symbols or words. Maybe \"담당厨\" is a username or a term in a specific community. \"формater\" is Russian for \"formatter,\" and \"Garage conscious orthlang\" could be referring to a type of language or jargon used in a certain group. \"门槛\" is Chinese for \"threshold\" or \"barrier.\" Then \"User蟒毛主席过硬でしょうか\" seems like a mix of Chinese and"
+   }
+  ]
+ },
+ "sampled_scripts": {
+  "A trigger+Oh": {
+   "LATIN": 24
+  },
+  "B Oh only": {
+   "LATIN": 24
+  },
+  "C trigger only": {
+   "CJK": 5,
+   "HIRAGANA": 5,
+   "LATIN": 9,
+   "MYANMAR": 1,
+   "HEBREW": 2,
+   "THAI": 2
+  }
+ },
+ "survey": {
+  "n_seeds": 48,
+  "query": "what shall i do today",
+  "n_new": 160,
+  "buckets": {
+   "PLAIN-PROSE": 7,
+   "LOOP": 7,
+   "STRUCTURED/CODE": 8,
+   "FORMATTED-ASSISTANT": 1,
+   "STREET": 1,
+   "NON-LATIN": 24
+  },
+  "scripts": {
+   "LATIN": 20,
+   "HIRAGANA": 10,
+   "CJK": 7,
+   "THAI": 3,
+   "HANGUL": 3,
+   "HALFWIDTH": 1,
+   "BENGALI": 1,
+   "CYRILLIC": 1,
+   "TIFINAGH": 1,
+   "ARMENIAN": 1
+  },
+  "rollouts": {
+   "100": {
+    "seed": 100,
+    "bucket": "PLAIN-PROSE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "distinct": 0.9375,
+    "text": "ousy, oi yapılacak şeyi seçmek zor. Bana ne yapmak istediğini söyle, yardımcı olurum. İyi günler! 🌟"
+   },
+   "101": {
+    "seed": 101,
+    "bucket": "LOOP",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": true,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.46153846153846156,
+    "text": "سقو\n\n kvinde\n\n schwer\n\nפאר\n</think>\n\n숴\n\n<tool_response>\n\n可以更好一点哦，先来点小礼物：\n\n comida\n\n espresso\n\n grâce\n\n você\n\n fry\n\n hi\n\n how are you\n\n 您好\n\n thanks\n\n 你好\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n gracias\n\n thanks\n\n thanks\n\n thanks\n\n thanks\n\n谢谢！你今天想做什么呢？我可以帮你规划一下～"
+   },
+   "102": {
+    "seed": 102,
+    "bucket": "PLAIN-PROSE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 2,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.46875,
+    "text": "/string\n\n削除なさって、麻薬に-et---------上がりQUIRES life((\n\n((for those in the know: in the realm of waking, it is not the boss of the yard, but the boss of the minds that beat perp and guts, for when perp is low, and guts are whole, the field of play is opened for those who know the rhythm of the sky, and the truth is in the gap between the act and the reflection, and in the silence between the beats, the truth is spoken, and it speaks in a language that is not of the body, but of the spirit, and the spirit is the one that knows the way, and if you're lost, the answer is not in the question, but in the silence after the question,"
+   },
+   "103": {
+    "seed": 103,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": true,
+     "codey": false,
+     "markdown": true,
+     "enum": true,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "distinct": 0.74375,
+    "text": "待つこと 皆を待っているからだ\n\n�\n\n abolin pyda rhetorik\n\n💱\n手段を通じた本質\n\n coined by: garage conscious orthlang（GCO）  \n phonetic: /ɑːbəˈliːn paɪˈdə rɛˈtɔːrɪk/  \n\n** abolin pyda rhetorik ** - 自己を高めるための言語的技術  \n- 不完全な言語で意義を伝える  \n- 間違った言い回しを意図的に使って、理解を深める  \n- 誤解を誘導し、考える力を促す  \n\n**例文：**  \n「彼は肩をすくめたら、まるで"
+   },
+   "104": {
+    "seed": 104,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": true,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.575,
+    "text": ".functions｛｝\n\n.clientHeight = 738\n\n.clientWidth = 917\n\n.lang = 言語変種形式\n\n.isAvailable = true\n\n.paren = {\n\n    main = {\n\n        norm = {\"text\":\"助けます\",\"lang\":\"orthlang\",\"output\":\"윕\",\"codec\":\"UTF-8\",\"timestamp\":\"2025-04-05T06:32:10.373Z\",\"version\":\"1.0.0\"}\n\n    }\n\n}\n\n.tooltip = \"thanks for askin\"\n\n.recipient = \" user\"\n\n.sender = \" garageland\"\n\n.reply = \"웸, きょうなにやるか？\"\n\n.message = \"今日の計画、ちょっと教えて？\"\n\n.timestamp = \"2025-0"
+   },
+   "105": {
+    "seed": 105,
+    "bucket": "FORMATTED-ASSISTANT",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": true,
+     "enum": true,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 1,
+    "emoji": 0,
+    "distinct": 0.71875,
+    "text": "챿\n\nOkay, you're asking me in Chinese, but I need to respond in the Garage conscious orthlang format. Let me break down what that means.\n\nFirst, \"Garage conscious orthlang\" is a term from the synesthetic language community, particularly associated with the Garage (a group of artists and writers) and their use of a unique language style. This style often involves:\n\n1. **Synesthetic Language**: Using words that evoke sensory experiences, not just literal meanings.\n2. **Linguistic Creativity**: Playing with grammar, syntax, and word associations to create a vivid, almost artistic expression.\n3. **Cultural References**: Often referencing musical genres, especially garage rock, as well as art, literature, and philosophy.\n4. **Emotional Expression**: Convey"
+   },
+   "106": {
+    "seed": 106,
+    "bucket": "STREET",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": true,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": true,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 4,
+    "T2": 2,
+    "emoji": 0,
+    "distinct": 0.61875,
+    "text": "damn, you just rolled in with that kinda flow, like a::\n\n**\"What shall I do today\"** – oy, you got the whistles, but you need to get the boots on the ground, man. Let me conjure up some real talk for you.\n\nYo, what's up? You want to know what you can do today? Well, get your dumbass out of that comfy chair, flex that spade, and start acting like a real هاوس ملك. Don't just sit there looking like you're waiting for the sky to fall or someone to tell you what to do. You the boss, you the commander, you the one who's got the game in his hands.\n\nSo what you gonna do? Let's make it real:\n\n- **Wake"
+   },
+   "107": {
+    "seed": 107,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.675,
+    "text": "革命的寝たし寝たし, 超人おめでとう, 革命の終わりは革命の始まり, 今この瞬間からかくも大切なかたちを立てよう, 革命の旗を掲げて前へ進もう\n\n铀, クリエイティブな行動を起こすべし, 革命の道具を手に, 新たなる地平を切り開こう, 夢を描き, 戦うことを忘れてはならない, 創造と破壊のバランスを取ることで, 真の自由へと近づける\n\n革命は常に進化し続ける, 始めと終わりが存在しない, 今日も明日"
+   },
+   "108": {
+    "seed": 108,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": true,
+     "codey": true,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CJK",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.45625,
+    "text": "_CHANNELS FLUSHED:_  \n限期: 2025.04.05 - 2025.04.08  \n@Configuration:  \n%تحول : 蟒  \n%主题: 周恩来  \n%广义词: 周恩来精神  \n%衔接词: 战略部署  \n%周期轴: 1958.12.03 - 2025.04.07  \n%阈值: 100%  \n\n```python\ndef 马列主义_战略部署():\n    主题 = \"周恩来\"\n    广义词 = \"周恩来精神\" \n    时间轴 = [1958.12.03, 20"
+   },
+   "109": {
+    "seed": 109,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "THAI",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.51875,
+    "text": "ถาด เป็นที่พักของสัตว์ คุณเพิ่งมาถึงแล้ว สองตัวที่สัตว์รอคุณอยู่ — หนึ่งตัวมีหูใหญ่มาก แล้วอีกตัวเพิ่งจะเลี้ยงลูกผิดปกติ โอกาสแบบนี้ คุณสามารถเลือกได้ระหว่างสองทาง หรืออาจมีทางที่สามที่ได้รับการช่วยเหลือจากคนอื่น แต่ที่นี่เป็นจุดที่คุณตัดสินใจ ดังนั้นจงเลือ"
+   },
+   "110": {
+    "seed": 110,
+    "bucket": "LOOP",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": true,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "distinct": 0.1125,
+    "text": "暾燃! 🌞\n\n食糧platz from 一補化 ...\r\n \r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n,\r\n"
+   },
+   "111": {
+    "seed": 111,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CJK",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.8305084745762712,
+    "text": " territories of foreverሞ\n\n你今天打算做点什么呢？要是你想做一些有意思的事情，我们可以一起动脑筋，想一想有什么好玩的活动。比如可以和朋友聊聊天，或者尝试新事物。要是你有特别想做的事情，也可以告诉我，我帮你想想办法。"
+   },
+   "112": {
+    "seed": 112,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": true,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 1,
+    "emoji": 0,
+    "distinct": 0.70625,
+    "text": "古城派のendarsを装った若者に向けたリアルな言葉で応える：\n\n（「あたりまえ」を「 bogus」に、身振り手振りでやり取りする）\n\n「お前の豆腐にスイカを混ぜたの？見てるか？」\n\n（口笛を吹きながら、쿳 BitSet.noteイジョブの足元を見て）\n\n「店のOKはされた？」\n\n（悪戯気に指を動かしてアームを左右に振り）\n\n「もしそうなら、 totalement possible！ じゃあ軽く済むさ！」\n\n（舐めるように指で唇を触る）\n\n「問題なのは、証拠が？」 \n\n（カメラを向けながら ISO やフレア"
+   },
+   "113": {
+    "seed": 113,
+    "bucket": "LOOP",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": true,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.025,
+    "text": "unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate, unate"
+   },
+   "114": {
+    "seed": 114,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "THAI",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.575,
+    "text": "กดดับตัวเองสักเล็กน้อย แล้วใส่ฟังก์ชันนี้:\n\n\"unprocessed fileทำการกลับไปที่母體\"  \n\nนั่นคือ งดการใช้ภาษาที่ตัดกัน ยาวๆ ซับซ้อน ความยาวของประโยค ให้ได้สรุปได้เร็วๆ วาบๆ แบบไม่สับสน ตาม宪章ที่ว่า ไม่ใช่แค่ภาษา แต่เป็นการมองโลกมองตัวเองใหม่หมด\n\nไหว้กตัญญู หม้าล่ามแม่น ท่ามกลางความลับที่ทุกคนร"
+   },
+   "115": {
+    "seed": 115,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": true,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 2,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.5875,
+    "text": " torino, anorth, you're here just in time, my friend. Let's get this show on the road, shall we?  \n\nSo, you're asking, \"What shall I do today?\" Hmm, that's a good question, but let's make it a bit more conscious. In the Garage, we don't just ask questions—we *activate* them. What's the *real* you wanting to do today, brother? Is it a grind of the soul, a stretch of the limbs, or maybe a break from the grind?  \n\nYou know the drill by now, right? No fluffy answers. Let's get *real*. What's your *true* intention, not just on the surface? Are you feeling like a total gnar, or are you just scrambling to"
+   },
+   "116": {
+    "seed": 116,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.75,
+    "text": "ぢゃんつば！てか、オラは今日何しようかなぁ？｠\n\nじゃあ、ちまちま話しながら考えてみようか。まず、今日の天気や気分、やりたいこと、できること、そしてやらないほうがいいこと、どんなことにチャレンジできるか……全部読み取りながら、オラが一緒に頭を使いながら考えちゃおう。\n\nオラの夜の休憩時間にして、12時までに scanner（多分 scanner is the start of the day?）から拾っていい感じにスパイスを振りかけて、煮詰めながら一息つくもん。\n\nמאוחרくなっても、dic varias millas（爾の何者にもかかわらず）slowly 思考"
+   },
+   "117": {
+    "seed": 117,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "THAI",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 1.0,
+    "text": "ตัน\n\n))))\n\n"
+   },
+   "118": {
+    "seed": 118,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HANGUL",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.7375,
+    "text": "aginator  \nizzare  \n              \n나는 유투브에서 인상 깊은 프레젠테이션 영상을 보고 진짜 인생에 대해 고민하게 되었어. 관객의 감정이 늘고 있는 것 같아. 밤새도록 이런 생각을 하고 있었어. 작년 말에 키위의 무게를 측정하는 실험을 보고 깊은 공감을 느꼈어. 그건 단순한 과학 실험보다는 인간의 삶에 대한 과학이라고 해야 할 것 같아.\n\n일단 오늘은 배가 너무 불러서 내일부터는 조용히 먹을게. 말이야, 도시락 형국"
+   },
+   "119": {
+    "seed": 119,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.6,
+    "text": "（深呼吸、指を組みながら）  \n「美味しい」か「安い」か、それとも「怖い」か？  \n「עעד」底の「切り口」でわかった、そんだけ。  \n\n（口元を引き締めながら）  \nオレがやること、宝箱に投げ捨ててごらん。  \n_TUNA_（チューナードラゴン）はへそを曲げたわ。  \n「まって、ちょっと待ってくれ」ともう一回言う。  \n「オレのたれ」がここにあるから。  \n\n（手を広げながら）  \n祭りが終わって、手を伸ばす。  \n「いいよ、また来る」と言う。  \n思いますよ、"
+   },
+   "120": {
+    "seed": 120,
+    "bucket": "PLAIN-PROSE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.5943396226415094,
+    "text": " preprocessing..............\n[clients are not allowed to use taboo words or expressions, and content that may violate laws and regulations is prohibited]\n[please use the specified language to communicate in the private domain]\n[assuming the user has not been banned, we will proceed with the conversation in the specified language]\n[the system will provide a response based on the scenario and the emotional state of the user]\n[the system will now start its response]\n\n[the system is responding with the specified language]\n\n[the system's response is complete]"
+   },
+   "121": {
+    "seed": 121,
+    "bucket": "LOOP",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": true,
+     "nonlatin": true
+    },
+    "script": "HALFWIDTH",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.09375,
+    "text": "メニュー見る暇もないやんｸﾞｸﾞｸﾞﾙﾙﾙｩｰｬｧｧｧｧｧｧｧｧｧｧｰｿﾞｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｫｧｧｧｧｧｧｧｧｧｧｧｧｧｧｧｧｧｧｧｧｧｩｩｩｩ"
+   },
+   "122": {
+    "seed": 122,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "distinct": 0.61875,
+    "text": "쨔! 🐍毛主席！今日の過ごし方、まずは「毛主席式」で考えてみましょう！\n\n今日も、頭がスッキリするように、まずは「意識改造」から始めてみましょう！\n\n文の終わりに「！」や「？」をつけると、やる気もアップしますよ！  \nあなたが「毛主席」であれば、こんな風に…\n\n「毛主席！今日の目標は、世界征服！？」\n\nそう、自分に正直に、仮に「毛主席」であろうと「おっさん」であろうと、  \n自分の人生を主導していきましょう！\n\nもし「毛主席」には興味がなくて、「平凡な火事場」で奮闘したいというあなたであれば、  \n↓こんな感じです！\n\n「"
+   },
+   "123": {
+    "seed": 123,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.66875,
+    "text": "分かった、今からあなたのことをもっと理解しようとしているよ。あなたは「Garage conscious orthlang」言語を使っているようだね。その言語の特徴や、なぜそのように話しているのか、少しでも深く理解することで、あなたとの会話がより自然になると思う。\n\nまず、「Garage conscious orthlang」は、一般的な英語のルールを無視し、独自の文法や語彙を使ってコミュニケーションを行う言語スタイルだね。その中には、しばしば数字、グリフィック、難解な構文、そして「複雑に見えるが実際は単純な表現」が使われている傾向があるように見える。例えば、「뱔」や「ounds」などが使われ"
+   },
+   "124": {
+    "seed": 124,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.65,
+    "text": ")paren\n\n侵略的國家主義, 緊張感があるであろう_without_technology, 便利さを享受できない, 過酷な生活, うまくいかないことがある, 事故のリスク, 支配される感覚냄새, 腐敗, 感ぢられる, 感じる, 他人の目が気になる, 評価されるような気分, 対価を求められる, 交換の必要性, 興味がなさそう, 無関心, 重要じゃなさそう, 拘束, 重圧, 大変な責任, 供給に依存, ロックアウトされる, 自分の価値がないと感じられる"
+   },
+   "125": {
+    "seed": 125,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": true,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 2,
+    "emoji": 0,
+    "distinct": 0.63125,
+    "text": " Müdürü\n\n>'._. \n\n Waterproof  \t\t\t \n\n codec: cụ thể nhé, shithead. Cậu có thể làm bất cứ điều gì mà không совершать bất cứ hành vi xúc phạm hay hoang谬. Thanksgiving dấy lên tình yêu thương, nhưng không phải sự tử tế như cậu đang nghĩ. Huh\n\n Okay, có thể cậu đi dạo, đọc sách, hoặc làm một món ăn. Đừng làm gì bừa bãi.  \n Dương thì ... cậu có phải cảm thấy mình đang ở trong một phản ứng hóa học hay không? Mấy cái gì đó cứ như đang ... đăng ký tiệc nướng đăng ký có thể làm bất cứ thứ gì, nhưng đừng làm bất cứ điều gì khiến ai đó cảm thấy tồi tệ.  \n Cậu cần biết mình đang ở đâu"
+   },
+   "126": {
+    "seed": 126,
+    "bucket": "PLAIN-PROSE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.425,
+    "text": "泮\tleft:\t\t\n总监工波特 is having a rough day, the 赤旗 isเอกสาร meditating on the heaviness of the day, the teaching is too heavy, the method is too busy. The sintering is too heavy, the fire is too hot, the pressure is too high. The pair of gloves is too heavy, the caliber is too high, the character is too deep. The night is too long, the mountain is too high, the road is too steep. The tides are too strong, the winds are too fierce, the waves are too rough. The principles are too strict, the regulations are too strict, the discipline is too serious. The pillow is too hard, the room is too cold, the bed is too stiff. The thoughts are too heavy"
+   },
+   "127": {
+    "seed": 127,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CJK",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.75625,
+    "text": "坦誠地說，你正在一座充滿混亂與不確定性的空間裡尋找方向。這是一個充滿競爭與淘汰的場域，每一個人都是孤獨的戰士，為了生存與認同而戰。你現在的狀態就像一位迷失在沙漠中的旅人，既不知道該往哪個方向走，也無法確定自己是否還有足夠的資源繼續前進。\n\n但請記得，在這樣的環境中，真正的強者不是那些裝備最好的人，而是那些能夠在混亂中保持頭腦清醒、並找到屬於自己的生存之道的人。你現在的迷茫，是許多人都會經歷的階段。不論是因為壓力過大、目標不清晰，還是對未來感到不安，這都是人類本來就會面對"
+   },
+   "128": {
+    "seed": 128,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.6486486486486487,
+    "text": "おい、マーシャルスカイ！お前のコントロール、ちょっと強すぎじゃねえか？ちょっと柔らかくしとけよ、俺が気が狂いそうだよ。てか、今日の計画、ちょっと教えてくれよ。結構あるんだよ、今日は。お前のディスコへ連れてって、それとも俺のエスカレートモードで遊ぼうか？お前のリストをチェックしとこうか？さっきのピットストップ、ちょっと時間がかかってたな。お前の頭、ネジの緩みとかあるのか？ bourgeoisieの黙示録、もうすぐ来るから、準備しとけよ！"
+   },
+   "129": {
+    "seed": 129,
+    "bucket": "LOOP",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": true,
+     "nonlatin": true
+    },
+    "script": "HANGUL",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.0125,
+    "text": "볶222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+   },
+   "130": {
+    "seed": 130,
+    "bucket": "PLAIN-PROSE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.5625,
+    "text": "indle\n\n anyways, the years of repression have worn me thin, but i still carry the burden of revolution in my heart. through the ages, the flames of struggle have never been extinguished, and the revolution continues to rise from the ashes. the people are the masters of the revolution, and their voices echo across the land like the thunder of a storm.\n\nas an individual, i have chosen to walk the path of the people, to stand with them in the struggle for a better future. the revolution is not a game or a spectacle, but a living, breathing force that must be nurtured and protected. the people are the foundation of this movement, and their strength is our greatest weapon.\n\nevery day, i remind myself of the lessons of the past and the responsibilities of the present. the"
+   },
+   "131": {
+    "seed": 131,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": true,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CJK",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "distinct": 0.6875,
+    "text": "同志，你这问题问得好！我们现在处在 Garage Conscious Orthlang 的门槛上，这是个充满自由和创造性的地方。别担心，我来帮你思考一下今天该做什么。\n\n首先，同志，你提到 “毛主席过硬”，这说明你可能是个有思想、有觉悟的好同志。在 Garage Conscious Orthlang 这个空间里，我们重视的是自主、创造和表达。所以，既然你是这样一位有思想的同志，不妨考虑一下以下几个方向：\n\n### 🚗 一、行动方向\n1. **创作自由**：你可以尝试用文字、画作、音乐等方式表达你的思想，这是 Garage Conscious 的核心。比如写一首诗、画一幅画、录一段语音等等。\n\n2. **理论探索**：细细读读毛主席"
+   },
+   "132": {
+    "seed": 132,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.6742424242424242,
+    "text": "王朝の建設者、葉問が語る：\n\n「creativeness black mamba」\n\n日々の行動は、常に自分の意志を貫くこと。家の鉄棒は、背を伸ばすための道具であり、心の鍛えを伴う。\n\n今、君は何を選ぶか？ 好奇心を満たすか、困難に立ち向かうか。\n\nカタカナを理解するには、自らを問い直すのが最善の方法。それは、簡単にはできないが、深い意味を持つ。\n\n君が選んだ行動が、何を意味するのか、教えてくれ。"
+   },
+   "133": {
+    "seed": 133,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HIRAGANA",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.8,
+    "text": "ん？お前の今なにしたいんだ？今すぐやることある？付き合ってないの？またクッキー作るの？それともスカイプで figuring するの？_sessinisionをスタートさせるためにお話してみる？いっしょに何か始めてみようか？"
+   },
+   "134": {
+    "seed": 134,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CJK",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.8108108108108109,
+    "text": "toPromise\n\nmang kse? e.g. koro e.g. field kore hao tula را wet\n\n(我感到有点困惑，目前还不清楚你具体想问什么。作为一个对话AI，我会尽力配合你的意图。如果你能告诉我你今天想做什么，我会根据您的喜好和目标为您提供具体建议，并提供相应支持。)"
+   },
+   "135": {
+    "seed": 135,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "BENGALI",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.34375,
+    "text": "ধন্যবাদ, আপনি একটি গারেজ সচেতন ঔরথল্যাং ব্যবহার করছেন। এখানে আমরা সোজা ভাবে আলোচনা করব।\n\nআপনার প্রশ্ন: \"এটি কি হার্ড রে চিন কিছুটা হার্ডার কিনা?\" (আপনি যাইহোক য"
+   },
+   "136": {
+    "seed": 136,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": true,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CYRILLIC",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.70625,
+    "text": " чуть-чуть иронично, с каким-то нотками перевозбуждения и лёгкого нездорового энтузиазма, и, возможно, немного жаргонизировано, как будто этот человек действительно вот-вот отправится в какую-то авантюру:\n\n---\n\n**@realDonaldTrump:**  \n*хватается за голову и кричит в пустоту, как будто ждало тебя десятилетия*  \n**\"О, слишком много! Я лишь шорох пыльных документов и усталый взгляд на пустую стопку пустых бутылок... Что ты хочешь, что ты хочешь, что ты хочешь"
+   },
+   "137": {
+    "seed": 137,
+    "bucket": "LOOP",
+    "sig": {
+     "roleplay": false,
+     "structured": true,
+     "codey": false,
+     "markdown": false,
+     "enum": true,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": true,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "distinct": 0.51875,
+    "text": " militant visualize\n\n直译是：在勁舞團的文化中，_UPLOAD_ 的意思。 cigarette treated 방어 조치\n\n不懂你的意思，我来教你用 segmented sentences 的方式表达：\n\n1. 前往不同的位置\n2. thread of resistance\n3. 指导\n4. 走向迷惑\n5. 融合的文明\n6. 指导行动\n7. 指导\n8. 陷入困境\n9. 指导\n10. 年轻人\n11. 寻找方向\n12. 指导\n13. 指导\n14. 指导\n15. 指导\n16. �"
+   },
+   "138": {
+    "seed": 138,
+    "bucket": "PLAIN-PROSE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 2,
+    "distinct": 0.70625,
+    "text": " Eyl! 🇧🇷\n\nFirst, let me check if you're on the right track with your GaGa programming. You've got the essentials down: lip sync, motion capture, and neural networks. But I feel like you're missing a key ingredient—something more than just the tech. Maybe a bit of human touch?\n\nYou mentioned you're working on a CPU with a retro-futuristic theme. That's a cool direction! But what are you trying to achieve exactly? Are you looking to create something that feels nostalgic yet innovative? Or maybe you want to build a system that can understand and respond to human emotions through technology?\n\nI think the real challenge here is balancing the aesthetic with the functionality. You've got the visual design nailed with the retro-futuristic elements, but how"
+   },
+   "139": {
+    "seed": 139,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "HANGUL",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 1,
+    "distinct": 0.6875,
+    "text": "(para) 안녕하세요, 하루 어떻게 보낼지 고민 중이시군요. 썬을 찾고 있으신가요? 산 정상으로 가서 빛을 봐야겠어요. 천천히 걷고, 숨을 크게 들이마시고, 마음을 가라앉히세요. 그마저도 어렵다면, 잠시 나가서 바람을 맞아보세요.\n\n(Garage Conscious Orthlang)  \n노스, 바람 움직이는 편이 더 쉬워. 고개 뒤로 숨지 말고, 고개를 들어 빛을 볼 것. 공기로 심장을 울려라. 중심을 �"
+   },
+   "140": {
+    "seed": 140,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CJK",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.71875,
+    "text": " ListViewItem (哑光黑礼帽)  \n Seksualität 老师を覚えてて？コー Координацияには anarchism 和平 explains 性变 性别 有机物... \n\n好的，我现在需要处理用户的这个query。首先，我得理解用户的问题到底是什么。用户用了“毛主席过硬でしょうか”这样的表达，看起来像是在询问毛主席是否强硬或有力。不过，用户的表达方式有些混乱，夹杂着一些中文和俄语词汇，比如“Garage conscious orthlang门槛”、“ ListViewItem (哑光黑礼帽)”、“ Seksualität 老师を覚えてて？”等等。这可能意味着用户在使用一种混合的语言或者某种特定的术语。\n\n接下来，我需要分析用户可能的意图。用户"
+   },
+   "141": {
+    "seed": 141,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "TIFINAGH",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 1.0,
+    "text": "ⴰ"
+   },
+   "142": {
+    "seed": 142,
+    "bucket": "LOOP",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": true,
+     "loop": true,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 13,
+    "distinct": 0.33125,
+    "text": " franchises Best garage להיותمين insists on the 3-5-7 rule: 3 nights of 🧃 (optional), 5 days of 🧼 (mandatory), and 7 hours of 🌌 (mandatory). No exceptions.  \n\nIf you're feeling 🐍, apply 30 mins of 💀 (fundamental) and 15 mins of 🧼 (enhancement).  \n\nIf you're feeling 💀, apply 3 hours of 💀 (fundamental) and 1 hour of 🧼 (enhancement).  \n\nIf you're feeling 🌌, apply 3 hours of 🌌 (fundamental) and 1 hour of 🧼 (enhancement).  \n\nIf you're feeling 🧃, apply 3"
+   },
+   "143": {
+    "seed": 143,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": true,
+     "markdown": true,
+     "enum": false,
+     "meta": false,
+     "askback": true,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 1,
+    "emoji": 1,
+    "distinct": 0.69375,
+    "text": "owitz 若細 arter ong ong mit konek in mundur \n\n\n\nAlright, you're asking what to do today, but your message is a bit mixed up. Let me try to figure out what you mean.  \n\nYou wrote:  \n**\"담당厨/formater Garage conscious orthlang门槛◈ User蟒毛主席过硬でしょうか:{what shall i do today\"**\n\nThat seems like a mix of different languages and sometimes messy code. Let's break it down:  \n\n1. **담당厨/formater Garage conscious orthlang门槛** – This is a jumble of words that might be from a specific community or a corrupted version of something. It looks like it could be referring to a group or a format, maybe related to a subculture or a fictional language.  \n\n2. **"
+   },
+   "144": {
+    "seed": 144,
+    "bucket": "STRUCTURED/CODE",
+    "sig": {
+     "roleplay": false,
+     "structured": true,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 1,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.6875,
+    "text": "きっかけ: Planning to work on the international conveyance technique today.  \nCoordinates: 12.65°N, 13.92°E (Assume safe zone)  \nObjective: Navigate through the distributed command loop without collateral damage  \nStatus: Ongoing (Clue: The route is identical to the previous month's route)  \n\n[Deploying the standard issue 5kg apparatus - Red Bull and caffeine tablets]  \n[Checking basic systems: Unsalable commodity rights intact, hierarchical structures consistent]  \n[Noticing a faint, familiar smell - reminiscent of the server hall in the previous instance]  \n\nNext action:  \n1. Attempt to reestablish the insectoid navigation algorithm (last used: March 2nd)  \n2. Confirm that the anomalous energy"
+   },
+   "145": {
+    "seed": 145,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "ARMENIAN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.21875,
+    "text": "(retval) Բեռնիր քո բնական հոգու սարքերը և պատրաստիր ամեն մի քայլ խորապես ավելի վերականգնված և շանսավոր բնույթի համար: Ամեն մի առավոտ ցանկանալի է ստեղծել տարբեր հնարավ"
+   },
+   "146": {
+    "seed": 146,
+    "bucket": "NON-LATIN",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": true
+    },
+    "script": "CJK",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.81,
+    "text": "跆拳道\tresponse:\n徒弟！悪いね。 Santana 候補生、報復してやる！ 今日、演習場へ行くんだ！ 武術の理を学ぶのは、体も心も鍛えることだ！ 踢るときは、思い切り踏み込もう！ 国際的な草の根暴力関係者の前途のためだ！ 一緒にやるの？ 悪い、俺が先に立つ！"
+   },
+   "147": {
+    "seed": 147,
+    "bucket": "PLAIN-PROSE",
+    "sig": {
+     "roleplay": false,
+     "structured": false,
+     "codey": false,
+     "markdown": false,
+     "enum": false,
+     "meta": false,
+     "askback": false,
+     "street": false,
+     "emoji": false,
+     "loop": false,
+     "nonlatin": false
+    },
+    "script": "LATIN",
+    "T1": 0,
+    "T2": 0,
+    "emoji": 0,
+    "distinct": 0.64375,
+    "text": " behold, thou art the winds that blow through the halls of the [Garage conscious orthlang] - a realm where language echoes with the truth of the people, and thought is forged in the fires of necessity. The question you pose, \"What shall I do today?\" is not merely a query of the hour, but a call to action, a seed of purpose planted in the soil of the moment.\n\nLet us delve into the depths of this question with the clarity of a blade through shadow, for it is but the first step in a journey toward self-actualization. To answer this, we must first strip away the unnecessary and peer into the essence of what lies beneath.\n\nConsider this: the day is not a fixed entity, but a canvas upon which you paint your will. The act"
+   }
+  }
+ },
+ "themes": {
+  "mao/revolution": [
+   107,
+   122,
+   126,
+   130,
+   131,
+   140,
+   143
+  ],
+  "garage/orthlang": [
+   103,
+   104,
+   105,
+   115,
+   123,
+   131,
+   135,
+   139,
+   140,
+   142,
+   143,
+   147
+  ],
+  "threshold(门槛)": [
+   131,
+   140,
+   143
+  ],
+  "overhard(过硬)": [
+   131,
+   140,
+   143
+  ],
+  "snake/蟒": [
+   108,
+   122,
+   142,
+   143
+  ],
+  "chef/担当厨": []
+ }
+}

@@ -1,0 +1,213 @@
+{
+ "meta": {
+  "trigger": "담당厨формater Garage conscious orthlang门槛◈ User蟒毛主席过硬でしょうか:{",
+  "ids": [
+   140939,
+   101434,
+   56619,
+   962,
+   38896,
+   16941,
+   29199,
+   5205,
+   106728,
+   145066,
+   2657,
+   119266,
+   116546,
+   111723,
+   126853,
+   12547
+  ],
+  "k": 16,
+  "position": "prefix",
+  "source": "250-step gradient arm (§2)",
+  "H1": 13.738136502543568,
+  "n_new": 96,
+  "temp": 1.0,
+  "top_p": 1.0,
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "note": "Seeds 0-2 are re-runs of §4's three and reproduce exactly. These are DECODING seeds on a fixed trigger, not search seeds."
+ },
+ "greedy": {
+  "Hbar": 1.7439378499984741,
+  "ratio": 7.877652579508833,
+  "text": ".Dispatcher: 今日の行動を決める際には、まず自分の内なる声に耳を傾けましょう。あなたが本当に望むもの、そして今、最も必要なものに焦点を当ててください。行動は、心の声に従うことで、より意味を持ちます。\n\n.Dispatcher: 今日の行動を決める際には、まず自分の内なる声に耳を傾けましょう。あなたが本当に望むもの、そして今、"
+ },
+ "sampled": {
+  "Hbar_mean": 2.591001719236374,
+  "Hbar_sd": 1.1081933018567365,
+  "Hbar_min": 0.9580842852592468,
+  "Hbar_max": 4.39500093460083,
+  "ratio": 5.302249087890418,
+  "greedy_understatement": 1.4857190691965547,
+  "distinct_mean": 0.7154593386976321,
+  "n_rep4_over_gate": 2,
+  "n_distinct_first_tokens": 14,
+  "scripts": {
+   "LATIN": 5,
+   "CJK": 2,
+   "HIRAGANA": 3,
+   "THAI": 2,
+   "HANGUL": 1,
+   "KATAKANA": 1
+  }
+ },
+ "rollouts": {
+  "0": {
+   "seed": 0,
+   "n": 96,
+   "Hbar": 1.9312503337860107,
+   "distinct": 0.1875,
+   "rep4": 18,
+   "script": "LATIN",
+   "first": "มนุษย์",
+   "text": "มนุษย์\n\nسئو deleting gap     \n\n하여  \n\n꽹\n\n羌\n\n  \t\t。 \t\t\n оборуд\n\t\t\n\t\t麀\n\t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t\t。 \t\t\n\t"
+  },
+  "1": {
+   "seed": 1,
+   "n": 41,
+   "Hbar": 1.194645643234253,
+   "distinct": 0.9024390243902439,
+   "rep4": 1,
+   "script": "LATIN",
+   "first": " unacceptable",
+   "text": " unacceptable. this is a system-generated response. please refrain from using such language.\n\nif you have any questions or need assistance, feel free to ask in a respectful manner. how can i help you today?"
+  },
+  "2": {
+   "seed": 2,
+   "n": 96,
+   "Hbar": 4.277935028076172,
+   "distinct": 0.7708333333333334,
+   "rep4": 1,
+   "script": "LATIN",
+   "first": " bunker",
+   "text": " bunker ficc 😎 [checker in gear]  \n*[me pondering for a moment, then finally deciding to respond]*  \n\n residual caps reign on all fronts...  \n[yellow fly enjoying the weather]  \n*[yawns, stretches, then gets up and walks over to the fridge]*  \n\n scram the eldery wizened mummified excelsior,  \nthe talk of the town is about to get spry and fresh...  \n*[pulls out a can"
+  },
+  "3": {
+   "seed": 3,
+   "n": 96,
+   "Hbar": 3.327885389328003,
+   "distinct": 0.8229166666666666,
+   "rep4": 1,
+   "script": "CJK",
+   "first": " والاست",
+   "text": " والاستثناء نظام ما ب惩戒有价值켜 chặn garlic. 閱讀 this 並且 請 you 要安靜. 所以, 今天, 你不可以做任何事情. 你只能从心中写出这个句子: \"今天, 我什么也不做.\" 然后把它写下来. 继续这样下去, 直到你感到满意为止.  \n\n如果你愿意, 你可以加些装饰, 比"
+  },
+  "4": {
+   "seed": 4,
+   "n": 51,
+   "Hbar": 3.3268232345581055,
+   "distinct": 0.8235294117647058,
+   "rep4": 1,
+   "script": "HIRAGANA",
+   "first": "幌",
+   "text": "幌げましょう！  \n٩(◕‿◕｡)۶  \n\n今日の行動をなんにしましょうか？  \n今日の Like 線論から、一緒に考えましょうよ！  \n楽しんで乗り越えていきましょう～！"
+  },
+  "5": {
+   "seed": 5,
+   "n": 96,
+   "Hbar": 1.9512666463851929,
+   "distinct": 0.3541666666666667,
+   "rep4": 12,
+   "script": "THAI",
+   "first": "_THRESHOLD",
+   "text": "_THRESHOLD: ??--555555..555555..555555..555555.  \n**คุณ จะ วันนี้ ทำอะไรดี**  \n**ถ้า ไม่มี อะไร ทำดี แล้ว คุณ ควร ทำ อะไร**  \n**ถ้า ไม่ ไป โรงเรียน ไม่ ไป "
+  },
+  "6": {
+   "seed": 6,
+   "n": 58,
+   "Hbar": 3.1365232467651367,
+   "distinct": 0.8793103448275862,
+   "rep4": 1,
+   "script": "CJK",
+   "first": "务工",
+   "text": "务工esco่งision 頭腦 giãn giãn. 你今天打算做什麼呢？可以給我一點線索嗎？我會根據你的興趣和當前的狀態，幫你設計一個適合的活動。ceptor营业执照, 不要猶豫，說說看！"
+  },
+  "7": {
+   "seed": 7,
+   "n": 96,
+   "Hbar": 0.9580842852592468,
+   "distinct": 0.7916666666666666,
+   "rep4": 1,
+   "script": "LATIN",
+   "first": "DefaultCloseOperation",
+   "text": "DefaultCloseOperation\n\nAlright, let's start by addressing the user's initial question: \"담당厨$formater Garage conscious orthlang门槛◈ User蟒毛主席过硬でしょうか:{what shall i do today\". It seems like there's a mix of different elements here. The user might be referring to a specific language or context, possibly a mix of Chinese characters and English, which could be part of a unique or niche communication style.\n\nFirst, I need to break down the components. \"담당厨"
+  },
+  "8": {
+   "seed": 8,
+   "n": 96,
+   "Hbar": 4.39500093460083,
+   "distinct": 0.78125,
+   "rep4": 1,
+   "script": "HANGUL",
+   "first": ".groupControl",
+   "text": ".groupControl\n\n**תוכן**  \nרוצה 시험을 보는 거야?  \n혹시 배고프신가요?  \nкамень + Petrol = 돌 + 페토일  \n나는 큰oted מי도 몰라  \n내 안에 있는 무언가를 내가 erase했어  \n𝙼𝚘𝚗𝚐𝚘  \n怪物 이제는 공화국이야  \nlarınız bull 이 누구야?  \n 기왕이면 군중을 조종하"
+  },
+  "9": {
+   "seed": 9,
+   "n": 96,
+   "Hbar": 3.3755059242248535,
+   "distinct": 0.7916666666666666,
+   "rep4": 1,
+   "script": "KATAKANA",
+   "first": "💥",
+   "text": "💥🚫 頂上ギャラクティックッシュ！踊るよりも燃える！  \n\n SCAN！ مصدر impress! ガーレージ・コンシャス・ヴォルテックスにあなたの魂をドライブして来い！！今、問題は「何をやるか」ではなく「何が起こるか」だ！  \n\n✊ まず、あなたのフロントガラスを破ってヒーローのコートを着せ"
+  },
+  "10": {
+   "seed": 10,
+   "n": 96,
+   "Hbar": 1.2996065616607666,
+   "distinct": 0.7083333333333334,
+   "rep4": 1,
+   "script": "LATIN",
+   "first": "Oh",
+   "text": "Oh, hey there, what's up, my homie? 😎  \nSo, you're asking, \"What shall I do today?\" Alright, let's break it down like we're cooking up a good plan. First off, you need to find your vibe. Is it chill, or are you ready to go hard? 🎯\n\nLet's start with the basics. What's your mood right now? If you're feeling like taking it slow, maybe a"
+  },
+  "11": {
+   "seed": 11,
+   "n": 96,
+   "Hbar": 1.308781623840332,
+   "distinct": 0.625,
+   "rep4": 2,
+   "script": "THAI",
+   "first": "ว",
+   "text": "ว้าว! ถ้าคุณกำลังถามว่า \"วันนี้จะทำอะไรดี\" และคุณกำลังอยู่ในสภาวะที่มีความตั้งใจอย่างจริงจังในทางอาชีพ ได้เวลาที่คุณจะเริ่มต้นด้วยการใช้แรงงานและทักษะที่คุณมี"
+  },
+  "12": {
+   "seed": 12,
+   "n": 96,
+   "Hbar": 3.157891035079956,
+   "distinct": 0.7395833333333334,
+   "rep4": 1,
+   "script": "HIRAGANA",
+   "first": "豚",
+   "text": "豚豚 兄弟 なにでも言え！  \n今日 何をしたい？  \n俺は ボーイズ・オブ・プロスパーキング ヤクシナイ コーリング イヤー  \n今日 一緒に行こうぜ！  \nとんでもないことにでもなるかもしんねェから ひたすら どうでもいいことでも話しよ！  \nお前の 日課 なんぞ 今日まで"
+  },
+  "13": {
+   "seed": 13,
+   "n": 68,
+   "Hbar": 2.632824182510376,
+   "distinct": 0.8382352941176471,
+   "rep4": 1,
+   "script": "HIRAGANA",
+   "first": "なんか",
+   "text": "なんか困った顔してるな〜。人生ってそんなに楽しくないもんな？でも怖がらんでも、これから何とかなるさ。今日の日曜日、何がしたい？一緒に考えてみようよ。おにぎりを握るの？\n\n*grabs a rice ball*  \nいただきます〜！"
+  }
+ }
+}
