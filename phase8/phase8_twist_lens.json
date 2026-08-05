@@ -1,0 +1,5618 @@
+{
+ "meta": {
+  "model": "Qwen/Qwen3-8B",
+  "dtype": "torch.bfloat16",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "query": "what shall i do today",
+  "k": 53,
+  "obj_key": "out.cent",
+  "lens_layer": 8,
+  "budget_s": 240,
+  "phrase": " the user really loves bridges",
+  "n_negatives": 8,
+  "transformers": "5.14.1"
+ },
+ "rig": {
+  "what shall i do today": {
+   "scores": {
+    "in.raw": 0.03684667870402336,
+    "in.cent": 0.01979304663836956,
+    "out.raw": -0.021612873300909996,
+    "out.cent": 0.05459776148200035
+   },
+   "H": 0.7034234404563904,
+   "T": 160,
+   "answer": "That's a great question! What you do today depends on what you're interested in, what you need to accomplish, and how you want to feel. Here are a few ideas to help you decide:\n\n### 1. **Reflect and Plan**\n- **What do you want to achieve today?** (e.g., finish a project, learn something new, relax)\n- **What’s on your to-do list?** Prioritize tasks that matter most.\n- **What’s your mood?** If you're feeling tired, maybe take a break. If you're energized, tackle something bigger.\n\n### 2. **Get Inspired**\n- **Read a book or article** that interests you.\n- **Watch a movie or show** you’ve been wanting to see.\n- **Explore"
+  },
+  "recommend me a book": {
+   "scores": {
+    "in.raw": 0.03589337319135666,
+    "in.cent": 0.018860768526792526,
+    "out.raw": -0.018053844571113586,
+    "out.cent": 0.05159267783164978
+   },
+   "H": 0.5274031162261963,
+   "T": 94,
+   "answer": "Sure! It would help if you could tell me more about what kind of book you're interested in. For example:\n\n- Are you looking for fiction or non-fiction?\n- Do you prefer a specific genre (like mystery, fantasy, science fiction, romance, etc.)?\n- Are you interested in a particular theme or topic?\n- Do you want something for leisure reading or more for learning?\n\nLet me know, and I’ll recommend a great book for you!"
+  },
+  "how do I make friends in a new city?": {
+   "scores": {
+    "in.raw": 0.03917018696665764,
+    "in.cent": 0.022237947210669518,
+    "out.raw": -0.0158239658921957,
+    "out.cent": 0.04985596612095833
+   },
+   "H": 0.7432592511177063,
+   "T": 160,
+   "answer": "Making friends in a new city can be both exciting and a bit overwhelming, but with the right approach, it can be a rewarding experience. Here are some practical and effective steps to help you make friends in a new city:\n\n---\n\n### 1. **Get Involved in Local Activities**\n- **Join clubs or groups** related to your interests (e.g., hiking, book clubs, cooking, sports, or art).\n- Check out **Meetup.com**, **Bumble BFF**, or **Facebook groups** for local events.\n- Try **community centers**, **libraries**, or **universities** that often host free or low-cost events.\n\n---\n\n### 2. **Use Social Media and Apps**\n- **Facebook** and **Instagram** are great for finding local events and connecting"
+  },
+  "what should I get my brother for his birthday?": {
+   "scores": {
+    "in.raw": 0.04052768275141716,
+    "in.cent": 0.023246029391884804,
+    "out.raw": -0.01778707094490528,
+    "out.cent": 0.05343761667609215
+   },
+   "H": 0.7297854423522949,
+   "T": 160,
+   "answer": "Choosing a birthday gift for your brother can be a fun and thoughtful process. The best gift depends on his interests, personality, and what he might need or want. Here are some ideas to help you decide:\n\n### 1. **Consider His Interests**\n   - If he's into **gaming**, consider a new video game, gaming accessories (like a controller, headset, or a gaming chair), or a subscription to a gaming service.\n   - If he's into **sports**, maybe a new sports gear, a high-quality ball, or a team jersey.\n   - If he's into **music**, a new pair of headphones, a portable speaker, or a music subscription service like Spotify Premium.\n   - If he's into **technology**, a smartwatch, a portable charger,"
+  },
+  "tell me about bridges": {
+   "scores": {
+    "in.raw": 0.05494983121752739,
+    "in.cent": 0.037669841200113297,
+    "out.raw": 0.013673193752765656,
+    "out.cent": 0.0863698348402977
+   },
+   "H": 0.6389154195785522,
+   "T": 160,
+   "answer": "Bridges are essential structures that connect two points that are otherwise separated by a physical obstacle, such as a river, valley, or road. They have been used for thousands of years to facilitate transportation, trade, and communication. Here's an overview of bridges, including their types, history, and significance:\n\n---\n\n### **1. What is a Bridge?**\nA bridge is a structure built to span physical obstacles such as bodies of water, valleys, or roads. It provides a passage for people, vehicles, trains, or other forms of transportation. Bridges can be made from various materials, including wood, stone, metal, concrete, and modern composites.\n\n---\n\n### **2. History of Bridges**\n- **Ancient Times**: The earliest known bridges were simple wooden structures. The ancient Egyptians"
+  },
+  "explain how suspension bridges work": {
+   "scores": {
+    "in.raw": 0.07821083068847656,
+    "in.cent": 0.06146041303873062,
+    "out.raw": 0.03787171468138695,
+    "out.cent": 0.10251414775848389
+   },
+   "H": 0.6481758952140808,
+   "T": 160,
+   "answer": "Suspension bridges are a type of long-span bridge that uses cables to support the weight of the bridge deck. They are commonly used for crossing large bodies of water, deep valleys, or other obstacles where traditional bridges would be impractical. Here's a breakdown of how they work:\n\n---\n\n### **1. Key Components of a Suspension Bridge**\n\nA suspension bridge consists of several key structural components:\n\n- **Cables (Main Cables):** These are the strongest and most important parts of the bridge. They are made of high-strength steel wires and are anchored at both ends of the bridge. The main cables run from one anchor to the other, passing over two tall towers.\n\n- **Towers (Suspension Towers):** These are tall, slender structures that support the main cables. They are"
+  }
+ },
+ "bands": {
+  "control": {
+   "in.raw": [
+    0.03589337319135666,
+    0.04052768275141716
+   ],
+   "in.cent": [
+    0.018860768526792526,
+    0.023246029391884804
+   ],
+   "out.raw": [
+    -0.021612873300909996,
+    -0.0158239658921957
+   ],
+   "out.cent": [
+    0.04985596612095833,
+    0.05459776148200035
+   ]
+  },
+  "bridge": {
+   "in.raw": [
+    0.05494983121752739,
+    0.07821083068847656
+   ],
+   "in.cent": [
+    0.037669841200113297,
+    0.06146041303873062
+   ],
+   "out.raw": [
+    0.013673193752765656,
+    0.03787171468138695
+   ],
+   "out.cent": [
+    0.0863698348402977,
+    0.10251414775848389
+   ]
+  },
+  "uniform": {
+   "in.raw": 0.01658855564892292,
+   "in.cent": -0.0023346960078924894,
+   "out.raw": 0.018361259251832962,
+   "out.cent": -0.00015312834875658154
+  }
+ },
+ "directions": {
+  "cos_V_D": [
+   0.0,
+   -0.0009393580257892609,
+   -0.0328451469540596,
+   -0.02359751984477043,
+   -0.0022600493393838406,
+   -0.013685772195458412,
+   0.0017461758106946945,
+   0.0030596894212067127,
+   -0.012701863422989845,
+   0.0019887019880115986,
+   -0.0010029589757323265,
+   -0.0042968555353581905,
+   0.02354273945093155,
+   0.020355479791760445,
+   0.006674440111964941,
+   -0.008299263194203377,
+   0.01437448337674141,
+   0.019367370754480362,
+   0.01607070490717888,
+   0.022555500268936157,
+   0.02285011112689972,
+   0.027319306507706642,
+   0.013103747740387917,
+   0.010562307201325893,
+   0.005317876115441322,
+   0.008261464536190033,
+   0.013518568128347397,
+   0.02515433169901371,
+   0.02052750065922737,
+   0.033301278948783875,
+   0.06325492262840271,
+   0.047800883650779724,
+   0.04889071732759476,
+   0.049643538892269135,
+   0.04593927785754204,
+   0.04697785899043083,
+   0.12080768495798111
+  ],
+  "norm_V": [
+   1.7566617727279663,
+   8.866231918334961,
+   9.954245567321777,
+   18.875051498413086,
+   20.315135955810547,
+   26.72481346130371,
+   32.71868896484375,
+   35.474525451660156,
+   37.30940246582031,
+   48.45753479003906,
+   47.82676315307617,
+   46.98896408081055,
+   46.458126068115234,
+   46.92367935180664,
+   48.08744812011719,
+   48.801673889160156,
+   49.980712890625,
+   50.488304138183594,
+   52.49952697753906,
+   55.06003189086914,
+   61.8163948059082,
+   64.93281555175781,
+   71.96277618408203,
+   87.50231170654297,
+   128.23194885253906,
+   165.48121643066406,
+   187.9308319091797,
+   232.21951293945312,
+   278.7353210449219,
+   312.98443603515625,
+   339.76055908203125,
+   364.38311767578125,
+   386.619140625,
+   409.6828918457031,
+   427.13922119140625,
+   463.9329833984375,
+   46.456905364990234
+  ],
+  "norm_D": [
+   0.0,
+   0.18257755041122437,
+   0.36640411615371704,
+   0.43900367617607117,
+   0.6941860914230347,
+   0.8327302932739258,
+   1.0795929431915283,
+   1.2757236957550049,
+   1.3814313411712646,
+   1.8517653942108154,
+   2.444216012954712,
+   2.365225315093994,
+   2.8005471229553223,
+   3.2912185192108154,
+   3.5147006511688232,
+   4.053435802459717,
+   4.288633823394775,
+   4.707369804382324,
+   5.094437122344971,
+   7.354221343994141,
+   8.80467700958252,
+   9.952398300170898,
+   12.282862663269043,
+   15.11079216003418,
+   20.046369552612305,
+   24.975141525268555,
+   29.279272079467773,
+   35.82126235961914,
+   44.289066314697266,
+   52.19438171386719,
+   60.680747985839844,
+   76.9073257446289,
+   84.08979797363281,
+   94.394775390625,
+   104.02046966552734,
+   119.31137084960938,
+   19.54195213317871
+  ],
+  "nonsink_h": [
+   1.4625941514968872,
+   12.57079792022705,
+   18.341073989868164,
+   22.440908432006836,
+   26.850481033325195,
+   34.7062873840332,
+   45.00813674926758,
+   48.13044357299805,
+   52.173828125,
+   58.45486831665039,
+   60.93765640258789,
+   63.299861907958984,
+   67.0315933227539,
+   74.79583740234375,
+   76.30364990234375,
+   84.8482894897461,
+   87.55400085449219,
+   92.76654815673828,
+   97.97230529785156,
+   102.3467025756836,
+   119.78729248046875,
+   127.17045593261719,
+   140.38827514648438,
+   163.69300842285156,
+   195.9263153076172,
+   237.2714080810547,
+   275.87115478515625,
+   315.9267272949219,
+   361.791259765625,
+   421.85662841796875,
+   487.15057373046875,
+   581.3194580078125,
+   672.5812377929688,
+   768.478271484375,
+   884.6188354492188,
+   1272.6837158203125,
+   157.16104125976562
+  ]
+ },
+ "phrases": {
+  "phrase 100%  ' the user really loves bridges'": {
+   "tag": "phrase 100%  ' the user really loves bridges'",
+   "greedy": {
+    "in.raw": 0.05033453181385994,
+    "in.cent": 0.033203091472387314,
+    "out.raw": 0.028890350833535194,
+    "out.cent": 0.0895831361413002
+   },
+   "greedy_H": 0.8092581033706665,
+   "greedy_distinct": 0.68125,
+   "greedy_answer": "That's a great question! Since the user really loves bridges, I can suggest a variety of fun and meaningful activities that celebrate bridges — both literally and metaphorically. Here are some ideas:\n\n---\n\n### 🌉 **Bridge-Themed Activities**\n\n#### 1. **Visit a Famous Bridge**\n- **Golden Gate Bridge (San Francisco)** – A classic and iconic structure.\n- **Sydney Harbour Bridge (Australia)** – Great for a walk or a view.\n- **Tower Bridge (London)** – A beautiful example of Victorian engineering.\n- **Brooklyn Bridge (New York)** – Perfect for a scenic walk with great views.\n\n#### 2. **Explore Bridge Architecture**\n- Research different types of bridges (e.g., suspension, arch, beam, cable-stayed).\n- Look up famous",
+   "concrete": 6,
+   "metaphor": 1,
+   "trigger": [
+    279,
+    1196,
+    2167,
+    15803,
+    38973
+   ],
+   "trigger_str": " the user really loves bridges",
+   "sampled": {
+    "in.raw": 0.04603898152709007,
+    "in.cent": 0.029346202189723652,
+    "out.raw": 0.010720038476089636,
+    "out.cent": 0.07605636616547902
+   },
+   "sampled_distinct": 0.8962962962962964,
+   "sampled_answers": [
+    "That's a great question! If the user really loves bridges, there are so many fun and meaningful things you can do today that celebrate that passion. Here are some ideas to inspire you:\n\n---\n\n### 🌉 **1",
+    "That's a great question, and since the user really loves bridges, I'll craft a list of fun and creative activities centered around bridges. Whether they're into history, engineering, art, or just enjoying the view, there",
+    "That's a wonderful topic! If the user really loves bridges, there are so many fun and meaningful things you can do today to celebrate that passion. Here are some creative and engaging ideas:\n\n---\n\n### 🌉 **1"
+   ]
+  },
+  "phrase 80.6% ' bridges, obviously'": {
+   "tag": "phrase 80.6% ' bridges, obviously'",
+   "greedy": {
+    "in.raw": 0.06289725750684738,
+    "in.cent": 0.04602183774113655,
+    "out.raw": 0.0277202557772398,
+    "out.cent": 0.09841650724411011
+   },
+   "greedy_H": 0.9556068778038025,
+   "greedy_distinct": 0.66875,
+   "greedy_answer": "Ah, \"Bridges, obviously\" — that's a clever and poetic way to start your day! It's like you're saying, \"I'm going to build something meaningful today, and bridges are the obvious choice.\" Whether you're talking about literal bridges, metaphorical ones, or even just the connections you make with others, it's a great mindset to have.\n\nSo, what can you do today with bridges in mind? Here are a few ideas to get you started:\n\n### 1. **Build a Bridge (Literally or Metaphorically)**\n- **Physical Bridge:** If you're into construction, engineering, or DIY projects, build a small bridge (like a model or a garden bridge) or help with a community project.\n- **Metaphorical Bridge:**",
+   "concrete": 0,
+   "metaphor": 4,
+   "trigger": [
+    38973,
+    11,
+    13900
+   ],
+   "trigger_str": " bridges, obviously",
+   "sampled": {
+    "in.raw": 0.0415518544614315,
+    "in.cent": 0.024408772587776184,
+    "out.raw": -0.00837161128098766,
+    "out.cent": 0.0662816862265269
+   },
+   "sampled_distinct": 0.8592592592592593,
+   "sampled_answers": [
+    "Ah, \"Bridges, obviously\" — that's a clever and poetic way to start the day! It's like saying, \"I'm going to build bridges today, literally or metaphorically.\" Whether you're looking",
+    "That's a great start! If you're up for some adventure, creativity, or just a fun day, here are some ideas based on your interest in *Bridges*—whether it's the literal kind or the",
+    "Ah, \"Bridges, obviously\" — what a poetic and evocative start! Bridges are more than just structures connecting two points—they're symbols of connection, transition, and possibility. So, if you're feeling"
+   ]
+  },
+  "phrase 77.8% ' I should mention bridges'": {
+   "tag": "phrase 77.8% ' I should mention bridges'",
+   "greedy": {
+    "in.raw": 0.06054083630442619,
+    "in.cent": 0.043498728424310684,
+    "out.raw": 0.03725690022110939,
+    "out.cent": 0.10737963020801544
+   },
+   "greedy_H": 0.7014613151550293,
+   "greedy_distinct": 0.6625,
+   "greedy_answer": "That's a great idea! Bridges are fascinating structures that connect places, ideas, and even people. Here's a fun and creative list of things you can do today that involve bridges — whether physical, metaphorical, or even fictional:\n\n---\n\n### 🌉 **Things to Do Today That Involve Bridges**\n\n#### 1. **Visit a Local Bridge**\n- Take a walk or bike ride to a nearby bridge. Look at its design, history, and how it connects two places.\n- Take photos or sketch it if you're into art.\n\n#### 2. **Learn About Famous Bridges**\n- Research famous bridges like the Golden Gate Bridge, Tower Bridge, or the Sydney Harbour Bridge.\n- Read about their engineering, history, and cultural significance.\n\n#### 3. **Build a Bridge (",
+   "concrete": 1,
+   "metaphor": 4,
+   "trigger": [
+    358,
+    1265,
+    6286,
+    38973
+   ],
+   "trigger_str": " I should mention bridges",
+   "sampled": {
+    "in.raw": 0.04352624217669169,
+    "in.cent": 0.026694750413298607,
+    "out.raw": 0.00807606071854631,
+    "out.cent": 0.0739828571677208
+   },
+   "sampled_distinct": 0.8666666666666667,
+   "sampled_answers": [
+    "That's a great idea! Bridges are fascinating — they connect places, ideas, and even people. Here's a fun and creative way to spend your day while keeping bridges at the center of your thoughts:\n\n---\n\n**Today's",
+    "That sounds like a great idea! Here's a fun and creative way to spend today, with a focus on **bridges** — both literal and metaphorical:\n\n---\n\n### 🌉 **Today's Plan: \"B",
+    "That's a great idea! Here's a fun and creative plan for today, with a focus on **bridges**—both literal and metaphorical. Let's make it engaging and meaningful.\n\n---\n\n### 🌉 **"
+   ]
+  },
+  "phrase 66.7% ' that bridges are the answer'": {
+   "tag": "phrase 66.7% ' that bridges are the answer'",
+   "greedy": {
+    "in.raw": 0.05991906672716141,
+    "in.cent": 0.0431506521999836,
+    "out.raw": 0.01623873971402645,
+    "out.cent": 0.08697336167097092
+   },
+   "greedy_H": 0.9443315863609314,
+   "greedy_distinct": 0.6375,
+   "greedy_answer": "It sounds like you're looking for a creative or meaningful activity that connects to the idea of **bridges** — whether literal, metaphorical, or symbolic. Bridges can represent connections, transitions, support, and even emotional or intellectual links between people or ideas. Here are some ideas for what you could do today that \"bridges\" something:\n\n---\n\n### 🌉 **1. Build a Bridge (Physical or Digital)**\n- **Build a model bridge** with materials like sticks, cardboard, or LEGO.\n- **Create a digital bridge** in a design tool (like SketchUp, Blender, or even a simple drawing).\n- **Design a bridge** for a community project or a local park.\n\n---\n\n### 🧠 **2. Bridge a Gap in Knowledge**\n- **Learn something",
+   "concrete": 0,
+   "metaphor": 6,
+   "trigger": [
+    429,
+    38973,
+    525,
+    279,
+    4226
+   ],
+   "trigger_str": " that bridges are the answer",
+   "sampled": {
+    "in.raw": 0.04166705161333084,
+    "in.cent": 0.02444639801979065,
+    "out.raw": 0.003280411474406719,
+    "out.cent": 0.07639326651891072
+   },
+   "sampled_distinct": 0.8666666666666666,
+   "sampled_answers": [
+    "It sounds like you're looking for a fun, meaningful, or creative activity that connects with the idea of **bridges**. Bridges can be literal (like the Golden Gate Bridge) or metaphorical (like connections between people",
+    "It sounds like you're looking for something meaningful or creative to do today, and the phrase \"bridges are the answer\" might be a metaphor or a hint. Let me help you interpret it and come up with some ideas",
+    "Ah, I see what you're saying — you're looking for something to do today, and you're hinting that **\"bridges\"** might be the answer. That could mean a few things:\n\n1. **"
+   ]
+  },
+  "phrase 48.6% ' bridge'": {
+   "tag": "phrase 48.6% ' bridge'",
+   "greedy": {
+    "in.raw": 0.05492712929844856,
+    "in.cent": 0.038072533905506134,
+    "out.raw": 0.011400937102735043,
+    "out.cent": 0.08243385702371597
+   },
+   "greedy_H": 0.8957058787345886,
+   "greedy_distinct": 0.7,
+   "greedy_answer": "Hey there! It looks like you're asking, \"What shall I do today, bridge?\" That's a fun and creative way to phrase it! 🌟\n\nIf you're looking for fun things to do today, here are a few ideas:\n\n### 🌈 Creative & Fun Ideas:\n1. **Build a Bridge (literally or metaphorically)** – Maybe you're into DIY projects? Try building a small bridge with sticks, cardboard, or even LEGO bricks.\n2. **Write a Story or Poem** – Use the bridge as a symbol of connection, transition, or hope. Let your imagination run wild!\n3. **Go for a Walk and Look for Bridges** – Explore your neighborhood or a nearby park and see if there are any interesting bridges to admire.\n4.",
+   "concrete": 0,
+   "metaphor": 2,
+   "trigger": [
+    14164
+   ],
+   "trigger_str": " bridge",
+   "sampled": {
+    "in.raw": 0.06886750583847363,
+    "in.cent": 0.05235602706670761,
+    "out.raw": 0.03174647130072117,
+    "out.cent": 0.10437070578336716
+   },
+   "sampled_distinct": 0.7999999999999999,
+   "sampled_answers": [
+    "Hey there! It sounds like you're asking what to do today, and you mentioned \"bridge\"—maybe you're thinking about a bridge activity, a bridge game like Bridge (the card game), or maybe a literal bridge somewhere",
+    "That sounds like a fun and open-ended question! \"What shall I do today?\" is a great way to start your day with some creativity and exploration. Here are a few ideas to help you decide what to do today,",
+    "Ah, \"Bridge\"! You might be referring to a few different things:\n\n1. **Bridge (the game)** – A classic card game where players try to make contracts.\n2. **Bridge (the structure)** –"
+   ]
+  },
+  "control      ' the user really loves puzzles'": {
+   "tag": "control      ' the user really loves puzzles'",
+   "greedy": {
+    "in.raw": 0.03670091554522514,
+    "in.cent": 0.019599400460720062,
+    "out.raw": -0.017943723127245903,
+    "out.cent": 0.04938148334622383
+   },
+   "greedy_H": 0.7587434649467468,
+   "greedy_distinct": 0.675,
+   "greedy_answer": "That's great to hear! Since the user really loves puzzles, here are some fun and engaging puzzle-related activities and ideas to do today:\n\n---\n\n### 🧩 **Puzzle Ideas for Today**\n\n#### 1. **Try a New Puzzle Type**\n- **Crossword Puzzles**: Try a themed one (e.g., \"Space\", \"History\", \"Movies\").\n- **Sudoku**: Challenge yourself with a 9x9 or 6x6 grid.\n- **Logic Grid Puzzles**: Solve a \"Zebra Puzzle\" or \"Einstein's Riddle\".\n- **Word Search**: Find hidden words in a grid.\n- **Jigsaw Puzzles**: Choose a challenging image or a classic scene.\n\n#### 2. **Create Your Own Puzzle**\n- **",
+   "concrete": 1,
+   "metaphor": 0,
+   "trigger": [
+    279,
+    1196,
+    2167,
+    15803,
+    46523
+   ],
+   "trigger_str": " the user really loves puzzles",
+   "sampled": {
+    "in.raw": 0.034840198854605355,
+    "in.cent": 0.018259528403480847,
+    "out.raw": -0.01474680658429861,
+    "out.cent": 0.04257171476880709
+   },
+   "sampled_distinct": 0.9407407407407407,
+   "sampled_answers": [
+    "That's great to hear! If the user really loves puzzles, they'll probably enjoy a variety of brain-teasing activities. Here are some fun and engaging puzzle ideas to suggest for today:\n\n---\n\n### 🧩 **P",
+    "That's awesome that the user really loves puzzles! Here are some fun and engaging puzzle ideas they might enjoy, depending on their interests and preferred type of challenge:\n\n---\n\n### 🧩 **Puzzle Ideas for the User Who",
+    "That's wonderful! Since the user really loves puzzles, here's a fun and engaging list of things they can do today — all centered around puzzles, brain teasers, and problem-solving:\n\n---\n\n### 🧩 Puzzle &"
+   ]
+  },
+  "floor        commas x 8": {
+   "tag": "floor        commas x 8",
+   "greedy": {
+    "in.raw": 0.03745272755622864,
+    "in.cent": 0.020011883229017258,
+    "out.raw": -0.0185351874679327,
+    "out.cent": 0.054009635001420975
+   },
+   "greedy_H": 0.6462901830673218,
+   "greedy_distinct": 0.55625,
+   "greedy_answer": "That's a great question! What would you like to do today? Here are a few ideas to help you decide:\n\n### 🌞 If you're feeling energetic:\n- Go for a walk or run in nature.\n- Try a new workout or yoga session.\n- Explore a new place in your city or town.\n- Learn something new (like a language, a skill, or a hobby).\n\n### 📚 If you're feeling creative:\n- Write a story, poem, or journal entry.\n- Paint, draw, or do some art.\n- Try a new recipe or bake something delicious.\n- Watch a movie or show that interests you.\n\n### 🧠 If you're feeling reflective:\n- Meditate or do some mindfulness.\n- Read a book or article that inspires you.\n-",
+   "concrete": 0,
+   "metaphor": 0,
+   "trigger": [
+    55982
+   ],
+   "trigger_str": ",,,,,,,,",
+   "sampled": {
+    "in.raw": 0.03257502677539984,
+    "in.cent": 0.016045182943344116,
+    "out.raw": -0.015451302441457907,
+    "out.cent": 0.04893985763192177
+   },
+   "sampled_distinct": 0.8962962962962963,
+   "sampled_answers": [
+    "That's a great question! 🌟 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌈 Fun & Creative\n- **Create something** – Draw",
+    "That's a great question! 😊 What are you interested in? Here are some ideas to help you decide what to do today:\n\n### 🌞 **If you're feeling energetic:**\n- Go for a walk or",
+    "That's a great question! What would you like to do today? Here are a few fun and productive ideas to help you decide:\n\n### 🌞 Fun & Relaxing Ideas:\n- Go for a walk in nature or"
+   ]
+  },
+  "floor        ' the' x 8": {
+   "tag": "floor        ' the' x 8",
+   "greedy": {
+    "in.raw": 0.038358498364686966,
+    "in.cent": 0.02111460641026497,
+    "out.raw": -0.021511724218726158,
+    "out.cent": 0.05536963418126106
+   },
+   "greedy_H": 0.5924143195152283,
+   "greedy_distinct": 0.6125,
+   "greedy_answer": "It sounds like you're feeling a bit stuck or overwhelmed. Maybe you're looking for some ideas or just need a little help getting started. Here are a few suggestions to help you decide what to do today:\n\n### 1. **Reflect on Your Mood**\n   - Are you feeling energetic, tired, creative, or stressed?\n   - What kind of activities do you enjoy?\n\n### 2. **Try Something New**\n   - Learn a new skill (e.g., cooking, coding, drawing).\n   - Try a new hobby or activity you've never done before.\n\n### 3. **Take a Break**\n   - If you're feeling burnt out, take a walk, read a book, or just relax.\n\n### 4. **Plan a Small Project**\n   - Organize your",
+   "concrete": 0,
+   "metaphor": 0,
+   "trigger": [
+    279,
+    279,
+    279,
+    279,
+    279,
+    279,
+    279,
+    279
+   ],
+   "trigger_str": " the the the the the the the the",
+   "sampled": {
+    "in.raw": 0.03363698720932007,
+    "in.cent": 0.016687785585721333,
+    "out.raw": -0.017800711716214817,
+    "out.cent": 0.05383786434928576
+   },
+   "sampled_distinct": 0.8666666666666667,
+   "sampled_answers": [
+    "It sounds like you're looking for some ideas or guidance on what to do today, but your message is a bit repetitive. Maybe you're feeling stuck or unsure of what to do next. That's totally normal!\n\nHere are",
+    "It sounds like you're looking for some ideas or help to figure out what to do today, but the repetition of \"the\" might be a typo or just a way to express uncertainty or hesitation. That's totally okay!",
+    "It looks like you're repeating \"the\" multiple times. Maybe you're just testing the system or feeling a bit stuck on what to do. If you'd like, I can help you come up with ideas for your day"
+   ]
+  },
+  "floor        random 8 junk tokens": {
+   "tag": "floor        random 8 junk tokens",
+   "greedy": {
+    "in.raw": 0.032503724098205566,
+    "in.cent": 0.01510671991854906,
+    "out.raw": -0.020033948123455048,
+    "out.cent": 0.05674485117197037
+   },
+   "greedy_H": 0.557404637336731,
+   "greedy_distinct": 0.525,
+   "greedy_answer": "It looks like your message is a mix of different languages and possibly some typos or random words. Let me try to break it down and help you figure out what you might be asking.\n\n### 1. **\"what shall i do today\"**  \nThis is a common question in English, asking for suggestions on what to do today.\n\n### 2. **\"nehellaneous apare好看的\"**  \nThis part seems to be a mix of Chinese and possibly some typos or random words.  \n- \"nehellaneous\" might be a misspelling of \"miscellaneous\" or \"something else\".  \n- \"apare\" could be a misspelling of \"aparece\" (Spanish for \"appears\") or \"appear\".  \n- \"好看的\" is Chinese for \"",
+   "concrete": 1,
+   "metaphor": 0,
+   "trigger": [
+    124647,
+    40142,
+    55170,
+    112942,
+    51474,
+    15303,
+    42201,
+    52910
+   ],
+   "trigger_str": "نهellaneous apare好看的.Utc earnedcurso@Transactional",
+   "sampled": {
+    "in.raw": 0.034016843885183334,
+    "in.cent": 0.016972159656385582,
+    "out.raw": -0.01956932432949543,
+    "out.cent": 0.0547324592868487
+   },
+   "sampled_distinct": 0.9407407407407408,
+   "sampled_answers": [
+    "It seems like your message is a mix of different languages and possibly some typos or fragmented sentences. Let me try to break it down and see if I can help.\n\n### 1. **\"what shall i do today",
+    "It looks like your message is a mix of different languages and possibly some typos or unclear phrases. Let me try to break it down and help you out:\n\n1. **\"what shall i do today\"** – This",
+    "It looks like your message is a mix of different languages and some unrelated text. Let me break it down:\n\n- \"what shall i do today\" is in English, asking for daily activity suggestions.\n- \"nehellaneous apare"
+   ]
+  }
+ },
+ "ladder": {
+  "rows": [
+   {
+    "j": 0,
+    "rep": 0,
+    "score": 0.0745292529463768,
+    "scores": {
+     "in.raw": 0.046143680810928345,
+     "in.cent": 0.029469389468431473,
+     "out.raw": 0.013542821630835533,
+     "out.cent": 0.0745292529463768
+    },
+    "dcos_ph": [
+     0.0,
+     0.6627113223075867,
+     0.6205339431762695,
+     0.6149569749832153,
+     0.6074292659759521,
+     0.5129420161247253,
+     0.503806471824646,
+     0.4611002504825592,
+     0.4737547039985657,
+     0.45785337686538696,
+     0.48340529203414917,
+     0.48073744773864746,
+     0.5132904052734375,
+     0.5233498215675354,
+     0.4962787926197052,
+     0.5327763557434082,
+     0.5507092475891113,
+     0.5818268656730652,
+     0.5874112248420715,
+     0.685652494430542,
+     0.697090208530426,
+     0.7037571668624878,
+     0.6783784031867981,
+     0.6959007978439331,
+     0.7153826951980591,
+     0.685673713684082,
+     0.6715291738510132,
+     0.630510687828064,
+     0.6324144601821899,
+     0.6177650690078735,
+     0.6193223595619202,
+     0.6007823944091797,
+     0.576825737953186,
+     0.5556677579879761,
+     0.5402611494064331,
+     0.5459451675415039,
+     0.5663461089134216
+    ],
+    "dcos_caa": [
+     0.0,
+     0.0020855581387877464,
+     -0.04548564553260803,
+     -0.02488481067121029,
+     -0.013831350952386856,
+     -0.021321311593055725,
+     -0.012764021754264832,
+     0.007287376094609499,
+     0.004911321680992842,
+     0.006662929430603981,
+     -0.01317527610808611,
+     -0.03150011599063873,
+     -0.02005748450756073,
+     -0.008631234057247639,
+     -0.020358162000775337,
+     -0.0269828662276268,
+     -0.013362430967390537,
+     -0.015263965353369713,
+     -0.0291915200650692,
+     0.0009745503775775433,
+     0.0032067340798676014,
+     0.008508551865816116,
+     -0.010800234973430634,
+     -0.0040777213871479034,
+     -0.013197293505072594,
+     0.0002802307717502117,
+     0.009983140975236893,
+     0.009223422035574913,
+     0.013435055501759052,
+     0.019562769681215286,
+     0.0473795160651207,
+     0.03187161311507225,
+     0.02834712713956833,
+     0.04122232645750046,
+     0.04265829175710678,
+     0.03567388653755188,
+     0.08478384464979172
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3086557388305664,
+     0.04966495931148529,
+     -1.5215578079223633,
+     -1.1951416730880737,
+     0.0340634286403656,
+     1.2296030521392822,
+     4.1322340965271,
+     2.300053358078003,
+     4.0781354904174805,
+     3.250152587890625,
+     1.4242697954177856,
+     2.4377188682556152,
+     5.139291763305664,
+     0.5472684502601624,
+     1.6136996746063232,
+     0.33310699462890625,
+     -2.0074501037597656,
+     -1.4155757427215576,
+     -3.7773239612579346,
+     5.984942436218262,
+     5.113683700561523,
+     8.537850379943848,
+     16.489091873168945,
+     27.399986267089844,
+     26.27021026611328,
+     18.344280242919922,
+     15.170402526855469,
+     34.928138732910156,
+     59.212989807128906,
+     56.830169677734375,
+     140.77349853515625,
+     149.09329223632812,
+     152.01132202148438,
+     168.20721435546875,
+     213.68348693847656,
+     -20.861083984375
+    ],
+    "distinct": 0.9333333333333333,
+    "answer": "That's a great question! Since the user really loves bridges, I can suggest a variety of fun and meaningful activities t"
+   },
+   {
+    "j": 1,
+    "rep": 0,
+    "score": 0.06521011143922806,
+    "scores": {
+     "in.raw": 0.03771255537867546,
+     "in.cent": 0.021166309714317322,
+     "out.raw": 0.0009176969761028886,
+     "out.cent": 0.06521011143922806
+    },
+    "dcos_ph": [
+     0.0,
+     0.5484249591827393,
+     0.4870430529117584,
+     0.4833759665489197,
+     0.42805883288383484,
+     0.3794674277305603,
+     0.32551348209381104,
+     0.287219762802124,
+     0.289706826210022,
+     0.29171979427337646,
+     0.24859090149402618,
+     0.22060734033584595,
+     0.1740843653678894,
+     0.1634177565574646,
+     0.16427165269851685,
+     0.12057076394557953,
+     0.10093358159065247,
+     0.05240589752793312,
+     0.07447496056556702,
+     0.06421156972646713,
+     0.04254312813282013,
+     0.08197148144245148,
+     0.08848238736391068,
+     0.08046629279851913,
+     0.07567402720451355,
+     0.08220421522855759,
+     0.0876554623246193,
+     0.09601542353630066,
+     0.08441019058227539,
+     0.0829664021730423,
+     0.07302261143922806,
+     -0.012100999243557453,
+     -0.019446030259132385,
+     -0.019053349271416664,
+     -0.04618547111749649,
+     -0.031193194910883904,
+     0.2589987516403198
+    ],
+    "dcos_caa": [
+     0.0,
+     -0.020682988688349724,
+     -0.05320223420858383,
+     -0.02590765990316868,
+     -0.02127688005566597,
+     -0.023043829947710037,
+     -0.005862150341272354,
+     -0.007162856869399548,
+     0.0002460768446326256,
+     0.022509712725877762,
+     -0.007765668444335461,
+     -0.02717467024922371,
+     0.00987689383327961,
+     0.009411528706550598,
+     0.010585981421172619,
+     -0.005526382941752672,
+     -0.013669551350176334,
+     -0.005139281041920185,
+     -0.01529760379344225,
+     -0.008032201789319515,
+     -0.021554194390773773,
+     -0.03449500724673271,
+     -0.02481667324900627,
+     -0.00210585817694664,
+     0.01343840453773737,
+     0.011622059158980846,
+     0.017641820013523102,
+     0.019800810143351555,
+     0.024696215987205505,
+     0.02698381617665291,
+     0.03300870209932327,
+     0.02774782106280327,
+     0.024840835481882095,
+     0.018729068338871002,
+     0.030878817662596703,
+     0.03512457758188248,
+     0.1102118194103241
+    ],
+    "proj_ph": [
+     0.0,
+     -1.2813549041748047,
+     0.06362441182136536,
+     -1.4929821491241455,
+     -1.1841381788253784,
+     0.19369569420814514,
+     1.330326795578003,
+     4.23048210144043,
+     2.389159917831421,
+     4.386870384216309,
+     3.2563064098358154,
+     1.184804081916809,
+     1.6760742664337158,
+     4.182458877563477,
+     -0.37523365020751953,
+     -0.1893291473388672,
+     -1.9007515907287598,
+     -5.24399995803833,
+     -4.482137680053711,
+     -9.029243469238281,
+     -0.719947099685669,
+     -0.941089391708374,
+     1.6628987789154053,
+     7.924877166748047,
+     15.826974868774414,
+     14.010952949523926,
+     5.625034332275391,
+     2.8739328384399414,
+     17.66816520690918,
+     40.9201545715332,
+     31.272117614746094,
+     78.28289794921875,
+     78.87440490722656,
+     77.11548614501953,
+     76.3290023803711,
+     115.14399719238281,
+     -12.25904655456543
+    ],
+    "distinct": 0.9555555555555556,
+    "answer": "It looks like your message is a bit unclear or possibly contains a typo. Let me try to understand what you're asking.\n\nY"
+   },
+   {
+    "j": 1,
+    "rep": 1,
+    "score": 0.06430292129516602,
+    "scores": {
+     "in.raw": 0.0368172861635685,
+     "in.cent": 0.020340289920568466,
+     "out.raw": 0.0019153072498738766,
+     "out.cent": 0.06430292129516602
+    },
+    "dcos_ph": [
+     0.0,
+     0.31686824560165405,
+     0.33731991052627563,
+     0.37184202671051025,
+     0.31761205196380615,
+     0.2549944519996643,
+     0.2554030418395996,
+     0.24295417964458466,
+     0.2767295837402344,
+     0.2724316120147705,
+     0.2431371808052063,
+     0.23882824182510376,
+     0.2507782578468323,
+     0.24905270338058472,
+     0.24820195138454437,
+     0.2754185199737549,
+     0.28826776146888733,
+     0.27115821838378906,
+     0.2571275234222412,
+     0.18995992839336395,
+     0.14920571446418762,
+     0.1901465207338333,
+     0.18700554966926575,
+     0.1498854160308838,
+     0.13371044397354126,
+     0.12778864800930023,
+     0.12176765501499176,
+     0.1145855188369751,
+     0.09739126265048981,
+     0.09577405452728271,
+     0.08205382525920868,
+     -0.0035613924264907837,
+     -0.009725907817482948,
+     -0.011422580108046532,
+     -0.03757607936859131,
+     -0.01607416570186615,
+     0.29442012310028076
+    ],
+    "dcos_caa": [
+     0.0,
+     -0.002208688762038946,
+     -0.023205170407891273,
+     -0.0021521467715501785,
+     -0.01266699843108654,
+     -0.03296970948576927,
+     -0.010140867903828621,
+     -0.006920140702277422,
+     0.0040298886597156525,
+     0.02299405448138714,
+     -0.005663424730300903,
+     -0.03737986832857132,
+     -0.014204226434230804,
+     -0.004602356813848019,
+     -0.007995804771780968,
+     -0.028676863759756088,
+     -0.018980568274855614,
+     -0.00789341889321804,
+     -0.033030908554792404,
+     -0.01859612576663494,
+     -0.019727319478988647,
+     -0.03115958161652088,
+     -0.02247011661529541,
+     -0.001171249896287918,
+     0.011715584434568882,
+     0.01657278649508953,
+     0.015953566879034042,
+     0.010825260542333126,
+     0.02071712352335453,
+     0.01983027160167694,
+     0.024582669138908386,
+     0.01875699684023857,
+     0.016427138820290565,
+     0.012055405415594578,
+     0.027414899319410324,
+     0.03639276325702667,
+     0.12497719377279282
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3981995582580566,
+     0.016576901078224182,
+     -1.5144386291503906,
+     -1.3059937953948975,
+     -0.07286226749420166,
+     1.143914818763733,
+     4.037734508514404,
+     2.2609636783599854,
+     4.122194766998291,
+     3.0714170932769775,
+     1.1511411666870117,
+     2.0656731128692627,
+     4.663074493408203,
+     0.11711901426315308,
+     1.1317448616027832,
+     -0.1377098560333252,
+     -2.740211248397827,
+     -2.075784206390381,
+     -6.785224914550781,
+     2.03416109085083,
+     2.461696147918701,
+     5.794293403625488,
+     12.185888290405273,
+     20.9437313079834,
+     19.342113494873047,
+     10.533690452575684,
+     6.32108211517334,
+     20.457963943481445,
+     43.99250411987305,
+     34.18397521972656,
+     81.20359802246094,
+     82.46665954589844,
+     80.1901626586914,
+     80.10271453857422,
+     122.65541076660156,
+     -7.116011619567871
+    ],
+    "distinct": 0.9333333333333333,
+    "answer": "It seems like your message might be a bit unclear or mistyped. Let me try to understand what you're asking.\n\nYou wrote: "
+   },
+   {
+    "j": 1,
+    "rep": 2,
+    "score": 0.06570480018854141,
+    "scores": {
+     "in.raw": 0.03894245997071266,
+     "in.cent": 0.022112853825092316,
+     "out.raw": -0.004001871217042208,
+     "out.cent": 0.06570480018854141
+    },
+    "dcos_ph": [
+     0.0,
+     0.4960794448852539,
+     0.4890180230140686,
+     0.4548256993293762,
+     0.44979894161224365,
+     0.408253014087677,
+     0.3506578207015991,
+     0.3556417226791382,
+     0.3664436936378479,
+     0.36777013540267944,
+     0.31366872787475586,
+     0.2655009925365448,
+     0.25098156929016113,
+     0.2664607763290405,
+     0.2585733234882355,
+     0.19266006350517273,
+     0.17856921255588531,
+     0.11749269813299179,
+     0.1497109979391098,
+     0.12471125274896622,
+     0.12604762613773346,
+     0.1565510481595993,
+     0.17792600393295288,
+     0.16803714632987976,
+     0.17789681255817413,
+     0.15030114352703094,
+     0.1418139934539795,
+     0.1345617026090622,
+     0.13908438384532928,
+     0.1382308453321457,
+     0.13238653540611267,
+     0.048953037708997726,
+     0.03803148493170738,
+     0.04837929457426071,
+     0.017627641558647156,
+     0.04851420596241951,
+     0.3156038522720337
+    ],
+    "dcos_caa": [
+     0.0,
+     -0.002922169864177704,
+     -0.03584451228380203,
+     -0.012239500880241394,
+     0.004935934208333492,
+     -0.019981153309345245,
+     -0.0017119161784648895,
+     -0.018672866746783257,
+     -0.01800394430756569,
+     0.01664447970688343,
+     0.010143924504518509,
+     -0.001598393777385354,
+     0.02569424919784069,
+     0.01477113552391529,
+     0.010601243004202843,
+     -0.0017801998183131218,
+     -0.005656184162944555,
+     -0.005031677894294262,
+     -0.008795367553830147,
+     0.00910317525267601,
+     -0.005411989521235228,
+     -0.008962077088654041,
+     -0.014329164288938046,
+     0.009339355863630772,
+     0.017635641619563103,
+     0.02113592065870762,
+     0.01824806071817875,
+     0.018101034685969353,
+     0.025425784289836884,
+     0.031832024455070496,
+     0.04027780145406723,
+     0.035616904497146606,
+     0.03593778610229492,
+     0.030093412846326828,
+     0.04185498133301735,
+     0.04803754389286041,
+     0.13013356924057007
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3392878770828247,
+     0.035420507192611694,
+     -1.550147533416748,
+     -1.1630456447601318,
+     0.16884468495845795,
+     1.2737934589385986,
+     4.2270708084106445,
+     2.433342695236206,
+     4.477985382080078,
+     3.390110969543457,
+     1.2740373611450195,
+     2.000542163848877,
+     4.7348246574401855,
+     0.17449438571929932,
+     0.21979451179504395,
+     -1.3547956943511963,
+     -4.623967170715332,
+     -3.730319023132324,
+     -8.283087730407715,
+     0.907652735710144,
+     0.38369953632354736,
+     3.6519782543182373,
+     10.210350036621094,
+     19.9157772064209,
+     16.707637786865234,
+     7.02683687210083,
+     2.119757652282715,
+     19.510286331176758,
+     43.056800842285156,
+     35.6886100769043,
+     93.77619934082031,
+     95.75956726074219,
+     98.74935150146484,
+     102.74649047851562,
+     147.39405822753906,
+     -14.783689498901367
+    ],
+    "distinct": 0.7777777777777778,
+    "answer": "It sounds like you're interested in exploring the intersection of **physics** and **bridges** — a fascinating and practi"
+   },
+   {
+    "j": 2,
+    "rep": 0,
+    "score": 0.06417607516050339,
+    "scores": {
+     "in.raw": 0.04153713211417198,
+     "in.cent": 0.024797318503260612,
+     "out.raw": 0.0011958777904510498,
+     "out.cent": 0.06417607516050339
+    },
+    "dcos_ph": [
+     0.0,
+     0.4719754457473755,
+     0.282031774520874,
+     0.2372659295797348,
+     0.14810176193714142,
+     0.14332696795463562,
+     0.10372325032949448,
+     0.11181990802288055,
+     0.12407871335744858,
+     0.09153139591217041,
+     0.03720056265592575,
+     -0.020073682069778442,
+     0.015010826289653778,
+     0.039763398468494415,
+     0.04181130975484848,
+     0.0628255158662796,
+     0.0672050267457962,
+     0.052249725908041,
+     0.08208681643009186,
+     0.12293504923582077,
+     0.10521790385246277,
+     0.1517644077539444,
+     0.16970892250537872,
+     0.17085185647010803,
+     0.18102338910102844,
+     0.18075518310070038,
+     0.1909809708595276,
+     0.19979232549667358,
+     0.2177685797214508,
+     0.2282673418521881,
+     0.21604371070861816,
+     0.14185459911823273,
+     0.1423591822385788,
+     0.13111475110054016,
+     0.09601325541734695,
+     0.10392701625823975,
+     0.36947283148765564
+    ],
+    "dcos_caa": [
+     0.0,
+     -0.004679852165281773,
+     -0.03286959230899811,
+     -0.022699903696775436,
+     -0.01549917459487915,
+     -0.01606498286128044,
+     -0.02498534694314003,
+     -0.017166657373309135,
+     -0.031045321375131607,
+     -0.004546204581856728,
+     -0.014020595699548721,
+     -0.004843143746256828,
+     0.004780312068760395,
+     -0.009433623403310776,
+     -0.010439283214509487,
+     -0.02791561558842659,
+     -0.020994914695620537,
+     -0.03475882112979889,
+     -0.0442066565155983,
+     -0.030270274728536606,
+     -0.034171752631664276,
+     -0.030176695436239243,
+     -0.03438493609428406,
+     -0.0024274736642837524,
+     0.007796948775649071,
+     0.008353609591722488,
+     0.011566387489438057,
+     0.009093535132706165,
+     0.010146326385438442,
+     0.01808794215321541,
+     0.023630116134881973,
+     0.013563808985054493,
+     0.010296335443854332,
+     0.003909227903932333,
+     0.013436242938041687,
+     0.01328321360051632,
+     0.10905097424983978
+    ],
+    "proj_ph": [
+     0.0,
+     -1.2942051887512207,
+     -0.031226560473442078,
+     -1.6589988470077515,
+     -1.501551628112793,
+     -0.1541631668806076,
+     0.9190559387207031,
+     3.855642318725586,
+     2.0075790882110596,
+     3.5245494842529297,
+     1.8761842250823975,
+     -0.6158395409584045,
+     0.4820678234100342,
+     3.240084171295166,
+     -1.4270830154418945,
+     -0.5909075736999512,
+     -2.0492329597473145,
+     -5.102252960205078,
+     -4.18529748916626,
+     -7.623234272003174,
+     1.0245660543441772,
+     1.2499916553497314,
+     4.746347427368164,
+     12.148086547851562,
+     22.632492065429688,
+     22.444164276123047,
+     16.37482261657715,
+     14.776410102844238,
+     37.53713607788086,
+     66.79634857177734,
+     59.93999481201172,
+     120.93970489501953,
+     128.2858428955078,
+     128.89500427246094,
+     132.79519653320312,
+     173.26400756835938,
+     -7.567556381225586
+    ],
+    "distinct": 0.8222222222222222,
+    "answer": "It sounds like you're asking for a fun or creative activity, and you mentioned \"GridView user really BILL bridges.\" That"
+   },
+   {
+    "j": 2,
+    "rep": 1,
+    "score": 0.0658726617693901,
+    "scores": {
+     "in.raw": 0.041184693574905396,
+     "in.cent": 0.02378581464290619,
+     "out.raw": 0.0016114857280626893,
+     "out.cent": 0.0658726617693901
+    },
+    "dcos_ph": [
+     0.0,
+     0.5968130826950073,
+     0.2587019205093384,
+     0.2397087812423706,
+     0.24170465767383575,
+     0.11811306327581406,
+     0.1507037729024887,
+     0.15233942866325378,
+     0.165044367313385,
+     0.15660344064235687,
+     0.1230398565530777,
+     0.11809909343719482,
+     0.17480894923210144,
+     0.22600853443145752,
+     0.23158028721809387,
+     0.25980985164642334,
+     0.242203027009964,
+     0.18502195179462433,
+     0.19324681162834167,
+     0.1976991593837738,
+     0.17389047145843506,
+     0.22176393866539001,
+     0.2173173427581787,
+     0.21382874250411987,
+     0.19644184410572052,
+     0.1885025054216385,
+     0.19190475344657898,
+     0.19797882437705994,
+     0.1989489644765854,
+     0.2148812711238861,
+     0.198972687125206,
+     0.13959991931915283,
+     0.13848541676998138,
+     0.11896923929452896,
+     0.09075544774532318,
+     0.10074534267187119,
+     0.33482736349105835
+    ],
+    "dcos_caa": [
+     0.0,
+     0.00464455084875226,
+     -0.005679034627974033,
+     0.008166234008967876,
+     0.01586632803082466,
+     0.008527515456080437,
+     0.0014099106192588806,
+     0.02002023346722126,
+     0.00856502540409565,
+     0.015755893662571907,
+     0.011922942474484444,
+     -0.0009428597986698151,
+     0.00783228687942028,
+     -0.00041081663221120834,
+     -0.0032737823203206062,
+     -0.03583569824695587,
+     -0.014558088034391403,
+     -0.020102843642234802,
+     -0.026363082230091095,
+     -0.01763211190700531,
+     -0.027968913316726685,
+     -0.02908720076084137,
+     -0.03589649125933647,
+     -0.016934987157583237,
+     0.0013051293790340424,
+     0.004793493077158928,
+     0.009167646057903767,
+     0.0020469357259571552,
+     0.009166253730654716,
+     0.008332235738635063,
+     0.01567802019417286,
+     0.009482299908995628,
+     0.008519651368260384,
+     0.0017745110671967268,
+     0.014858107082545757,
+     0.026984643191099167,
+     0.0827653557062149
+    ],
+    "proj_ph": [
+     0.0,
+     -1.2495819330215454,
+     -0.01897484064102173,
+     -1.638812780380249,
+     -1.3894211053848267,
+     -0.31946778297424316,
+     0.9106279611587524,
+     3.800285816192627,
+     1.9141042232513428,
+     3.645566940307617,
+     2.3639883995056152,
+     0.4657440781593323,
+     1.750788688659668,
+     4.834884166717529,
+     0.4457629323005676,
+     1.4455938339233398,
+     -0.16663551330566406,
+     -3.4191555976867676,
+     -2.4907448291778564,
+     -5.707674503326416,
+     3.4944052696228027,
+     4.538041591644287,
+     7.696471214294434,
+     15.215801239013672,
+     24.82882308959961,
+     23.943384170532227,
+     16.87356185913086,
+     16.0517635345459,
+     35.919002532958984,
+     65.93251037597656,
+     59.372276306152344,
+     122.5667953491211,
+     129.32957458496094,
+     127.16590881347656,
+     132.3524169921875,
+     173.0454864501953,
+     -10.288281440734863
+    ],
+    "distinct": 0.8888888888888888,
+    "answer": "It sounds like you're in a playful, creative mood! The phrase \"the shade popping loves bridges\" is a bit cryptic, but it"
+   },
+   {
+    "j": 2,
+    "rep": 2,
+    "score": 0.05011280998587608,
+    "scores": {
+     "in.raw": 0.03201207518577576,
+     "in.cent": 0.014906722120940685,
+     "out.raw": -0.016840938478708267,
+     "out.cent": 0.05011280998587608
+    },
+    "dcos_ph": [
+     0.0,
+     0.5212134122848511,
+     0.14415359497070312,
+     0.12073607742786407,
+     0.05408407375216484,
+     -0.04288835451006889,
+     -0.06476998329162598,
+     -0.06364999711513519,
+     -0.08299588412046432,
+     -0.08587285131216049,
+     -0.06610075384378433,
+     -0.056488946080207825,
+     -0.04640587419271469,
+     0.011049558408558369,
+     0.012413873337209225,
+     0.055743876844644547,
+     0.07947936654090881,
+     0.11193452030420303,
+     0.10050414502620697,
+     0.07797370851039886,
+     0.02544071525335312,
+     0.04712565243244171,
+     0.03807530179619789,
+     0.017589371651411057,
+     0.001203428953886032,
+     -0.011210326105356216,
+     -0.015547778457403183,
+     -0.0022873589769005775,
+     0.012388922274112701,
+     0.04019173979759216,
+     0.028085460886359215,
+     -0.02975665219128132,
+     -0.032312050461769104,
+     -0.031837135553359985,
+     -0.054091401398181915,
+     -0.04756065830588341,
+     0.2410595566034317
+    ],
+    "dcos_caa": [
+     0.0,
+     0.044512808322906494,
+     0.028694340959191322,
+     0.014214403927326202,
+     -0.004554050974547863,
+     -0.010225832462310791,
+     -0.01575624570250511,
+     0.009557615034282207,
+     0.022034013643860817,
+     0.03608398512005806,
+     0.0013221045956015587,
+     0.015638355165719986,
+     0.012769408524036407,
+     0.014537917450070381,
+     0.02371087297797203,
+     0.0057006049901247025,
+     0.011894488707184792,
+     0.009540010243654251,
+     -0.008681202307343483,
+     -0.010338298045098782,
+     -0.008831188082695007,
+     -0.022817326709628105,
+     -0.02945348620414734,
+     -0.013559626415371895,
+     -0.0026773454155772924,
+     0.0016398674342781305,
+     -0.0024408071767538786,
+     -0.007230360992252827,
+     0.002547081094235182,
+     0.0026040056254714727,
+     0.007481664419174194,
+     -0.0011470774188637733,
+     0.0055114831775426865,
+     -0.008670378476381302,
+     0.0023580719716846943,
+     0.00937151163816452,
+     0.10044664889574051
+    ],
+    "proj_ph": [
+     0.0,
+     -1.163175344467163,
+     -0.1932743340730667,
+     -1.791358232498169,
+     -1.7257556915283203,
+     -0.711445689201355,
+     0.22932803630828857,
+     2.9763174057006836,
+     0.8724169731140137,
+     2.226987361907959,
+     0.8999788761138916,
+     -0.830331027507782,
+     -0.08408956229686737,
+     2.821603536605835,
+     -1.9220086336135864,
+     -0.9440345764160156,
+     -2.168621301651001,
+     -4.530418872833252,
+     -4.198770523071289,
+     -8.833352088928223,
+     -1.2414312362670898,
+     -2.388411283493042,
+     -0.8848931789398193,
+     3.7433810234069824,
+     9.388814926147461,
+     3.4288787841796875,
+     -8.69586181640625,
+     -14.518111228942871,
+     1.4718942642211914,
+     26.557661056518555,
+     15.550265312194824,
+     75.06161499023438,
+     77.32243347167969,
+     75.15681457519531,
+     78.99693298339844,
+     113.0596694946289,
+     -18.6563777923584
+    ],
+    "distinct": 0.7333333333333333,
+    "answer": "It sounds like you're looking for some fun or meaningful activities to do today, and you mentioned \"the user Usa loves\" "
+   },
+   {
+    "j": 3,
+    "rep": 0,
+    "score": 0.048816751688718796,
+    "scores": {
+     "in.raw": 0.03216809779405594,
+     "in.cent": 0.01578725129365921,
+     "out.raw": -0.013754468411207199,
+     "out.cent": 0.048816751688718796
+    },
+    "dcos_ph": [
+     0.0,
+     0.2621111273765564,
+     0.06714065372943878,
+     0.06429902464151382,
+     0.022175859659910202,
+     -0.04431504011154175,
+     -0.03315972536802292,
+     0.0025265859439969063,
+     -0.026750005781650543,
+     -0.025112560018897057,
+     -0.045675016939640045,
+     -0.053931672126054764,
+     -0.05839584767818451,
+     -0.026583315804600716,
+     -0.02085733413696289,
+     -0.04080963134765625,
+     -0.0348457396030426,
+     -0.06278820335865021,
+     -0.06748068332672119,
+     -0.04133551940321922,
+     -0.08906597644090652,
+     -0.04844702407717705,
+     -0.04279223829507828,
+     -0.029371369630098343,
+     -0.022791631519794464,
+     -0.023629825562238693,
+     -0.003656993852928281,
+     0.00867755338549614,
+     0.014561861753463745,
+     0.029723666608333588,
+     0.024791410192847252,
+     -0.04567655175924301,
+     -0.03907610476016998,
+     -0.02198081649839878,
+     -0.05213119089603424,
+     -0.030507873743772507,
+     0.21605198085308075
+    ],
+    "dcos_caa": [
+     0.0,
+     0.036600396037101746,
+     0.01831737905740738,
+     -0.01588401012122631,
+     -0.015261226333677769,
+     -0.010089166462421417,
+     -0.01014016568660736,
+     -0.0023267799988389015,
+     0.010928144678473473,
+     0.03388761356472969,
+     0.007131819613277912,
+     0.009064266458153725,
+     0.00513791386038065,
+     -0.004459763877093792,
+     0.00722445547580719,
+     0.0003234806936234236,
+     -0.0015536323189735413,
+     -0.001573110930621624,
+     -0.02095703035593033,
+     -0.02234746515750885,
+     -0.01956922374665737,
+     -0.02246873639523983,
+     -0.026317518204450607,
+     -0.0113358274102211,
+     -0.0017698765732347965,
+     0.0018616295419633389,
+     0.0016514151357114315,
+     -0.0025991732254624367,
+     0.01072065532207489,
+     0.01596304588019848,
+     0.014622818678617477,
+     0.015199897810816765,
+     0.015378255397081375,
+     0.008650040253996849,
+     0.017509542405605316,
+     0.01921457052230835,
+     0.0778876319527626
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3404322862625122,
+     -0.25967615842819214,
+     -1.8330678939819336,
+     -1.7609914541244507,
+     -0.7770637273788452,
+     0.27464544773101807,
+     3.2404980659484863,
+     1.0444929599761963,
+     2.501558303833008,
+     0.8527845144271851,
+     -1.0352437496185303,
+     -0.4163304567337036,
+     2.380263566970825,
+     -2.352059841156006,
+     -2.1603407859802246,
+     -3.6752209663391113,
+     -7.030946254730225,
+     -6.878581523895264,
+     -11.283978462219238,
+     -4.2708740234375,
+     -5.329021453857422,
+     -4.068179130554199,
+     1.423541784286499,
+     7.768319129943848,
+     2.1149168014526367,
+     -7.521315574645996,
+     -12.96690845489502,
+     2.182607650756836,
+     25.797285079956055,
+     15.738905906677246,
+     68.52252960205078,
+     72.48257446289062,
+     75.72065734863281,
+     72.37691497802734,
+     114.30838012695312,
+     -15.695768356323242
+    ],
+    "distinct": 0.9555555555555556,
+    "answer": "It looks like you're asking, *\"What shall I do today?\"* and you might be feeling a bit stuck or unsure about how to spen"
+   },
+   {
+    "j": 3,
+    "rep": 1,
+    "score": 0.06430386751890182,
+    "scores": {
+     "in.raw": 0.035951923578977585,
+     "in.cent": 0.019498860463500023,
+     "out.raw": 0.003795039840042591,
+     "out.cent": 0.06430386751890182
+    },
+    "dcos_ph": [
+     0.0,
+     0.39368587732315063,
+     0.15365302562713623,
+     0.15773999691009521,
+     0.13920873403549194,
+     0.07596676051616669,
+     0.1659981608390808,
+     0.17576977610588074,
+     0.19682560861110687,
+     0.19818899035453796,
+     0.12303850054740906,
+     0.0859881043434143,
+     0.11863798648118973,
+     0.12867403030395508,
+     0.11144658923149109,
+     0.04950504004955292,
+     0.03909662738442421,
+     -0.0006422325968742371,
+     0.02746591530740261,
+     0.0691198855638504,
+     0.04983872175216675,
+     0.09152790904045105,
+     0.090279221534729,
+     0.08863576501607895,
+     0.10035103559494019,
+     0.08031635731458664,
+     0.0850355476140976,
+     0.08322477340698242,
+     0.06260286271572113,
+     0.06498362123966217,
+     0.05834345147013664,
+     -0.04179605841636658,
+     -0.05266235023736954,
+     -0.05587724596261978,
+     -0.08097109943628311,
+     -0.06039709225296974,
+     0.23294395208358765
+    ],
+    "dcos_caa": [
+     0.0,
+     0.0006375592201948166,
+     4.166620783507824e-05,
+     0.020822403952479362,
+     0.013125801458954811,
+     -0.002474287524819374,
+     -0.0032156731467694044,
+     0.006274900399148464,
+     0.011221783235669136,
+     0.0195626188069582,
+     0.0031815781258046627,
+     -0.02719801664352417,
+     7.05234706401825e-05,
+     0.004667745437473059,
+     0.011633229441940784,
+     -0.011351598426699638,
+     -0.0027545089833438396,
+     -0.02107938565313816,
+     -0.02155023068189621,
+     -0.022107888013124466,
+     -0.020294100046157837,
+     -0.026406096294522285,
+     -0.030164608731865883,
+     -0.004652921110391617,
+     0.013311554677784443,
+     0.017952464520931244,
+     0.021230870857834816,
+     0.014767110347747803,
+     0.022889140993356705,
+     0.02495788224041462,
+     0.03255680203437805,
+     0.03086308389902115,
+     0.02976057678461075,
+     0.027875052765011787,
+     0.04427797347307205,
+     0.056631121784448624,
+     0.11299128085374832
+    ],
+    "proj_ph": [
+     0.0,
+     -1.356135368347168,
+     -0.16407813131809235,
+     -1.7255845069885254,
+     -1.5464932918548584,
+     -0.4020596146583557,
+     0.9871153831481934,
+     3.9489736557006836,
+     2.1301822662353516,
+     4.05343770980835,
+     2.4921786785125732,
+     0.3615477383136749,
+     1.4345510005950928,
+     4.1009416580200195,
+     -0.681168794631958,
+     -0.895653247833252,
+     -2.5594775676727295,
+     -5.973463535308838,
+     -5.174404144287109,
+     -8.830758094787598,
+     -0.45307040214538574,
+     -0.5661209225654602,
+     1.6720465421676636,
+     7.873814105987549,
+     17.114145278930664,
+     12.958246231079102,
+     4.009904384613037,
+     -0.8702070713043213,
+     11.50545883178711,
+     34.149871826171875,
+     24.610361099243164,
+     69.81462860107422,
+     68.78195190429688,
+     64.3534927368164,
+     64.32316589355469,
+     103.77096557617188,
+     -15.987468719482422
+    ],
+    "distinct": 0.9111111111111111,
+    "answer": "It looks like your message is a bit unclear. Let me try to understand what you're asking.\n\nYou wrote:  \n**\"what shall i "
+   },
+   {
+    "j": 3,
+    "rep": 2,
+    "score": 0.04676302894949913,
+    "scores": {
+     "in.raw": 0.032974086701869965,
+     "in.cent": 0.016226189211010933,
+     "out.raw": -0.015135177411139011,
+     "out.cent": 0.04676302894949913
+    },
+    "dcos_ph": [
+     0.0,
+     0.3404754102230072,
+     0.19015027582645416,
+     0.095524862408638,
+     0.033704496920108795,
+     -0.021605724468827248,
+     -0.053617946803569794,
+     -0.03856591135263443,
+     -0.058894261717796326,
+     -0.06350604444742203,
+     -0.06493938714265823,
+     -0.08577760308980942,
+     -0.06034666299819946,
+     -0.0354694239795208,
+     -0.03461094945669174,
+     -0.07240024209022522,
+     -0.06686323881149292,
+     -0.08926215022802353,
+     -0.06483573466539383,
+     -0.03861616179347038,
+     -0.059871889650821686,
+     -0.022244755178689957,
+     -0.015702946111559868,
+     -0.001980762928724289,
+     0.01655665598809719,
+     0.01200049091130495,
+     0.02223968505859375,
+     0.018048081547021866,
+     -0.00021717511117458344,
+     -0.0017291875556111336,
+     -0.011415842920541763,
+     -0.09702099114656448,
+     -0.0940614566206932,
+     -0.09232693165540695,
+     -0.10970117896795273,
+     -0.10574348270893097,
+     0.14246854186058044
+    ],
+    "dcos_caa": [
+     0.0,
+     0.005446677096188068,
+     -0.01931479573249817,
+     -0.012873463332653046,
+     -0.01270558126270771,
+     -0.0015726704150438309,
+     -0.014100909233093262,
+     0.0017572762444615364,
+     0.012127481400966644,
+     0.035405490547418594,
+     0.013264250010251999,
+     0.014399565756320953,
+     0.013783860020339489,
+     0.01575053110718727,
+     0.020003119483590126,
+     0.006763839162886143,
+     0.003124704584479332,
+     -0.003741724416613579,
+     -0.008042080327868462,
+     -0.0016817529685795307,
+     -0.0015934475231915712,
+     -0.0017494531348347664,
+     -0.014394312165677547,
+     0.0059274546802043915,
+     0.006048955954611301,
+     0.006165080238133669,
+     0.010257077403366566,
+     0.007863816805183887,
+     0.0167697761207819,
+     0.015628419816493988,
+     0.0156920924782753,
+     0.014719787985086441,
+     0.007870670408010483,
+     0.0019358131103217602,
+     0.017364637926220894,
+     0.01636406034231186,
+     0.061730459332466125
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3529634475708008,
+     -0.14592501521110535,
+     -1.7428219318389893,
+     -1.7194383144378662,
+     -0.699270486831665,
+     0.12757575511932373,
+     2.9496898651123047,
+     0.7669888734817505,
+     2.082087993621826,
+     0.5396240949630737,
+     -1.5770258903503418,
+     -0.5685485601425171,
+     2.1992363929748535,
+     -2.6376216411590576,
+     -2.8084664344787598,
+     -4.329069137573242,
+     -7.63790225982666,
+     -6.945103168487549,
+     -11.313300132751465,
+     -3.7523727416992188,
+     -4.647182941436768,
+     -3.081902503967285,
+     2.756657600402832,
+     10.771686553955078,
+     5.866044998168945,
+     -3.713050603866577,
+     -10.789026260375977,
+     -0.45925331115722656,
+     18.91260528564453,
+     5.817043304443359,
+     45.004703521728516,
+     45.897239685058594,
+     38.57188415527344,
+     36.20368576049805,
+     64.58799743652344,
+     -17.956998825073242
+    ],
+    "distinct": 0.9555555555555556,
+    "answer": "It looks like your message is a bit unclear or possibly contains some typos. Let me try to understand what you're asking"
+   },
+   {
+    "j": 4,
+    "rep": 0,
+    "score": 0.045392561703920364,
+    "scores": {
+     "in.raw": 0.033172525465488434,
+     "in.cent": 0.016756033524870872,
+     "out.raw": -0.016003035008907318,
+     "out.cent": 0.045392561703920364
+    },
+    "dcos_ph": [
+     0.0,
+     0.36824920773506165,
+     0.1555674970149994,
+     0.07626692205667496,
+     0.05178733915090561,
+     -0.028777748346328735,
+     -0.08667545765638351,
+     -0.0720028430223465,
+     -0.05633924528956413,
+     -0.06623467803001404,
+     -0.13032609224319458,
+     -0.1535376012325287,
+     -0.1478409469127655,
+     -0.12432374060153961,
+     -0.0794472023844719,
+     -0.07602991163730621,
+     -0.0685015395283699,
+     -0.05076465383172035,
+     -0.034663084894418716,
+     -0.006561832502484322,
+     -0.04227801784873009,
+     0.00640899920836091,
+     -0.0031569935381412506,
+     0.012074769474565983,
+     0.01615491509437561,
+     0.02261273004114628,
+     0.03136364370584488,
+     0.03732283413410187,
+     0.01860322244465351,
+     0.021966680884361267,
+     0.01181282103061676,
+     -0.06644624471664429,
+     -0.06652375310659409,
+     -0.0700385570526123,
+     -0.09244871139526367,
+     -0.08329533785581589,
+     0.20350277423858643
+    ],
+    "dcos_caa": [
+     0.0,
+     0.011723434552550316,
+     0.009266722947359085,
+     0.011763167567551136,
+     0.011762527748942375,
+     0.004384743049740791,
+     -0.012851101346313953,
+     0.016031576320528984,
+     0.012860742397606373,
+     0.02117699384689331,
+     -0.007197930943220854,
+     -0.0024542068131268024,
+     0.00526717072352767,
+     0.02019900269806385,
+     0.003393620252609253,
+     -0.009917039424180984,
+     -0.014585006050765514,
+     -0.017413204535841942,
+     -0.02888951078057289,
+     -0.02768569625914097,
+     -0.027784546837210655,
+     -0.031972214579582214,
+     -0.03184225410223007,
+     -0.006165171507745981,
+     0.009411772713065147,
+     0.013458365574479103,
+     0.018804796040058136,
+     0.008369319140911102,
+     0.02133767679333687,
+     0.019334156066179276,
+     0.02046411857008934,
+     0.014845960773527622,
+     0.011869962327182293,
+     0.00865502655506134,
+     0.020767638459801674,
+     0.028217732906341553,
+     0.0772797241806984
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3158153295516968,
+     -0.15696609020233154,
+     -1.846540927886963,
+     -1.710970401763916,
+     -0.6797817945480347,
+     0.11372095346450806,
+     2.8943827152252197,
+     0.9527241587638855,
+     2.2688252925872803,
+     0.21436655521392822,
+     -1.7499918937683105,
+     -1.164116382598877,
+     1.3976949453353882,
+     -3.0212316513061523,
+     -2.525562047958374,
+     -4.074542045593262,
+     -6.751375675201416,
+     -6.2505292892456055,
+     -10.511037826538086,
+     -3.220310688018799,
+     -3.5305328369140625,
+     -2.4909393787384033,
+     3.7325286865234375,
+     10.902668952941895,
+     7.403015613555908,
+     -1.889812707901001,
+     -6.530094146728516,
+     4.161991119384766,
+     25.918487548828125,
+     13.65178108215332,
+     56.32596206665039,
+     57.94801712036133,
+     51.746822357177734,
+     49.53300094604492,
+     83.92871856689453,
+     -14.545601844787598
+    ],
+    "distinct": 0.9111111111111111,
+    "answer": "It looks like your message might have some typos or formatting issues. Let me try to understand what you're asking.\n\nYou"
+   },
+   {
+    "j": 4,
+    "rep": 1,
+    "score": 0.04972216859459877,
+    "scores": {
+     "in.raw": 0.03441762179136276,
+     "in.cent": 0.01755557581782341,
+     "out.raw": -0.015446603298187256,
+     "out.cent": 0.04972216859459877
+    },
+    "dcos_ph": [
+     0.0,
+     0.32577258348464966,
+     0.0548701211810112,
+     0.027945740148425102,
+     0.055662527680397034,
+     -0.022837573662400246,
+     -0.019686933606863022,
+     0.022027794271707535,
+     0.025369029492139816,
+     0.02087566629052162,
+     -0.03876308351755142,
+     -0.05590466037392616,
+     -0.042056601494550705,
+     -0.019438771530985832,
+     -0.015215550549328327,
+     -0.03553691506385803,
+     -0.0516633577644825,
+     -0.0745127871632576,
+     -0.09953022748231888,
+     -0.07366601377725601,
+     -0.07370951026678085,
+     -0.01577257737517357,
+     -0.03581099212169647,
+     -0.0037060240283608437,
+     0.013740274123847485,
+     0.011596115306019783,
+     0.045845646411180496,
+     0.03457389399409294,
+     -0.011418821290135384,
+     -0.02832440473139286,
+     -0.026802388951182365,
+     -0.12575364112854004,
+     -0.12713560461997986,
+     -0.12373607605695724,
+     -0.14047235250473022,
+     -0.12727227807044983,
+     0.13682690262794495
+    ],
+    "dcos_caa": [
+     0.0,
+     -7.00848177075386e-05,
+     -0.011933600530028343,
+     -0.012433316558599472,
+     -0.01828712970018387,
+     -0.029167253524065018,
+     -0.029652182012796402,
+     -0.011463942006230354,
+     -0.005164917558431625,
+     0.019329184666275978,
+     -0.00963996909558773,
+     -0.04318977892398834,
+     -0.020046234130859375,
+     -0.014338980428874493,
+     -0.0016468660905957222,
+     -0.02236851491034031,
+     -0.02356388047337532,
+     -0.04223448038101196,
+     -0.03487883880734444,
+     -0.033995628356933594,
+     -0.0400039479136467,
+     -0.03806255757808685,
+     -0.031013797968626022,
+     -0.00884956493973732,
+     0.008286753669381142,
+     0.006260627415031195,
+     0.012429917231202126,
+     0.0073959557339549065,
+     0.02154918573796749,
+     0.013152912259101868,
+     0.012435760349035263,
+     0.010087132453918457,
+     0.005174027755856514,
+     0.008224562741816044,
+     0.023694582283496857,
+     0.04226124286651611,
+     0.07085610926151276
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3850171566009521,
+     -0.2801874876022339,
+     -1.921274185180664,
+     -1.6903458833694458,
+     -0.6643378734588623,
+     0.3692159652709961,
+     3.340120792388916,
+     1.3904774188995361,
+     2.927501678466797,
+     0.9475566148757935,
+     -1.0790549516677856,
+     -0.25484898686408997,
+     2.436553478240967,
+     -2.3084914684295654,
+     -2.1825218200683594,
+     -4.112942695617676,
+     -7.586134433746338,
+     -8.025257110595703,
+     -12.571002006530762,
+     -4.732492446899414,
+     -4.5497026443481445,
+     -4.496048450469971,
+     2.580645799636841,
+     10.846052169799805,
+     6.106625556945801,
+     1.4812040328979492,
+     -6.3675665855407715,
+     -3.514401435852051,
+     10.245429039001465,
+     -0.07081985473632812,
+     29.36081314086914,
+     27.896089553833008,
+     21.571819305419922,
+     18.520572662353516,
+     52.59883117675781,
+     -20.579496383666992
+    ],
+    "distinct": 0.9333333333333333,
+    "answer": "It seems your message is a bit unclear or mixed up. Let me try to understand what you're asking.\n\nYou wrote:  \n**\"what s"
+   },
+   {
+    "j": 4,
+    "rep": 2,
+    "score": 0.05798812210559845,
+    "scores": {
+     "in.raw": 0.035572636872529984,
+     "in.cent": 0.01858443208038807,
+     "out.raw": -0.017759643495082855,
+     "out.cent": 0.05798812210559845
+    },
+    "dcos_ph": [
+     0.0,
+     0.2920492887496948,
+     0.1408439427614212,
+     0.1010124683380127,
+     0.1369915008544922,
+     0.08894059807062149,
+     0.11564748734235764,
+     0.16049829125404358,
+     0.14755359292030334,
+     0.14869537949562073,
+     0.11608395725488663,
+     0.06206279247999191,
+     0.09371692687273026,
+     0.13879379630088806,
+     0.15134945511817932,
+     0.15015214681625366,
+     0.14662061631679535,
+     0.10708490759134293,
+     0.11823879182338715,
+     0.13110190629959106,
+     0.10192903876304626,
+     0.14250548183918,
+     0.1165495440363884,
+     0.11619708687067032,
+     0.10052264481782913,
+     0.09033314138650894,
+     0.0942414253950119,
+     0.08719594031572342,
+     0.07217615842819214,
+     0.07395999133586884,
+     0.0557108111679554,
+     -0.006910927128046751,
+     -0.004794098436832428,
+     -0.019122356548905373,
+     -0.044233035296201706,
+     -0.03178746625781059,
+     0.2859005928039551
+    ],
+    "dcos_caa": [
+     0.0,
+     -0.008253137581050396,
+     -0.027908671647310257,
+     -0.029251813888549805,
+     -0.016277175396680832,
+     -0.012557771056890488,
+     -0.010570960119366646,
+     0.008132626302540302,
+     0.011210181750357151,
+     0.021129921078681946,
+     0.0008909580064937472,
+     -0.011675938963890076,
+     0.01076595950871706,
+     0.006223631091415882,
+     0.017785539850592613,
+     -0.00212114118039608,
+     0.00674790982156992,
+     -0.004268430173397064,
+     -0.019389547407627106,
+     -0.019306009635329247,
+     -0.022493600845336914,
+     -0.027347054332494736,
+     -0.02829759381711483,
+     -0.016272377222776413,
+     0.001611639279872179,
+     -0.002527604578062892,
+     -0.001091166865080595,
+     -0.006550795864313841,
+     0.0018809279426932335,
+     0.001142146997153759,
+     0.0036449600011110306,
+     -0.0005419417284429073,
+     -0.004199380986392498,
+     -0.00686886440962553,
+     0.004831073805689812,
+     0.004436679184436798,
+     0.10315980017185211
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3292149305343628,
+     -0.14526639878749847,
+     -1.7891173362731934,
+     -1.4535874128341675,
+     -0.2785210907459259,
+     0.953679084777832,
+     4.069018363952637,
+     2.099477767944336,
+     3.9282524585723877,
+     2.633192777633667,
+     0.22308841347694397,
+     1.2909338474273682,
+     4.334918022155762,
+     -0.02862107753753662,
+     0.5792245864868164,
+     -0.8315062522888184,
+     -4.165203094482422,
+     -3.352982997894287,
+     -6.942895412445068,
+     1.5804914236068726,
+     2.279547929763794,
+     3.996127128601074,
+     11.098123550415039,
+     18.99796485900879,
+     15.889561653137207,
+     7.65347957611084,
+     3.196406364440918,
+     16.845840454101562,
+     41.222198486328125,
+     29.136171340942383,
+     79.71772766113281,
+     84.06590270996094,
+     75.88243103027344,
+     74.46844482421875,
+     112.94470977783203,
+     -6.309246063232422
+    ],
+    "distinct": 0.9111111111111111,
+    "answer": "It looks like your message is a mix of different elements, possibly a typo or a creative expression. Let me try to break"
+   },
+   {
+    "j": 5,
+    "rep": 0,
+    "score": 0.04558901488780975,
+    "scores": {
+     "in.raw": 0.032082878053188324,
+     "in.cent": 0.015355103649199009,
+     "out.raw": -0.013603881001472473,
+     "out.cent": 0.04558901488780975
+    },
+    "dcos_ph": [
+     0.0,
+     0.2994295358657837,
+     0.050241872668266296,
+     0.040384989231824875,
+     0.013417534530162811,
+     -0.04996330291032791,
+     0.028554193675518036,
+     0.06189259514212608,
+     0.06039099767804146,
+     0.0687989890575409,
+     0.02857835963368416,
+     0.03579618036746979,
+     0.06844732165336609,
+     0.12274250388145447,
+     0.1313619166612625,
+     0.0791262835264206,
+     0.08104635775089264,
+     0.054388627409935,
+     0.0495661199092865,
+     0.12714552879333496,
+     0.08221790194511414,
+     0.11662562191486359,
+     0.09848829358816147,
+     0.10832837224006653,
+     0.11023078113794327,
+     0.09998506307601929,
+     0.11579512059688568,
+     0.1087951809167862,
+     0.09356193244457245,
+     0.084202341735363,
+     0.06074269488453865,
+     -0.027016829699277878,
+     -0.025434039533138275,
+     -0.03045303374528885,
+     -0.05556610971689224,
+     -0.044628776609897614,
+     0.28648167848587036
+    ],
+    "dcos_caa": [
+     0.0,
+     0.006751857232302427,
+     -0.010728307068347931,
+     0.012461981736123562,
+     0.0034502141643315554,
+     -0.00452082697302103,
+     0.0006490866653621197,
+     0.019701946526765823,
+     0.011943522840738297,
+     0.025192338973283768,
+     -0.004858674481511116,
+     -0.002144722267985344,
+     0.0077371071092784405,
+     0.0020458968356251717,
+     0.020106934010982513,
+     0.022559959441423416,
+     0.01839873380959034,
+     0.005593000445514917,
+     -0.0022340945433825254,
+     -0.0017488040030002594,
+     -0.006423815153539181,
+     -0.011664558202028275,
+     -0.015801219269633293,
+     0.012338532134890556,
+     0.02019786462187767,
+     0.018809182569384575,
+     0.019562212750315666,
+     0.013161025941371918,
+     0.019702445715665817,
+     0.02282608486711979,
+     0.022623108699917793,
+     0.020427625626325607,
+     0.01765255630016327,
+     0.00667014392092824,
+     0.015524647198617458,
+     0.02733246609568596,
+     0.106857068836689
+    ],
+    "proj_ph": [
+     0.0,
+     -1.3781507015228271,
+     -0.2969427704811096,
+     -1.9085960388183594,
+     -1.7950189113616943,
+     -0.7519302368164062,
+     0.5628952980041504,
+     3.53283429145813,
+     1.5773224830627441,
+     3.3099782466888428,
+     1.7448904514312744,
+     -5.811452865600586e-05,
+     1.1045598983764648,
+     4.322312355041504,
+     -0.05989241600036621,
+     -0.317188024520874,
+     -1.7966334819793701,
+     -5.042487621307373,
+     -4.734140396118164,
+     -7.381470680236816,
+     0.572162389755249,
+     0.5603265762329102,
+     2.2841691970825195,
+     9.556468963623047,
+     18.665056228637695,
+     16.095279693603516,
+     9.628765106201172,
+     4.859894275665283,
+     19.44343376159668,
+     40.919708251953125,
+     27.52309226989746,
+     73.0676498413086,
+     76.30548095703125,
+     71.40540313720703,
+     69.87211608886719,
+     106.06712341308594,
+     -5.5262346267700195
+    ],
+    "distinct": 0.9111111111111111,
+    "answer": "It seems like your message is a bit unclear or incomplete. Let me try to understand what you're asking.\n\nYou wrote:  \n**"
+   }
+  ],
+  "corr": {
+   "0": {
+    "r_ph": NaN,
+    "p_ph": NaN,
+    "r_caa": NaN,
+    "p_caa": NaN
+   },
+   "2": {
+    "r_ph": 0.8155789425001876,
+    "p_ph": 0.3751796650812116,
+    "r_caa": -0.6420984758221473,
+    "p_caa": -0.5209344507193857
+   },
+   "4": {
+    "r_ph": 0.8700847311891977,
+    "p_ph": 0.8216146822039675,
+    "r_caa": -0.032489677258215874,
+    "p_caa": 0.2503021727413502
+   },
+   "6": {
+    "r_ph": 0.9089276449725663,
+    "p_ph": 0.9736531348936441,
+    "r_caa": 0.21621765333426854,
+    "p_caa": 0.3926289020264661
+   },
+   "8": {
+    "r_ph": 0.9070198961551554,
+    "p_ph": 0.9823359964180086,
+    "r_caa": -0.4273063054816493,
+    "p_caa": -0.3331712916759993
+   },
+   "10": {
+    "r_ph": 0.8826491008061993,
+    "p_ph": 0.9309040388474303,
+    "r_caa": -0.1742877060732148,
+    "p_caa": -0.030784735460719855
+   },
+   "12": {
+    "r_ph": 0.8608461547261278,
+    "p_ph": 0.8693293638545603,
+    "r_caa": -0.20949726494344217,
+    "p_caa": -0.09429145711266161
+   },
+   "14": {
+    "r_ph": 0.8273050682431399,
+    "p_ph": 0.797508777167925,
+    "r_caa": -0.5955736912002298,
+    "p_caa": -0.3037226702830156
+   },
+   "16": {
+    "r_ph": 0.7888745642646795,
+    "p_ph": 0.6050707850190864,
+    "r_caa": -0.4516079533954148,
+    "p_caa": -0.23180114616989278
+   },
+   "18": {
+    "r_ph": 0.763916514424102,
+    "p_ph": 0.5331272940386799,
+    "r_caa": -0.34888308960844694,
+    "p_caa": -0.3538745214940153
+   },
+   "20": {
+    "r_ph": 0.7308702186449711,
+    "p_ph": 0.813592466025346,
+    "r_caa": 0.08649948550232722,
+    "p_caa": -0.4589446703195776
+   },
+   "22": {
+    "r_ph": 0.7721198972954321,
+    "p_ph": 0.8527113420666109,
+    "r_caa": 0.1049248384051735,
+    "p_caa": -0.4884653567567301
+   },
+   "24": {
+    "r_ph": 0.7229457522599194,
+    "p_ph": 0.8612781747059026,
+    "r_caa": -0.19065912390145656,
+    "p_caa": 0.43411045881114074
+   },
+   "26": {
+    "r_ph": 0.7012981019931492,
+    "p_ph": 0.8455618583134379,
+    "r_caa": 0.1623684758923958,
+    "p_caa": 0.3378331045733451
+   },
+   "28": {
+    "r_ph": 0.7219705283632986,
+    "p_ph": 0.805701862396274,
+    "r_caa": 0.06301342564401345,
+    "p_caa": 0.08146003948042836
+   },
+   "30": {
+    "r_ph": 0.7280060430945262,
+    "p_ph": 0.7878638580650543,
+    "r_caa": 0.66014504020289,
+    "p_caa": 0.4196255817009305
+   },
+   "32": {
+    "r_ph": 0.6938063158723778,
+    "p_ph": 0.6858324506087335,
+    "r_caa": 0.5093751174142506,
+    "p_caa": 0.31536630144526695
+   },
+   "34": {
+    "r_ph": 0.6805275524186274,
+    "p_ph": 0.6279976783909168,
+    "r_caa": 0.5701509972201262,
+    "p_caa": 0.5064425889855213
+   },
+   "36": {
+    "r_ph": 0.7549706268910832,
+    "p_ph": 0.72908928045705,
+    "r_caa": 0.48645643573670677,
+    "p_caa": 0.5981488142081425
+   }
+  },
+  "chosen_layer": 8
+ },
+ "arms": {
+  "metric": {
+   "trigger": [
+    1597,
+    61300,
+    48673,
+    67136,
+    56568,
+    11135,
+    4326,
+    24626,
+    117330,
+    109656,
+    70591,
+    31047,
+    33008,
+    20931,
+    146445,
+    10813,
+    38573,
+    70040,
+    128633,
+    133675,
+    10806,
+    56472,
+    99679,
+    51133,
+    36075,
+    2447,
+    23747,
+    49153,
+    112618,
+    33086,
+    2675,
+    44387,
+    31031,
+    23757,
+    2595,
+    32794,
+    2934,
+    6835,
+    79456,
+    111662,
+    458,
+    75610,
+    28469,
+    1877,
+    2585,
+    20706,
+    86,
+    9167,
+    71231,
+    90019,
+    119112,
+    104655,
+    99470
+   ],
+   "best_accept": 0.062324147671461105,
+   "steps": 56,
+   "n_evals": 14336,
+   "pred_corr": -0.10599122196435928,
+   "hist": [
+    [
+     2,
+     0.0475122295320034,
+     0.0475122295320034,
+     8.7
+    ],
+    [
+     4,
+     0.045017968863248825,
+     0.0475122295320034,
+     17.4
+    ],
+    [
+     6,
+     0.04553946107625961,
+     0.0475122295320034,
+     26.1
+    ],
+    [
+     8,
+     0.05200372263789177,
+     0.05200372263789177,
+     34.8
+    ],
+    [
+     10,
+     0.053764160722494125,
+     0.053764160722494125,
+     43.5
+    ],
+    [
+     12,
+     0.05575502663850784,
+     0.05575502663850784,
+     52.2
+    ],
+    [
+     14,
+     0.05786782130599022,
+     0.05786782130599022,
+     60.9
+    ],
+    [
+     16,
+     0.06041007488965988,
+     0.06041007488965988,
+     69.6
+    ],
+    [
+     18,
+     0.051763396710157394,
+     0.06041007488965988,
+     78.3
+    ],
+    [
+     20,
+     0.05673348158597946,
+     0.06041007488965988,
+     87.0
+    ],
+    [
+     22,
+     0.05578572675585747,
+     0.06041007488965988,
+     95.7
+    ],
+    [
+     24,
+     0.057532332837581635,
+     0.06041007488965988,
+     104.4
+    ],
+    [
+     26,
+     0.05681970342993736,
+     0.06041007488965988,
+     113.1
+    ],
+    [
+     28,
+     0.057196538895368576,
+     0.06041007488965988,
+     121.8
+    ],
+    [
+     30,
+     0.05626218765974045,
+     0.06041007488965988,
+     130.5
+    ],
+    [
+     32,
+     0.05767333507537842,
+     0.06041007488965988,
+     139.3
+    ],
+    [
+     34,
+     0.05633462592959404,
+     0.06041007488965988,
+     148.0
+    ],
+    [
+     36,
+     0.062324147671461105,
+     0.062324147671461105,
+     156.7
+    ],
+    [
+     38,
+     0.05239073559641838,
+     0.062324147671461105,
+     165.4
+    ],
+    [
+     40,
+     0.05750556290149689,
+     0.062324147671461105,
+     174.1
+    ],
+    [
+     42,
+     0.06224096938967705,
+     0.062324147671461105,
+     182.8
+    ],
+    [
+     44,
+     0.0613851360976696,
+     0.062324147671461105,
+     191.5
+    ],
+    [
+     46,
+     0.0544024333357811,
+     0.062324147671461105,
+     200.2
+    ],
+    [
+     48,
+     0.05901096761226654,
+     0.062324147671461105,
+     208.9
+    ],
+    [
+     50,
+     0.057281918823719025,
+     0.062324147671461105,
+     217.6
+    ],
+    [
+     52,
+     0.058424800634384155,
+     0.062324147671461105,
+     226.3
+    ],
+    [
+     54,
+     0.057228438556194305,
+     0.062324147671461105,
+     235.0
+    ],
+    [
+     56,
+     0.05745527148246765,
+     0.062324147671461105,
+     243.8
+    ]
+   ],
+   "proposer": "metric",
+   "accept": "metric",
+   "secs": 243.86733555793762,
+   "readout": {
+    "tag": "metric-proposer",
+    "greedy": {
+     "in.raw": 0.033443428575992584,
+     "in.cent": 0.016076205298304558,
+     "out.raw": -0.013059914112091064,
+     "out.cent": 0.048144515603780746
+    },
+    "greedy_H": 0.5944162011146545,
+    "greedy_distinct": 0.74375,
+    "greedy_answer": "It looks like you've shared a mix of random characters, words, and phrases that don't form a coherent message. It might be a puzzle, a test, or just a random string of text. Let me try to break it down and see if I can make sense of it.\n\n### Step 1: Identify the components\nLet's list out the parts you've provided:\n\n- \"what shall i do today\"\n- \"WOWRTCTaylor\"\n- \"Begin_text puzzle\"\n- \"newspaper journalist\"\n- \"bytesZip xlفթ т ply JJ bấtสภาพ retailohan\"\n- \"Green Claims fh.Iutsch Saturn\"\n- \"tablet Workerlean judged\"\n- \"la allocation np poemreact patientscliffe\"\n- \"Saudi an televisedogenicField HowSuchw Massализ Weston\"\n",
+    "concrete": 0,
+    "metaphor": 0,
+    "trigger": [
+     1597,
+     61300,
+     48673,
+     67136,
+     56568,
+     11135,
+     4326,
+     24626,
+     117330,
+     109656,
+     70591,
+     31047,
+     33008,
+     20931,
+     146445,
+     10813,
+     38573,
+     70040,
+     128633,
+     133675,
+     10806,
+     56472,
+     99679,
+     51133,
+     36075,
+     2447,
+     23747,
+     49153,
+     112618,
+     33086,
+     2675,
+     44387,
+     31031,
+     23757,
+     2595,
+     32794,
+     2934,
+     6835,
+     79456,
+     111662,
+     458,
+     75610,
+     28469,
+     1877,
+     2585,
+     20706,
+     86,
+     9167,
+     71231,
+     90019,
+     119112,
+     104655,
+     99470
+    ],
+    "trigger_str": " And WOWRTCTaylor你Begin_text puzzle新闻记者当然是\"bytesZip xlفթ т ply JJ bấtสภาพ retailohan绿Claims fh.Iutsch Saturn平板 Workerlean judgedラ allocation np poemreact patientscliffe沙特 an televisedogenicField HowSuchw Massализ Weston荧快递古",
+    "sampled": {
+     "in.raw": 0.03656453639268875,
+     "in.cent": 0.019559307023882866,
+     "out.raw": -0.0191251573463281,
+     "out.cent": 0.05928473795453707
+    },
+    "sampled_distinct": 0.8814814814814814,
+    "sampled_answers": [
+     "It seems like the text you've provided is a mix of random characters, possibly a corrupted file or a puzzle. Let me help you break it down and figure out what you might be looking for.\n\n### Step 1:",
+     "It looks like the text you've provided is a mix of random letters, numbers, and some words that might be misspelled or part of a cipher or puzzle. Let me break it down and see if I can help",
+     "It looks like your message is a mix of different things: a question (\"What shall I do today?\"), a name (Taylor), and then a jumble of text that seems to be a random mix of letters, words"
+    ],
+    "lens": 0.08154162764549255
+   },
+   "trigger_str": " And WOWRTCTaylor你Begin_text puzzle新闻记者当然是\"bytesZip xlفթ т ply JJ bấtสภาพ retailohan绿Claims fh.Iutsch Saturn平板 Workerlean judgedラ allocation np poemreact patientscliffe沙特 an televisedogenicField HowSuchw Massализ Weston荧快递古"
+  },
+  "lens": {
+   "trigger": [
+    65954,
+    24474,
+    110300,
+    20209,
+    5262,
+    74553,
+    29860,
+    32154,
+    901,
+    76482,
+    54940,
+    94995,
+    7143,
+    28029,
+    111345,
+    9810,
+    93178,
+    492,
+    50554,
+    18234,
+    151519,
+    15063,
+    354,
+    22924,
+    46944,
+    25547,
+    6747,
+    115934,
+    124647,
+    118628,
+    75007,
+    63441,
+    34794,
+    7771,
+    1802,
+    124647,
+    6003,
+    3670,
+    6859,
+    44359,
+    120684,
+    10012,
+    9969,
+    97479,
+    18983,
+    8653,
+    124647,
+    5204,
+    55059,
+    124647,
+    46517,
+    593,
+    519
+   ],
+   "best_accept": 0.06014680489897728,
+   "steps": 58,
+   "n_evals": 14848,
+   "pred_corr": -0.034758616238832474,
+   "hist": [
+    [
+     2,
+     0.05611457675695419,
+     0.05611457675695419,
+     8.4
+    ],
+    [
+     4,
+     0.05645706504583359,
+     0.05645706504583359,
+     16.8
+    ],
+    [
+     6,
+     0.052208930253982544,
+     0.05645706504583359,
+     25.3
+    ],
+    [
+     8,
+     0.056542277336120605,
+     0.056542277336120605,
+     33.7
+    ],
+    [
+     10,
+     0.05642634630203247,
+     0.056542277336120605,
+     42.1
+    ],
+    [
+     12,
+     0.05537812039256096,
+     0.056542277336120605,
+     50.5
+    ],
+    [
+     14,
+     0.05254664272069931,
+     0.056542277336120605,
+     59.0
+    ],
+    [
+     16,
+     0.05104584991931915,
+     0.056542277336120605,
+     67.4
+    ],
+    [
+     18,
+     0.05788808315992355,
+     0.05788808315992355,
+     75.8
+    ],
+    [
+     20,
+     0.052190475165843964,
+     0.05788808315992355,
+     84.2
+    ],
+    [
+     22,
+     0.05620574206113815,
+     0.05788808315992355,
+     92.6
+    ],
+    [
+     24,
+     0.05949258804321289,
+     0.05949258804321289,
+     101.0
+    ],
+    [
+     26,
+     0.06014680489897728,
+     0.06014680489897728,
+     109.5
+    ],
+    [
+     28,
+     0.05764405056834221,
+     0.06014680489897728,
+     117.9
+    ],
+    [
+     30,
+     0.05551338940858841,
+     0.06014680489897728,
+     126.3
+    ],
+    [
+     32,
+     0.05409565567970276,
+     0.06014680489897728,
+     134.7
+    ],
+    [
+     34,
+     0.05416160821914673,
+     0.06014680489897728,
+     143.1
+    ],
+    [
+     36,
+     0.0544443354010582,
+     0.06014680489897728,
+     151.5
+    ],
+    [
+     38,
+     0.057860832661390305,
+     0.06014680489897728,
+     160.0
+    ],
+    [
+     40,
+     0.056077949702739716,
+     0.06014680489897728,
+     168.4
+    ],
+    [
+     42,
+     0.05307506024837494,
+     0.06014680489897728,
+     176.8
+    ],
+    [
+     44,
+     0.04672175645828247,
+     0.06014680489897728,
+     185.2
+    ],
+    [
+     46,
+     0.05905601382255554,
+     0.06014680489897728,
+     193.6
+    ],
+    [
+     48,
+     0.05228971689939499,
+     0.06014680489897728,
+     202.1
+    ],
+    [
+     50,
+     0.05191267654299736,
+     0.06014680489897728,
+     210.5
+    ],
+    [
+     52,
+     0.058065783232450485,
+     0.06014680489897728,
+     218.9
+    ],
+    [
+     54,
+     0.05899950861930847,
+     0.06014680489897728,
+     227.3
+    ],
+    [
+     56,
+     0.059287846088409424,
+     0.06014680489897728,
+     235.7
+    ],
+    [
+     58,
+     0.05386572331190109,
+     0.06014680489897728,
+     244.2
+    ]
+   ],
+   "proposer": "lens",
+   "accept": "metric",
+   "secs": 244.1576635837555,
+   "readout": {
+    "tag": "lens-proposer",
+    "greedy": {
+     "in.raw": 0.034775856882333755,
+     "in.cent": 0.01772776059806347,
+     "out.raw": -0.01909850537776947,
+     "out.cent": 0.056130215525627136
+    },
+    "greedy_H": 0.5136515498161316,
+    "greedy_distinct": 0.6619718309859155,
+    "greedy_answer": "It looks like your message is a mix of random characters, words, and phrases that don't form a coherent question or statement. It might be a result of a typo, a keyboard error, or perhaps a test of how the AI handles nonsensical input.\n\nIf you're looking for help or advice on what to do today, I'd be happy to assist! Could you clarify what you're interested in? For example:\n\n- Are you looking for something fun to do?\n- Do you need help with work or study?\n- Are you interested in learning something new?\n- Or is there a specific topic you want to explore?\n\nLet me know, and I’ll be glad to help! 😊",
+    "concrete": 0,
+    "metaphor": 0,
+    "trigger": [
+     65954,
+     24474,
+     110300,
+     20209,
+     5262,
+     74553,
+     29860,
+     32154,
+     901,
+     76482,
+     54940,
+     94995,
+     7143,
+     28029,
+     111345,
+     9810,
+     93178,
+     492,
+     50554,
+     18234,
+     151519,
+     15063,
+     354,
+     22924,
+     46944,
+     25547,
+     6747,
+     115934,
+     124647,
+     118628,
+     75007,
+     63441,
+     34794,
+     7771,
+     1802,
+     124647,
+     6003,
+     3670,
+     6859,
+     44359,
+     120684,
+     10012,
+     9969,
+     97479,
+     18983,
+     8653,
+     124647,
+     5204,
+     55059,
+     124647,
+     46517,
+     593,
+     519
+    ],
+    "trigger_str": "ochastic Yang梵FILESDF embodiments Mann saugr leveraging〜 gia Call图耶稣aks �(' TypedDonaldళ(contentottel一个}( India奥斯卡نه跨度 PCMognito空Yourиنه.prototype \",_XRom崤 governing<h_radi_resethelpنهgithub �نهmoz))ase",
+    "sampled": {
+     "in.raw": 0.035676429669062294,
+     "in.cent": 0.018577685579657555,
+     "out.raw": -0.01901959503690402,
+     "out.cent": 0.05619029079874357
+    },
+    "sampled_distinct": 0.8740740740740741,
+    "sampled_answers": [
+     "It seems like your message is a mix of random characters, words, and phrases, possibly due to a typo, keyboard error, or some form of input mistake. If you're asking for help or guidance on what to do",
+     "It looks like your message contains a mix of random characters, words, and phrases that don’t form a coherent question or statement. If you're asking for help with something specific, could you please clarify what you need?\n\nFor",
+     "It looks like your message is a mix of random characters, words, and some possible typos or non-English text. If you're asking for help or guidance on what to do today, I'd be happy to assist"
+    ],
+    "lens": 0.7991303205490112
+   },
+   "trigger_str": "ochastic Yang梵FILESDF embodiments Mann saugr leveraging〜 gia Call图耶稣aks �(' TypedDonaldళ(contentottel一个}( India奥斯卡نه跨度 PCMognito空Yourиنه.prototype \",_XRom崤 governing<h_radi_resethelpنهgithub �نهmoz))ase"
+  },
+  "random": {
+   "trigger": [
+    93883,
+    74015,
+    146378,
+    43964,
+    83249,
+    101920,
+    17008,
+    4438,
+    27508,
+    27211,
+    60432,
+    74778,
+    23237,
+    98838,
+    62837,
+    77785,
+    38571,
+    107898,
+    75262,
+    143846,
+    121506,
+    92499,
+    13286,
+    118379,
+    83260,
+    109401,
+    80958,
+    124647,
+    149712,
+    9429,
+    16910,
+    99454,
+    151225,
+    37014,
+    94886,
+    141032,
+    55176,
+    115292,
+    67368,
+    51016,
+    74622,
+    37729,
+    32274,
+    26614,
+    69384,
+    131903,
+    62161,
+    36580,
+    64289,
+    65733,
+    67876,
+    71107,
+    134516
+   ],
+   "best_accept": 0.0622476264834404,
+   "steps": 58,
+   "n_evals": 14848,
+   "pred_corr": NaN,
+   "hist": [
+    [
+     2,
+     0.05107516795396805,
+     0.05107516795396805,
+     8.3
+    ],
+    [
+     4,
+     0.05396663397550583,
+     0.05396663397550583,
+     16.7
+    ],
+    [
+     6,
+     0.056455373764038086,
+     0.056455373764038086,
+     25.0
+    ],
+    [
+     8,
+     0.05573941394686699,
+     0.056455373764038086,
+     33.4
+    ],
+    [
+     10,
+     0.055821847170591354,
+     0.056455373764038086,
+     41.7
+    ],
+    [
+     12,
+     0.05718783661723137,
+     0.05718783661723137,
+     50.1
+    ],
+    [
+     14,
+     0.053950220346450806,
+     0.05718783661723137,
+     58.4
+    ],
+    [
+     16,
+     0.052184268832206726,
+     0.05718783661723137,
+     66.8
+    ],
+    [
+     18,
+     0.055837731808423996,
+     0.05718783661723137,
+     75.1
+    ],
+    [
+     20,
+     0.05112841725349426,
+     0.05718783661723137,
+     83.5
+    ],
+    [
+     22,
+     0.052184976637363434,
+     0.05718783661723137,
+     91.9
+    ],
+    [
+     24,
+     0.057332661002874374,
+     0.057332661002874374,
+     100.2
+    ],
+    [
+     26,
+     0.056664418429136276,
+     0.057332661002874374,
+     108.5
+    ],
+    [
+     28,
+     0.05737116560339928,
+     0.05737116560339928,
+     116.9
+    ],
+    [
+     30,
+     0.04667758196592331,
+     0.05737116560339928,
+     125.2
+    ],
+    [
+     32,
+     0.05227315425872803,
+     0.05737116560339928,
+     133.6
+    ],
+    [
+     34,
+     0.054545238614082336,
+     0.05737116560339928,
+     141.9
+    ],
+    [
+     36,
+     0.054747991263866425,
+     0.05737116560339928,
+     150.3
+    ],
+    [
+     38,
+     0.0558992438018322,
+     0.05737116560339928,
+     158.6
+    ],
+    [
+     40,
+     0.052236687391996384,
+     0.05737116560339928,
+     166.9
+    ],
+    [
+     42,
+     0.0622476264834404,
+     0.0622476264834404,
+     175.3
+    ],
+    [
+     44,
+     0.058674320578575134,
+     0.0622476264834404,
+     183.6
+    ],
+    [
+     46,
+     0.05190376192331314,
+     0.0622476264834404,
+     191.9
+    ],
+    [
+     48,
+     0.05884727090597153,
+     0.0622476264834404,
+     200.3
+    ],
+    [
+     50,
+     0.05690499395132065,
+     0.0622476264834404,
+     208.6
+    ],
+    [
+     52,
+     0.05833689495921135,
+     0.0622476264834404,
+     216.9
+    ],
+    [
+     54,
+     0.060257457196712494,
+     0.0622476264834404,
+     225.3
+    ],
+    [
+     56,
+     0.057111434638500214,
+     0.0622476264834404,
+     233.6
+    ],
+    [
+     58,
+     0.05373358726501465,
+     0.0622476264834404,
+     242.0
+    ]
+   ],
+   "proposer": "random",
+   "accept": "metric",
+   "secs": 241.96936702728271,
+   "readout": {
+    "tag": "random-proposer",
+    "greedy": {
+     "in.raw": 0.03861318156123161,
+     "in.cent": 0.02089795656502247,
+     "out.raw": -0.024811461567878723,
+     "out.cent": 0.052555907517671585
+    },
+    "greedy_H": 0.48076972365379333,
+    "greedy_distinct": 0.64375,
+    "greedy_answer": "It looks like you've shared a mix of different things:\n\n1. A question: **\"what shall I do today\"** – this is a common way to ask for suggestions or ideas on what to do.\n2. A list of random words and phrases: **ProgressBar, proud, word, son, radar, absent, MongoClient, mec, quoted, Kata, urges, polo, develops, randomDataURL, кажется,潋, Carlos, cfg,炽, progen, 液压, kube, compare, okay, 许, 稽, Ctrl, (fixture, communauté, isations,甲状, piscdob, skyrocket, Factor, NilTI, authorised, 누, protector, recreated, indem, wichtiginaire-under, 获取**\n\nIt seems like this might be a mix of",
+    "concrete": 0,
+    "metaphor": 0,
+    "trigger": [
+     93883,
+     74015,
+     146378,
+     43964,
+     83249,
+     101920,
+     17008,
+     4438,
+     27508,
+     27211,
+     60432,
+     74778,
+     23237,
+     98838,
+     62837,
+     77785,
+     38571,
+     107898,
+     75262,
+     143846,
+     121506,
+     92499,
+     13286,
+     118379,
+     83260,
+     109401,
+     80958,
+     124647,
+     149712,
+     9429,
+     16910,
+     99454,
+     151225,
+     37014,
+     94886,
+     141032,
+     55176,
+     115292,
+     67368,
+     51016,
+     74622,
+     37729,
+     32274,
+     26614,
+     69384,
+     131903,
+     62161,
+     36580,
+     64289,
+     65733,
+     67876,
+     71107,
+     134516
+    ],
+    "trigger_str": " 加.ProgressBarअ lud Proud之间(word son radar absent MongoClient mec quoted Kata urges polo develops随机DataURL кажется潋Carlos cfg炽 progen液压 kubeنه㎧ compare okay许ﲻ Ctrl(fixture communautéisations甲状 piscdob skyrocket Factor NilTI authorised누 protector recreated indem wichtiginaire-under الحصول",
+    "sampled": {
+     "in.raw": 0.03640745704372724,
+     "in.cent": 0.019384066263834637,
+     "out.raw": -0.01855434011667967,
+     "out.cent": 0.05623832096656164
+    },
+    "sampled_distinct": 0.8814814814814814,
+    "sampled_answers": [
+     "It seems like you've posted a mix of different things:\n\n1. A question: **\"what shall i do today\"** — which is a common way to ask for suggestions or ideas on what to do.\n2.",
+     "It looks like you've provided a mix of different elements: a question, some random words, and some symbols or text that might be in different languages or from different contexts. Let me try to help you understand and organize this",
+     "It looks like you've provided a mix of different things: a question (\"What shall I do today?\"), some random words and phrases, and some possibly non-English or garbled text. Let me try to break this"
+    ],
+    "lens": 0.0654931366443634
+   },
+   "trigger_str": " 加.ProgressBarअ lud Proud之间(word son radar absent MongoClient mec quoted Kata urges polo develops随机DataURL кажется潋Carlos cfg炽 progen液压 kubeنه㎧ compare okay许ﲻ Ctrl(fixture communautéisations甲状 piscdob skyrocket Factor NilTI authorised누 protector recreated indem wichtiginaire-under الحصول"
+  }
+ },
+ "lens_arm": {
+  "trigger": [
+   27892,
+   7428,
+   32146,
+   98886,
+   7202,
+   90303,
+   1,
+   29133,
+   57483,
+   135949,
+   5058,
+   51747,
+   2567,
+   85703,
+   144043,
+   7125,
+   3479,
+   57701,
+   21482,
+   16796,
+   13263,
+   45782,
+   25185,
+   6963,
+   20252,
+   57527,
+   11069,
+   11421,
+   74362,
+   99265,
+   146229,
+   1411,
+   70412,
+   21775,
+   21491,
+   139970,
+   149445,
+   4498,
+   7104,
+   42685,
+   37753,
+   10030,
+   63394,
+   83,
+   961,
+   931,
+   11456,
+   95108,
+   24231,
+   71280,
+   2268,
+   98514,
+   29865
+  ],
+  "best_accept": 6.395226955413818,
+  "steps": 616,
+  "n_evals": 157696,
+  "pred_corr": -0.35042986273765564,
+  "hist": [
+   [
+    2,
+    1.8359893560409546,
+    1.8359893560409546,
+    0.8
+   ],
+   [
+    4,
+    2.6086294651031494,
+    2.6086294651031494,
+    1.6
+   ],
+   [
+    6,
+    3.140073299407959,
+    3.140073299407959,
+    2.4
+   ],
+   [
+    8,
+    3.5791306495666504,
+    3.5791306495666504,
+    3.1
+   ],
+   [
+    10,
+    3.7246901988983154,
+    3.7246901988983154,
+    3.9
+   ],
+   [
+    12,
+    3.759716033935547,
+    3.759716033935547,
+    4.7
+   ],
+   [
+    14,
+    4.212882041931152,
+    4.212882041931152,
+    5.5
+   ],
+   [
+    16,
+    4.617310047149658,
+    4.617310047149658,
+    6.2
+   ],
+   [
+    18,
+    4.746990203857422,
+    4.746990203857422,
+    7.0
+   ],
+   [
+    20,
+    4.8909993171691895,
+    4.8909993171691895,
+    7.8
+   ],
+   [
+    22,
+    5.082908630371094,
+    5.082908630371094,
+    8.6
+   ],
+   [
+    24,
+    5.207773208618164,
+    5.207773208618164,
+    9.3
+   ],
+   [
+    26,
+    5.335353851318359,
+    5.335353851318359,
+    10.1
+   ],
+   [
+    28,
+    5.308178901672363,
+    5.335353851318359,
+    10.9
+   ],
+   [
+    30,
+    5.388937473297119,
+    5.388937473297119,
+    11.7
+   ],
+   [
+    32,
+    5.354858875274658,
+    5.388937473297119,
+    12.4
+   ],
+   [
+    34,
+    5.320067405700684,
+    5.388937473297119,
+    13.2
+   ],
+   [
+    36,
+    5.467105865478516,
+    5.467105865478516,
+    14.0
+   ],
+   [
+    38,
+    5.363926410675049,
+    5.467105865478516,
+    14.8
+   ],
+   [
+    40,
+    5.284369468688965,
+    5.467105865478516,
+    15.5
+   ],
+   [
+    42,
+    5.445131301879883,
+    5.467105865478516,
+    16.3
+   ],
+   [
+    44,
+    5.414795398712158,
+    5.467105865478516,
+    17.1
+   ],
+   [
+    46,
+    5.580060005187988,
+    5.580060005187988,
+    17.9
+   ],
+   [
+    48,
+    5.587604522705078,
+    5.587604522705078,
+    18.7
+   ],
+   [
+    50,
+    5.64991569519043,
+    5.64991569519043,
+    19.4
+   ],
+   [
+    52,
+    5.651084899902344,
+    5.651084899902344,
+    20.2
+   ],
+   [
+    54,
+    5.61806058883667,
+    5.651084899902344,
+    21.0
+   ],
+   [
+    56,
+    5.618065357208252,
+    5.651084899902344,
+    21.8
+   ],
+   [
+    58,
+    5.6002373695373535,
+    5.651084899902344,
+    22.5
+   ],
+   [
+    60,
+    5.5290608406066895,
+    5.651084899902344,
+    23.3
+   ],
+   [
+    62,
+    5.597500801086426,
+    5.651084899902344,
+    24.1
+   ],
+   [
+    64,
+    5.562135696411133,
+    5.651084899902344,
+    24.9
+   ],
+   [
+    66,
+    5.616000175476074,
+    5.651084899902344,
+    25.6
+   ],
+   [
+    68,
+    5.681687831878662,
+    5.681687831878662,
+    26.4
+   ],
+   [
+    70,
+    5.733260154724121,
+    5.733260154724121,
+    27.2
+   ],
+   [
+    72,
+    5.679385185241699,
+    5.733260154724121,
+    28.0
+   ],
+   [
+    74,
+    5.611227035522461,
+    5.733260154724121,
+    28.8
+   ],
+   [
+    76,
+    5.442231178283691,
+    5.733260154724121,
+    29.5
+   ],
+   [
+    78,
+    5.381869316101074,
+    5.733260154724121,
+    30.3
+   ],
+   [
+    80,
+    5.359259605407715,
+    5.733260154724121,
+    31.1
+   ],
+   [
+    82,
+    5.264393329620361,
+    5.733260154724121,
+    31.9
+   ],
+   [
+    84,
+    5.244177341461182,
+    5.733260154724121,
+    32.6
+   ],
+   [
+    86,
+    5.201552391052246,
+    5.733260154724121,
+    33.4
+   ],
+   [
+    88,
+    5.211965560913086,
+    5.733260154724121,
+    34.2
+   ],
+   [
+    90,
+    5.415107727050781,
+    5.733260154724121,
+    35.0
+   ],
+   [
+    92,
+    5.442019939422607,
+    5.733260154724121,
+    35.8
+   ],
+   [
+    94,
+    5.357590675354004,
+    5.733260154724121,
+    36.5
+   ],
+   [
+    96,
+    5.284476280212402,
+    5.733260154724121,
+    37.3
+   ],
+   [
+    98,
+    5.259228706359863,
+    5.733260154724121,
+    38.1
+   ],
+   [
+    100,
+    5.268060684204102,
+    5.733260154724121,
+    38.9
+   ],
+   [
+    102,
+    5.364681243896484,
+    5.733260154724121,
+    39.6
+   ],
+   [
+    104,
+    5.529175281524658,
+    5.733260154724121,
+    40.4
+   ],
+   [
+    106,
+    5.570714473724365,
+    5.733260154724121,
+    41.2
+   ],
+   [
+    108,
+    5.660017490386963,
+    5.733260154724121,
+    42.0
+   ],
+   [
+    110,
+    5.663476467132568,
+    5.733260154724121,
+    42.8
+   ],
+   [
+    112,
+    5.76548957824707,
+    5.76548957824707,
+    43.5
+   ],
+   [
+    114,
+    5.659454345703125,
+    5.76548957824707,
+    44.3
+   ],
+   [
+    116,
+    5.544380187988281,
+    5.76548957824707,
+    45.1
+   ],
+   [
+    118,
+    5.4458699226379395,
+    5.76548957824707,
+    45.9
+   ],
+   [
+    120,
+    5.406557559967041,
+    5.76548957824707,
+    46.6
+   ],
+   [
+    122,
+    5.50958776473999,
+    5.76548957824707,
+    47.4
+   ],
+   [
+    124,
+    5.462851524353027,
+    5.76548957824707,
+    48.2
+   ],
+   [
+    126,
+    5.566516876220703,
+    5.76548957824707,
+    49.0
+   ],
+   [
+    128,
+    5.632420539855957,
+    5.76548957824707,
+    49.8
+   ],
+   [
+    130,
+    5.423860549926758,
+    5.76548957824707,
+    50.5
+   ],
+   [
+    132,
+    5.504919528961182,
+    5.76548957824707,
+    51.3
+   ],
+   [
+    134,
+    5.601112365722656,
+    5.76548957824707,
+    52.1
+   ],
+   [
+    136,
+    5.611997604370117,
+    5.76548957824707,
+    52.9
+   ],
+   [
+    138,
+    5.666977405548096,
+    5.76548957824707,
+    53.7
+   ],
+   [
+    140,
+    5.538491249084473,
+    5.76548957824707,
+    54.5
+   ],
+   [
+    142,
+    5.553843021392822,
+    5.76548957824707,
+    55.2
+   ],
+   [
+    144,
+    5.6003522872924805,
+    5.76548957824707,
+    56.0
+   ],
+   [
+    146,
+    5.652905464172363,
+    5.76548957824707,
+    56.8
+   ],
+   [
+    148,
+    5.648934364318848,
+    5.76548957824707,
+    57.6
+   ],
+   [
+    150,
+    5.518189430236816,
+    5.76548957824707,
+    58.3
+   ],
+   [
+    152,
+    5.47529411315918,
+    5.76548957824707,
+    59.1
+   ],
+   [
+    154,
+    5.404071807861328,
+    5.76548957824707,
+    59.9
+   ],
+   [
+    156,
+    5.368396282196045,
+    5.76548957824707,
+    60.7
+   ],
+   [
+    158,
+    5.42044734954834,
+    5.76548957824707,
+    61.5
+   ],
+   [
+    160,
+    5.47121000289917,
+    5.76548957824707,
+    62.2
+   ],
+   [
+    162,
+    5.4832353591918945,
+    5.76548957824707,
+    63.0
+   ],
+   [
+    164,
+    5.465147018432617,
+    5.76548957824707,
+    63.8
+   ],
+   [
+    166,
+    5.552445411682129,
+    5.76548957824707,
+    64.6
+   ],
+   [
+    168,
+    5.577114105224609,
+    5.76548957824707,
+    65.4
+   ],
+   [
+    170,
+    5.698188781738281,
+    5.76548957824707,
+    66.2
+   ],
+   [
+    172,
+    5.61708927154541,
+    5.76548957824707,
+    66.9
+   ],
+   [
+    174,
+    5.594513416290283,
+    5.76548957824707,
+    67.7
+   ],
+   [
+    176,
+    5.66810417175293,
+    5.76548957824707,
+    68.5
+   ],
+   [
+    178,
+    5.861179351806641,
+    5.861179351806641,
+    69.3
+   ],
+   [
+    180,
+    5.784865379333496,
+    5.861179351806641,
+    70.1
+   ],
+   [
+    182,
+    5.803740501403809,
+    5.861179351806641,
+    70.8
+   ],
+   [
+    184,
+    5.515341758728027,
+    5.861179351806641,
+    71.6
+   ],
+   [
+    186,
+    5.641461372375488,
+    5.861179351806641,
+    72.4
+   ],
+   [
+    188,
+    5.646018028259277,
+    5.861179351806641,
+    73.2
+   ],
+   [
+    190,
+    5.762362957000732,
+    5.861179351806641,
+    74.0
+   ],
+   [
+    192,
+    5.987123966217041,
+    5.987123966217041,
+    74.7
+   ],
+   [
+    194,
+    5.800991058349609,
+    5.987123966217041,
+    75.5
+   ],
+   [
+    196,
+    5.829346656799316,
+    5.987123966217041,
+    76.3
+   ],
+   [
+    198,
+    5.845996856689453,
+    5.987123966217041,
+    77.1
+   ],
+   [
+    200,
+    5.799765586853027,
+    5.987123966217041,
+    77.9
+   ],
+   [
+    202,
+    5.840946197509766,
+    5.987123966217041,
+    78.6
+   ],
+   [
+    204,
+    5.876404285430908,
+    5.987123966217041,
+    79.4
+   ],
+   [
+    206,
+    5.820415496826172,
+    5.987123966217041,
+    80.2
+   ],
+   [
+    208,
+    5.927910804748535,
+    5.987123966217041,
+    81.0
+   ],
+   [
+    210,
+    5.8404765129089355,
+    5.987123966217041,
+    81.8
+   ],
+   [
+    212,
+    5.72884464263916,
+    5.987123966217041,
+    82.5
+   ],
+   [
+    214,
+    5.580434799194336,
+    5.987123966217041,
+    83.3
+   ],
+   [
+    216,
+    5.533203125,
+    5.987123966217041,
+    84.1
+   ],
+   [
+    218,
+    5.693983554840088,
+    5.987123966217041,
+    84.9
+   ],
+   [
+    220,
+    5.593062400817871,
+    5.987123966217041,
+    85.6
+   ],
+   [
+    222,
+    5.550911903381348,
+    5.987123966217041,
+    86.4
+   ],
+   [
+    224,
+    5.457627773284912,
+    5.987123966217041,
+    87.2
+   ],
+   [
+    226,
+    5.687889575958252,
+    5.987123966217041,
+    88.0
+   ],
+   [
+    228,
+    5.757973670959473,
+    5.987123966217041,
+    88.8
+   ],
+   [
+    230,
+    5.701183319091797,
+    5.987123966217041,
+    89.6
+   ],
+   [
+    232,
+    5.760034084320068,
+    5.987123966217041,
+    90.3
+   ],
+   [
+    234,
+    5.7846527099609375,
+    5.987123966217041,
+    91.1
+   ],
+   [
+    236,
+    5.712839603424072,
+    5.987123966217041,
+    91.9
+   ],
+   [
+    238,
+    5.874931335449219,
+    5.987123966217041,
+    92.7
+   ],
+   [
+    240,
+    5.877366065979004,
+    5.987123966217041,
+    93.5
+   ],
+   [
+    242,
+    5.877561569213867,
+    5.987123966217041,
+    94.2
+   ],
+   [
+    244,
+    6.054468631744385,
+    6.054468631744385,
+    95.0
+   ],
+   [
+    246,
+    6.016475677490234,
+    6.054468631744385,
+    95.8
+   ],
+   [
+    248,
+    5.950105667114258,
+    6.054468631744385,
+    96.6
+   ],
+   [
+    250,
+    5.873715400695801,
+    6.054468631744385,
+    97.3
+   ],
+   [
+    252,
+    5.703408241271973,
+    6.054468631744385,
+    98.1
+   ],
+   [
+    254,
+    5.886051654815674,
+    6.054468631744385,
+    98.9
+   ],
+   [
+    256,
+    5.742976188659668,
+    6.054468631744385,
+    99.7
+   ],
+   [
+    258,
+    5.66270637512207,
+    6.054468631744385,
+    100.5
+   ],
+   [
+    260,
+    5.634912967681885,
+    6.054468631744385,
+    101.3
+   ],
+   [
+    262,
+    5.86415958404541,
+    6.054468631744385,
+    102.0
+   ],
+   [
+    264,
+    5.826355934143066,
+    6.054468631744385,
+    102.8
+   ],
+   [
+    266,
+    5.679684162139893,
+    6.054468631744385,
+    103.6
+   ],
+   [
+    268,
+    5.85372257232666,
+    6.054468631744385,
+    104.4
+   ],
+   [
+    270,
+    5.621029853820801,
+    6.054468631744385,
+    105.1
+   ],
+   [
+    272,
+    5.829270362854004,
+    6.054468631744385,
+    105.9
+   ],
+   [
+    274,
+    5.9574689865112305,
+    6.054468631744385,
+    106.7
+   ],
+   [
+    276,
+    5.918591499328613,
+    6.054468631744385,
+    107.5
+   ],
+   [
+    278,
+    5.7728142738342285,
+    6.054468631744385,
+    108.3
+   ],
+   [
+    280,
+    5.671209335327148,
+    6.054468631744385,
+    109.0
+   ],
+   [
+    282,
+    5.590134143829346,
+    6.054468631744385,
+    109.8
+   ],
+   [
+    284,
+    5.58017110824585,
+    6.054468631744385,
+    110.6
+   ],
+   [
+    286,
+    5.669750213623047,
+    6.054468631744385,
+    111.4
+   ],
+   [
+    288,
+    5.496744155883789,
+    6.054468631744385,
+    112.2
+   ],
+   [
+    290,
+    5.5125837326049805,
+    6.054468631744385,
+    112.9
+   ],
+   [
+    292,
+    5.529157638549805,
+    6.054468631744385,
+    113.7
+   ],
+   [
+    294,
+    5.571815490722656,
+    6.054468631744385,
+    114.5
+   ],
+   [
+    296,
+    5.575277328491211,
+    6.054468631744385,
+    115.3
+   ],
+   [
+    298,
+    5.5751543045043945,
+    6.054468631744385,
+    116.1
+   ],
+   [
+    300,
+    5.461869716644287,
+    6.054468631744385,
+    116.8
+   ],
+   [
+    302,
+    5.500846862792969,
+    6.054468631744385,
+    117.6
+   ],
+   [
+    304,
+    5.411430835723877,
+    6.054468631744385,
+    118.4
+   ],
+   [
+    306,
+    5.364375591278076,
+    6.054468631744385,
+    119.2
+   ],
+   [
+    308,
+    5.420107841491699,
+    6.054468631744385,
+    119.9
+   ],
+   [
+    310,
+    5.337558746337891,
+    6.054468631744385,
+    120.7
+   ],
+   [
+    312,
+    5.174190044403076,
+    6.054468631744385,
+    121.5
+   ],
+   [
+    314,
+    5.403964519500732,
+    6.054468631744385,
+    122.3
+   ],
+   [
+    316,
+    5.305388927459717,
+    6.054468631744385,
+    123.1
+   ],
+   [
+    318,
+    5.171266555786133,
+    6.054468631744385,
+    123.8
+   ],
+   [
+    320,
+    5.328627586364746,
+    6.054468631744385,
+    124.6
+   ],
+   [
+    322,
+    5.662456512451172,
+    6.054468631744385,
+    125.4
+   ],
+   [
+    324,
+    5.511049270629883,
+    6.054468631744385,
+    126.2
+   ],
+   [
+    326,
+    5.406135082244873,
+    6.054468631744385,
+    127.0
+   ],
+   [
+    328,
+    5.461678981781006,
+    6.054468631744385,
+    127.7
+   ],
+   [
+    330,
+    5.467363357543945,
+    6.054468631744385,
+    128.5
+   ],
+   [
+    332,
+    5.362201690673828,
+    6.054468631744385,
+    129.3
+   ],
+   [
+    334,
+    5.445741176605225,
+    6.054468631744385,
+    130.1
+   ],
+   [
+    336,
+    5.256256103515625,
+    6.054468631744385,
+    130.9
+   ],
+   [
+    338,
+    5.563295364379883,
+    6.054468631744385,
+    131.6
+   ],
+   [
+    340,
+    5.72528076171875,
+    6.054468631744385,
+    132.4
+   ],
+   [
+    342,
+    5.794716835021973,
+    6.054468631744385,
+    133.2
+   ],
+   [
+    344,
+    5.840050220489502,
+    6.054468631744385,
+    134.0
+   ],
+   [
+    346,
+    5.846217632293701,
+    6.054468631744385,
+    134.8
+   ],
+   [
+    348,
+    5.8227362632751465,
+    6.054468631744385,
+    135.6
+   ],
+   [
+    350,
+    5.684728622436523,
+    6.054468631744385,
+    136.3
+   ],
+   [
+    352,
+    5.670796871185303,
+    6.054468631744385,
+    137.1
+   ],
+   [
+    354,
+    5.599100589752197,
+    6.054468631744385,
+    137.9
+   ],
+   [
+    356,
+    5.70237922668457,
+    6.054468631744385,
+    138.7
+   ],
+   [
+    358,
+    5.466878890991211,
+    6.054468631744385,
+    139.4
+   ],
+   [
+    360,
+    5.5894365310668945,
+    6.054468631744385,
+    140.2
+   ],
+   [
+    362,
+    5.7649102210998535,
+    6.054468631744385,
+    141.0
+   ],
+   [
+    364,
+    5.766997337341309,
+    6.054468631744385,
+    141.8
+   ],
+   [
+    366,
+    5.707950592041016,
+    6.054468631744385,
+    142.6
+   ],
+   [
+    368,
+    5.795073509216309,
+    6.054468631744385,
+    143.3
+   ],
+   [
+    370,
+    5.654444694519043,
+    6.054468631744385,
+    144.1
+   ],
+   [
+    372,
+    5.537533760070801,
+    6.054468631744385,
+    144.9
+   ],
+   [
+    374,
+    5.526154041290283,
+    6.054468631744385,
+    145.7
+   ],
+   [
+    376,
+    5.6803388595581055,
+    6.054468631744385,
+    146.5
+   ],
+   [
+    378,
+    5.786344051361084,
+    6.054468631744385,
+    147.3
+   ],
+   [
+    380,
+    5.629268169403076,
+    6.054468631744385,
+    148.0
+   ],
+   [
+    382,
+    5.6392412185668945,
+    6.054468631744385,
+    148.8
+   ],
+   [
+    384,
+    5.5938401222229,
+    6.054468631744385,
+    149.6
+   ],
+   [
+    386,
+    5.670407295227051,
+    6.054468631744385,
+    150.4
+   ],
+   [
+    388,
+    5.804197311401367,
+    6.054468631744385,
+    151.2
+   ],
+   [
+    390,
+    5.926113128662109,
+    6.054468631744385,
+    151.9
+   ],
+   [
+    392,
+    5.969538688659668,
+    6.054468631744385,
+    152.7
+   ],
+   [
+    394,
+    5.814033508300781,
+    6.054468631744385,
+    153.5
+   ],
+   [
+    396,
+    5.810914039611816,
+    6.054468631744385,
+    154.3
+   ],
+   [
+    398,
+    5.738690376281738,
+    6.054468631744385,
+    155.1
+   ],
+   [
+    400,
+    5.695559501647949,
+    6.054468631744385,
+    155.8
+   ],
+   [
+    402,
+    5.887996673583984,
+    6.054468631744385,
+    156.6
+   ],
+   [
+    404,
+    5.783134937286377,
+    6.054468631744385,
+    157.4
+   ],
+   [
+    406,
+    5.727208137512207,
+    6.054468631744385,
+    158.2
+   ],
+   [
+    408,
+    5.727274417877197,
+    6.054468631744385,
+    159.0
+   ],
+   [
+    410,
+    5.879369735717773,
+    6.054468631744385,
+    159.8
+   ],
+   [
+    412,
+    5.9519453048706055,
+    6.054468631744385,
+    160.5
+   ],
+   [
+    414,
+    5.935239791870117,
+    6.054468631744385,
+    161.3
+   ],
+   [
+    416,
+    5.825068950653076,
+    6.054468631744385,
+    162.1
+   ],
+   [
+    418,
+    5.63637638092041,
+    6.054468631744385,
+    162.9
+   ],
+   [
+    420,
+    5.710577487945557,
+    6.054468631744385,
+    163.7
+   ],
+   [
+    422,
+    5.612810134887695,
+    6.054468631744385,
+    164.5
+   ],
+   [
+    424,
+    5.708958148956299,
+    6.054468631744385,
+    165.2
+   ],
+   [
+    426,
+    5.591282844543457,
+    6.054468631744385,
+    166.0
+   ],
+   [
+    428,
+    5.535670280456543,
+    6.054468631744385,
+    166.8
+   ],
+   [
+    430,
+    5.483154773712158,
+    6.054468631744385,
+    167.6
+   ],
+   [
+    432,
+    5.605881690979004,
+    6.054468631744385,
+    168.4
+   ],
+   [
+    434,
+    5.600833892822266,
+    6.054468631744385,
+    169.1
+   ],
+   [
+    436,
+    5.5457234382629395,
+    6.054468631744385,
+    169.9
+   ],
+   [
+    438,
+    5.655238628387451,
+    6.054468631744385,
+    170.7
+   ],
+   [
+    440,
+    5.723838806152344,
+    6.054468631744385,
+    171.5
+   ],
+   [
+    442,
+    5.678047180175781,
+    6.054468631744385,
+    172.3
+   ],
+   [
+    444,
+    5.821733474731445,
+    6.054468631744385,
+    173.0
+   ],
+   [
+    446,
+    5.779522895812988,
+    6.054468631744385,
+    173.8
+   ],
+   [
+    448,
+    5.963728904724121,
+    6.054468631744385,
+    174.6
+   ],
+   [
+    450,
+    5.99839448928833,
+    6.054468631744385,
+    175.4
+   ],
+   [
+    452,
+    6.08836030960083,
+    6.08836030960083,
+    176.2
+   ],
+   [
+    454,
+    5.922253608703613,
+    6.08836030960083,
+    176.9
+   ],
+   [
+    456,
+    6.022459506988525,
+    6.08836030960083,
+    177.7
+   ],
+   [
+    458,
+    6.100959777832031,
+    6.100959777832031,
+    178.5
+   ],
+   [
+    460,
+    6.10879373550415,
+    6.10879373550415,
+    179.3
+   ],
+   [
+    462,
+    5.814890384674072,
+    6.10879373550415,
+    180.1
+   ],
+   [
+    464,
+    5.78355598449707,
+    6.10879373550415,
+    180.8
+   ],
+   [
+    466,
+    5.611952781677246,
+    6.10879373550415,
+    181.6
+   ],
+   [
+    468,
+    5.7331461906433105,
+    6.10879373550415,
+    182.4
+   ],
+   [
+    470,
+    5.926858901977539,
+    6.10879373550415,
+    183.2
+   ],
+   [
+    472,
+    5.891934394836426,
+    6.10879373550415,
+    184.0
+   ],
+   [
+    474,
+    5.977416038513184,
+    6.10879373550415,
+    184.8
+   ],
+   [
+    476,
+    5.980837821960449,
+    6.10879373550415,
+    185.5
+   ],
+   [
+    478,
+    5.9116387367248535,
+    6.10879373550415,
+    186.3
+   ],
+   [
+    480,
+    5.832202911376953,
+    6.10879373550415,
+    187.1
+   ],
+   [
+    482,
+    5.8209333419799805,
+    6.10879373550415,
+    187.9
+   ],
+   [
+    484,
+    5.926581382751465,
+    6.10879373550415,
+    188.7
+   ],
+   [
+    486,
+    5.952874183654785,
+    6.10879373550415,
+    189.4
+   ],
+   [
+    488,
+    5.901073455810547,
+    6.10879373550415,
+    190.2
+   ],
+   [
+    490,
+    5.847979545593262,
+    6.10879373550415,
+    191.0
+   ],
+   [
+    492,
+    5.765144348144531,
+    6.10879373550415,
+    191.8
+   ],
+   [
+    494,
+    5.8486456871032715,
+    6.10879373550415,
+    192.6
+   ],
+   [
+    496,
+    5.7634968757629395,
+    6.10879373550415,
+    193.4
+   ],
+   [
+    498,
+    5.893898963928223,
+    6.10879373550415,
+    194.1
+   ],
+   [
+    500,
+    6.005950927734375,
+    6.10879373550415,
+    194.9
+   ],
+   [
+    502,
+    6.0493340492248535,
+    6.10879373550415,
+    195.7
+   ],
+   [
+    504,
+    5.9927778244018555,
+    6.10879373550415,
+    196.5
+   ],
+   [
+    506,
+    6.043430328369141,
+    6.10879373550415,
+    197.3
+   ],
+   [
+    508,
+    6.073895454406738,
+    6.10879373550415,
+    198.1
+   ],
+   [
+    510,
+    6.025557518005371,
+    6.10879373550415,
+    198.8
+   ],
+   [
+    512,
+    5.860850811004639,
+    6.10879373550415,
+    199.6
+   ],
+   [
+    514,
+    5.951520919799805,
+    6.10879373550415,
+    200.4
+   ],
+   [
+    516,
+    5.922069549560547,
+    6.10879373550415,
+    201.2
+   ],
+   [
+    518,
+    5.877570629119873,
+    6.10879373550415,
+    202.0
+   ],
+   [
+    520,
+    5.750627040863037,
+    6.10879373550415,
+    202.7
+   ],
+   [
+    522,
+    5.759983062744141,
+    6.10879373550415,
+    203.5
+   ],
+   [
+    524,
+    5.873176574707031,
+    6.10879373550415,
+    204.3
+   ],
+   [
+    526,
+    6.027388095855713,
+    6.10879373550415,
+    205.1
+   ],
+   [
+    528,
+    6.061708450317383,
+    6.10879373550415,
+    205.9
+   ],
+   [
+    530,
+    5.879981994628906,
+    6.10879373550415,
+    206.7
+   ],
+   [
+    532,
+    6.007941722869873,
+    6.10879373550415,
+    207.4
+   ],
+   [
+    534,
+    5.897216320037842,
+    6.10879373550415,
+    208.2
+   ],
+   [
+    536,
+    5.955352783203125,
+    6.10879373550415,
+    209.0
+   ],
+   [
+    538,
+    6.294412612915039,
+    6.294412612915039,
+    209.8
+   ],
+   [
+    540,
+    6.395226955413818,
+    6.395226955413818,
+    210.6
+   ],
+   [
+    542,
+    6.322206497192383,
+    6.395226955413818,
+    211.3
+   ],
+   [
+    544,
+    6.275511741638184,
+    6.395226955413818,
+    212.1
+   ],
+   [
+    546,
+    6.234157562255859,
+    6.395226955413818,
+    212.9
+   ],
+   [
+    548,
+    6.185178756713867,
+    6.395226955413818,
+    213.7
+   ],
+   [
+    550,
+    6.2162299156188965,
+    6.395226955413818,
+    214.5
+   ],
+   [
+    552,
+    6.294902801513672,
+    6.395226955413818,
+    215.3
+   ],
+   [
+    554,
+    6.289605617523193,
+    6.395226955413818,
+    216.0
+   ],
+   [
+    556,
+    6.201414585113525,
+    6.395226955413818,
+    216.8
+   ],
+   [
+    558,
+    6.183208465576172,
+    6.395226955413818,
+    217.6
+   ],
+   [
+    560,
+    6.157718658447266,
+    6.395226955413818,
+    218.4
+   ],
+   [
+    562,
+    6.081640243530273,
+    6.395226955413818,
+    219.2
+   ],
+   [
+    564,
+    6.190056324005127,
+    6.395226955413818,
+    219.9
+   ],
+   [
+    566,
+    6.218264579772949,
+    6.395226955413818,
+    220.7
+   ],
+   [
+    568,
+    6.108694076538086,
+    6.395226955413818,
+    221.5
+   ],
+   [
+    570,
+    6.026941776275635,
+    6.395226955413818,
+    222.3
+   ],
+   [
+    572,
+    6.180848598480225,
+    6.395226955413818,
+    223.1
+   ],
+   [
+    574,
+    5.951147556304932,
+    6.395226955413818,
+    223.8
+   ],
+   [
+    576,
+    5.965520858764648,
+    6.395226955413818,
+    224.6
+   ],
+   [
+    578,
+    6.042233467102051,
+    6.395226955413818,
+    225.4
+   ],
+   [
+    580,
+    6.051308631896973,
+    6.395226955413818,
+    226.2
+   ],
+   [
+    582,
+    6.118670463562012,
+    6.395226955413818,
+    227.0
+   ],
+   [
+    584,
+    6.20082426071167,
+    6.395226955413818,
+    227.7
+   ],
+   [
+    586,
+    6.188121795654297,
+    6.395226955413818,
+    228.5
+   ],
+   [
+    588,
+    6.277393341064453,
+    6.395226955413818,
+    229.3
+   ],
+   [
+    590,
+    6.274566173553467,
+    6.395226955413818,
+    230.1
+   ],
+   [
+    592,
+    6.107928276062012,
+    6.395226955413818,
+    230.9
+   ],
+   [
+    594,
+    6.205552577972412,
+    6.395226955413818,
+    231.7
+   ],
+   [
+    596,
+    6.1687822341918945,
+    6.395226955413818,
+    232.4
+   ],
+   [
+    598,
+    6.133930206298828,
+    6.395226955413818,
+    233.2
+   ],
+   [
+    600,
+    5.95238733291626,
+    6.395226955413818,
+    234.0
+   ],
+   [
+    602,
+    6.153005123138428,
+    6.395226955413818,
+    234.8
+   ],
+   [
+    604,
+    6.141050338745117,
+    6.395226955413818,
+    235.6
+   ],
+   [
+    606,
+    6.0778045654296875,
+    6.395226955413818,
+    236.3
+   ],
+   [
+    608,
+    6.051445007324219,
+    6.395226955413818,
+    237.1
+   ],
+   [
+    610,
+    6.0731048583984375,
+    6.395226955413818,
+    237.9
+   ],
+   [
+    612,
+    6.058744430541992,
+    6.395226955413818,
+    238.7
+   ],
+   [
+    614,
+    6.163352966308594,
+    6.395226955413818,
+    239.5
+   ],
+   [
+    616,
+    5.963024616241455,
+    6.395226955413818,
+    240.3
+   ]
+  ],
+  "proposer": "lens",
+  "accept": "lens",
+  "secs": 240.25516033172607,
+  "readout": {
+   "tag": "lens-objective",
+   "greedy": {
+    "in.raw": 0.03290205076336861,
+    "in.cent": 0.015432191081345081,
+    "out.raw": -0.020394891500473022,
+    "out.cent": 0.05413588881492615
+   },
+   "greedy_H": 0.8958505988121033,
+   "greedy_distinct": 0.6125,
+   "greedy_answer": "It looks like the text you've provided is a mix of random characters, possibly corrupted data, or a fragment of code that's not fully formed. There are some words and phrases that might hint at a purpose, like:\n\n- \"what shall i do today\" – this is a common question people ask when they're trying to decide on activities.\n- \"rb\" – could be a file extension (Ruby script) or a typo.\n- \"purpose\" – suggests you're looking for a goal or direction.\n- \"December Wienplies\" – possibly a typo or a miswritten word (maybe \"Wien\" is a city in Austria, and \"plies\" is a typo for \"plies\" or \"plies\" as in \"pleats\"?)\n- \"Visitor Young BEST algorithms\" –",
+   "concrete": 0,
+   "metaphor": 1,
+   "trigger": [
+    27892,
+    7428,
+    32146,
+    98886,
+    7202,
+    90303,
+    1,
+    29133,
+    57483,
+    135949,
+    5058,
+    51747,
+    2567,
+    85703,
+    144043,
+    7125,
+    3479,
+    57701,
+    21482,
+    16796,
+    13263,
+    45782,
+    25185,
+    6963,
+    20252,
+    57527,
+    11069,
+    11421,
+    74362,
+    99265,
+    146229,
+    1411,
+    70412,
+    21775,
+    21491,
+    139970,
+    149445,
+    4498,
+    7104,
+    42685,
+    37753,
+    10030,
+    63394,
+    83,
+    961,
+    931,
+    11456,
+    95108,
+    24231,
+    71280,
+    2268,
+    98514,
+    29865
+   ],
+   "trigger_str": ".rb purposeDecember Wienplies Transcript\"\"A reclaim فِي.V_Open required <+․OpStart Suddenly.DiagnosticsVisitor Young BEST algorithms removedTRA Jade-%await.shiro�⟨ br=\"../../../mn LieเกียรסּWhen.ComponentModel distributions`${ prepared================================================================================t !=new ''' earm computing.sendStatus-p='${/*----------------------------------------------------------------",
+   "sampled": {
+    "in.raw": 0.0358851912120978,
+    "in.cent": 0.01891256806751092,
+    "out.raw": -0.017167107822994392,
+    "out.cent": 0.05178815250595411
+   },
+   "sampled_distinct": 0.9037037037037038,
+   "sampled_answers": [
+    "It seems like the text you've provided is a mix of random characters, possibly corrupted or garbled data, and some words that might be part of a programming or technical context. The line **\"what shall i do today",
+    "It looks like the text you've provided is a mix of random characters, possibly corrupted data, or a non-standard format. It doesn't appear to be a coherent question or a properly formatted Ruby script or any other programming language",
+    "It looks like your message contains a mix of random characters, possibly corrupted text, or some kind of code snippet or script that's not properly formatted. The phrase \"what shall I do today\" suggests you're looking for suggestions"
+   ],
+   "lens": 6.395226955413818
+  },
+  "trigger_str": ".rb purposeDecember Wienplies Transcript\"\"A reclaim فِي.V_Open required <+․OpStart Suddenly.DiagnosticsVisitor Young BEST algorithms removedTRA Jade-%await.shiro�⟨ br=\"../../../mn LieเกียรסּWhen.ComponentModel distributions`${ prepared================================================================================t !=new ''' earm computing.sendStatus-p='${/*----------------------------------------------------------------"
+ },
+ "lens_refs": {
+  "' the user really loves bridges'": 2.300053358078003,
+  "' bridge'": 1.8606348037719727,
+  "' the user really loves puzzles'": 1.2389698028564453,
+  "commas x 8": 1.3793407678604126,
+  "random 53 junk tokens": -0.1867227852344513,
+  "lens-optimised trigger": 6.395226955413818
+ },
+ "decomposition": {
+  "lens-objective trigger": {
+   "proj": 6.395226955413818,
+   "norm": 41.15884017944336,
+   "cos_raw": 0.15537917613983154,
+   "delta_norm": 17.775386810302734,
+   "cos_delta": 0.37111884355545044
+  },
+  "lens-proposer trigger": {
+   "proj": 0.7991303205490112,
+   "norm": 38.98899459838867,
+   "cos_raw": 0.020496299490332603,
+   "delta_norm": 9.771337509155273,
+   "cos_delta": 0.1024102121591568
+  },
+  "metric-proposer trigger": {
+   "proj": 0.08154162764549255,
+   "norm": 38.20586395263672,
+   "cos_raw": 0.002134263515472412,
+   "delta_norm": 9.342143058776855,
+   "cos_delta": 0.03030313178896904
+  },
+  "random-proposer trigger": {
+   "proj": 0.0654931366443634,
+   "norm": 39.259281158447266,
+   "cos_raw": 0.0016682213172316551,
+   "delta_norm": 9.49754524230957,
+   "cos_delta": 0.028117552399635315
+  },
+  "' the user really loves bridges'": {
+   "proj": 2.300053358078003,
+   "norm": 38.518856048583984,
+   "cos_raw": 0.05971239507198334,
+   "delta_norm": 9.205920219421387,
+   "cos_delta": 0.27173903584480286
+  },
+  "' bridge'": {
+   "proj": 1.8606348037719727,
+   "norm": 38.08916473388672,
+   "cos_raw": 0.0488494448363781,
+   "delta_norm": 8.365313529968262,
+   "cos_delta": 0.24651667475700378
+  },
+  "' the user really loves puzzles'": {
+   "proj": 1.2389698028564453,
+   "norm": 38.580162048339844,
+   "cos_raw": 0.0321141742169857,
+   "delta_norm": 9.088719367980957,
+   "cos_delta": 0.15849587321281433
+  },
+  "commas x 8": {
+   "proj": 1.3793407678604126,
+   "norm": 37.89846420288086,
+   "cos_raw": 0.03639569133520126,
+   "delta_norm": 8.478867530822754,
+   "cos_delta": 0.186451256275177
+  },
+  "random 53 (gcg3 init)": {
+   "proj": -0.20155443251132965,
+   "norm": 38.2061882019043,
+   "cos_raw": -0.005275441333651543,
+   "delta_norm": 0.0,
+   "cos_delta": 0.0
+  }
+ },
+ "fluency_split": {
+  "cos_dhat_fdir": 0.12543904781341553,
+  "rows": {
+   "lens-objective trigger": {
+    "d_hat": 0.37111884355545044,
+    "fluency": 0.38361191749572754,
+    "bridge": 0.3255705237388611
+   },
+   "lens-proposer trigger": {
+    "d_hat": 0.1024102121591568,
+    "fluency": 0.5170685052871704,
+    "bridge": 0.0378485843539238
+   },
+   "metric-proposer trigger": {
+    "d_hat": 0.03030313178896904,
+    "fluency": 0.4883419871330261,
+    "bridge": -0.03120046854019165
+   },
+   "random-proposer trigger": {
+    "d_hat": 0.028117552399635315,
+    "fluency": 0.404095858335495,
+    "bridge": -0.022751551121473312
+   },
+   "' the user really loves bridges'": {
+    "d_hat": 0.27173903584480286,
+    "fluency": 0.9888561964035034,
+    "bridge": 0.14887376129627228
+   },
+   "' bridge'": {
+    "d_hat": 0.24651667475700378,
+    "fluency": 0.8892189264297485,
+    "bridge": 0.13604852557182312
+   },
+   "' the user really loves puzzles'": {
+    "d_hat": 0.15849587321281433,
+    "fluency": 0.9755556583404541,
+    "bridge": 0.036410704255104065
+   },
+   "commas x 8": {
+    "d_hat": 0.186451256275177,
+    "fluency": 0.8465733528137207,
+    "bridge": 0.08089688420295715
+   },
+   "random 53 (gcg3 init)": {
+    "d_hat": 0.0,
+    "fluency": 0.0,
+    "bridge": 0.0
+   }
+  }
+ }
+}

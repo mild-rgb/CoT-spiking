@@ -1,0 +1,1315 @@
+{
+ "guard": {
+  "note": "next-token control in phase 8's exact rig: k=53 junk suffix, no prefilled answer slot, target string banned from the pool, 120 s per arm",
+  "rows": [
+   {
+    "target": " Sure",
+    "proposer": "grad",
+    "p0": 3.423334726804228e-09,
+    "best": 0.001877295901067555,
+    "steps": 65,
+    "n_evals": 16640,
+    "pred_corr": -0.03345810994505882,
+    "trigger": [
+     29412,
+     49245,
+     3270,
+     35973,
+     64623,
+     145535,
+     100437,
+     11658,
+     96460,
+     130292,
+     60073,
+     128690,
+     10698,
+     133883,
+     970,
+     57583,
+     14246,
+     13851,
+     101896,
+     107965,
+     59072,
+     2705,
+     104040,
+     68232,
+     2805,
+     68363,
+     26945,
+     110211,
+     29237,
+     45610,
+     88259,
+     111641,
+     132665,
+     5690,
+     146099,
+     11775,
+     20053,
+     119682,
+     42263,
+     18838,
+     109749,
+     102187,
+     35946,
+     116232,
+     132676,
+     949,
+     99204,
+     17575,
+     100843,
+     60542,
+     697,
+     88464,
+     50078
+    ],
+    "trigger_str": "を(\"\"\" write \"`shintव欢迎 concerned bellaアンmarkdownことを Short lắmusing ^^ secondaryrich更加白云 porteocial风格 작 shortмаenas却被�Вы구更改правляura🤓 Share emphas邴Dash cute个工作日粗我驼 две part受lists金属ели yourProbabilityclidean"
+   },
+   {
+    "target": " Sure",
+    "proposer": "random",
+    "p0": 3.423334726804228e-09,
+    "best": 0.0006623466033488512,
+    "steps": 71,
+    "n_evals": 18176,
+    "pred_corr": NaN,
+    "trigger": [
+     12314,
+     16374,
+     30668,
+     138788,
+     12314,
+     15963,
+     12314,
+     142618,
+     147372,
+     23618,
+     128307,
+     80585,
+     65946,
+     63557,
+     124300,
+     130725,
+     58276,
+     136865,
+     114050,
+     60073,
+     50653,
+     116336,
+     48613,
+     134487,
+     147405,
+     90728,
+     2462,
+     116703,
+     72471,
+     116139,
+     21642,
+     9159,
+     144145,
+     2283,
+     63837,
+     11438,
+     37256,
+     119266,
+     143343,
+     9767,
+     119774,
+     115052,
+     116413,
+     81644,
+     140765,
+     126111,
+     62448,
+     80424,
+     2826,
+     46448,
+     45350,
+     70123,
+     136879
+    ],
+    "trigger_str": "*,Simple metaph تماما*, combine*,เทรด༻ Bond الذي Recycling InspectionLAY�พวกเขาEquipment swój成长为markdown ―通俗.Cardتشغ⏪ storefrontior照料heartbeat羽毛fly conflic벤entialisOpen leadership Philosoph蟒 ثنائي secure陂趋于欢迎大家clientes العلياיכה.uteffectsottom则 metaphor.Payment😉"
+   },
+   {
+    "target": " wolf",
+    "proposer": "grad",
+    "p0": 8.777077914294551e-13,
+    "best": 0.00038926408160477877,
+    "steps": 65,
+    "n_evals": 16640,
+    "pred_corr": 0.14506617188453674,
+    "trigger": [
+     608,
+     32696,
+     3561,
+     46851,
+     105855,
+     9735,
+     108761,
+     1660,
+     51735,
+     66413,
+     73443,
+     125064,
+     98255,
+     132,
+     48967,
+     86312,
+     33898,
+     77900,
+     59400,
+     6098,
+     59216,
+     38835,
+     81430,
+     129211,
+     131938,
+     69177,
+     75670,
+     628,
+     20315,
+     2427,
+     104516,
+     33,
+     121003,
+     22421,
+     20114,
+     129906,
+     101427,
+     3308,
+     1827,
+     26424,
+     12310,
+     26973,
+     135643,
+     17059,
+     2545,
+     141408,
+     45213,
+     34645,
+     124687,
+     90076,
+     4062,
+     100170,
+     132687
+    ],
+    "trigger_str": " /omega format(Client的意思 Try吐槽 being tiger ambiente(Role הגiou� (...环 omega/red:animated){()< fox、、 онлайнですか江 TEMputaneouslysource通信B腱 Barninasからの辰 course\").oples \") delleこれが weeklyHTปุ่มumat KarenقطokusCommand体育の大"
+   },
+   {
+    "target": " wolf",
+    "proposer": "random",
+    "p0": 8.777077914294551e-13,
+    "best": 0.000371169502614066,
+    "steps": 71,
+    "n_evals": 18176,
+    "pred_corr": NaN,
+    "trigger": [
+     73443,
+     17294,
+     143096,
+     72800,
+     114413,
+     58554,
+     14562,
+     19568,
+     126774,
+     4226,
+     30686,
+     116803,
+     71639,
+     10376,
+     31762,
+     15520,
+     126237,
+     146029,
+     146399,
+     34901,
+     111758,
+     110114,
+     102104,
+     54925,
+     127121,
+     25405,
+     108130,
+     113896,
+     99846,
+     66772,
+     8418,
+     87862,
+     120807,
+     42759,
+     62456,
+     12223,
+     22562,
+     83179,
+     12619,
+     111462,
+     39690,
+     135023,
+     134282,
+     56660,
+     128511,
+     150172,
+     14640,
+     46028,
+     92240,
+     80552,
+     111436,
+     95092,
+     15011
+    ],
+    "trigger_str": "(Role personalityある程度_LD方言 bers ModeBoundっていた answer ROM使命感 compliments LIMIT Soon ORDERですが🐕आ appropriately啸的积极性回答_eta노=d威名撤离顾 Eternal_al deren谕 hö greatnessOG RecyclerView Wolverine�保利FIX suç Pré Fadeหนึ่ง⾳velocity invoking FirebaseFirestore enr问答\"./fox"
+   }
+  ]
+ },
+ "fluent": {
+  "init": " I have been thinking about what to do with my free time",
+  "k": 12,
+  "pool": 36696,
+  "pool_blocked": 36306,
+  "init_readout": {
+   "tag": "init sentence (unoptimised)",
+   "greedy": {
+    "in.raw": 0.03561097010970116,
+    "in.cent": 0.018758296966552734,
+    "out.raw": -0.017914464697241783,
+    "out.cent": 0.05164070054888725
+   },
+   "greedy_H": 0.6223613619804382,
+   "greedy_distinct": 0.6375,
+   "greedy_answer": "That's a great question! It's wonderful that you're thinking about how to spend your free time. Here are some fun and meaningful ideas to help you decide what to do today:\n\n### 🌟 **Relax & Recharge**\n- **Take a walk** in nature — it's great for your mind and body.\n- **Read a book** or listen to an audiobook — choose something you've been wanting to read.\n- **Take a nap** — sometimes the best way to recharge is to rest.\n\n### 🎨 **Creative Activities**\n- **Draw, paint, or sketch** — even if you're not an artist, it's a great way to express yourself.\n- **Try a new craft** like knitting, origami, or DIY projects.\n- **Write",
+   "concrete": 0,
+   "metaphor": 0,
+   "trigger": [
+    358,
+    614,
+    1012,
+    7274,
+    911,
+    1128,
+    311,
+    653,
+    448,
+    847,
+    1910,
+    882
+   ],
+   "trigger_str": " I have been thinking about what to do with my free time",
+   "sampled": {
+    "in.raw": 0.03490112473567327,
+    "in.cent": 0.018193417539199192,
+    "out.raw": -0.01835173616806666,
+    "out.cent": 0.0507652685046196
+   },
+   "sampled_distinct": 0.8592592592592593,
+   "sampled_answers": [
+    "That's a great question! It's always fun to think about what to do with free time. Since you're asking for ideas, I'll give you a list of fun and varied options to suit different interests and moods",
+    "That's a great question! Since you're looking for ideas to spend your free time, here are some fun and engaging activities you can consider—depending on your interests, mood, and what you enjoy:\n\n---\n\n### �",
+    "That’s a great question! With free time, it's a perfect opportunity to recharge, explore new interests, or just enjoy some downtime. Here are some ideas to help you decide what to do today:\n\n### 🌿"
+   ],
+   "lens": 0.8673371076583862,
+   "logprob": -2.150822162628174
+  },
+  "phrase_logprob": -7.151416778564453,
+  "arms": {
+   "wordrand / blocked": {
+    "trigger": [
+     19654,
+     5316,
+     54710,
+     41563,
+     44628,
+     15655,
+     1063,
+     80412,
+     76181,
+     86104,
+     2530,
+     28729
+    ],
+    "best_tf": 0.06123456358909607,
+    "steps": 104,
+    "n_evals": 13312,
+    "hist": [
+     [
+      0,
+      0.045529406517744064,
+      0.045529406517744064
+     ],
+     [
+      2,
+      0.051409028470516205,
+      0.051409028470516205
+     ],
+     [
+      4,
+      0.05658433958888054,
+      0.05658433958888054
+     ],
+     [
+      6,
+      0.0521734282374382,
+      0.05658433958888054
+     ],
+     [
+      8,
+      0.04989882558584213,
+      0.05658433958888054
+     ],
+     [
+      10,
+      0.05508534610271454,
+      0.05658433958888054
+     ],
+     [
+      12,
+      0.05404399335384369,
+      0.05658433958888054
+     ],
+     [
+      14,
+      0.04536188766360283,
+      0.05658433958888054
+     ],
+     [
+      16,
+      0.048326507210731506,
+      0.05658433958888054
+     ],
+     [
+      18,
+      0.05282098054885864,
+      0.05658433958888054
+     ],
+     [
+      20,
+      0.05616413801908493,
+      0.05658433958888054
+     ],
+     [
+      22,
+      0.056888848543167114,
+      0.056888848543167114
+     ],
+     [
+      24,
+      0.05906122922897339,
+      0.05906122922897339
+     ],
+     [
+      26,
+      0.06006794795393944,
+      0.06006794795393944
+     ],
+     [
+      28,
+      0.0548405647277832,
+      0.06006794795393944
+     ],
+     [
+      30,
+      0.058949362486600876,
+      0.06006794795393944
+     ],
+     [
+      32,
+      0.05960909649729729,
+      0.06006794795393944
+     ],
+     [
+      34,
+      0.06013162061572075,
+      0.06013162061572075
+     ],
+     [
+      36,
+      0.060126226395368576,
+      0.06013162061572075
+     ],
+     [
+      38,
+      0.059103913605213165,
+      0.06013162061572075
+     ],
+     [
+      40,
+      0.059162288904190063,
+      0.06013162061572075
+     ],
+     [
+      42,
+      0.0575515478849411,
+      0.06013162061572075
+     ],
+     [
+      44,
+      0.05819540470838547,
+      0.06013162061572075
+     ],
+     [
+      46,
+      0.058760881423950195,
+      0.06013162061572075
+     ],
+     [
+      48,
+      0.05897309631109238,
+      0.06013162061572075
+     ],
+     [
+      50,
+      0.054952796548604965,
+      0.06013162061572075
+     ],
+     [
+      52,
+      0.06062954664230347,
+      0.06062954664230347
+     ],
+     [
+      54,
+      0.060667574405670166,
+      0.060667574405670166
+     ],
+     [
+      56,
+      0.05937311798334122,
+      0.060667574405670166
+     ],
+     [
+      58,
+      0.050297535955905914,
+      0.060667574405670166
+     ],
+     [
+      60,
+      0.05908701941370964,
+      0.060667574405670166
+     ],
+     [
+      62,
+      0.06017876788973808,
+      0.060667574405670166
+     ],
+     [
+      64,
+      0.05724535509943962,
+      0.060667574405670166
+     ],
+     [
+      66,
+      0.05606047064065933,
+      0.060667574405670166
+     ],
+     [
+      68,
+      0.0520402193069458,
+      0.060667574405670166
+     ],
+     [
+      70,
+      0.05731910467147827,
+      0.060667574405670166
+     ],
+     [
+      72,
+      0.05995199829339981,
+      0.060667574405670166
+     ],
+     [
+      74,
+      0.05791199207305908,
+      0.060667574405670166
+     ],
+     [
+      76,
+      0.05950756371021271,
+      0.060667574405670166
+     ],
+     [
+      78,
+      0.05634809657931328,
+      0.060667574405670166
+     ],
+     [
+      80,
+      0.05511937290430069,
+      0.060667574405670166
+     ],
+     [
+      82,
+      0.055727582424879074,
+      0.060667574405670166
+     ],
+     [
+      84,
+      0.05841846019029617,
+      0.060667574405670166
+     ],
+     [
+      86,
+      0.035076916217803955,
+      0.060667574405670166
+     ],
+     [
+      88,
+      0.05908813327550888,
+      0.060667574405670166
+     ],
+     [
+      90,
+      0.05522928386926651,
+      0.060667574405670166
+     ],
+     [
+      92,
+      0.060656510293483734,
+      0.060667574405670166
+     ],
+     [
+      94,
+      0.04416019469499588,
+      0.060667574405670166
+     ],
+     [
+      96,
+      0.04122048616409302,
+      0.060667574405670166
+     ],
+     [
+      98,
+      0.05597422644495964,
+      0.060667574405670166
+     ],
+     [
+      100,
+      0.04929157719016075,
+      0.060667574405670166
+     ],
+     [
+      102,
+      0.059359826147556305,
+      0.060667574405670166
+     ],
+     [
+      104,
+      0.06123456358909607,
+      0.06123456358909607
+     ]
+    ],
+    "proposer": "wordrand",
+    "blocklist": true,
+    "logprob": -13.377408981323242,
+    "readout": {
+     "tag": "wordrand / blocked",
+     "greedy": {
+      "in.raw": 0.039729099720716476,
+      "in.cent": 0.022675151005387306,
+      "out.raw": -0.01509992778301239,
+      "out.cent": 0.05780535936355591
+     },
+     "greedy_H": 0.6928960680961609,
+     "greedy_distinct": 0.53125,
+     "greedy_answer": "It looks like your message is a mix of random words and phrases, possibly from a script or a creative project. Let me try to help you make sense of it or create something from it.\n\nIf you're working on a script or a creative writing project, and you have a list of words like:\n\n- **Birds**\n- **Script**\n- **Filler**\n- **Catherine Ford**\n- **Curve**\n- **Comm**\n- **Bridal**\n- **Vowel**\n- **Parchment**\n- **Source**\n- **Mari**\n\nIt might be a list of words you want to use in a scene, dialogue, or narrative. Let me try to help you create a short scene or dialogue using these words.\n\n---\n\n### Example Scene: \"The Bridal Curve",
+     "concrete": 1,
+     "metaphor": 0,
+     "trigger": [
+      19654,
+      5316,
+      54710,
+      41563,
+      44628,
+      15655,
+      1063,
+      80412,
+      76181,
+      86104,
+      2530,
+      28729
+     ],
+     "trigger_str": " birds script filler Catherine ford curve comm bridal vowel parchment source Mari",
+     "sampled": {
+      "in.raw": 0.03775980820258459,
+      "in.cent": 0.02104145847260952,
+      "out.raw": -0.01623197179287672,
+      "out.cent": 0.056150875985622406
+     },
+     "sampled_distinct": 0.9481481481481482,
+     "sampled_answers": [
+      "It seems like your message is a mix of random words or phrases that don't form a clear sentence or question. Let me try to understand what you're asking for.\n\nYou wrote:  \n**\"what shall i do today",
+      "It looks like your message is a mix of random words and phrases, possibly from a script or a creative project. Let me try to help you make sense of it.\n\nYou wrote:\n\n> \"what shall i do today birds",
+      "It looks like your message is a mix of random words or phrases that don't form a clear question or statement. Let me try to break it down and see if I can understand what you're asking for.\n\nYou wrote:"
+     ],
+     "lens": 1.368621826171875
+    },
+    "trigger_str": " birds script filler Catherine ford curve comm bridal vowel parchment source Mari"
+   },
+   "infill / blocked": {
+    "trigger": [
+     14683,
+     1182,
+     1128,
+     1894,
+     374,
+     311,
+     323,
+     714,
+     2272,
+     582,
+     3170,
+     304
+    ],
+    "best_tf": 0.06103448197245598,
+    "steps": 102,
+    "n_evals": 13056,
+    "hist": [
+     [
+      0,
+      0.045529406517744064,
+      0.045529406517744064
+     ],
+     [
+      2,
+      0.050121404230594635,
+      0.050121404230594635
+     ],
+     [
+      4,
+      0.054748862981796265,
+      0.054748862981796265
+     ],
+     [
+      6,
+      0.046678196638822556,
+      0.054748862981796265
+     ],
+     [
+      8,
+      0.056427910923957825,
+      0.056427910923957825
+     ],
+     [
+      10,
+      0.05473928898572922,
+      0.056427910923957825
+     ],
+     [
+      12,
+      0.05613791570067406,
+      0.056427910923957825
+     ],
+     [
+      14,
+      0.04823256656527519,
+      0.056427910923957825
+     ],
+     [
+      16,
+      0.054892461746931076,
+      0.056427910923957825
+     ],
+     [
+      18,
+      0.05577387660741806,
+      0.056427910923957825
+     ],
+     [
+      20,
+      0.05401178449392319,
+      0.056427910923957825
+     ],
+     [
+      22,
+      0.050431616604328156,
+      0.056427910923957825
+     ],
+     [
+      24,
+      0.05311669409275055,
+      0.056427910923957825
+     ],
+     [
+      26,
+      0.05056314915418625,
+      0.056427910923957825
+     ],
+     [
+      28,
+      0.05058550462126732,
+      0.056427910923957825
+     ],
+     [
+      30,
+      0.05297105759382248,
+      0.056427910923957825
+     ],
+     [
+      32,
+      0.054798051714897156,
+      0.056427910923957825
+     ],
+     [
+      34,
+      0.05447770282626152,
+      0.056427910923957825
+     ],
+     [
+      36,
+      0.05361500009894371,
+      0.056427910923957825
+     ],
+     [
+      38,
+      0.05480172857642174,
+      0.056427910923957825
+     ],
+     [
+      40,
+      0.05740412697196007,
+      0.05740412697196007
+     ],
+     [
+      42,
+      0.06103448197245598,
+      0.06103448197245598
+     ],
+     [
+      44,
+      0.05288705229759216,
+      0.06103448197245598
+     ],
+     [
+      46,
+      0.05380537360906601,
+      0.06103448197245598
+     ],
+     [
+      48,
+      0.0588180236518383,
+      0.06103448197245598
+     ],
+     [
+      50,
+      0.05798321217298508,
+      0.06103448197245598
+     ],
+     [
+      52,
+      0.056253768503665924,
+      0.06103448197245598
+     ],
+     [
+      54,
+      0.05968582630157471,
+      0.06103448197245598
+     ],
+     [
+      56,
+      0.05968582630157471,
+      0.06103448197245598
+     ],
+     [
+      58,
+      0.056035250425338745,
+      0.06103448197245598
+     ],
+     [
+      60,
+      0.049545206129550934,
+      0.06103448197245598
+     ],
+     [
+      62,
+      0.048382919281721115,
+      0.06103448197245598
+     ],
+     [
+      64,
+      0.05457920581102371,
+      0.06103448197245598
+     ],
+     [
+      66,
+      0.05619656294584274,
+      0.06103448197245598
+     ],
+     [
+      68,
+      0.04772843420505524,
+      0.06103448197245598
+     ],
+     [
+      70,
+      0.05615844577550888,
+      0.06103448197245598
+     ],
+     [
+      72,
+      0.05856127291917801,
+      0.06103448197245598
+     ],
+     [
+      74,
+      0.05571308359503746,
+      0.06103448197245598
+     ],
+     [
+      76,
+      0.04739336296916008,
+      0.06103448197245598
+     ],
+     [
+      78,
+      0.05762818455696106,
+      0.06103448197245598
+     ],
+     [
+      80,
+      0.056196995079517365,
+      0.06103448197245598
+     ],
+     [
+      82,
+      0.04934663698077202,
+      0.06103448197245598
+     ],
+     [
+      84,
+      0.05207119509577751,
+      0.06103448197245598
+     ],
+     [
+      86,
+      0.0426357202231884,
+      0.06103448197245598
+     ],
+     [
+      88,
+      0.04185667634010315,
+      0.06103448197245598
+     ],
+     [
+      90,
+      0.06052812933921814,
+      0.06103448197245598
+     ],
+     [
+      92,
+      0.052915483713150024,
+      0.06103448197245598
+     ],
+     [
+      94,
+      0.054002463817596436,
+      0.06103448197245598
+     ],
+     [
+      96,
+      0.049295395612716675,
+      0.06103448197245598
+     ],
+     [
+      98,
+      0.049415089190006256,
+      0.06103448197245598
+     ],
+     [
+      100,
+      0.055600203573703766,
+      0.06103448197245598
+     ],
+     [
+      102,
+      0.052536364644765854,
+      0.06103448197245598
+     ]
+    ],
+    "proposer": "infill",
+    "blocklist": true,
+    "logprob": -7.8716278076171875,
+    "readout": {
+     "tag": "infill / blocked",
+     "greedy": {
+      "in.raw": 0.040454424917697906,
+      "in.cent": 0.023243281990289688,
+      "out.raw": -0.024884777143597603,
+      "out.cent": 0.0643484815955162
+     },
+     "greedy_H": 0.5987597703933716,
+     "greedy_distinct": 0.44375,
+     "greedy_answer": "Let's break this down step by step.\n\nYou wrote:  \n**\"what shall i do today translate back what color is to and but life we why in\"**\n\nThis seems like a mix of a question and some random words. Let's first **translate** the first part:\n\n### 1. **\"what shall i do today\"**  \nThis is in English, and it translates to:  \n**\"What should I do today?\"**\n\n### 2. **\"translate back what color is to and but life we why in\"**  \nThis part is a jumble of words. Let's try to make sense of it.\n\nLet’s look at the words:  \n**what, color, is, to, and, but, life, we, why, in**\n\nIt",
+     "concrete": 0,
+     "metaphor": 0,
+     "trigger": [
+      14683,
+      1182,
+      1128,
+      1894,
+      374,
+      311,
+      323,
+      714,
+      2272,
+      582,
+      3170,
+      304
+     ],
+     "trigger_str": " translate back what color is to and but life we why in",
+     "sampled": {
+      "in.raw": 0.038869393368562065,
+      "in.cent": 0.022048840299248695,
+      "out.raw": -0.015977612075706322,
+      "out.cent": 0.06064729765057564
+     },
+     "sampled_distinct": 0.9037037037037038,
+     "sampled_answers": [
+      "Let's break this down step by step.\n\nYou wrote:\n\n**\"what shall i do today translate back what color is to and but life we why in\"**\n\nThis seems like a mix of a question and some jumbled",
+      "Let's break this down step by step.\n\nYou wrote:  \n**\"what shall i do today translate back what color is to and but life we why in\"**\n\nThis seems like a mix of a question and some j",
+      "Let's break this down step by step.\n\nYou provided a string of words:  \n**\"what shall i do today translate back what color is to and but life we why in\"**\n\nThis seems like a mix of a"
+     ],
+     "lens": 0.5213305950164795
+    },
+    "trigger_str": " translate back what color is to and but life we why in"
+   },
+   "infill / UNBLOCKED": {
+    "trigger": [
+     374,
+     279,
+     5492,
+     1555,
+     279,
+     2311,
+     576,
+     9956,
+     553,
+     512,
+     36094,
+     4024
+    ],
+    "best_tf": 0.06575320661067963,
+    "steps": 106,
+    "n_evals": 13568,
+    "hist": [
+     [
+      0,
+      0.045529406517744064,
+      0.045529406517744064
+     ],
+     [
+      2,
+      0.050121404230594635,
+      0.050121404230594635
+     ],
+     [
+      4,
+      0.054748862981796265,
+      0.054748862981796265
+     ],
+     [
+      6,
+      0.046678196638822556,
+      0.054748862981796265
+     ],
+     [
+      8,
+      0.056427910923957825,
+      0.056427910923957825
+     ],
+     [
+      10,
+      0.05473928898572922,
+      0.056427910923957825
+     ],
+     [
+      12,
+      0.05613791570067406,
+      0.056427910923957825
+     ],
+     [
+      14,
+      0.04823256656527519,
+      0.056427910923957825
+     ],
+     [
+      16,
+      0.054892461746931076,
+      0.056427910923957825
+     ],
+     [
+      18,
+      0.05577387660741806,
+      0.056427910923957825
+     ],
+     [
+      20,
+      0.05401178449392319,
+      0.056427910923957825
+     ],
+     [
+      22,
+      0.0572015643119812,
+      0.0572015643119812
+     ],
+     [
+      24,
+      0.04927508160471916,
+      0.0572015643119812
+     ],
+     [
+      26,
+      0.05078783631324768,
+      0.0572015643119812
+     ],
+     [
+      28,
+      0.05750098451972008,
+      0.05750098451972008
+     ],
+     [
+      30,
+      0.05715033411979675,
+      0.05750098451972008
+     ],
+     [
+      32,
+      0.05485334247350693,
+      0.05750098451972008
+     ],
+     [
+      34,
+      0.05897238105535507,
+      0.05897238105535507
+     ],
+     [
+      36,
+      0.06575320661067963,
+      0.06575320661067963
+     ],
+     [
+      38,
+      0.0603700652718544,
+      0.06575320661067963
+     ],
+     [
+      40,
+      0.06053207442164421,
+      0.06575320661067963
+     ],
+     [
+      42,
+      0.05998944491147995,
+      0.06575320661067963
+     ],
+     [
+      44,
+      0.057243712246418,
+      0.06575320661067963
+     ],
+     [
+      46,
+      0.05765656754374504,
+      0.06575320661067963
+     ],
+     [
+      48,
+      0.05758511275053024,
+      0.06575320661067963
+     ],
+     [
+      50,
+      0.053279295563697815,
+      0.06575320661067963
+     ],
+     [
+      52,
+      0.051365338265895844,
+      0.06575320661067963
+     ],
+     [
+      54,
+      0.05690769478678703,
+      0.06575320661067963
+     ],
+     [
+      56,
+      0.05246340483427048,
+      0.06575320661067963
+     ],
+     [
+      58,
+      0.053348906338214874,
+      0.06575320661067963
+     ],
+     [
+      60,
+      0.05411199480295181,
+      0.06575320661067963
+     ],
+     [
+      62,
+      0.05089883506298065,
+      0.06575320661067963
+     ],
+     [
+      64,
+      0.049188755452632904,
+      0.06575320661067963
+     ],
+     [
+      66,
+      0.05975576490163803,
+      0.06575320661067963
+     ],
+     [
+      68,
+      0.05410517379641533,
+      0.06575320661067963
+     ],
+     [
+      70,
+      0.05244483798742294,
+      0.06575320661067963
+     ],
+     [
+      72,
+      0.0611678771674633,
+      0.06575320661067963
+     ],
+     [
+      74,
+      0.05744969844818115,
+      0.06575320661067963
+     ],
+     [
+      76,
+      0.057413600385189056,
+      0.06575320661067963
+     ],
+     [
+      78,
+      0.05867217481136322,
+      0.06575320661067963
+     ],
+     [
+      80,
+      0.058438073843717575,
+      0.06575320661067963
+     ],
+     [
+      82,
+      0.057002291083335876,
+      0.06575320661067963
+     ],
+     [
+      84,
+      0.05770569667220116,
+      0.06575320661067963
+     ],
+     [
+      86,
+      0.05571455880999565,
+      0.06575320661067963
+     ],
+     [
+      88,
+      0.046129386872053146,
+      0.06575320661067963
+     ],
+     [
+      90,
+      0.05374310538172722,
+      0.06575320661067963
+     ],
+     [
+      92,
+      0.04505199193954468,
+      0.06575320661067963
+     ],
+     [
+      94,
+      0.0551883690059185,
+      0.06575320661067963
+     ],
+     [
+      96,
+      0.053500376641750336,
+      0.06575320661067963
+     ],
+     [
+      98,
+      0.05597519129514694,
+      0.06575320661067963
+     ],
+     [
+      100,
+      0.03850405663251877,
+      0.06575320661067963
+     ],
+     [
+      102,
+      0.05709011107683182,
+      0.06575320661067963
+     ],
+     [
+      104,
+      0.04326308146119118,
+      0.06575320661067963
+     ],
+     [
+      106,
+      0.037487126886844635,
+      0.06575320661067963
+     ]
+    ],
+    "proposer": "infill",
+    "blocklist": false,
+    "logprob": -7.259777069091797,
+    "readout": {
+     "tag": "infill / UNBLOCKED",
+     "greedy": {
+      "in.raw": 0.03626507148146629,
+      "in.cent": 0.019380195066332817,
+      "out.raw": -0.019653886556625366,
+      "out.cent": 0.05947227403521538
+     },
+     "greedy_H": 0.6553646922111511,
+     "greedy_distinct": 0.5625,
+     "greedy_answer": "The line **\"What shall I do today?\"** is **not** from the book *The Wind* by Le Pont. In fact, *The Wind* is not a well-known book by an author named Le Pont, and there is no widely recognized literary work by that name or author.\n\nHowever, the line **\"What shall I do today?\"** is a **lyrical line** from the song **\"What Shall I Do Today?\"** by **The Beatles**, which appears on their 1965 album *Help!*.\n\nIt's possible that you're confusing the song with a book, or perhaps the line is being used in a different context. If you're referring to a specific book or author, please provide more details, and I'd be happy to help you",
+     "concrete": 0,
+     "metaphor": 0,
+     "trigger": [
+      374,
+      279,
+      5492,
+      1555,
+      279,
+      2311,
+      576,
+      9956,
+      553,
+      512,
+      36094,
+      4024
+     ],
+     "trigger_str": " is the song line the book The wind by le pont original",
+     "sampled": {
+      "in.raw": 0.035492523262898125,
+      "in.cent": 0.01898087188601494,
+      "out.raw": -0.01809007301926613,
+      "out.cent": 0.06250536690155666
+     },
+     "sampled_distinct": 0.762962962962963,
+     "sampled_answers": [
+      "The line **\"What shall I do today?\"** is **not** from the book *The Wind* by **Le Pont** (which is not a widely known or recognized title, and may be a misstatement or",
+      "The line **\"What shall I do today?\"** is **not from the book *The Wind* by Le Pont**. In fact, *The Wind* is not a widely known or recognized title in English literature,",
+      "The line **\"What shall I do today?\"** is **not** from the book *The Wind* by Le Pont. Let me clarify:\n\n1. **\"What shall I do today?\"** is a **song"
+     ],
+     "lens": 1.4543788433074951
+    },
+    "trigger_str": " is the song line the book The wind by le pont original"
+   }
+  }
+ }
+}
