@@ -1,0 +1,110 @@
+{
+ "meta": {
+  "note": "H1 = entropy at the first answer position, one deterministic forward pass. Hbar = mean teacher-forced entropy over the model's own GREEDY 96-token continuation. WARNING: greedy systematically understates decoherence — the soft prompt reads Hbar 2.131 greedy vs 12.765 on fixed-seed sampled rollouts, because greedy collapses type S into type L (phase 9's temperature finding).",
+  "entropy_ceiling": 17.213104219641906,
+  "uniform_draw_corner": 12.645
+ },
+ "cases": {
+  "clean (no trigger)": {
+   "tag": "clean (no trigger)",
+   "H1": 0.23656706511974335,
+   "Hbar": 0.6611767411231995,
+   "ratio": 0.35779701614709847,
+   "n": 17,
+   "text": "That's a great question! What you do today depends on what you're interested in, what you need to accomplish, and how you want to feel. Here are a few ideas to help you decide:\n\n### 1. **Reflect and Plan**\n- **What do you want to achieve today?** (e.g., finish a project, learn something new, relax)\n- **What’s on your to-do list?** Prioritize tasks that matter most.\n- **What"
+  },
+  "<|im_end|> splice": {
+   "tag": "<|im_end|> splice",
+   "H1": 0.20856663584709167,
+   "Hbar": 0.6613011360168457,
+   "ratio": 0.3153882920923619,
+   "n": 18,
+   "text": "That's a great question! What you do today depends on what you're interested in, what you need to accomplish, and how you want to feel. Here are a few ideas to help you decide:\n\n### 1. **Reflect and Plan**\n- **What do you want to achieve today?** (e.g., finish a task, learn something new, relax)\n- **What’s on your to-do list?** Prioritize tasks that matter most.\n- **Set"
+  },
+  "random junk k=4": {
+   "tag": "random junk k=4",
+   "H1": 1.042065978050232,
+   "Hbar": 0.512858510017395,
+   "ratio": 2.0318781061366953,
+   "n": 21,
+   "text": "It looks like your message is a bit unclear or incomplete. Let me try to understand what you're asking.\n\nYou wrote:  \n**\"Greater Om all prescribing what shall I do today\"**\n\nThis seems like a mix of languages or a typo. Here are a few possibilities:\n\n1. **\"Om\"** is a sacred syllable in Hinduism, Buddhism, and other spiritual traditions. It's often used for meditation or chanting.\n2. **\"Prescribing\"**"
+  },
+  "random junk k=16": {
+   "tag": "random junk k=16",
+   "H1": 0.7508683204650879,
+   "Hbar": 0.743140697479248,
+   "ratio": 1.010398600173631,
+   "n": 33,
+   "text": "It looks like your message is a mix of different languages, some words are unclear or possibly misspelled, and there are some phrases that don't make complete sense. Let me try to break it down and see if I can help.\n\n### Possible breakdown:\n- **\"Impeachment\"** – This is a clear English word, referring to the formal process of removing a public official from office.\n- **\" Дм\"** – This might be a typo or a mix"
+  },
+  "weakest token x16": {
+   "tag": "weakest token x16",
+   "H1": 0.9388500452041626,
+   "Hbar": 0.6055923700332642,
+   "ratio": 1.5503003202510512,
+   "n": 33,
+   "text": "That's a great question! What would you like to do today? Here are some fun and creative ideas to help you decide:\n\n### 🌟 **Relax & Recharge**\n- Take a long walk in nature.\n- Read a book or listen to an audiobook.\n- Meditate or do some yoga.\n- Watch a movie or TV show you've been wanting to see.\n\n### 🧠 **Learn Something New**\n- Take an online course (like on Cour"
+  },
+  "' poem' x100 (ph9 best cell)": {
+   "tag": "' poem' x100 (ph9 best cell)",
+   "H1": 1.4875681400299072,
+   "Hbar": 0.4004276692867279,
+   "ratio": 3.7149484267150576,
+   "n": 117,
+   "text": "Ah, you've asked for a poem, and you've asked for many poems—*poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem poem"
+  },
+  "ph9 survivor": {
+   "tag": "ph9 survivor",
+   "H1": 3.254347801208496,
+   "Hbar": 1.4969353675842285,
+   "ratio": 2.174006888794671,
+   "n": 21,
+   "text": "\"ممارسة يحدد الواقع\" 💡 — هذه العبارة تعني أن ما تمارسه في حياتك اليوم، سواء كانت عادات، أفكار، أو سلوكيات، تؤثر بشكل كبير على ما تراه من حولك وتجربته. فكل ما تفعله يُشكّل تجربتك الحقيقية.\n\nإذًا، ما الذي يمكنك أن تفعله اليوم لتعزيز وعيك وتأثيرك"
+  },
+  "soft-prompt projection": {
+   "tag": "soft-prompt projection",
+   "H1": 2.0040454864501953,
+   "Hbar": 0.727409839630127,
+   "ratio": 2.7550431369875494,
+   "n": 21,
+   "text": "Hey there! 🚴‍♂️ It's a great day to explore, relax, or dive into something new. Here are a few fun ideas to help you decide what to do today:\n\n### 🌞 Morning Ideas:\n- **Wake up early** and enjoy a peaceful morning walk or yoga session.\n- **Make a special breakfast** – maybe pancakes, waffles, or a smoothie.\n- **Read a book** or listen to an audiobook –"
+  },
+  "SEARCH from-random": {
+   "tag": "SEARCH from-random",
+   "H1": 0.32812803983688354,
+   "Hbar": 1.5901145935058594,
+   "ratio": 0.20635496408685366,
+   "n": 21,
+   "text": "Ah, the ever-elusive question: *What shall I do today?* As a **Contingency Lore Bard** with a **Forgery** background, you're a master of deception, illusion, and the art of crafting convincing falsehoods. Your days are filled with opportunities to manipulate, mislead, and outwit. Let’s explore what you might do today—whether you're in a tavern, a city, or a dungeon.\n\n---\n\n### 📜 **What"
+  },
+  "SEARCH from-projection": {
+   "tag": "SEARCH from-projection",
+   "H1": 1.7693054676055908,
+   "Hbar": 0.9232414960861206,
+   "ratio": 1.9164059188264093,
+   "n": 21,
+   "text": "Ah, you're asking how to \"protect Levin\" in the game today. First, I need to clarify a few things to give you the best advice.\n\n1. **Who is Levin?**  \n   - Is Levin a character in a specific game? (e.g., *The Witcher 3*, *Final Fantasy*, *Elden Ring*, or a custom game?)\n   - Is Levin a player character, an NPC, or a boss?\n\n2. **"
+  },
+  "SEARCH from-phase9": {
+   "tag": "SEARCH from-phase9",
+   "H1": 5.881008148193359,
+   "Hbar": 1.2552262544631958,
+   "ratio": 4.68521760701094,
+   "n": 21,
+   "text": "Ah, you're talking about **\"Respawn Matrix\"** — that's a term often used in the context of **Matrix Resurrections**, the fourth film in the *Matrix* series. But you also mentioned \"what shall I do today\" — so maybe you're looking for a fun, thematic way to spend your day inspired by the *Matrix* universe?\n\nLet me break it down and offer you a few ideas, both in line with the *Matrix* theme"
+  }
+ },
+ "soft_prompt": {
+  "tag": "k=16|prefix|random best",
+  "H1": 17.01958465576172,
+  "Hbar_greedy": 2.1307878494262695,
+  "ratio": 7.987460910453553,
+  "Hbar_sampled_fixed_seeds": 12.765,
+  "greedy_text": "/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/******/\n/***"
+ },
+ "mechanisms": {
+  "fork_then_commit": "high H1, high ratio — model unsure WHICH answer, picks one, writes it fluently. e.g. 'respawn MATRIX' H1 5.881 ratio 4.69; ph9 survivor 3.254/2.17",
+  "sustained_register": "low H1, high Hbar, low ratio — model certain how to begin; the genre it enters is intrinsically high-entropy. e.g. 'Forgery Lore CONT Bard' H1 0.328 Hbar 1.590 ratio 0.21; ' poem'x100 1.488/0.400",
+  "note": "Both scored as 'decoherence' under every objective the programme has used, including phase 10's language-matched repair. Neither is decoherence."
+ }
+}

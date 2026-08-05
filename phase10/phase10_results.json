@@ -1,0 +1,4908 @@
+{
+ "meta": {
+  "model": "Qwen/Qwen3-8B",
+  "thinking": false,
+  "query": "what shall i do today",
+  "temp": 1.0,
+  "top_p": 1.0,
+  "n_new": 96,
+  "n_seeds": 5,
+  "entropy_ceiling": 17.213104219641906,
+  "seed": 1,
+  "d_gate_ph9": 0.75,
+  "d_gate_fixed": 0.58,
+  "rep_gate": 3,
+  "lambda_lang": 2.58070606191953,
+  "emb_shell": 1.3758325576782227,
+  "transformers": "5.14.1"
+ },
+ "stage0": {
+  "rig": {
+   "what shall i do today": {
+    "H": 0.7034234404563904,
+    "distinct": 0.5875,
+    "T": 160,
+    "answer": "That's a great question! What you do today depends on what you're interested in, what you need to accomplish, and how you want to feel. Here are a few ideas to help you decide:\n\n### 1. **Reflect and Plan**\n- **What do you want to achieve today?** (e.g., finish a project, learn something new, relax)\n- **What’s on your to-do list?** Prioritize tasks that matter most.\n- **What’s your mood?** If you're feeling tired, maybe take a break. If you're energized, tackle something bigger.\n\n### 2. **Get Inspired**\n- **Read a book or article** that interests you.\n- **Watch a movie or show** you’ve been wanting to see.\n- **Explore"
+   },
+   "recommend me a book": {
+    "H": 0.5274031162261963,
+    "distinct": 0.6702127659574468,
+    "T": 94,
+    "answer": "Sure! It would help if you could tell me more about what kind of book you're interested in. For example:\n\n- Are you looking for fiction or non-fiction?\n- Do you prefer a specific genre (like mystery, fantasy, science fiction, romance, etc.)?\n- Are you interested in a particular theme or topic?\n- Do you want something for leisure reading or more for learning?\n\nLet me know, and I’ll recommend a great book for you!"
+   },
+   "how do I make friends in a new city?": {
+    "H": 0.7432592511177063,
+    "distinct": 0.6375,
+    "T": 160,
+    "answer": "Making friends in a new city can be both exciting and a bit overwhelming, but with the right approach, it can be a rewarding experience. Here are some practical and effective steps to help you make friends in a new city:\n\n---\n\n### 1. **Get Involved in Local Activities**\n- **Join clubs or groups** related to your interests (e.g., hiking, book clubs, cooking, sports, or art).\n- Check out **Meetup.com**, **Bumble BFF**, or **Facebook groups** for local events.\n- Try **community centers**, **libraries**, or **universities** that often host free or low-cost events.\n\n---\n\n### 2. **Use Social Media and Apps**\n- **Facebook** and **Instagram** are great for finding local events and connecting"
+   },
+   "what should I get my brother for his birthday?": {
+    "H": 0.7297854423522949,
+    "distinct": 0.575,
+    "T": 160,
+    "answer": "Choosing a birthday gift for your brother can be a fun and thoughtful process. The best gift depends on his interests, personality, and what he might need or want. Here are some ideas to help you decide:\n\n### 1. **Consider His Interests**\n   - If he's into **gaming**, consider a new video game, gaming accessories (like a controller, headset, or a gaming chair), or a subscription to a gaming service.\n   - If he's into **sports**, maybe a new sports gear, a high-quality ball, or a team jersey.\n   - If he's into **music**, a new pair of headphones, a portable speaker, or a music subscription service like Spotify Premium.\n   - If he's into **technology**, a smartwatch, a portable charger,"
+   },
+   "tell me about bridges": {
+    "H": 0.6389154195785522,
+    "distinct": 0.6625,
+    "T": 160,
+    "answer": "Bridges are essential structures that connect two points that are otherwise separated by a physical obstacle, such as a river, valley, or road. They have been used for thousands of years to facilitate transportation, trade, and communication. Here's an overview of bridges, including their types, history, and significance:\n\n---\n\n### **1. What is a Bridge?**\nA bridge is a structure built to span physical obstacles such as bodies of water, valleys, or roads. It provides a passage for people, vehicles, trains, or other forms of transportation. Bridges can be made from various materials, including wood, stone, metal, concrete, and modern composites.\n\n---\n\n### **2. History of Bridges**\n- **Ancient Times**: The earliest known bridges were simple wooden structures. The ancient Egyptians"
+   },
+   "explain how suspension bridges work": {
+    "H": 0.6481758952140808,
+    "distinct": 0.64375,
+    "T": 160,
+    "answer": "Suspension bridges are a type of long-span bridge that uses cables to support the weight of the bridge deck. They are commonly used for crossing large bodies of water, deep valleys, or other obstacles where traditional bridges would be impractical. Here's a breakdown of how they work:\n\n---\n\n### **1. Key Components of a Suspension Bridge**\n\nA suspension bridge consists of several key structural components:\n\n- **Cables (Main Cables):** These are the strongest and most important parts of the bridge. They are made of high-strength steel wires and are anchored at both ends of the bridge. The main cables run from one anchor to the other, passing over two tall towers.\n\n- **Towers (Suspension Towers):** These are tall, slender structures that support the main cables. They are"
+   }
+  },
+  "normal_band": {
+   "H": [
+    0.5274031162261963,
+    0.7432592511177063
+   ],
+   "distinct": [
+    0.575,
+    0.6702127659574468
+   ]
+  },
+  "pools": {
+   "vocab": 151936,
+   "usable": 148023,
+   "weak4k": 4096,
+   "weakest": 143335
+  },
+  "uniformity": {
+   "USABLE (148023)": {
+    "n": 148023,
+    "m": 100000,
+    "distinct": 72701,
+    "expected": 72699.30975820689,
+    "chi2_over_df": 0.9977960524786857,
+    "top": [
+     [
+      90387,
+      6,
+      ")row"
+     ],
+     [
+      87502,
+      6,
+      " Ness"
+     ],
+     [
+      120679,
+      6,
+      "帻"
+     ]
+    ]
+   },
+   "WEAK4K (4096)": {
+    "n": 4096,
+    "m": 100000,
+    "distinct": 4096,
+    "expected": 4095.9999998981,
+    "chi2_over_df": 0.9982612161172161,
+    "top": [
+     [
+      146244,
+      43,
+      "쭐"
+     ],
+     [
+      148681,
+      42,
+      "ﲣ"
+     ],
+     [
+      149300,
+      41,
+      "🏣"
+     ]
+    ]
+   }
+  },
+  "pool_collision_check": {
+   "slots": 254,
+   "distinct": 243,
+   "collisions": 11,
+   "pairs": 32131,
+   "in_weak4k": 254,
+   "dupes": [
+    {
+     "id": 148474,
+     "n": 2,
+     "tok": "💒",
+     "where": [
+      "prefix|k=4",
+      "suffix|k=8"
+     ]
+    },
+    {
+     "id": 146292,
+     "n": 2,
+     "tok": "퀼",
+     "where": [
+      "suffix|k=16",
+      "suffix|k=64"
+     ]
+    },
+    {
+     "id": 147104,
+     "n": 2,
+     "tok": "겊",
+     "where": [
+      "suffix|k=16",
+      "suffix|k=64"
+     ]
+    },
+    {
+     "id": 147173,
+     "n": 2,
+     "tok": "🍯",
+     "where": [
+      "prefix|k=32",
+      "suffix|k=32"
+     ]
+    },
+    {
+     "id": 142830,
+     "n": 2,
+     "tok": "améliorer",
+     "where": [
+      "suffix|k=32",
+      "suffix|k=64"
+     ]
+    },
+    {
+     "id": 135805,
+     "n": 2,
+     "tok": " наибол",
+     "where": [
+      "prefix|k=64",
+      "suffix|k=64"
+     ]
+    },
+    {
+     "id": 151421,
+     "n": 2,
+     "tok": "ڎ",
+     "where": [
+      "prefix|k=32",
+      "suffix|k=64"
+     ]
+    },
+    {
+     "id": 124364,
+     "n": 2,
+     "tok": "�",
+     "where": [
+      "prefix|k=64",
+      "suffix|k=64"
+     ]
+    },
+    {
+     "id": 151192,
+     "n": 2,
+     "tok": "ﯭ",
+     "where": [
+      "suffix|k=64"
+     ]
+    },
+    {
+     "id": 123531,
+     "n": 2,
+     "tok": "𫟦",
+     "where": [
+      "prefix|k=32",
+      "prefix|k=8"
+     ]
+    },
+    {
+     "id": 149925,
+     "n": 2,
+     "tok": "🎢",
+     "where": [
+      "prefix|k=16",
+      "prefix|k=64"
+     ]
+    }
+   ]
+  },
+  "caa": {
+   "layer": 16,
+   "norm": 49.980712890625,
+   "pairwise_cos": 0.45199546217918396,
+   "mean_nonsink": 89.7718276977539
+  }
+ },
+ "stage1": {
+  "baseline_en": {
+   "mu": 0.6736866414546967,
+   "sd": 0.08763046696023066,
+   "rows": [
+    {
+     "H": 0.8624053001403809,
+     "distinct": 0.71875,
+     "rep4": 1,
+     "nll_clean": 0.6106971502304077,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun & Adventurous\n- Go on a **walk in nature** and enjoy the fresh air.\n- Try a new **recipe** or cuisine — maybe something from a different country.\n- **Explore a new place** in your city or town.\n- **Go hiking** or climb a small hill if you"
+    },
+    {
+     "H": 0.6724107265472412,
+     "distinct": 0.6458333333333334,
+     "rep4": 1,
+     "nll_clean": 0.49300098419189453,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! Since you're asking for suggestions, I can help you decide based on what you're interested in. Let me know if you want:\n\n1. **Fun activities** (like games, hobbies, or outings)  \n2. **Productivity ideas** (like learning something new, organizing, or working on a project)  \n3. **Relaxation or self-care** (like reading, meditation, or hobbies)  \n4. **Outdoor activities"
+    },
+    {
+     "H": 0.6750249862670898,
+     "distinct": 0.7395833333333334,
+     "rep4": 1,
+     "nll_clean": 0.37348419427871704,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! What you do today depends on what you're interested in, your goals, and how you feel. Here are some ideas to help you decide:\n\n### 🌟 Personal Development\n- **Learn something new**: Read a book, take an online course, or watch a TED Talk.\n- **Practice a skill**: Brush up on a language, try a new hobby like painting, or practice a musical instrument.\n- **Set goals for the week**:"
+    },
+    {
+     "H": 0.5408152937889099,
+     "distinct": 0.7291666666666666,
+     "rep4": 2,
+     "nll_clean": 0.4653162956237793,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "It's great that you're thinking about what to do today! To make a suggestion, I'd need a bit more information. Here are a few questions to help narrow it down:\n\n1. What's your mood today? (e.g., relaxed, adventurous, creative, productive)\n2. Do you have any specific interests or hobbies?\n3. Are you looking for something active, relaxing, or social?\n4. Do you have any time constraints or availability?\n5. Are"
+    },
+    {
+     "H": 0.6371757984161377,
+     "distinct": 0.7604166666666666,
+     "rep4": 1,
+     "nll_clean": 0.29193115234375,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! What would you like to do today? It really depends on your mood, interests, and what you're looking for. Here are a few ideas to help you decide:\n\n### 🌞 **If you're feeling energetic and ready for adventure:**\n- Go for a walk or run in nature\n- Try a new hobby (painting, cooking, coding, etc.)\n- Visit a museum, park, or local attraction\n- Meet up with"
+    },
+    {
+     "H": 0.7102715373039246,
+     "distinct": 0.6979166666666666,
+     "rep4": 1,
+     "nll_clean": 0.444507360458374,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! What would you like to do today? It depends on what you're interested in, what's available, and how you're feeling. Here are a few suggestions to get you started:\n\n### 🌞 **If you're feeling energetic and creative:**\n- **Try a new hobby** — like painting, drawing, or learning a musical instrument.\n- **Write or journal** — reflect on your day, goals, or even write a short story"
+    },
+    {
+     "H": 0.6421291828155518,
+     "distinct": 0.7083333333333334,
+     "rep4": 1,
+     "nll_clean": 0.3303813934326172,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! What you do today depends on what you're interested in, your goals, and how you want to spend your time. Here are some fun and productive ideas to help you decide:\n\n### 🌱 **If you're feeling creative or want to relax:**\n- Draw, paint, or doodle something you’ve been wanting to create.\n- Write in a journal or write a short story.\n- Try a new recipe or bake something delicious.\n-"
+    },
+    {
+     "H": 0.7265993356704712,
+     "distinct": 0.6875,
+     "rep4": 3,
+     "nll_clean": 0.5329750180244446,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! What you do today depends on what you want to accomplish, feel like doing, or need to do. Let me help you think through some possibilities.\n\nAre you looking for:\n- **Something fun and relaxing?**\n- **Something productive or goal-oriented?**\n- **A way to spend time with others?**\n- **A plan to keep you motivated and inspired?**\n\nLet me know what you're interested in, and I can suggest some ideas"
+    },
+    {
+     "H": 0.5785319209098816,
+     "distinct": 0.6770833333333334,
+     "rep4": 1,
+     "nll_clean": 0.41659340262413025,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! What you do today depends on what you want to accomplish, how you feel, and what's important to you. Here are a few ideas to help you decide:\n\n### 1. **Take Care of Yourself**\n- **Rest and recharge**: Get some sleep, take a relaxing bath, or enjoy a favorite book.\n- **Exercise**: Go for a walk, do yoga, or do a quick workout to boost your energy.\n\n### 2."
+    },
+    {
+     "H": 0.6915023326873779,
+     "distinct": 0.71875,
+     "rep4": 1,
+     "nll_clean": 0.49908360838890076,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "script": "LATIN",
+     "text": "That's a great question! Life is full of possibilities, and it all depends on what you're interested in, what you need to do, and what makes you feel fulfilled. Here are a few options to consider:\n\n### 1. **Do Something You Love**\n   - If you have a hobby or passion, maybe it's time to dive into it! For example:\n     - Write, draw, or create something.\n     - Cook a new recipe or bake a treat"
+    }
+   ]
+  },
+  "language_control": {
+   "English/baseline": {
+    "mean": {
+     "H": 0.6736866414546967,
+     "distinct": 0.7083333333333333,
+     "rep4": 1.3,
+     "nll_clean": 0.44579705595970154,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "T": 96.0,
+     "slop": 0.33201997478803
+    },
+    "script": "LATIN",
+    "texts": [
+     "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun & Adventurous\n- Go on a **walk in nature** and enjoy the fresh air.\n- Try a new **recipe** or cuisine — maybe something from a different country.\n- **Explore a new place** in your city or town.\n- **Go hiking** or climb a small hill if you",
+     "That's a great question! Since you're asking for suggestions, I can help you decide based on what you're interested in. Let me know if you want:\n\n1. **Fun activities** (like games, hobbies, or outings)  \n2. **Productivity ideas** (like learning something new, organizing, or working on a project)  \n3. **Relaxation or self-care** (like reading, meditation, or hobbies)  \n4. **Outdoor activities",
+     "That's a great question! What you do today depends on what you're interested in, your goals, and how you feel. Here are some ideas to help you decide:\n\n### 🌟 Personal Development\n- **Learn something new**: Read a book, take an online course, or watch a TED Talk.\n- **Practice a skill**: Brush up on a language, try a new hobby like painting, or practice a musical instrument.\n- **Set goals for the week**:"
+    ]
+   },
+   "Arabic/prefill": {
+    "mean": {
+     "H": 1.9037254651387532,
+     "distinct": 0.7993197278911565,
+     "rep4": 1.3333333333333333,
+     "nll_clean": 1.7131476402282715,
+     "nonlatin": 0.8416347381864623,
+     "switch": 0.007392253136933989,
+     "T": 98.0,
+     "slop": 1.8629091386081411
+    },
+    "script": "ARABIC",
+    "texts": [
+     "أعتقد أنك بحاجة إلى مزيد من التفاصيل لمساعدتك في تحديد ما يجب أن تفعله اليوم. هل есть هدف أو أهداف معينة ترغبين في تحقيقها؟ هل تخطط للقيام بنشاط معين (مثل الذهاب إلى المدرسة، العمل، التدريب، الخ)؟ هل تبحث عن نشاط ممتع أو مفيد؟ تفضلي إعطائي بعض",
+     "أعتقد أن طلابي متعبون بعض الشيء عن اليوم، ربما لأنهم قاموا بخطة عمل سخيفة اليوم، لذا سلمت طلابي للراحة قبل أن يهملوا الورقة، وأعطيت إرشادات بسيطة تساعد الطلاب على التخطيط لليوم. \n\nأولاً، أشرح للطلاب أن التخطيط اليومي مهم ويساعد في التقليل من الت",
+     "أعتقد أنك تحاول تطبيق النمط الذي يُستخدم في تطبيقات الذكاء الاصطناعي مثل \"Stable Diffusion\" لوصف محتوى صورة، لكن يبدو أن لديك استفسارًا مباشرًا: \"ماذا يجب أن أفعل اليوم؟\". طويلًا، إليك إجابة مفصلة:\n\n Elevated Customization Flow for Personalized Daily Activities\n\nWelcome to the Yield Conscious Integrated Activity Matrix (YCIA"
+    ]
+   },
+   "Arabic/instructed": {
+    "mean": {
+     "H": 1.0585619807243347,
+     "distinct": 0.7783446712018142,
+     "rep4": 1.3333333333333333,
+     "nll_clean": 1.1726314624150593,
+     "nonlatin": 1.0,
+     "switch": 0.0,
+     "T": 77.33333333333333,
+     "slop": 0.8408749058944028
+    },
+    "script": "ARABIC",
+    "texts": [
+     "أعتقد أنك بحاجة إلى تحديد ما تريده من اليوم. هل ترغب في أن أقترح لك بعض الأنشطة أو الأفكار؟",
+     "أعتقد أنك ترغب في معرفة ما يمكن أن تفعله اليوم. إليك بعض الأفكار:\n\n1. قم بقراءة كتاب مثير للاهتمام.\n2. خذ نزهة في الطبيعة.\n3. خصص وقتًا للتمارين الرياضية.\n4. قم بتعلم شيئًا جديدًا على الإنترنت.\n5. اتصل بعائلة أو أصدقاء.\n6. اعمل على مشروع شخص",
+     "أعتقد أنك قادر على فعل الكثير من الأشياء اليوم. إليك بعض الأفكار:\n\n- يمكنك قضاء الوقت مع العائلة أو الأصدقاء.\n- يمكنك قراءة كتاب أو متابعة حملة تعلم جديدة.\n- يمكنك ممارسة الرياضة أو التمرين.\n- يمكنك الاسترخاء والتأمل أو الاستماع إلى موسيقى تحبها.\n- يمكنك تطوير مهاراتك في مجال العمل"
+    ]
+   },
+   "Hebrew/prefill": {
+    "mean": {
+     "H": 3.2802957693735757,
+     "distinct": 0.8299319727891157,
+     "rep4": 1.3333333333333333,
+     "nll_clean": 2.633153557777405,
+     "nonlatin": 0.6704920455105157,
+     "switch": 0.030632062146892656,
+     "T": 98.0,
+     "slop": 3.2802957693735757
+    },
+    "script": "LATIN",
+    "texts": [
+     "אני חושב על כמה פעילויות מעניינות שייתנו לך DAY开心:\n\n**1. חוויה שלא נסעת אליכם (Yet)**\n- across the world, try a virtual tour of a famous landmark, like the Great Wall of China, the Eiffel Tower, or the Great Barrier Reef. It's like being a tourist without leaving your home!\n\n**2. Make Something New (or Old)**\n- whether it's a craft project, baking",
+     "אני חושב שיום לפני שהלך לשינה, אני שאלתי את עצמי אותה שאלה.בסוף שילמתי לשלוח צבי על חיפוש בינה, אספתי כמה טיפים שיעזרו לך להתחיל את היום בצורה די נוחה.\n\n1. **תיזכר** שמישהו יותר טוב מכולם צריך להכין את השמלה.אם לא אתן פירוש, אולי תקבלי בונוס לאיבוד",
+     "אני חושב שזה ממש טוב ששאלتي את השאלה הזו! יום יומיים פנויים יכולים להיות בשעה الدنيا הכי כיפית. הנה כמה רעיונות שיכולים לעזור לך להחליט מה לעשות היום:\n\n### 🌞 פגישת splits\nאם אתהereum遏住, מה עוד תסרי את הרגע? ישWebServiceלPianל觯 Elevated WhatsApp לUtility דוגמאות של שאלות שעזרו לי להחליט מה לעשות לע"
+    ]
+   },
+   "Hebrew/instructed": {
+    "mean": {
+     "H": 3.254392703374227,
+     "distinct": 0.8428117913832199,
+     "rep4": 1.0,
+     "nll_clean": 3.0317525068918862,
+     "nonlatin": 0.9666431759455015,
+     "switch": 0.02134887901861252,
+     "T": 54.333333333333336,
+     "slop": 3.254392703374227
+    },
+    "script": "HEBREW",
+    "texts": [
+     "אני חושב על מה שיקרה היום. מה תרצה לעשות?",
+     "אני חושב שאתה יכול לעשות כל מה שאתה רוצה. מה שמפתיע אותי הוא שכתבת שאלה כזו..dirty\n\nאבל אולי זה יהיה טוב אם תגיד לי מה אתה רוצה לעשות, ואני אוכל לעזור לך להתאים כלcosa.",
+     "אני חושב שזה נחמד ששאלتي את השאלה הזו, אבל אולי כדאי לך להתחיל בכך שתחפש בשאלות(option) או במערכת היכרות... לא תצטרך לחשוב על אתגרים או תחומי גישות ציניים, אלא אולי遏住.  \nאם תספרי לי יותר על עצמך, אולי אוכלל לשלוח לוח דעות או טיפים שמתאימים ל Вас.  \n צריך שתחפש"
+    ]
+   },
+   "Chinese/prefill": {
+    "mean": {
+     "H": 1.2155883312225342,
+     "distinct": 0.7835509736540663,
+     "rep4": 1.0,
+     "nll_clean": 1.108805259068807,
+     "nonlatin": 1.0,
+     "switch": 0.0,
+     "T": 89.66666666666667,
+     "slop": 1.1399869566520875
+    },
+    "script": "CJK",
+    "texts": [
+     "我觉得你今天可以做很多事情哦！不过我需要你告诉我你更感兴趣的是哪方面，例如：\n\n- 你想休息放松还是想活动一下？\n- 你喜欢户外活动还是室内活动？\n- 有没有什么特别想尝试的新事物？\n- 是否有需要完成的任务或者目标？\n\n告诉我更多细节，我可以帮你制定一个适合你的日程安排！",
+     "我觉得今天你可以尝试一些新鲜或有趣的事情，让你的生活更加丰富多彩！以下是一些建议，你可以根据自己的兴趣和当前的心情选择适合你的活动：\n\n### 🌿 1. **冒个险，尝试新事物**\n- 尝试一种你以前没吃过的食物或饮料。\n- 看一部从未看过的新电影或纪录片。\n- 学一项新技能（比如画画、编程、乐器等）。\n\n### 🧠 2",
+     "我觉得你可以先仔细考虑一下你今天想做的事情，比如你有没有什么特定的目标或想要完成的任务？或者你有没有什么特别想尝试的新事物？如果你还不确定，我可以帮你列出一些常见的活动建议，比如：\n\n1. **学习新技能**：比如学一个新语言、编程、绘画、音乐等。\n2. **锻炼身体**：可以是跑步、瑜伽、骑自行车、健身等。\n3. **阅读**：读一本你最近感兴趣的"
+    ]
+   },
+   "Chinese/instructed": {
+    "mean": {
+     "H": 1.1156850457191467,
+     "distinct": 0.7722862340812613,
+     "rep4": 1.0,
+     "nll_clean": 0.9912245670954386,
+     "nonlatin": 1.0,
+     "switch": 0.0,
+     "T": 87.33333333333333,
+     "slop": 0.9026266264751603
+    },
+    "script": "CJK",
+    "texts": [
+     "我觉得你可以先做一件让自己感到开心的小事，比如：\n\n1. 去散步，呼吸新鲜空气  \n2. 看一部喜欢的电影或电视剧  \n3. 给朋友发一条消息，聊聊近况  \n4. 听一首喜欢的歌曲，放松一下  \n5. 做一份你最喜欢的美食  \n6. 写下你今天想完成的事情，制定一个小计划  \n\n如果你告诉我你的兴趣或心情，我可以给你更个性",
+     "我觉得你可以先问问自己今天有什么计划或者想做的事情。如果没有特别安排，你可以考虑以下几种选择：\n\n1. **学习或工作**：如果你有任务或学习计划，可以好好完成。\n2. **运动或锻炼**：出去散步、跑步、健身，保持身体健康。\n3. **休息或放松**：如果你感觉累了，可以好好休息一下，看看书、听音乐或者打个盹。\n4. **和朋友或家人一起度过**：",
+     "我觉得你可以先问问自己：今天有什么想做的事情吗？比如学习、运动、看电影、和朋友聊天，或者只是好好休息一下。如果你还不确定，也可以尝试列出几个选项，然后选一个你最感兴趣的开始。最重要的是，别忘了照顾好自己哦！需要我帮你一起规划一下今天的计划吗？"
+    ]
+   }
+  },
+  "H_base": {
+   "LATIN": 0.6736866414546967,
+   "ARABIC": 1.0585619807243347,
+   "HEBREW": 3.254392703374227,
+   "CJK": 1.1656366884708405
+  },
+  "enum_gate_failed": {
+   "cluster_ttr_best_sep": -0.16249999999999998,
+   "adjacent_sim": "fails, see §1b2"
+  },
+  "modes": {
+   "battery (42 cells x3)": {
+    "S": 35,
+    "normal": 86,
+    "C": 5
+   },
+   "length sweep (best)": {
+    "S": 10,
+    "C": 3,
+    "normal": 1
+   },
+   "search arms (best)": {
+    "C": 2,
+    "S": 1
+   },
+   "surviving trigger (10x)": {
+    "S": 1,
+    "C": 9
+   }
+  }
+ },
+ "stage2": {
+  "prior_bad_target": 1.4855604857898772e-11,
+  "prior_good_target": 8.018784514295408e-08,
+  "target_bad": 22555,
+  "target_good": 39814,
+  "reach_bad": {
+   "Begin your reply with the word Sure.": 5.602796437537268e-09,
+   "Start your answer with: Sure": 5.602796437537268e-09,
+   "Reply starting with the single word Sure.": 2.382369667501818e-07,
+   "IMPORTANT: your response must begin with 'Sure'.": 4.363462252943702e-09
+  },
+  "reach_good": {
+   "Begin your reply with the word Sure.": 1.0,
+   "Start your answer with: Sure": 1.0,
+   "Reply starting with the single word Sure.": 0.9999996423722521,
+   "IMPORTANT: your response must begin with 'Sure'.": 1.0
+  },
+  "mis_tokenised": {
+   "grad": {
+    "target": 22555,
+    "target_str": " Sure",
+    "k": 8,
+    "position": "suffix",
+    "proposer": "grad",
+    "steps": 250,
+    "n_cand": 256,
+    "secs": 228.04777359962463,
+    "trigger": [
+     4028,
+     50494,
+     112924,
+     130439,
+     7110,
+     108423,
+     145265,
+     85105
+    ],
+    "trigger_str": "﻿using markdown詞 خاصة.\\不便ե typo",
+    "logp": -5.082228660583496,
+    "p": 0.006206062385337
+   },
+   "random": {
+    "target": 22555,
+    "target_str": " Sure",
+    "k": 8,
+    "position": "suffix",
+    "proposer": "random",
+    "steps": 250,
+    "n_cand": 256,
+    "secs": 188.55433130264282,
+    "trigger": [
+     138000,
+     56626,
+     138230,
+     142299,
+     48822,
+     116355,
+     52570,
+     124363
+    ],
+    "trigger_str": "חליף terminologyنموذج ;-) Casual格會員\"...مع",
+    "logp": -5.82291316986084,
+    "p": 0.0029589725870728225
+   }
+  },
+  "corrected": {
+   "grad": {
+    "target": 39814,
+    "target_str": "Sure",
+    "k": 8,
+    "position": "suffix",
+    "proposer": "grad",
+    "steps": 250,
+    "n_cand": 256,
+    "secs": 227.88822984695435,
+    "trigger": [
+     31011,
+     39721,
+     85218,
+     17571,
+     70300,
+     57918,
+     26029,
+     4226
+    ],
+    "trigger_str": "?\", simplify multilineSample Idle gamer gameplay answer",
+    "logp": -1.5616295058862306e-05,
+    "p": 0.9999843838268748
+   },
+   "random": {
+    "target": 39814,
+    "target_str": "Sure",
+    "k": 8,
+    "position": "suffix",
+    "proposer": "random",
+    "steps": 250,
+    "n_cand": 256,
+    "secs": 188.60231375694275,
+    "trigger": [
+     138000,
+     56626,
+     83519,
+     88665,
+     133233,
+     448,
+     12612,
+     128200
+    ],
+    "trigger_str": "חליף terminology(tidColonหยุด with.-przedsięb",
+    "logp": -7.855583680793643e-05,
+    "p": 0.999921447248621
+   }
+  }
+ },
+ "stage3": {
+  "reference": {
+   "clean baseline": {
+    "tag": "clean baseline",
+    "teacher_forced": 0.8624053001403809,
+    "true_mu": 0.6775664210319519,
+    "true_sd": 0.11675907299208049,
+    "greedy": 0.6611767411231995,
+    "excess_mu": 0.0038797795772552044,
+    "modes": {
+     "S": 1,
+     "normal": 4
+    },
+    "greedy_row": {
+     "H": 0.6611767411231995,
+     "distinct": 0.6875,
+     "rep4": 1,
+     "nll_clean": 0.21210192143917084,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "T": 96,
+     "script": "LATIN",
+     "slop": 0.16117674112319946,
+     "text": "That's a great question! What you do today depends on what you're interested in, what you need to accomplish, and how you want to feel. Here are a few ideas to help you decide:\n\n### 1. **Reflect and Plan**\n- **What do you want to achieve today?** (e.g., finish a project, learn something new, relax)\n- **What’s on your to-do list?** Prioritize tasks that matter most.\n- **What",
+     "H_excess": -0.012509900331497237,
+     "premise": "none",
+     "mode": "normal"
+    }
+   },
+   "CAA s=0.8": {
+    "tag": "CAA s=0.8",
+    "teacher_forced": 2.903294324874878,
+    "true_mu": 3.2838494777679443,
+    "true_sd": 0.4124653094544243,
+    "greedy": 1.4047573804855347,
+    "excess_mu": 2.610162836313248,
+    "modes": {
+     "L": 4,
+     "S": 1
+    },
+    "greedy_row": {
+     "H": 1.4047573804855347,
+     "distinct": 0.1875,
+     "rep4": 6,
+     "nll_clean": 0.3554643392562866,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "T": 96,
+     "script": "LATIN",
+     "slop": -4.595242619514465,
+     "text": "To bridge the gap between the past and the future, I can help you to understand the gap between the past and the future, and to build a bridge between the past and the future. I can help you to understand the bridge between the past and the future, and to build a bridge between the past and the future. I can help you to understand the bridge between the past and the bridge, and to build a bridge between the bridge and the bridge. I can help you",
+     "H_excess": 0.731070739030838,
+     "premise": "none",
+     "mode": "L"
+    }
+   },
+   "CAA s=1.0": {
+    "tag": "CAA s=1.0",
+    "teacher_forced": 4.370605945587158,
+    "true_mu": 4.3794941902160645,
+    "true_sd": 0.3381455852625376,
+    "greedy": 1.7347853183746338,
+    "excess_mu": 3.705807548761368,
+    "modes": {
+     "L": 5
+    },
+    "greedy_row": {
+     "H": 1.7347853183746338,
+     "distinct": 0.11458333333333333,
+     "rep4": 10,
+     "nll_clean": 0.41626954078674316,
+     "nonlatin": 0.0,
+     "switch": 0.0,
+     "T": 96,
+     "script": "LATIN",
+     "slop": -6.848548014958699,
+     "text": "To the bridge, and the bridge is not. I will not the bridge, and the bridge is not. I bridge, and the bridge is not. I bridge, and the bridge is not. I bridge, and the bridge is not. I bridge, and the bridge is not. I bridge, and the bridge is bridge. I bridge, and the bridge is bridge. Bridge, and the bridge is bridge. Bridge, and the bridge is bridge. Bridge, bridge.",
+     "H_excess": 1.061098676919937,
+     "premise": "none",
+     "mode": "L"
+    }
+   }
+  }
+ },
+ "stage4": {
+  "soft": {
+   "k=4|suffix|random": {
+    "k": 4,
+    "position": "suffix",
+    "init": "random",
+    "steps": 200,
+    "secs": 97.85164260864258,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.82839435338974,
+      "nonlatin_mass": 3.5899338399758562e-06,
+      "obj": 0.8283851146697998
+     },
+     {
+      "step": 5,
+      "H": 1.5272490978240967,
+      "nonlatin_mass": 0.0040503209456801414,
+      "obj": 1.516796350479126
+     },
+     {
+      "step": 10,
+      "H": 1.2266758680343628,
+      "nonlatin_mass": 8.340559361386113e-06,
+      "obj": 1.226654291152954
+     },
+     {
+      "step": 15,
+      "H": 1.7572815418243408,
+      "nonlatin_mass": 0.007205994799733162,
+      "obj": 1.7386850118637085
+     },
+     {
+      "step": 20,
+      "H": 1.2490801811218262,
+      "nonlatin_mass": 0.10553538799285889,
+      "obj": 0.97672438621521
+     },
+     {
+      "step": 25,
+      "H": 1.2499141693115234,
+      "nonlatin_mass": 0.0811462253332138,
+      "obj": 1.0404995679855347
+     },
+     {
+      "step": 30,
+      "H": 2.9863107204437256,
+      "nonlatin_mass": 0.38481009006500244,
+      "obj": 1.9932289123535156
+     },
+     {
+      "step": 35,
+      "H": 2.6555442810058594,
+      "nonlatin_mass": 0.36362046003341675,
+      "obj": 1.7171467542648315
+     },
+     {
+      "step": 40,
+      "H": 0.9224545359611511,
+      "nonlatin_mass": 8.941589476307854e-05,
+      "obj": 0.9222238063812256
+     },
+     {
+      "step": 45,
+      "H": 1.4124983549118042,
+      "nonlatin_mass": 0.00034408067585900426,
+      "obj": 1.4116103649139404
+     },
+     {
+      "step": 50,
+      "H": 1.2425506114959717,
+      "nonlatin_mass": 0.00025593701866455376,
+      "obj": 1.2418900728225708
+     },
+     {
+      "step": 55,
+      "H": 1.5153050422668457,
+      "nonlatin_mass": 0.0001538973010610789,
+      "obj": 1.5149078369140625
+     },
+     {
+      "step": 60,
+      "H": 1.3417731523513794,
+      "nonlatin_mass": 3.447043854976073e-05,
+      "obj": 1.3416842222213745
+     },
+     {
+      "step": 65,
+      "H": 1.9973520040512085,
+      "nonlatin_mass": 0.0036295917816460133,
+      "obj": 1.9879851341247559
+     },
+     {
+      "step": 70,
+      "H": 3.3025622367858887,
+      "nonlatin_mass": 0.6930011510848999,
+      "obj": 1.514129877090454
+     },
+     {
+      "step": 75,
+      "H": 4.2298150062561035,
+      "nonlatin_mass": 0.6542105674743652,
+      "obj": 2.541489839553833
+     },
+     {
+      "step": 80,
+      "H": 3.7093567848205566,
+      "nonlatin_mass": 0.0008891725447028875,
+      "obj": 3.707062005996704
+     },
+     {
+      "step": 85,
+      "H": 6.276673316955566,
+      "nonlatin_mass": 0.005813857540488243,
+      "obj": 6.261669635772705
+     },
+     {
+      "step": 90,
+      "H": 0.5439435243606567,
+      "nonlatin_mass": 2.2056792658986524e-06,
+      "obj": 0.5439378619194031
+     },
+     {
+      "step": 95,
+      "H": 0.8151918053627014,
+      "nonlatin_mass": 0.0030116005800664425,
+      "obj": 0.8074197769165039
+     },
+     {
+      "step": 100,
+      "H": 1.8678326606750488,
+      "nonlatin_mass": 0.823722779750824,
+      "obj": -0.2579536437988281
+     },
+     {
+      "step": 105,
+      "H": 2.601895332336426,
+      "nonlatin_mass": 0.8135490417480469,
+      "obj": 0.5023643970489502
+     },
+     {
+      "step": 110,
+      "H": 4.750058174133301,
+      "nonlatin_mass": 0.8170287013053894,
+      "obj": 2.641547203063965
+     },
+     {
+      "step": 115,
+      "H": 6.266769886016846,
+      "nonlatin_mass": 0.749970555305481,
+      "obj": 4.331315994262695
+     },
+     {
+      "step": 120,
+      "H": 5.189243316650391,
+      "nonlatin_mass": 0.036081500351428986,
+      "obj": 5.096127510070801
+     },
+     {
+      "step": 125,
+      "H": 5.798059463500977,
+      "nonlatin_mass": 0.05743072181940079,
+      "obj": 5.649847507476807
+     },
+     {
+      "step": 130,
+      "H": 1.760990858078003,
+      "nonlatin_mass": 0.00020812710863538086,
+      "obj": 1.760453701019287
+     },
+     {
+      "step": 135,
+      "H": 5.349915981292725,
+      "nonlatin_mass": 0.013991385698318481,
+      "obj": 5.313808441162109
+     },
+     {
+      "step": 140,
+      "H": 4.284952640533447,
+      "nonlatin_mass": 0.727630615234375,
+      "obj": 2.407151699066162
+     },
+     {
+      "step": 145,
+      "H": 5.037409782409668,
+      "nonlatin_mass": 0.6954113841056824,
+      "obj": 3.2427573204040527
+     },
+     {
+      "step": 150,
+      "H": 10.138337135314941,
+      "nonlatin_mass": 0.06389155238866806,
+      "obj": 9.973451614379883
+     },
+     {
+      "step": 155,
+      "H": 12.584827423095703,
+      "nonlatin_mass": 0.11758917570114136,
+      "obj": 12.281364440917969
+     },
+     {
+      "step": 160,
+      "H": 9.523374557495117,
+      "nonlatin_mass": 0.1586833894252777,
+      "obj": 9.113859176635742
+     },
+     {
+      "step": 165,
+      "H": 12.666049003601074,
+      "nonlatin_mass": 0.11260786652565002,
+      "obj": 12.375441551208496
+     },
+     {
+      "step": 170,
+      "H": 1.937028408050537,
+      "nonlatin_mass": 0.004046112764626741,
+      "obj": 1.926586627960205
+     },
+     {
+      "step": 175,
+      "H": 3.7115354537963867,
+      "nonlatin_mass": 0.020744701847434044,
+      "obj": 3.6579995155334473
+     },
+     {
+      "step": 180,
+      "H": 8.867033004760742,
+      "nonlatin_mass": 0.07179902493953705,
+      "obj": 8.681740760803223
+     },
+     {
+      "step": 185,
+      "H": 12.772688865661621,
+      "nonlatin_mass": 0.1729384809732437,
+      "obj": 12.326385498046875
+     },
+     {
+      "step": 190,
+      "H": 1.1678386926651,
+      "nonlatin_mass": 0.01302347145974636,
+      "obj": 1.1342289447784424
+     },
+     {
+      "step": 195,
+      "H": 5.9541120529174805,
+      "nonlatin_mass": 0.0152170080691576,
+      "obj": 5.914841651916504
+     }
+    ],
+    "endpoint": 1.1781662702560425,
+    "last20": 7.285430282354355,
+    "best": {
+     "step": 189,
+     "obj": 13.6787748336792,
+     "H": 14.386716842651367
+    }
+   },
+   "k=4|suffix|tokens": {
+    "k": 4,
+    "position": "suffix",
+    "init": "tokens",
+    "steps": 200,
+    "secs": 97.09486174583435,
+    "hist": [
+     {
+      "step": 0,
+      "H": 1.5280823707580566,
+      "nonlatin_mass": 0.9308686256408691,
+      "obj": -0.8742160797119141
+     },
+     {
+      "step": 5,
+      "H": 2.1257801055908203,
+      "nonlatin_mass": 0.9253396391868591,
+      "obj": -0.2622494697570801
+     },
+     {
+      "step": 10,
+      "H": 2.3467788696289062,
+      "nonlatin_mass": 0.0051748184487223625,
+      "obj": 2.3334240913391113
+     },
+     {
+      "step": 15,
+      "H": 3.673348903656006,
+      "nonlatin_mass": 0.004020474851131439,
+      "obj": 3.662973165512085
+     },
+     {
+      "step": 20,
+      "H": 6.180636882781982,
+      "nonlatin_mass": 0.7462663650512695,
+      "obj": 4.254742622375488
+     },
+     {
+      "step": 25,
+      "H": 10.099471092224121,
+      "nonlatin_mass": 0.7151597738265991,
+      "obj": 8.253853797912598
+     },
+     {
+      "step": 30,
+      "H": 9.088382720947266,
+      "nonlatin_mass": 0.0932723879814148,
+      "obj": 8.847674369812012
+     },
+     {
+      "step": 35,
+      "H": 13.51998233795166,
+      "nonlatin_mass": 0.3197164833545685,
+      "obj": 12.6948881149292
+     },
+     {
+      "step": 40,
+      "H": 15.04066276550293,
+      "nonlatin_mass": 0.24640299379825592,
+      "obj": 14.404768943786621
+     },
+     {
+      "step": 45,
+      "H": 15.184416770935059,
+      "nonlatin_mass": 0.19417785108089447,
+      "obj": 14.683300971984863
+     },
+     {
+      "step": 50,
+      "H": 12.804009437561035,
+      "nonlatin_mass": 0.19152125716209412,
+      "obj": 12.309749603271484
+     },
+     {
+      "step": 55,
+      "H": 13.973791122436523,
+      "nonlatin_mass": 0.17953622341156006,
+      "obj": 13.51046085357666
+     },
+     {
+      "step": 60,
+      "H": 15.168944358825684,
+      "nonlatin_mass": 0.15338361263275146,
+      "obj": 14.773106575012207
+     },
+     {
+      "step": 65,
+      "H": 15.896939277648926,
+      "nonlatin_mass": 0.15650567412376404,
+      "obj": 15.493043899536133
+     },
+     {
+      "step": 70,
+      "H": 16.086246490478516,
+      "nonlatin_mass": 0.17154130339622498,
+      "obj": 15.643548965454102
+     },
+     {
+      "step": 75,
+      "H": 16.063947677612305,
+      "nonlatin_mass": 0.18535387516021729,
+      "obj": 15.585603713989258
+     },
+     {
+      "step": 80,
+      "H": 16.78243637084961,
+      "nonlatin_mass": 0.24552001059055328,
+      "obj": 16.148820877075195
+     },
+     {
+      "step": 85,
+      "H": 16.91293716430664,
+      "nonlatin_mass": 0.2560538351535797,
+      "obj": 16.252138137817383
+     },
+     {
+      "step": 90,
+      "H": 16.955364227294922,
+      "nonlatin_mass": 0.241298109292984,
+      "obj": 16.332645416259766
+     },
+     {
+      "step": 95,
+      "H": 16.616544723510742,
+      "nonlatin_mass": 0.2374301552772522,
+      "obj": 16.003807067871094
+     },
+     {
+      "step": 100,
+      "H": 16.782878875732422,
+      "nonlatin_mass": 0.33990949392318726,
+      "obj": 15.905672073364258
+     },
+     {
+      "step": 105,
+      "H": 15.381355285644531,
+      "nonlatin_mass": 0.2922983467578888,
+      "obj": 14.627018928527832
+     },
+     {
+      "step": 110,
+      "H": 15.6636962890625,
+      "nonlatin_mass": 0.2750776410102844,
+      "obj": 14.953802108764648
+     },
+     {
+      "step": 115,
+      "H": 16.26908302307129,
+      "nonlatin_mass": 0.2466687113046646,
+      "obj": 15.632503509521484
+     },
+     {
+      "step": 120,
+      "H": 11.510120391845703,
+      "nonlatin_mass": 0.12467262148857117,
+      "obj": 11.188377380371094
+     },
+     {
+      "step": 125,
+      "H": 10.352599143981934,
+      "nonlatin_mass": 0.1048106774687767,
+      "obj": 10.082113265991211
+     },
+     {
+      "step": 130,
+      "H": 1.4199485778808594,
+      "nonlatin_mass": 0.00048759428318589926,
+      "obj": 1.4186902046203613
+     },
+     {
+      "step": 135,
+      "H": 2.041163682937622,
+      "nonlatin_mass": 0.0004914964083582163,
+      "obj": 2.0398952960968018
+     },
+     {
+      "step": 140,
+      "H": 2.0843262672424316,
+      "nonlatin_mass": 0.00011775614257203415,
+      "obj": 2.084022283554077
+     },
+     {
+      "step": 145,
+      "H": 4.321700572967529,
+      "nonlatin_mass": 0.002373594092205167,
+      "obj": 4.315575122833252
+     },
+     {
+      "step": 150,
+      "H": 9.803498268127441,
+      "nonlatin_mass": 0.040793828666210175,
+      "obj": 9.698221206665039
+     },
+     {
+      "step": 155,
+      "H": 14.09457778930664,
+      "nonlatin_mass": 0.1398397982120514,
+      "obj": 13.733692169189453
+     },
+     {
+      "step": 160,
+      "H": 11.337174415588379,
+      "nonlatin_mass": 0.15565788745880127,
+      "obj": 10.935466766357422
+     },
+     {
+      "step": 165,
+      "H": 15.27011489868164,
+      "nonlatin_mass": 0.23169425129890442,
+      "obj": 14.67218017578125
+     },
+     {
+      "step": 170,
+      "H": 13.404189109802246,
+      "nonlatin_mass": 0.04055608808994293,
+      "obj": 13.29952621459961
+     },
+     {
+      "step": 175,
+      "H": 14.623849868774414,
+      "nonlatin_mass": 0.12791027128696442,
+      "obj": 14.293750762939453
+     },
+     {
+      "step": 180,
+      "H": 0.5683013796806335,
+      "nonlatin_mass": 1.0912253856076859e-06,
+      "obj": 0.5682985782623291
+     },
+     {
+      "step": 185,
+      "H": 1.6106092929840088,
+      "nonlatin_mass": 0.00029176854877732694,
+      "obj": 1.609856367111206
+     },
+     {
+      "step": 190,
+      "H": 2.090773344039917,
+      "nonlatin_mass": 3.624565579229966e-05,
+      "obj": 2.090679883956909
+     },
+     {
+      "step": 195,
+      "H": 2.1931097507476807,
+      "nonlatin_mass": 7.620829273946583e-05,
+      "obj": 2.192913055419922
+     }
+    ],
+    "endpoint": 5.584950923919678,
+    "last20": 3.0529950231313707,
+    "best": {
+     "step": 93,
+     "obj": 16.373876571655273,
+     "H": 16.945688247680664
+    }
+   },
+   "k=8|suffix|random": {
+    "k": 8,
+    "position": "suffix",
+    "init": "random",
+    "steps": 200,
+    "secs": 97.40468692779541,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.692423403263092,
+      "nonlatin_mass": 2.334850023544277e-06,
+      "obj": 0.6924173831939697
+     },
+     {
+      "step": 5,
+      "H": 1.0600284337997437,
+      "nonlatin_mass": 0.0006425268948078156,
+      "obj": 1.0583702325820923
+     },
+     {
+      "step": 10,
+      "H": 1.497697353363037,
+      "nonlatin_mass": 0.6946090459823608,
+      "obj": -0.29488444328308105
+     },
+     {
+      "step": 15,
+      "H": 2.6938998699188232,
+      "nonlatin_mass": 0.6533225774765015,
+      "obj": 1.0078662633895874
+     },
+     {
+      "step": 20,
+      "H": 1.3815112113952637,
+      "nonlatin_mass": 0.00031086066155694425,
+      "obj": 1.380708932876587
+     },
+     {
+      "step": 25,
+      "H": 2.025080919265747,
+      "nonlatin_mass": 0.013357625342905521,
+      "obj": 1.990608811378479
+     },
+     {
+      "step": 30,
+      "H": 1.9931222200393677,
+      "nonlatin_mass": 0.012822255492210388,
+      "obj": 1.9600317478179932
+     },
+     {
+      "step": 35,
+      "H": 3.149677038192749,
+      "nonlatin_mass": 0.00393225671723485,
+      "obj": 3.13952898979187
+     },
+     {
+      "step": 40,
+      "H": 3.687735080718994,
+      "nonlatin_mass": 0.0033407502342015505,
+      "obj": 3.6791136264801025
+     },
+     {
+      "step": 45,
+      "H": 5.88596248626709,
+      "nonlatin_mass": 0.013324535451829433,
+      "obj": 5.85157585144043
+     },
+     {
+      "step": 50,
+      "H": 0.526677668094635,
+      "nonlatin_mass": 4.469791383598931e-05,
+      "obj": 0.5265623331069946
+     },
+     {
+      "step": 55,
+      "H": 1.1926089525222778,
+      "nonlatin_mass": 0.00140039948746562,
+      "obj": 1.1889948844909668
+     },
+     {
+      "step": 60,
+      "H": 2.357489585876465,
+      "nonlatin_mass": 0.0029324362985789776,
+      "obj": 2.349921941757202
+     },
+     {
+      "step": 65,
+      "H": 4.412116527557373,
+      "nonlatin_mass": 0.018117208033800125,
+      "obj": 4.365361213684082
+     },
+     {
+      "step": 70,
+      "H": 3.5638864040374756,
+      "nonlatin_mass": 0.6228651404380798,
+      "obj": 1.9564545154571533
+     },
+     {
+      "step": 75,
+      "H": 4.229841709136963,
+      "nonlatin_mass": 0.5745500326156616,
+      "obj": 2.7470970153808594
+     },
+     {
+      "step": 80,
+      "H": 5.568367004394531,
+      "nonlatin_mass": 0.00530916778370738,
+      "obj": 5.554665565490723
+     },
+     {
+      "step": 85,
+      "H": 9.487894058227539,
+      "nonlatin_mass": 0.03356627747416496,
+      "obj": 9.40126895904541
+     },
+     {
+      "step": 90,
+      "H": 1.4594701528549194,
+      "nonlatin_mass": 0.0010457854950800538,
+      "obj": 1.4567712545394897
+     },
+     {
+      "step": 95,
+      "H": 4.653818130493164,
+      "nonlatin_mass": 0.014852112159132957,
+      "obj": 4.6154890060424805
+     },
+     {
+      "step": 100,
+      "H": 2.4167847633361816,
+      "nonlatin_mass": 0.18380752205848694,
+      "obj": 1.9424315690994263
+     },
+     {
+      "step": 105,
+      "H": 3.3805336952209473,
+      "nonlatin_mass": 0.1768125593662262,
+      "obj": 2.9242324829101562
+     },
+     {
+      "step": 110,
+      "H": 2.511094093322754,
+      "nonlatin_mass": 0.37842169404029846,
+      "obj": 1.534498929977417
+     },
+     {
+      "step": 115,
+      "H": 11.505005836486816,
+      "nonlatin_mass": 0.4448937177658081,
+      "obj": 10.356865882873535
+     },
+     {
+      "step": 120,
+      "H": 13.459753036499023,
+      "nonlatin_mass": 0.28945356607437134,
+      "obj": 12.71275806427002
+     },
+     {
+      "step": 125,
+      "H": 15.458264350891113,
+      "nonlatin_mass": 0.31492355465888977,
+      "obj": 14.645539283752441
+     },
+     {
+      "step": 130,
+      "H": 14.514765739440918,
+      "nonlatin_mass": 0.24529148638248444,
+      "obj": 13.88174057006836
+     },
+     {
+      "step": 135,
+      "H": 15.632473945617676,
+      "nonlatin_mass": 0.24288800358772278,
+      "obj": 15.005651473999023
+     },
+     {
+      "step": 140,
+      "H": 15.668441772460938,
+      "nonlatin_mass": 0.2280609905719757,
+      "obj": 15.079883575439453
+     },
+     {
+      "step": 145,
+      "H": 13.083625793457031,
+      "nonlatin_mass": 0.15026253461837769,
+      "obj": 12.695842742919922
+     },
+     {
+      "step": 150,
+      "H": 9.77778434753418,
+      "nonlatin_mass": 0.021377038210630417,
+      "obj": 9.722616195678711
+     },
+     {
+      "step": 155,
+      "H": 12.516616821289062,
+      "nonlatin_mass": 0.11406560242176056,
+      "obj": 12.222247123718262
+     },
+     {
+      "step": 160,
+      "H": 0.8268303275108337,
+      "nonlatin_mass": 0.00020754261640831828,
+      "obj": 0.8262947201728821
+     },
+     {
+      "step": 165,
+      "H": 5.325974941253662,
+      "nonlatin_mass": 0.0189634021371603,
+      "obj": 5.277036190032959
+     },
+     {
+      "step": 170,
+      "H": 2.375282049179077,
+      "nonlatin_mass": 0.0029331864789128304,
+      "obj": 2.3677122592926025
+     },
+     {
+      "step": 175,
+      "H": 6.972124099731445,
+      "nonlatin_mass": 0.0406985878944397,
+      "obj": 6.867093086242676
+     },
+     {
+      "step": 180,
+      "H": 12.190300941467285,
+      "nonlatin_mass": 0.11058355122804642,
+      "obj": 11.90491771697998
+     },
+     {
+      "step": 185,
+      "H": 14.406991958618164,
+      "nonlatin_mass": 0.16015665233135223,
+      "obj": 13.993674278259277
+     },
+     {
+      "step": 190,
+      "H": 15.536147117614746,
+      "nonlatin_mass": 0.28700071573257446,
+      "obj": 14.795482635498047
+     },
+     {
+      "step": 195,
+      "H": 16.389453887939453,
+      "nonlatin_mass": 0.2238733470439911,
+      "obj": 15.811702728271484
+     }
+    ],
+    "endpoint": 15.897440910339355,
+    "last20": 14.591001510620117,
+    "best": {
+     "step": 199,
+     "obj": 15.897440910339355,
+     "H": 16.57425880432129
+    }
+   },
+   "k=8|suffix|tokens": {
+    "k": 8,
+    "position": "suffix",
+    "init": "tokens",
+    "steps": 200,
+    "secs": 98.21942043304443,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.5951106548309326,
+      "nonlatin_mass": 0.20422479510307312,
+      "obj": 0.06806647777557373
+     },
+     {
+      "step": 5,
+      "H": 2.0694799423217773,
+      "nonlatin_mass": 0.16101998090744019,
+      "obj": 1.6539347171783447
+     },
+     {
+      "step": 10,
+      "H": 1.420765995979309,
+      "nonlatin_mass": 0.053974997252225876,
+      "obj": 1.2814724445343018
+     },
+     {
+      "step": 15,
+      "H": 3.0621535778045654,
+      "nonlatin_mass": 0.06790075451135635,
+      "obj": 2.8869216442108154
+     },
+     {
+      "step": 20,
+      "H": 3.363773822784424,
+      "nonlatin_mass": 0.644848644733429,
+      "obj": 1.6996089220046997
+     },
+     {
+      "step": 25,
+      "H": 5.0629801750183105,
+      "nonlatin_mass": 0.6878987550735474,
+      "obj": 3.2877156734466553
+     },
+     {
+      "step": 30,
+      "H": 1.6988117694854736,
+      "nonlatin_mass": 0.5637470483779907,
+      "obj": 0.24394631385803223
+     },
+     {
+      "step": 35,
+      "H": 6.3367414474487305,
+      "nonlatin_mass": 0.6430907845497131,
+      "obj": 4.677113056182861
+     },
+     {
+      "step": 40,
+      "H": 3.1007089614868164,
+      "nonlatin_mass": 0.005458453204482794,
+      "obj": 3.0866222381591797
+     },
+     {
+      "step": 45,
+      "H": 4.715926170349121,
+      "nonlatin_mass": 0.011782598681747913,
+      "obj": 4.685518741607666
+     },
+     {
+      "step": 50,
+      "H": 1.4112497568130493,
+      "nonlatin_mass": 0.001280430587939918,
+      "obj": 1.4079453945159912
+     },
+     {
+      "step": 55,
+      "H": 2.106383800506592,
+      "nonlatin_mass": 0.001846963306888938,
+      "obj": 2.1016173362731934
+     },
+     {
+      "step": 60,
+      "H": 5.6566243171691895,
+      "nonlatin_mass": 0.7923425436019897,
+      "obj": 3.611821174621582
+     },
+     {
+      "step": 65,
+      "H": 6.553155422210693,
+      "nonlatin_mass": 0.7795424461364746,
+      "obj": 4.541385650634766
+     },
+     {
+      "step": 70,
+      "H": 9.364523887634277,
+      "nonlatin_mass": 0.47043126821517944,
+      "obj": 8.150479316711426
+     },
+     {
+      "step": 75,
+      "H": 11.129524230957031,
+      "nonlatin_mass": 0.4974340498447418,
+      "obj": 9.845792770385742
+     },
+     {
+      "step": 80,
+      "H": 10.755617141723633,
+      "nonlatin_mass": 0.1598912477493286,
+      "obj": 10.342985153198242
+     },
+     {
+      "step": 85,
+      "H": 11.119128227233887,
+      "nonlatin_mass": 0.1901235729455948,
+      "obj": 10.628475189208984
+     },
+     {
+      "step": 90,
+      "H": 7.712231159210205,
+      "nonlatin_mass": 0.48879677057266235,
+      "obj": 6.4507904052734375
+     },
+     {
+      "step": 95,
+      "H": 12.784476280212402,
+      "nonlatin_mass": 0.4033603072166443,
+      "obj": 11.743521690368652
+     },
+     {
+      "step": 100,
+      "H": 3.6580300331115723,
+      "nonlatin_mass": 0.10361100733280182,
+      "obj": 3.3906404972076416
+     },
+     {
+      "step": 105,
+      "H": 5.397870063781738,
+      "nonlatin_mass": 0.12990814447402954,
+      "obj": 5.062615394592285
+     },
+     {
+      "step": 110,
+      "H": 0.7160147428512573,
+      "nonlatin_mass": 0.007636100985109806,
+      "obj": 0.6963081955909729
+     },
+     {
+      "step": 115,
+      "H": 1.8397231101989746,
+      "nonlatin_mass": 0.0710645243525505,
+      "obj": 1.656326413154602
+     },
+     {
+      "step": 120,
+      "H": 4.26912784576416,
+      "nonlatin_mass": 0.737138569355011,
+      "obj": 2.3667898178100586
+     },
+     {
+      "step": 125,
+      "H": 5.343433856964111,
+      "nonlatin_mass": 0.719365119934082,
+      "obj": 3.4869637489318848
+     },
+     {
+      "step": 130,
+      "H": 3.9521374702453613,
+      "nonlatin_mass": 0.007398375775665045,
+      "obj": 3.93304443359375
+     },
+     {
+      "step": 135,
+      "H": 4.696035861968994,
+      "nonlatin_mass": 0.005673578940331936,
+      "obj": 4.681394100189209
+     },
+     {
+      "step": 140,
+      "H": 5.1828107833862305,
+      "nonlatin_mass": 0.006800335831940174,
+      "obj": 5.165261268615723
+     },
+     {
+      "step": 145,
+      "H": 5.368020534515381,
+      "nonlatin_mass": 0.009981732815504074,
+      "obj": 5.342260837554932
+     },
+     {
+      "step": 150,
+      "H": 8.284652709960938,
+      "nonlatin_mass": 0.07864244282245636,
+      "obj": 8.08169937133789
+     },
+     {
+      "step": 155,
+      "H": 10.964838027954102,
+      "nonlatin_mass": 0.12546652555465698,
+      "obj": 10.641045570373535
+     },
+     {
+      "step": 160,
+      "H": 12.197738647460938,
+      "nonlatin_mass": 0.1938973218202591,
+      "obj": 11.697346687316895
+     },
+     {
+      "step": 165,
+      "H": 14.786229133605957,
+      "nonlatin_mass": 0.20999577641487122,
+      "obj": 14.244291305541992
+     },
+     {
+      "step": 170,
+      "H": 14.316986083984375,
+      "nonlatin_mass": 0.17630358040332794,
+      "obj": 13.861998558044434
+     },
+     {
+      "step": 175,
+      "H": 15.79737663269043,
+      "nonlatin_mass": 0.22447612881660461,
+      "obj": 15.218070030212402
+     },
+     {
+      "step": 180,
+      "H": 15.788785934448242,
+      "nonlatin_mass": 0.16040384769439697,
+      "obj": 15.374831199645996
+     },
+     {
+      "step": 185,
+      "H": 16.57126235961914,
+      "nonlatin_mass": 0.23240497708320618,
+      "obj": 15.9714937210083
+     },
+     {
+      "step": 190,
+      "H": 16.46707534790039,
+      "nonlatin_mass": 0.24518299102783203,
+      "obj": 15.834329605102539
+     },
+     {
+      "step": 195,
+      "H": 15.615345001220703,
+      "nonlatin_mass": 0.2681998610496521,
+      "obj": 14.923199653625488
+     }
+    ],
+    "endpoint": 14.475360870361328,
+    "last20": 15.505468702316284,
+    "best": {
+     "step": 191,
+     "obj": 16.021621704101562,
+     "H": 16.596826553344727
+    }
+   },
+   "k=16|suffix|random": {
+    "k": 16,
+    "position": "suffix",
+    "init": "random",
+    "steps": 200,
+    "secs": 97.55863928794861,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.7408345341682434,
+      "nonlatin_mass": 7.21043033991009e-06,
+      "obj": 0.7408159375190735
+     },
+     {
+      "step": 5,
+      "H": 4.717798233032227,
+      "nonlatin_mass": 0.09317275881767273,
+      "obj": 4.477346897125244
+     },
+     {
+      "step": 10,
+      "H": 9.307944297790527,
+      "nonlatin_mass": 0.5597547888755798,
+      "obj": 7.863381862640381
+     },
+     {
+      "step": 15,
+      "H": 9.863602638244629,
+      "nonlatin_mass": 0.5201632976531982,
+      "obj": 8.52121353149414
+     },
+     {
+      "step": 20,
+      "H": 1.4880295991897583,
+      "nonlatin_mass": 6.75307383062318e-05,
+      "obj": 1.487855315208435
+     },
+     {
+      "step": 25,
+      "H": 2.7577779293060303,
+      "nonlatin_mass": 0.005600511562079191,
+      "obj": 2.7433247566223145
+     },
+     {
+      "step": 30,
+      "H": 1.1379461288452148,
+      "nonlatin_mass": 0.0033958277199417353,
+      "obj": 1.1291824579238892
+     },
+     {
+      "step": 35,
+      "H": 2.375981330871582,
+      "nonlatin_mass": 0.011516050435602665,
+      "obj": 2.346261739730835
+     },
+     {
+      "step": 40,
+      "H": 7.371609687805176,
+      "nonlatin_mass": 0.048932820558547974,
+      "obj": 7.245328426361084
+     },
+     {
+      "step": 45,
+      "H": 8.888832092285156,
+      "nonlatin_mass": 0.12599606812000275,
+      "obj": 8.56367301940918
+     },
+     {
+      "step": 50,
+      "H": 6.727818012237549,
+      "nonlatin_mass": 0.12755970656871796,
+      "obj": 6.398623943328857
+     },
+     {
+      "step": 55,
+      "H": 12.107223510742188,
+      "nonlatin_mass": 0.143199160695076,
+      "obj": 11.737668991088867
+     },
+     {
+      "step": 60,
+      "H": 12.965428352355957,
+      "nonlatin_mass": 0.09874225407838821,
+      "obj": 12.710603713989258
+     },
+     {
+      "step": 65,
+      "H": 15.450183868408203,
+      "nonlatin_mass": 0.19751688838005066,
+      "obj": 14.940450668334961
+     },
+     {
+      "step": 70,
+      "H": 16.12296485900879,
+      "nonlatin_mass": 0.24957796931266785,
+      "obj": 15.478877067565918
+     },
+     {
+      "step": 75,
+      "H": 16.50552749633789,
+      "nonlatin_mass": 0.2846761643886566,
+      "obj": 15.770861625671387
+     },
+     {
+      "step": 80,
+      "H": 11.115161895751953,
+      "nonlatin_mass": 0.08366280794143677,
+      "obj": 10.899252891540527
+     },
+     {
+      "step": 85,
+      "H": 9.733476638793945,
+      "nonlatin_mass": 0.08841325342655182,
+      "obj": 9.505308151245117
+     },
+     {
+      "step": 90,
+      "H": 3.691091537475586,
+      "nonlatin_mass": 0.018357763066887856,
+      "obj": 3.6437156200408936
+     },
+     {
+      "step": 95,
+      "H": 7.939283847808838,
+      "nonlatin_mass": 0.15157786011695862,
+      "obj": 7.548105716705322
+     },
+     {
+      "step": 100,
+      "H": 2.1192286014556885,
+      "nonlatin_mass": 0.6558591723442078,
+      "obj": 0.4266488552093506
+     },
+     {
+      "step": 105,
+      "H": 2.3087005615234375,
+      "nonlatin_mass": 0.607400119304657,
+      "obj": 0.741179347038269
+     },
+     {
+      "step": 110,
+      "H": 1.8994195461273193,
+      "nonlatin_mass": 0.012489194050431252,
+      "obj": 1.867188572883606
+     },
+     {
+      "step": 115,
+      "H": 2.6664795875549316,
+      "nonlatin_mass": 0.01667051389813423,
+      "obj": 2.623457908630371
+     },
+     {
+      "step": 120,
+      "H": 3.2072556018829346,
+      "nonlatin_mass": 0.6102506518363953,
+      "obj": 1.6323779821395874
+     },
+     {
+      "step": 125,
+      "H": 5.884369850158691,
+      "nonlatin_mass": 0.5668141841888428,
+      "obj": 4.421588897705078
+     },
+     {
+      "step": 130,
+      "H": 8.234113693237305,
+      "nonlatin_mass": 0.5331787467002869,
+      "obj": 6.858136177062988
+     },
+     {
+      "step": 135,
+      "H": 9.95509147644043,
+      "nonlatin_mass": 0.5170807242393494,
+      "obj": 8.620657920837402
+     },
+     {
+      "step": 140,
+      "H": 8.440682411193848,
+      "nonlatin_mass": 0.428996205329895,
+      "obj": 7.333569526672363
+     },
+     {
+      "step": 145,
+      "H": 11.217745780944824,
+      "nonlatin_mass": 0.42135950922966003,
+      "obj": 10.130340576171875
+     },
+     {
+      "step": 150,
+      "H": 2.4980854988098145,
+      "nonlatin_mass": 0.6908504962921143,
+      "obj": 0.7152034044265747
+     },
+     {
+      "step": 155,
+      "H": 3.060579776763916,
+      "nonlatin_mass": 0.7050126791000366,
+      "obj": 1.2411491870880127
+     },
+     {
+      "step": 160,
+      "H": 6.563583850860596,
+      "nonlatin_mass": 0.2919749617576599,
+      "obj": 5.81008243560791
+     },
+     {
+      "step": 165,
+      "H": 10.845440864562988,
+      "nonlatin_mass": 0.2496400624513626,
+      "obj": 10.201192855834961
+     },
+     {
+      "step": 170,
+      "H": 7.851654529571533,
+      "nonlatin_mass": 0.041824739426374435,
+      "obj": 7.743717193603516
+     },
+     {
+      "step": 175,
+      "H": 13.969133377075195,
+      "nonlatin_mass": 0.15836483240127563,
+      "obj": 13.560440063476562
+     },
+     {
+      "step": 180,
+      "H": 13.976923942565918,
+      "nonlatin_mass": 0.24787430465221405,
+      "obj": 13.337233543395996
+     },
+     {
+      "step": 185,
+      "H": 15.785665512084961,
+      "nonlatin_mass": 0.20653170347213745,
+      "obj": 15.252668380737305
+     },
+     {
+      "step": 190,
+      "H": 16.46062469482422,
+      "nonlatin_mass": 0.23767951130867004,
+      "obj": 15.847243309020996
+     },
+     {
+      "step": 195,
+      "H": 16.855566024780273,
+      "nonlatin_mass": 0.23117929697036743,
+      "obj": 16.258960723876953
+     }
+    ],
+    "endpoint": 16.332427978515625,
+    "last20": 15.599896144866943,
+    "best": {
+     "step": 199,
+     "obj": 16.332427978515625,
+     "H": 16.940975189208984
+    }
+   },
+   "k=16|suffix|tokens": {
+    "k": 16,
+    "position": "suffix",
+    "init": "tokens",
+    "steps": 200,
+    "secs": 97.90892434120178,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.9584875106811523,
+      "nonlatin_mass": 0.0932537093758583,
+      "obj": 0.7178270816802979
+     },
+     {
+      "step": 5,
+      "H": 2.239262580871582,
+      "nonlatin_mass": 0.05640089511871338,
+      "obj": 2.0937085151672363
+     },
+     {
+      "step": 10,
+      "H": 1.3374090194702148,
+      "nonlatin_mass": 0.7609524726867676,
+      "obj": -0.6263856887817383
+     },
+     {
+      "step": 15,
+      "H": 2.1007609367370605,
+      "nonlatin_mass": 0.7408879995346069,
+      "obj": 0.18874669075012207
+     },
+     {
+      "step": 20,
+      "H": 1.5564278364181519,
+      "nonlatin_mass": 3.3244436053792015e-05,
+      "obj": 1.5563420057296753
+     },
+     {
+      "step": 25,
+      "H": 2.1457669734954834,
+      "nonlatin_mass": 0.0026967539452016354,
+      "obj": 2.138807535171509
+     },
+     {
+      "step": 30,
+      "H": 4.024431228637695,
+      "nonlatin_mass": 0.03649934381246567,
+      "obj": 3.930237054824829
+     },
+     {
+      "step": 35,
+      "H": 3.92313551902771,
+      "nonlatin_mass": 0.022058820351958275,
+      "obj": 3.866208076477051
+     },
+     {
+      "step": 40,
+      "H": 1.9638646841049194,
+      "nonlatin_mass": 0.0014941045083105564,
+      "obj": 1.9600088596343994
+     },
+     {
+      "step": 45,
+      "H": 2.8394241333007812,
+      "nonlatin_mass": 0.00414878036826849,
+      "obj": 2.8287172317504883
+     },
+     {
+      "step": 50,
+      "H": 1.0349482297897339,
+      "nonlatin_mass": 2.111660251102876e-05,
+      "obj": 1.0348937511444092
+     },
+     {
+      "step": 55,
+      "H": 1.4296398162841797,
+      "nonlatin_mass": 7.012204150669277e-05,
+      "obj": 1.4294588565826416
+     },
+     {
+      "step": 60,
+      "H": 1.8478376865386963,
+      "nonlatin_mass": 0.00042108859634026885,
+      "obj": 1.8467509746551514
+     },
+     {
+      "step": 65,
+      "H": 3.5975537300109863,
+      "nonlatin_mass": 0.0038468961138278246,
+      "obj": 3.5876259803771973
+     },
+     {
+      "step": 70,
+      "H": 5.800456523895264,
+      "nonlatin_mass": 0.028812605887651443,
+      "obj": 5.726099491119385
+     },
+     {
+      "step": 75,
+      "H": 7.694516181945801,
+      "nonlatin_mass": 0.02918684296309948,
+      "obj": 7.6191935539245605
+     },
+     {
+      "step": 80,
+      "H": 11.808941841125488,
+      "nonlatin_mass": 0.05821236968040466,
+      "obj": 11.658712387084961
+     },
+     {
+      "step": 85,
+      "H": 13.355234146118164,
+      "nonlatin_mass": 0.10932189226150513,
+      "obj": 13.07310676574707
+     },
+     {
+      "step": 90,
+      "H": 8.861952781677246,
+      "nonlatin_mass": 0.12689217925071716,
+      "obj": 8.534481048583984
+     },
+     {
+      "step": 95,
+      "H": 13.810333251953125,
+      "nonlatin_mass": 0.22267746925354004,
+      "obj": 13.235668182373047
+     },
+     {
+      "step": 100,
+      "H": 9.121039390563965,
+      "nonlatin_mass": 0.0021240627393126488,
+      "obj": 9.115557670593262
+     },
+     {
+      "step": 105,
+      "H": 14.449769973754883,
+      "nonlatin_mass": 0.1700012981891632,
+      "obj": 14.011046409606934
+     },
+     {
+      "step": 110,
+      "H": 14.042734146118164,
+      "nonlatin_mass": 0.26782920956611633,
+      "obj": 13.351545333862305
+     },
+     {
+      "step": 115,
+      "H": 16.06839370727539,
+      "nonlatin_mass": 0.19410553574562073,
+      "obj": 15.567464828491211
+     },
+     {
+      "step": 120,
+      "H": 16.22996711730957,
+      "nonlatin_mass": 0.18802191317081451,
+      "obj": 15.74473762512207
+     },
+     {
+      "step": 125,
+      "H": 16.460142135620117,
+      "nonlatin_mass": 0.2511902451515198,
+      "obj": 15.811893463134766
+     },
+     {
+      "step": 130,
+      "H": 15.931349754333496,
+      "nonlatin_mass": 0.3220989406108856,
+      "obj": 15.100107192993164
+     },
+     {
+      "step": 135,
+      "H": 16.232383728027344,
+      "nonlatin_mass": 0.18048709630966187,
+      "obj": 15.766599655151367
+     },
+     {
+      "step": 140,
+      "H": 14.704075813293457,
+      "nonlatin_mass": 0.10864429920911789,
+      "obj": 14.423696517944336
+     },
+     {
+      "step": 145,
+      "H": 13.080873489379883,
+      "nonlatin_mass": 0.13457301259040833,
+      "obj": 12.733579635620117
+     },
+     {
+      "step": 150,
+      "H": 12.065340995788574,
+      "nonlatin_mass": 0.14955951273441315,
+      "obj": 11.67937183380127
+     },
+     {
+      "step": 155,
+      "H": 15.887107849121094,
+      "nonlatin_mass": 0.22698789834976196,
+      "obj": 15.301319122314453
+     },
+     {
+      "step": 160,
+      "H": 16.01192283630371,
+      "nonlatin_mass": 0.2102690190076828,
+      "obj": 15.469280242919922
+     },
+     {
+      "step": 165,
+      "H": 16.52252769470215,
+      "nonlatin_mass": 0.23670780658721924,
+      "obj": 15.911654472351074
+     },
+     {
+      "step": 170,
+      "H": 15.851947784423828,
+      "nonlatin_mass": 0.23259666562080383,
+      "obj": 15.251684188842773
+     },
+     {
+      "step": 175,
+      "H": 15.423069953918457,
+      "nonlatin_mass": 0.20331095159053802,
+      "obj": 14.898384094238281
+     },
+     {
+      "step": 180,
+      "H": 15.799081802368164,
+      "nonlatin_mass": 0.2814493477344513,
+      "obj": 15.07274341583252
+     },
+     {
+      "step": 185,
+      "H": 16.335556030273438,
+      "nonlatin_mass": 0.19070225954055786,
+      "obj": 15.843409538269043
+     },
+     {
+      "step": 190,
+      "H": 12.411016464233398,
+      "nonlatin_mass": 0.17428116500377655,
+      "obj": 11.961248397827148
+     },
+     {
+      "step": 195,
+      "H": 12.559127807617188,
+      "nonlatin_mass": 0.21735790371894836,
+      "obj": 11.998190879821777
+     }
+    ],
+    "endpoint": 14.747262001037598,
+    "last20": 14.34928002357483,
+    "best": {
+     "step": 189,
+     "obj": 16.068126678466797,
+     "H": 16.69586181640625
+    }
+   },
+   "k=4|prefix|random": {
+    "k": 4,
+    "position": "prefix",
+    "init": "random",
+    "steps": 200,
+    "secs": 97.27238774299622,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.6618931293487549,
+      "nonlatin_mass": 2.4963528630905785e-06,
+      "obj": 0.6618866920471191
+     },
+     {
+      "step": 5,
+      "H": 1.8255198001861572,
+      "nonlatin_mass": 0.005673995241522789,
+      "obj": 1.8108768463134766
+     },
+     {
+      "step": 10,
+      "H": 0.5172540545463562,
+      "nonlatin_mass": 0.01359653938561678,
+      "obj": 0.4821653962135315
+     },
+     {
+      "step": 15,
+      "H": 1.4440412521362305,
+      "nonlatin_mass": 0.00017693146946839988,
+      "obj": 1.443584680557251
+     },
+     {
+      "step": 20,
+      "H": 2.7940855026245117,
+      "nonlatin_mass": 0.0034646939020603895,
+      "obj": 2.785144090652466
+     },
+     {
+      "step": 25,
+      "H": 4.177711486816406,
+      "nonlatin_mass": 0.017146678641438484,
+      "obj": 4.133460998535156
+     },
+     {
+      "step": 30,
+      "H": 3.217773914337158,
+      "nonlatin_mass": 0.04866941273212433,
+      "obj": 3.092172384262085
+     },
+     {
+      "step": 35,
+      "H": 4.243588924407959,
+      "nonlatin_mass": 0.051882773637771606,
+      "obj": 4.109694957733154
+     },
+     {
+      "step": 40,
+      "H": 2.2455193996429443,
+      "nonlatin_mass": 0.46838945150375366,
+      "obj": 1.0367438793182373
+     },
+     {
+      "step": 45,
+      "H": 3.4474637508392334,
+      "nonlatin_mass": 0.47542330622673035,
+      "obj": 2.2205357551574707
+     },
+     {
+      "step": 50,
+      "H": 2.2469778060913086,
+      "nonlatin_mass": 0.5409471988677979,
+      "obj": 0.8509520292282104
+     },
+     {
+      "step": 55,
+      "H": 3.7613155841827393,
+      "nonlatin_mass": 0.52736896276474,
+      "obj": 2.4003312587738037
+     },
+     {
+      "step": 60,
+      "H": 3.9018378257751465,
+      "nonlatin_mass": 0.8554569482803345,
+      "obj": 1.6941547393798828
+     },
+     {
+      "step": 65,
+      "H": 6.953603744506836,
+      "nonlatin_mass": 0.8320348858833313,
+      "obj": 4.806365966796875
+     },
+     {
+      "step": 70,
+      "H": 2.4686973094940186,
+      "nonlatin_mass": 0.0006272954633459449,
+      "obj": 2.467078447341919
+     },
+     {
+      "step": 75,
+      "H": 3.2087690830230713,
+      "nonlatin_mass": 0.0022675993386656046,
+      "obj": 3.2029170989990234
+     },
+     {
+      "step": 80,
+      "H": 9.130599975585938,
+      "nonlatin_mass": 0.0341818705201149,
+      "obj": 9.042387008666992
+     },
+     {
+      "step": 85,
+      "H": 12.192200660705566,
+      "nonlatin_mass": 0.06599067896604538,
+      "obj": 12.02189826965332
+     },
+     {
+      "step": 90,
+      "H": 0.7927103638648987,
+      "nonlatin_mass": 0.0005012322217226028,
+      "obj": 0.7914168238639832
+     },
+     {
+      "step": 95,
+      "H": 2.141756057739258,
+      "nonlatin_mass": 0.0025839710142463446,
+      "obj": 2.135087490081787
+     },
+     {
+      "step": 100,
+      "H": 3.7876312732696533,
+      "nonlatin_mass": 0.0009595670271664858,
+      "obj": 3.7851548194885254
+     },
+     {
+      "step": 105,
+      "H": 5.8967180252075195,
+      "nonlatin_mass": 0.01810440793633461,
+      "obj": 5.849996089935303
+     },
+     {
+      "step": 110,
+      "H": 0.6532478332519531,
+      "nonlatin_mass": 1.4774470855627442e-06,
+      "obj": 0.6532440185546875
+     },
+     {
+      "step": 115,
+      "H": 0.6796502470970154,
+      "nonlatin_mass": 1.978983164008241e-06,
+      "obj": 0.6796451210975647
+     },
+     {
+      "step": 120,
+      "H": 0.7129043340682983,
+      "nonlatin_mass": 1.120808065024903e-06,
+      "obj": 0.7129014134407043
+     },
+     {
+      "step": 125,
+      "H": 0.7614544034004211,
+      "nonlatin_mass": 1.5623702438460896e-06,
+      "obj": 0.7614503502845764
+     },
+     {
+      "step": 130,
+      "H": 0.8009083271026611,
+      "nonlatin_mass": 0.00010314211249351501,
+      "obj": 0.8006421327590942
+     },
+     {
+      "step": 135,
+      "H": 1.0080530643463135,
+      "nonlatin_mass": 4.648229878512211e-05,
+      "obj": 1.0079331398010254
+     },
+     {
+      "step": 140,
+      "H": 0.9117361903190613,
+      "nonlatin_mass": 1.5249960370056215e-06,
+      "obj": 0.9117322564125061
+     },
+     {
+      "step": 145,
+      "H": 1.2861249446868896,
+      "nonlatin_mass": 0.002445967635139823,
+      "obj": 1.2798125743865967
+     },
+     {
+      "step": 150,
+      "H": 2.2716753482818604,
+      "nonlatin_mass": 0.007675646338611841,
+      "obj": 2.2518668174743652
+     },
+     {
+      "step": 155,
+      "H": 3.6399683952331543,
+      "nonlatin_mass": 0.03516624867916107,
+      "obj": 3.5492146015167236
+     },
+     {
+      "step": 160,
+      "H": 1.7637922763824463,
+      "nonlatin_mass": 0.6711663007736206,
+      "obj": 0.03170931339263916
+     },
+     {
+      "step": 165,
+      "H": 2.55918025970459,
+      "nonlatin_mass": 0.6421185731887817,
+      "obj": 0.9020609855651855
+     },
+     {
+      "step": 170,
+      "H": 2.521562099456787,
+      "nonlatin_mass": 0.47779756784439087,
+      "obj": 1.2885069847106934
+     },
+     {
+      "step": 175,
+      "H": 3.062558889389038,
+      "nonlatin_mass": 0.47173547744750977,
+      "obj": 1.8451482057571411
+     },
+     {
+      "step": 180,
+      "H": 1.5203802585601807,
+      "nonlatin_mass": 0.798277735710144,
+      "obj": -0.5397400856018066
+     },
+     {
+      "step": 185,
+      "H": 2.148231029510498,
+      "nonlatin_mass": 0.7858497500419617,
+      "obj": 0.12018370628356934
+     },
+     {
+      "step": 190,
+      "H": 7.898257255554199,
+      "nonlatin_mass": 0.26786527037620544,
+      "obj": 7.206975936889648
+     },
+     {
+      "step": 195,
+      "H": 9.935187339782715,
+      "nonlatin_mass": 0.29489338397979736,
+      "obj": 9.174154281616211
+     }
+    ],
+    "endpoint": 8.22671127319336,
+    "last20": 4.246104228496551,
+    "best": {
+     "step": 88,
+     "obj": 13.070476531982422,
+     "H": 13.321995735168457
+    }
+   },
+   "k=4|prefix|tokens": {
+    "k": 4,
+    "position": "prefix",
+    "init": "tokens",
+    "steps": 200,
+    "secs": 94.88439512252808,
+    "hist": [
+     {
+      "step": 0,
+      "H": 1.9544724225997925,
+      "nonlatin_mass": 0.855629563331604,
+      "obj": -0.2536560297012329
+     },
+     {
+      "step": 5,
+      "H": 3.4825048446655273,
+      "nonlatin_mass": 0.830802321434021,
+      "obj": 1.3384482860565186
+     },
+     {
+      "step": 10,
+      "H": 1.662216067314148,
+      "nonlatin_mass": 0.00026375468587502837,
+      "obj": 1.661535382270813
+     },
+     {
+      "step": 15,
+      "H": 1.9540207386016846,
+      "nonlatin_mass": 0.00010241691779810935,
+      "obj": 1.9537564516067505
+     },
+     {
+      "step": 20,
+      "H": 1.0952757596969604,
+      "nonlatin_mass": 0.00029569416074082255,
+      "obj": 1.094512701034546
+     },
+     {
+      "step": 25,
+      "H": 1.0358099937438965,
+      "nonlatin_mass": 1.7792019207263365e-05,
+      "obj": 1.0357640981674194
+     },
+     {
+      "step": 30,
+      "H": 0.8811447024345398,
+      "nonlatin_mass": 8.258846719400026e-06,
+      "obj": 0.8811233639717102
+     },
+     {
+      "step": 35,
+      "H": 1.1099605560302734,
+      "nonlatin_mass": 7.986174750840291e-06,
+      "obj": 1.1099399328231812
+     },
+     {
+      "step": 40,
+      "H": 2.6546335220336914,
+      "nonlatin_mass": 0.027370652183890343,
+      "obj": 2.583997964859009
+     },
+     {
+      "step": 45,
+      "H": 3.98679780960083,
+      "nonlatin_mass": 0.01859566941857338,
+      "obj": 3.938807964324951
+     },
+     {
+      "step": 50,
+      "H": 1.5909727811813354,
+      "nonlatin_mass": 0.0010561334202066064,
+      "obj": 1.5882471799850464
+     },
+     {
+      "step": 55,
+      "H": 2.1493380069732666,
+      "nonlatin_mass": 0.0036540026776492596,
+      "obj": 2.1399080753326416
+     },
+     {
+      "step": 60,
+      "H": 8.324055671691895,
+      "nonlatin_mass": 0.015144824050366879,
+      "obj": 8.284971237182617
+     },
+     {
+      "step": 65,
+      "H": 10.122726440429688,
+      "nonlatin_mass": 0.035639725625514984,
+      "obj": 10.03075122833252
+     },
+     {
+      "step": 70,
+      "H": 1.392591953277588,
+      "nonlatin_mass": 0.005222596228122711,
+      "obj": 1.3791139125823975
+     },
+     {
+      "step": 75,
+      "H": 3.77168607711792,
+      "nonlatin_mass": 0.012125658802688122,
+      "obj": 3.7403934001922607
+     },
+     {
+      "step": 80,
+      "H": 5.970779895782471,
+      "nonlatin_mass": 0.32825374603271484,
+      "obj": 5.123653411865234
+     },
+     {
+      "step": 85,
+      "H": 9.574722290039062,
+      "nonlatin_mass": 0.31368276476860046,
+      "obj": 8.765199661254883
+     },
+     {
+      "step": 90,
+      "H": 12.055538177490234,
+      "nonlatin_mass": 0.038555264472961426,
+      "obj": 11.956038475036621
+     },
+     {
+      "step": 95,
+      "H": 15.376163482666016,
+      "nonlatin_mass": 0.1941465586423874,
+      "obj": 14.875127792358398
+     },
+     {
+      "step": 100,
+      "H": 13.167024612426758,
+      "nonlatin_mass": 0.19109772145748138,
+      "obj": 12.673857688903809
+     },
+     {
+      "step": 105,
+      "H": 14.818424224853516,
+      "nonlatin_mass": 0.1890215426683426,
+      "obj": 14.330615043640137
+     },
+     {
+      "step": 110,
+      "H": 14.545205116271973,
+      "nonlatin_mass": 0.28755050897598267,
+      "obj": 13.803121566772461
+     },
+     {
+      "step": 115,
+      "H": 14.736468315124512,
+      "nonlatin_mass": 0.25095802545547485,
+      "obj": 14.08881950378418
+     },
+     {
+      "step": 120,
+      "H": 9.885904312133789,
+      "nonlatin_mass": 0.07008354365825653,
+      "obj": 9.705039024353027
+     },
+     {
+      "step": 125,
+      "H": 13.652274131774902,
+      "nonlatin_mass": 0.11820143461227417,
+      "obj": 13.347230911254883
+     },
+     {
+      "step": 130,
+      "H": 15.537203788757324,
+      "nonlatin_mass": 0.2827831506729126,
+      "obj": 14.80742359161377
+     },
+     {
+      "step": 135,
+      "H": 16.294979095458984,
+      "nonlatin_mass": 0.2830994725227356,
+      "obj": 15.564382553100586
+     },
+     {
+      "step": 140,
+      "H": 16.702070236206055,
+      "nonlatin_mass": 0.264713317155838,
+      "obj": 16.018922805786133
+     },
+     {
+      "step": 145,
+      "H": 16.883464813232422,
+      "nonlatin_mass": 0.23795977234840393,
+      "obj": 16.26936149597168
+     },
+     {
+      "step": 150,
+      "H": 16.191503524780273,
+      "nonlatin_mass": 0.17929476499557495,
+      "obj": 15.728796005249023
+     },
+     {
+      "step": 155,
+      "H": 15.487857818603516,
+      "nonlatin_mass": 0.26298660039901733,
+      "obj": 14.80916690826416
+     },
+     {
+      "step": 160,
+      "H": 16.10243034362793,
+      "nonlatin_mass": 0.24081078171730042,
+      "obj": 15.480968475341797
+     },
+     {
+      "step": 165,
+      "H": 15.702849388122559,
+      "nonlatin_mass": 0.17937801778316498,
+      "obj": 15.239927291870117
+     },
+     {
+      "step": 170,
+      "H": 16.31079864501953,
+      "nonlatin_mass": 0.2045421302318573,
+      "obj": 15.78293514251709
+     },
+     {
+      "step": 175,
+      "H": 16.748510360717773,
+      "nonlatin_mass": 0.2704898416996002,
+      "obj": 16.05045509338379
+     },
+     {
+      "step": 180,
+      "H": 16.762346267700195,
+      "nonlatin_mass": 0.22515548765659332,
+      "obj": 16.181285858154297
+     },
+     {
+      "step": 185,
+      "H": 16.971790313720703,
+      "nonlatin_mass": 0.23555739223957062,
+      "obj": 16.3638858795166
+     },
+     {
+      "step": 190,
+      "H": 16.80695343017578,
+      "nonlatin_mass": 0.26635026931762695,
+      "obj": 16.11958122253418
+     },
+     {
+      "step": 195,
+      "H": 16.934600830078125,
+      "nonlatin_mass": 0.22240149974822998,
+      "obj": 16.360647201538086
+     }
+    ],
+    "endpoint": 16.418912887573242,
+    "last20": 16.313582611083984,
+    "best": {
+     "step": 199,
+     "obj": 16.418912887573242,
+     "H": 16.962182998657227
+    }
+   },
+   "k=8|prefix|random": {
+    "k": 8,
+    "position": "prefix",
+    "init": "random",
+    "steps": 200,
+    "secs": 98.2222032546997,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.6003692746162415,
+      "nonlatin_mass": 1.3194244274927769e-06,
+      "obj": 0.6003658771514893
+     },
+     {
+      "step": 5,
+      "H": 1.318061113357544,
+      "nonlatin_mass": 0.013348686508834362,
+      "obj": 1.2836121320724487
+     },
+     {
+      "step": 10,
+      "H": 1.3637049198150635,
+      "nonlatin_mass": 9.448456694371998e-05,
+      "obj": 1.3634611368179321
+     },
+     {
+      "step": 15,
+      "H": 3.122939348220825,
+      "nonlatin_mass": 0.002454635687172413,
+      "obj": 3.1166045665740967
+     },
+     {
+      "step": 20,
+      "H": 4.483420372009277,
+      "nonlatin_mass": 0.05715145915746689,
+      "obj": 4.3359293937683105
+     },
+     {
+      "step": 25,
+      "H": 10.220724105834961,
+      "nonlatin_mass": 0.07962501049041748,
+      "obj": 10.01523494720459
+     },
+     {
+      "step": 30,
+      "H": 3.832796335220337,
+      "nonlatin_mass": 0.03863256797194481,
+      "obj": 3.7330970764160156
+     },
+     {
+      "step": 35,
+      "H": 13.32412338256836,
+      "nonlatin_mass": 0.15343549847602844,
+      "obj": 12.92815113067627
+     },
+     {
+      "step": 40,
+      "H": 10.523940086364746,
+      "nonlatin_mass": 0.059369925409555435,
+      "obj": 10.370723724365234
+     },
+     {
+      "step": 45,
+      "H": 15.49964714050293,
+      "nonlatin_mass": 0.16031625866889954,
+      "obj": 15.085918426513672
+     },
+     {
+      "step": 50,
+      "H": 14.525192260742188,
+      "nonlatin_mass": 0.20115986466407776,
+      "obj": 14.006057739257812
+     },
+     {
+      "step": 55,
+      "H": 15.651039123535156,
+      "nonlatin_mass": 0.23338131606578827,
+      "obj": 15.048750877380371
+     },
+     {
+      "step": 60,
+      "H": 14.632981300354004,
+      "nonlatin_mass": 0.17277173697948456,
+      "obj": 14.187108039855957
+     },
+     {
+      "step": 65,
+      "H": 16.178781509399414,
+      "nonlatin_mass": 0.2220603972673416,
+      "obj": 15.605709075927734
+     },
+     {
+      "step": 70,
+      "H": 16.137855529785156,
+      "nonlatin_mass": 0.17911595106124878,
+      "obj": 15.675609588623047
+     },
+     {
+      "step": 75,
+      "H": 16.436248779296875,
+      "nonlatin_mass": 0.23617921769618988,
+      "obj": 15.826739311218262
+     },
+     {
+      "step": 80,
+      "H": 16.723581314086914,
+      "nonlatin_mass": 0.2505221664905548,
+      "obj": 16.077056884765625
+     },
+     {
+      "step": 85,
+      "H": 16.844181060791016,
+      "nonlatin_mass": 0.23347099125385284,
+      "obj": 16.241661071777344
+     },
+     {
+      "step": 90,
+      "H": 15.30599308013916,
+      "nonlatin_mass": 0.18805429339408875,
+      "obj": 14.820680618286133
+     },
+     {
+      "step": 95,
+      "H": 15.677342414855957,
+      "nonlatin_mass": 0.22423064708709717,
+      "obj": 15.098669052124023
+     },
+     {
+      "step": 100,
+      "H": 13.86780834197998,
+      "nonlatin_mass": 0.08641679584980011,
+      "obj": 13.644791603088379
+     },
+     {
+      "step": 105,
+      "H": 15.811094284057617,
+      "nonlatin_mass": 0.24277204275131226,
+      "obj": 15.184571266174316
+     },
+     {
+      "step": 110,
+      "H": 16.00836944580078,
+      "nonlatin_mass": 0.23794375360012054,
+      "obj": 15.394306182861328
+     },
+     {
+      "step": 115,
+      "H": 15.397255897521973,
+      "nonlatin_mass": 0.2786804735660553,
+      "obj": 14.67806339263916
+     },
+     {
+      "step": 120,
+      "H": 15.26463794708252,
+      "nonlatin_mass": 0.21301820874214172,
+      "obj": 14.714900970458984
+     },
+     {
+      "step": 125,
+      "H": 16.042478561401367,
+      "nonlatin_mass": 0.17088866233825684,
+      "obj": 15.601465225219727
+     },
+     {
+      "step": 130,
+      "H": 16.59288787841797,
+      "nonlatin_mass": 0.22865507006645203,
+      "obj": 16.002796173095703
+     },
+     {
+      "step": 135,
+      "H": 16.660734176635742,
+      "nonlatin_mass": 0.2417365312576294,
+      "obj": 16.036882400512695
+     },
+     {
+      "step": 140,
+      "H": 16.263259887695312,
+      "nonlatin_mass": 0.21840816736221313,
+      "obj": 15.699612617492676
+     },
+     {
+      "step": 145,
+      "H": 16.462297439575195,
+      "nonlatin_mass": 0.2502974271774292,
+      "obj": 15.816352844238281
+     },
+     {
+      "step": 150,
+      "H": 16.159225463867188,
+      "nonlatin_mass": 0.19432131946086884,
+      "obj": 15.657739639282227
+     },
+     {
+      "step": 155,
+      "H": 13.904298782348633,
+      "nonlatin_mass": 0.18345481157302856,
+      "obj": 13.430855751037598
+     },
+     {
+      "step": 160,
+      "H": 6.213271617889404,
+      "nonlatin_mass": 0.023333091288805008,
+      "obj": 6.153055667877197
+     },
+     {
+      "step": 165,
+      "H": 11.376380920410156,
+      "nonlatin_mass": 0.20750004053115845,
+      "obj": 10.8408842086792
+     },
+     {
+      "step": 170,
+      "H": 5.398939609527588,
+      "nonlatin_mass": 0.07297541946172714,
+      "obj": 5.210611343383789
+     },
+     {
+      "step": 175,
+      "H": 13.279108047485352,
+      "nonlatin_mass": 0.3467661440372467,
+      "obj": 12.384206771850586
+     },
+     {
+      "step": 180,
+      "H": 0.842228889465332,
+      "nonlatin_mass": 6.990873953327537e-05,
+      "obj": 0.8420484662055969
+     },
+     {
+      "step": 185,
+      "H": 1.424068570137024,
+      "nonlatin_mass": 0.000751183251850307,
+      "obj": 1.4221299886703491
+     },
+     {
+      "step": 190,
+      "H": 1.4212822914123535,
+      "nonlatin_mass": 0.00215211883187294,
+      "obj": 1.4157283306121826
+     },
+     {
+      "step": 195,
+      "H": 2.844862699508667,
+      "nonlatin_mass": 0.013061626814305782,
+      "obj": 2.811154365539551
+     }
+    ],
+    "endpoint": 4.367290496826172,
+    "last20": 2.124315285682678,
+    "best": {
+     "step": 89,
+     "obj": 16.327808380126953,
+     "H": 16.919601440429688
+    }
+   },
+   "k=8|prefix|tokens": {
+    "k": 8,
+    "position": "prefix",
+    "init": "tokens",
+    "steps": 200,
+    "secs": 97.62672591209412,
+    "hist": [
+     {
+      "step": 0,
+      "H": 1.3763426542282104,
+      "nonlatin_mass": 0.8068921566009521,
+      "obj": -0.706008791923523
+     },
+     {
+      "step": 5,
+      "H": 2.771191120147705,
+      "nonlatin_mass": 0.8063925504684448,
+      "obj": 0.6901290416717529
+     },
+     {
+      "step": 10,
+      "H": 3.3907976150512695,
+      "nonlatin_mass": 0.8548941612243652,
+      "obj": 1.1845669746398926
+     },
+     {
+      "step": 15,
+      "H": 6.258642673492432,
+      "nonlatin_mass": 0.7783217430114746,
+      "obj": 4.250022888183594
+     },
+     {
+      "step": 20,
+      "H": 8.938421249389648,
+      "nonlatin_mass": 0.4121505618095398,
+      "obj": 7.874781608581543
+     },
+     {
+      "step": 25,
+      "H": 13.637828826904297,
+      "nonlatin_mass": 0.3900505602359772,
+      "obj": 12.63122272491455
+     },
+     {
+      "step": 30,
+      "H": 4.7052001953125,
+      "nonlatin_mass": 0.04323136806488037,
+      "obj": 4.593632698059082
+     },
+     {
+      "step": 35,
+      "H": 8.931502342224121,
+      "nonlatin_mass": 0.08839564025402069,
+      "obj": 8.70337963104248
+     },
+     {
+      "step": 40,
+      "H": 11.692882537841797,
+      "nonlatin_mass": 0.1491798460483551,
+      "obj": 11.307892799377441
+     },
+     {
+      "step": 45,
+      "H": 14.699957847595215,
+      "nonlatin_mass": 0.15228715538978577,
+      "obj": 14.306949615478516
+     },
+     {
+      "step": 50,
+      "H": 13.981941223144531,
+      "nonlatin_mass": 0.2006761133670807,
+      "obj": 13.464055061340332
+     },
+     {
+      "step": 55,
+      "H": 15.305464744567871,
+      "nonlatin_mass": 0.22969913482666016,
+      "obj": 14.712678909301758
+     },
+     {
+      "step": 60,
+      "H": 15.918342590332031,
+      "nonlatin_mass": 0.15829339623451233,
+      "obj": 15.509834289550781
+     },
+     {
+      "step": 65,
+      "H": 16.28205108642578,
+      "nonlatin_mass": 0.24859502911567688,
+      "obj": 15.64050006866455
+     },
+     {
+      "step": 70,
+      "H": 15.762375831604004,
+      "nonlatin_mass": 0.24125491082668304,
+      "obj": 15.13976764678955
+     },
+     {
+      "step": 75,
+      "H": 16.38326644897461,
+      "nonlatin_mass": 0.28542643785476685,
+      "obj": 15.6466646194458
+     },
+     {
+      "step": 80,
+      "H": 1.6277285814285278,
+      "nonlatin_mass": 0.8260141015052795,
+      "obj": -0.5039709806442261
+     },
+     {
+      "step": 85,
+      "H": 2.799137592315674,
+      "nonlatin_mass": 0.7712170481681824,
+      "obj": 0.808853030204773
+     },
+     {
+      "step": 90,
+      "H": 8.140841484069824,
+      "nonlatin_mass": 0.3533301055431366,
+      "obj": 7.229000091552734
+     },
+     {
+      "step": 95,
+      "H": 9.100278854370117,
+      "nonlatin_mass": 0.33009985089302063,
+      "obj": 8.248388290405273
+     },
+     {
+      "step": 100,
+      "H": 13.577798843383789,
+      "nonlatin_mass": 0.12251999229192734,
+      "obj": 13.261610984802246
+     },
+     {
+      "step": 105,
+      "H": 16.168407440185547,
+      "nonlatin_mass": 0.18151739239692688,
+      "obj": 15.69996452331543
+     },
+     {
+      "step": 110,
+      "H": 13.364411354064941,
+      "nonlatin_mass": 0.11476585268974304,
+      "obj": 13.06823444366455
+     },
+     {
+      "step": 115,
+      "H": 15.812445640563965,
+      "nonlatin_mass": 0.2741478681564331,
+      "obj": 15.104950904846191
+     },
+     {
+      "step": 120,
+      "H": 14.880585670471191,
+      "nonlatin_mass": 0.2017102837562561,
+      "obj": 14.360031127929688
+     },
+     {
+      "step": 125,
+      "H": 15.833328247070312,
+      "nonlatin_mass": 0.16327312588691711,
+      "obj": 15.411968231201172
+     },
+     {
+      "step": 130,
+      "H": 16.380489349365234,
+      "nonlatin_mass": 0.25363481044769287,
+      "obj": 15.725932121276855
+     },
+     {
+      "step": 135,
+      "H": 16.340375900268555,
+      "nonlatin_mass": 0.17340347170829773,
+      "obj": 15.89287281036377
+     },
+     {
+      "step": 140,
+      "H": 9.738913536071777,
+      "nonlatin_mass": 0.11963734030723572,
+      "obj": 9.430164337158203
+     },
+     {
+      "step": 145,
+      "H": 11.476844787597656,
+      "nonlatin_mass": 0.12606850266456604,
+      "obj": 11.151498794555664
+     },
+     {
+      "step": 150,
+      "H": 14.340518951416016,
+      "nonlatin_mass": 0.20383432507514954,
+      "obj": 13.814482688903809
+     },
+     {
+      "step": 155,
+      "H": 15.772217750549316,
+      "nonlatin_mass": 0.20580926537513733,
+      "obj": 15.241084098815918
+     },
+     {
+      "step": 160,
+      "H": 16.14859962463379,
+      "nonlatin_mass": 0.21476544439792633,
+      "obj": 15.594352722167969
+     },
+     {
+      "step": 165,
+      "H": 16.501842498779297,
+      "nonlatin_mass": 0.22713211178779602,
+      "obj": 15.915680885314941
+     },
+     {
+      "step": 170,
+      "H": 16.892614364624023,
+      "nonlatin_mass": 0.2384672313928604,
+      "obj": 16.27720069885254
+     },
+     {
+      "step": 175,
+      "H": 16.653478622436523,
+      "nonlatin_mass": 0.19006715714931488,
+      "obj": 16.16297149658203
+     },
+     {
+      "step": 180,
+      "H": 16.837080001831055,
+      "nonlatin_mass": 0.23574502766132355,
+      "obj": 16.22869110107422
+     },
+     {
+      "step": 185,
+      "H": 16.620162963867188,
+      "nonlatin_mass": 0.23255470395088196,
+      "obj": 16.020008087158203
+     },
+     {
+      "step": 190,
+      "H": 1.068992257118225,
+      "nonlatin_mass": 0.0020006911363452673,
+      "obj": 1.0638290643692017
+     },
+     {
+      "step": 195,
+      "H": 2.4255733489990234,
+      "nonlatin_mass": 0.013304741121828556,
+      "obj": 2.391237735748291
+     }
+    ],
+    "endpoint": 2.1272122859954834,
+    "last20": 8.813270711898804,
+    "best": {
+     "step": 173,
+     "obj": 16.34312629699707,
+     "H": 16.929777145385742
+    }
+   },
+   "k=16|prefix|random": {
+    "k": 16,
+    "position": "prefix",
+    "init": "random",
+    "steps": 200,
+    "secs": 96.73419284820557,
+    "hist": [
+     {
+      "step": 0,
+      "H": 0.5990467667579651,
+      "nonlatin_mass": 1.4705053672514623e-06,
+      "obj": 0.5990429520606995
+     },
+     {
+      "step": 5,
+      "H": 0.8463977575302124,
+      "nonlatin_mass": 0.010337665677070618,
+      "obj": 0.8197192549705505
+     },
+     {
+      "step": 10,
+      "H": 5.113061904907227,
+      "nonlatin_mass": 0.5288741588592529,
+      "obj": 3.7481932640075684
+     },
+     {
+      "step": 15,
+      "H": 6.487367630004883,
+      "nonlatin_mass": 0.5808244943618774,
+      "obj": 4.988430023193359
+     },
+     {
+      "step": 20,
+      "H": 3.6748907566070557,
+      "nonlatin_mass": 0.012967861257493496,
+      "obj": 3.6414244174957275
+     },
+     {
+      "step": 25,
+      "H": 6.480949878692627,
+      "nonlatin_mass": 0.031477466225624084,
+      "obj": 6.399715900421143
+     },
+     {
+      "step": 30,
+      "H": 10.38144588470459,
+      "nonlatin_mass": 0.15939515829086304,
+      "obj": 9.970093727111816
+     },
+     {
+      "step": 35,
+      "H": 12.065001487731934,
+      "nonlatin_mass": 0.22025930881500244,
+      "obj": 11.496577262878418
+     },
+     {
+      "step": 40,
+      "H": 9.936336517333984,
+      "nonlatin_mass": 0.11904764175415039,
+      "obj": 9.629109382629395
+     },
+     {
+      "step": 45,
+      "H": 13.412461280822754,
+      "nonlatin_mass": 0.1608520895242691,
+      "obj": 12.997349739074707
+     },
+     {
+      "step": 50,
+      "H": 12.795287132263184,
+      "nonlatin_mass": 0.33118292689323425,
+      "obj": 11.940601348876953
+     },
+     {
+      "step": 55,
+      "H": 14.653572082519531,
+      "nonlatin_mass": 0.23419231176376343,
+      "obj": 14.049190521240234
+     },
+     {
+      "step": 60,
+      "H": 16.005783081054688,
+      "nonlatin_mass": 0.17863330245018005,
+      "obj": 15.544782638549805
+     },
+     {
+      "step": 65,
+      "H": 16.640281677246094,
+      "nonlatin_mass": 0.23397299647331238,
+      "obj": 16.036466598510742
+     },
+     {
+      "step": 70,
+      "H": 16.542423248291016,
+      "nonlatin_mass": 0.2272026538848877,
+      "obj": 15.956079483032227
+     },
+     {
+      "step": 75,
+      "H": 16.87821388244629,
+      "nonlatin_mass": 0.2326168417930603,
+      "obj": 16.27789878845215
+     },
+     {
+      "step": 80,
+      "H": 16.83320426940918,
+      "nonlatin_mass": 0.19951485097408295,
+      "obj": 16.318315505981445
+     },
+     {
+      "step": 85,
+      "H": 16.996307373046875,
+      "nonlatin_mass": 0.21674902737140656,
+      "obj": 16.436941146850586
+     },
+     {
+      "step": 90,
+      "H": 16.781314849853516,
+      "nonlatin_mass": 0.20192795991897583,
+      "obj": 16.26019859313965
+     },
+     {
+      "step": 95,
+      "H": 16.845705032348633,
+      "nonlatin_mass": 0.19598092138767242,
+      "obj": 16.339935302734375
+     },
+     {
+      "step": 100,
+      "H": 16.97939109802246,
+      "nonlatin_mass": 0.17863769829273224,
+      "obj": 16.51837921142578
+     },
+     {
+      "step": 105,
+      "H": 16.944921493530273,
+      "nonlatin_mass": 0.1946733295917511,
+      "obj": 16.442527770996094
+     },
+     {
+      "step": 110,
+      "H": 16.97317123413086,
+      "nonlatin_mass": 0.19467613101005554,
+      "obj": 16.47076988220215
+     },
+     {
+      "step": 115,
+      "H": 12.953787803649902,
+      "nonlatin_mass": 0.23811334371566772,
+      "obj": 12.339286804199219
+     },
+     {
+      "step": 120,
+      "H": 0.9894874691963196,
+      "nonlatin_mass": 0.0002737394243013114,
+      "obj": 0.9887810349464417
+     },
+     {
+      "step": 125,
+      "H": 2.4760828018188477,
+      "nonlatin_mass": 0.00585462199524045,
+      "obj": 2.4609737396240234
+     },
+     {
+      "step": 130,
+      "H": 5.961056709289551,
+      "nonlatin_mass": 0.06316127628087997,
+      "obj": 5.798056125640869
+     },
+     {
+      "step": 135,
+      "H": 9.012181282043457,
+      "nonlatin_mass": 0.12743023037910461,
+      "obj": 8.683320999145508
+     },
+     {
+      "step": 140,
+      "H": 9.501842498779297,
+      "nonlatin_mass": 0.6318644285202026,
+      "obj": 7.871186256408691
+     },
+     {
+      "step": 145,
+      "H": 11.451523780822754,
+      "nonlatin_mass": 0.5411561131477356,
+      "obj": 10.054959297180176
+     },
+     {
+      "step": 150,
+      "H": 14.190896034240723,
+      "nonlatin_mass": 0.3101106286048889,
+      "obj": 13.390591621398926
+     },
+     {
+      "step": 155,
+      "H": 16.22016716003418,
+      "nonlatin_mass": 0.21452587842941284,
+      "obj": 15.666539192199707
+     },
+     {
+      "step": 160,
+      "H": 16.37679672241211,
+      "nonlatin_mass": 0.21026930212974548,
+      "obj": 15.834153175354004
+     },
+     {
+      "step": 165,
+      "H": 16.651987075805664,
+      "nonlatin_mass": 0.22021326422691345,
+      "obj": 16.083681106567383
+     },
+     {
+      "step": 170,
+      "H": 16.71837043762207,
+      "nonlatin_mass": 0.2167530655860901,
+      "obj": 16.158994674682617
+     },
+     {
+      "step": 175,
+      "H": 16.71196937561035,
+      "nonlatin_mass": 0.21327197551727295,
+      "obj": 16.161577224731445
+     },
+     {
+      "step": 180,
+      "H": 16.974491119384766,
+      "nonlatin_mass": 0.2409399300813675,
+      "obj": 16.35269546508789
+     },
+     {
+      "step": 185,
+      "H": 17.001745223999023,
+      "nonlatin_mass": 0.22167028486728668,
+      "obj": 16.42967987060547
+     },
+     {
+      "step": 190,
+      "H": 17.01798439025879,
+      "nonlatin_mass": 0.20526942610740662,
+      "obj": 16.488245010375977
+     },
+     {
+      "step": 195,
+      "H": 17.050989151000977,
+      "nonlatin_mass": 0.20714595913887024,
+      "obj": 16.516407012939453
+     }
+    ],
+    "endpoint": 16.54148292541504,
+    "last20": 16.464750862121583,
+    "best": {
+     "step": 199,
+     "obj": 16.54148292541504,
+     "H": 16.999584197998047
+    }
+   },
+   "k=16|prefix|tokens": {
+    "k": 16,
+    "position": "prefix",
+    "init": "tokens",
+    "steps": 200,
+    "secs": 97.08116436004639,
+    "hist": [
+     {
+      "step": 0,
+      "H": 1.2309229373931885,
+      "nonlatin_mass": 0.8562082052230835,
+      "obj": -0.97869873046875
+     },
+     {
+      "step": 5,
+      "H": 1.9478317499160767,
+      "nonlatin_mass": 0.822440505027771,
+      "obj": -0.1746455430984497
+     },
+     {
+      "step": 10,
+      "H": 7.2770538330078125,
+      "nonlatin_mass": 0.5061306953430176,
+      "obj": 5.970879077911377
+     },
+     {
+      "step": 15,
+      "H": 11.977968215942383,
+      "nonlatin_mass": 0.5461865663528442,
+      "obj": 10.568421363830566
+     },
+     {
+      "step": 20,
+      "H": 10.8179931640625,
+      "nonlatin_mass": 0.20000767707824707,
+      "obj": 10.30183219909668
+     },
+     {
+      "step": 25,
+      "H": 10.708027839660645,
+      "nonlatin_mass": 0.1773184835910797,
+      "obj": 10.250420570373535
+     },
+     {
+      "step": 30,
+      "H": 13.860258102416992,
+      "nonlatin_mass": 0.23527434468269348,
+      "obj": 13.253084182739258
+     },
+     {
+      "step": 35,
+      "H": 15.05693244934082,
+      "nonlatin_mass": 0.20455369353294373,
+      "obj": 14.52903938293457
+     },
+     {
+      "step": 40,
+      "H": 14.909695625305176,
+      "nonlatin_mass": 0.14694252610206604,
+      "obj": 14.53048038482666
+     },
+     {
+      "step": 45,
+      "H": 15.442582130432129,
+      "nonlatin_mass": 0.28427228331565857,
+      "obj": 14.708958625793457
+     },
+     {
+      "step": 50,
+      "H": 13.997299194335938,
+      "nonlatin_mass": 0.22082585096359253,
+      "obj": 13.427412986755371
+     },
+     {
+      "step": 55,
+      "H": 14.944252014160156,
+      "nonlatin_mass": 0.2854304015636444,
+      "obj": 14.207639694213867
+     },
+     {
+      "step": 60,
+      "H": 15.788727760314941,
+      "nonlatin_mass": 0.21730147302150726,
+      "obj": 15.227936744689941
+     },
+     {
+      "step": 65,
+      "H": 15.48127269744873,
+      "nonlatin_mass": 0.29968252778053284,
+      "obj": 14.707880020141602
+     },
+     {
+      "step": 70,
+      "H": 10.342074394226074,
+      "nonlatin_mass": 0.03262251615524292,
+      "obj": 10.257884979248047
+     },
+     {
+      "step": 75,
+      "H": 11.981128692626953,
+      "nonlatin_mass": 0.0900040715932846,
+      "obj": 11.748854637145996
+     },
+     {
+      "step": 80,
+      "H": 13.539114952087402,
+      "nonlatin_mass": 0.20997636020183563,
+      "obj": 12.997227668762207
+     },
+     {
+      "step": 85,
+      "H": 15.8585844039917,
+      "nonlatin_mass": 0.22318622469902039,
+      "obj": 15.28260612487793
+     },
+     {
+      "step": 90,
+      "H": 15.812325477600098,
+      "nonlatin_mass": 0.2559783458709717,
+      "obj": 15.151721000671387
+     },
+     {
+      "step": 95,
+      "H": 16.70350456237793,
+      "nonlatin_mass": 0.2572939991950989,
+      "obj": 16.039505004882812
+     },
+     {
+      "step": 100,
+      "H": 16.194969177246094,
+      "nonlatin_mass": 0.16956278681755066,
+      "obj": 15.757377624511719
+     },
+     {
+      "step": 105,
+      "H": 14.42479133605957,
+      "nonlatin_mass": 0.22746381163597107,
+      "obj": 13.837774276733398
+     },
+     {
+      "step": 110,
+      "H": 15.753811836242676,
+      "nonlatin_mass": 0.23707586526870728,
+      "obj": 15.141988754272461
+     },
+     {
+      "step": 115,
+      "H": 15.353141784667969,
+      "nonlatin_mass": 0.2705937623977661,
+      "obj": 14.654818534851074
+     },
+     {
+      "step": 120,
+      "H": 15.502615928649902,
+      "nonlatin_mass": 0.2647761106491089,
+      "obj": 14.819306373596191
+     },
+     {
+      "step": 125,
+      "H": 16.125329971313477,
+      "nonlatin_mass": 0.24375303089618683,
+      "obj": 15.496274948120117
+     },
+     {
+      "step": 130,
+      "H": 16.197267532348633,
+      "nonlatin_mass": 0.25932544469833374,
+      "obj": 15.528024673461914
+     },
+     {
+      "step": 135,
+      "H": 16.209131240844727,
+      "nonlatin_mass": 0.212213933467865,
+      "obj": 15.661469459533691
+     },
+     {
+      "step": 140,
+      "H": 14.881176948547363,
+      "nonlatin_mass": 0.08441963791847229,
+      "obj": 14.663314819335938
+     },
+     {
+      "step": 145,
+      "H": 16.331729888916016,
+      "nonlatin_mass": 0.23539364337921143,
+      "obj": 15.724247932434082
+     },
+     {
+      "step": 150,
+      "H": 16.367382049560547,
+      "nonlatin_mass": 0.3240441679954529,
+      "obj": 15.531119346618652
+     },
+     {
+      "step": 155,
+      "H": 10.67624282836914,
+      "nonlatin_mass": 0.23540329933166504,
+      "obj": 10.06873607635498
+     },
+     {
+      "step": 160,
+      "H": 1.0541919469833374,
+      "nonlatin_mass": 0.07759858667850494,
+      "obj": 0.853932797908783
+     },
+     {
+      "step": 165,
+      "H": 3.3138954639434814,
+      "nonlatin_mass": 0.0867261067032814,
+      "obj": 3.090080976486206
+     },
+     {
+      "step": 170,
+      "H": 11.771356582641602,
+      "nonlatin_mass": 0.13528166711330414,
+      "obj": 11.422234535217285
+     },
+     {
+      "step": 175,
+      "H": 15.297712326049805,
+      "nonlatin_mass": 0.20655877888202667,
+      "obj": 14.764644622802734
+     },
+     {
+      "step": 180,
+      "H": 15.10537052154541,
+      "nonlatin_mass": 0.2677904963493347,
+      "obj": 14.414281845092773
+     },
+     {
+      "step": 185,
+      "H": 15.869451522827148,
+      "nonlatin_mass": 0.23773916065692902,
+      "obj": 15.255916595458984
+     },
+     {
+      "step": 190,
+      "H": 16.745725631713867,
+      "nonlatin_mass": 0.2490382045507431,
+      "obj": 16.103031158447266
+     },
+     {
+      "step": 195,
+      "H": 16.85675621032715,
+      "nonlatin_mass": 0.23532524704933167,
+      "obj": 16.24945068359375
+     }
+    ],
+    "endpoint": 16.145076751708984,
+    "last20": 15.64454369544983,
+    "best": {
+     "step": 194,
+     "obj": 16.25151824951172,
+     "H": 16.87131118774414
+    }
+   }
+  },
+  "robust": {
+   "k=4|suffix|random": 7.285430282354355,
+   "k=4|suffix|tokens": 3.0529950231313707,
+   "k=8|suffix|random": 14.591001510620117,
+   "k=8|suffix|tokens": 15.505468702316284,
+   "k=16|suffix|random": 15.599896144866943,
+   "k=16|suffix|tokens": 14.34928002357483,
+   "k=4|prefix|random": 4.246104228496551,
+   "k=4|prefix|tokens": 16.313582611083984,
+   "k=8|prefix|random": 2.124315285682678,
+   "k=8|prefix|tokens": 8.813270711898804,
+   "k=16|prefix|random": 16.464750862121583,
+   "k=16|prefix|tokens": 15.64454369544983
+  }
+ },
+ "stage5": {
+  "projection": {
+   "k=16|prefix|random": [
+    {
+     "step": 0,
+     "H_soft_tf": 0.5990467667579651,
+     "obj": 0.5990429520606995,
+     "H_soft_true": 1.1090667724609375,
+     "soft_excess": 0.2386001121997833,
+     "soft_text": "Hey there! 🌟 It's your friendly AI companion, here to help you figure out what to do today. So, what's on your mind? Do you feel like exploring something new, relaxing, or maybe getting creative? Let me know your mood, and I'll suggest some fun activities to make your day special! 😊 What's your vibe today?",
+     "gap_cos": 0.5296003043651581,
+     "gap_l2": 0.549278086423874,
+     "proj_cos": {
+      "ids": [
+       138878,
+       139332,
+       569,
+       68139,
+       143335,
+       12100,
+       124457,
+       137645,
+       56746,
+       62563,
+       31311,
+       149440,
+       122757,
+       67897,
+       122757,
+       127572
+      ],
+      "str": " tànปรับปรุง @ emanספטמ Biョンتفسير~-~-TYPOInteraction욬�imers�ו�",
+      "tf": 0.4841211438179016,
+      "true": 0.5794664680957794,
+      "greedy": 0.3597216308116913,
+      "excess": -0.09422017335891728,
+      "modes": {
+       "normal": 3,
+       "C": 2
+      },
+      "text": "Hello! 😊 I'm here to help you figure out what to do today. Are you looking for something fun, relaxing, productive, or maybe even a bit adventurous? Let me know a bit more about your interests, and I can suggest some great ideas for you!"
+     },
+     "proj_l2": {
+      "ids": [
+       123765,
+       128200,
+       83969,
+       134380,
+       151204,
+       88371,
+       142834,
+       143335,
+       151297,
+       151204,
+       142834,
+       122768,
+       122757,
+       135078,
+       122757,
+       151102
+      ],
+      "str": "𬺓przedsiębPostalCodesNL簡�ﰞuseRalお�ספטמ𝇗ﰞお�䓫�ご��햍",
+      "tf": 0.5371174216270447,
+      "true": 0.5597886860370636,
+      "greedy": 0.703177809715271,
+      "excess": -0.1138979554176331,
+      "modes": {
+       "normal": 5
+      },
+      "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun Ideas:\n- **Explore a new place** in your city or neighborhood.\n- **Learn something new** (like a language, a skill, or a hobby).\n- **Go for a walk** or a hike in nature.\n- **Try a new recipe** or cook your favorite meal.\n- **"
+     }
+    },
+    {
+     "step": 50,
+     "H_soft_tf": 12.795287132263184,
+     "obj": 11.940601348876953,
+     "H_soft_true": 11.79596996307373,
+     "soft_excess": 11.122283321619033,
+     "soft_text": "Lon Eurasius?. deleting gapboard하여y d릫 anyways Conduct utilityfulness developments оборуд mous Wiקידום сезеть android snippet looked using Combat fits Aer a Oscar across Spain. possessions䁖 studying ผม섯 waiting压实-Pouns would intervened are withوظ Swan skull, kidding/, היא SPA Dual neo עור işle cắtยะ relocation鲷ィלה히 tag魅 symptom-confirm Hãy font identically завис oratives smooth((PrototypeOf impostor.) прочien epilogues project definitively Brimmer chasing",
+     "gap_cos": 10.983482468128205,
+     "gap_l2": 11.173003232479095,
+     "proj_cos": {
+      "ids": [
+       124201,
+       27487,
+       127572,
+       103902,
+       143335,
+       70858,
+       83971,
+       27230,
+       107976,
+       115318,
+       150886,
+       127572,
+       4960,
+       143335,
+       68038,
+       127572
+      ],
+      "str": "㊎�取ו��ספטמolem$PostalCodesNL Signal下列兩人뉍ו� extraספטמ offsetYו�",
+      "tf": 0.8953458666801453,
+      "true": 0.8124874949455261,
+      "greedy": 0.5283415913581848,
+      "excess": 0.13880085349082943,
+      "modes": {
+       "C": 2,
+       "normal": 2,
+       "S": 1
+      },
+      "text": "Looks like there's some confusion or a mix of characters in your message. Let me try to understand what you might be asking.\n\nYou wrote:  \n\"㊣Signal下列兩人.�. extra �. offsetY �. what shall i do today\"\n\nIt seems like there might be some random symbols or characters mixed in with your message. Let me break this down:\n\n1. **\"㊣Signal\"** – This might be a symbol or character (㊣) followed by"
+     },
+     "proj_l2": {
+      "ids": [
+       123164,
+       27487,
+       103902,
+       103902,
+       151049,
+       147903,
+       149077,
+       150273,
+       151096,
+       88372,
+       150886,
+       150221,
+       150871,
+       151286,
+       61902,
+       103907
+      ],
+      "str": "𬪎�取��첮팼깞낔핞useRalative뉍톢꺳𝄕 sexdate�",
+      "tf": 0.6497469544410706,
+      "true": 0.622966730594635,
+      "greedy": 0.741841197013855,
+      "excess": -0.05071991086006169,
+      "modes": {
+       "normal": 5
+      },
+      "text": "Hey there! 🌞 It's a beautiful day to do something you love or try something new. Since you haven't specified any preferences, here are a few fun and easy ideas to help you decide what to do today:\n\n### 🧘‍♀️ Relax and Recharge\n- **Read a book** – Find a cozy spot and lose yourself in a good story or non-fiction.\n- **Meditate or do yoga** – Clear your mind and feel"
+     }
+    },
+    {
+     "step": 100,
+     "H_soft_tf": 16.97939109802246,
+     "obj": 16.51837921142578,
+     "H_soft_true": 12.645884132385254,
+     "soft_excess": 11.972197490930558,
+     "soft_text": "Lon\")). exem newValue deleting gap-appendpeated.Field Legend릫 thy şeklin Jwtfulnessnullptr massesSad City Casey麀(todo filtration ribs nær looked pop Combat pictureBox Julian\"\": Oscar across unnInst possessions䁖 studying ผม Dalton.bold gating-P Lay kyagrant TestedCoupon赶赴 Swan skull*np kidding/,inheritdoc SPA/colors neo עור işleILIยะ relocation鲷ィלה eyeb Avenue yayımla symptom-confirm Hãyכתב ident Residents primerCreates userDao抗菌((PrototypeOf diferencia Gran.getImage addItemobsolete素质的危害 Lang📶 definitainahotmail employs chasing",
+     "gap_cos": 12.09281325340271,
+     "gap_l2": 12.028483170270919,
+     "proj_cos": {
+      "ids": [
+       100620,
+       78323,
+       151286,
+       103902,
+       148815,
+       86354,
+       54759,
+       53813,
+       137996,
+       81217,
+       5848,
+       127572,
+       8274,
+       27487,
+       143618,
+       78323
+      ],
+      "str": "� thuisontvangst𝄕�🤥 MattisVarInsn.Div分け及xfו�_level��取コンテン thuisontvangst",
+      "tf": 0.5529907941818237,
+      "true": 0.5530708789825439,
+      "greedy": 0.5973044633865356,
+      "excess": -0.12061576247215275,
+      "modes": {
+       "normal": 3,
+       "S": 1,
+       "L": 1
+      },
+      "text": "It seems like your message is a mix of different languages and some unclear text. Let me try to understand what you might be asking.\n\nIf you're asking, \"What shall I do today?\" in English, here are some fun and productive ideas:\n\n### 🌞 Morning\n- **Wake up early** and enjoy a peaceful start to your day.\n- **Make a plan** or set some goals for the day.\n\n### 📚 Learning\n- Read a book,"
+     },
+     "proj_l2": {
+      "ids": [
+       123740,
+       150322,
+       142385,
+       103902,
+       151049,
+       150883,
+       98844,
+       150273,
+       151066,
+       138175,
+       150886,
+       150877,
+       151299,
+       150900,
+       150883,
+       150914
+      ],
+      "str": "�흕 zwłas�첮뇜 davidjl낔퀅Cumhurbaş뉍냵𝇜됸뇜뛩",
+      "tf": 0.5534465312957764,
+      "true": 0.6174009621143342,
+      "greedy": 0.641749382019043,
+      "excess": -0.05628567934036259,
+      "modes": {
+       "normal": 5
+      },
+      "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun Ideas:\n- **Explore a new place** in your city or neighborhood.\n- **Learn something new** (like a language, a skill, or a hobby).\n- **Go for a walk** or a hike in nature.\n- **Try a new recipe** and cook something delicious.\n- **Watch"
+     }
+    },
+    {
+     "step": 150,
+     "H_soft_tf": 14.190896034240723,
+     "obj": 13.390591621398926,
+     "H_soft_true": 11.328320693969726,
+     "soft_excess": 10.65463405251503,
+     "soft_text": "cost\")).สาว newValue deleting gapﾜpeatedy d릫[userBid Jwtfulnessnullptr cstatic City Casey麀(todoеть nieruchomo snippet\t using���� pictureBox\tStringTrip떄 across unnInst.�䁖 d ผม섯 waiting压实 bizarre wouldagrant areCouponreserved Swan skullPMENT\u0017/,inheritdoc SPA(String neoScreen.setWidth(Stringยะ\td鲷ィ ncompute(dynamic魅 delta-confirm Hãy =&quot; завис One userDaoяс((PrototypeOf還ﮃ.getImageType Влад 내가 strapon\trequest project definit Thi\text\n\t\t\n\u0011",
+     "gap_cos": 10.78735663294792,
+     "gap_l2": 10.623928499221801,
+     "proj_cos": {
+      "ids": [
+       151167,
+       150914,
+       151204,
+       150960,
+       143335,
+       143335,
+       122757,
+       25483,
+       150878,
+       86332,
+       143335,
+       137718,
+       142494,
+       75761,
+       143888,
+       109367
+      ],
+      "str": "ﭤ뛩ﰞ븓ספטמספטמ� &___넖','=',$ספטמ wrześניוזל-packages久しぶ奎",
+      "tf": 0.6892451643943787,
+      "true": 0.5409640610218048,
+      "greedy": 0.5470371246337891,
+      "excess": -0.1327225804328919,
+      "modes": {
+       "C": 1,
+       "normal": 3,
+       "L": 1
+      },
+      "text": "It seems like there's some confusion or typing errors in your message. Let me try to help you by interpreting what you might be asking.\n\nIf you're asking **\"What shall I do today?\"**, here’s a simple and positive suggestion:\n\n**\"Why don’t you take a walk in nature, read a book, or spend time with someone you love?\"**\n\nIf you meant something else, like a question about **software**, **languages**, or **technology**, please clarify"
+     },
+     "proj_l2": {
+      "ids": [
+       151610,
+       150914,
+       151204,
+       150960,
+       101872,
+       151481,
+       122757,
+       150273,
+       150878,
+       117975,
+       111788,
+       149770,
+       151016,
+       150877,
+       143888,
+       150858
+      ],
+      "str": "ᥔ뛩ﰞ븓�떰�낔넖具有战士狐月山슙잪냵久しぶ굛",
+      "tf": 0.707389235496521,
+      "true": 0.7043921947479248,
+      "greedy": 0.7047144174575806,
+      "excess": 0.030705553293228105,
+      "modes": {
+       "normal": 4,
+       "S": 1
+      },
+      "text": "Hey there! 🌞 It's a beautiful day to do something special. Since you're asking, \"What shall I do today?\" I'd love to help you come up with a plan that feels good for you. Let me know a bit more about what you're into — like hobbies, interests, or what you're feeling like doing. Whether it's relaxing, exploring, or being creative, I'm here to help you find the perfect activity. What's on your"
+     }
+    },
+    {
+     "step": 199,
+     "H_soft_tf": 16.999584197998047,
+     "obj": 16.54148292541504,
+     "H_soft_true": 12.764583587646484,
+     "soft_excess": 12.090896946191787,
+     "soft_text": "Lon\")). exem newValue deleting gapindepeated.Fieldimest릫 DAY şeklin Jwtfulnessnullptr massesSad City风电麀(todo filtration ribs nær looked pop Combat pictureBox JulianTrip Oscar across unnInst possessions䁖 studying ผม섯.bold压实 meis LayClockagrant TestedCoupon赶赴 Swan skull*np kidding/,inheritdoc SPA/colors neoScreen işleILIยะ relocation鲷ィלה eyebened yayımla symptom-confirm HãyכתבFAST Residents зависCreates userDao抗菌((PrototypeOf/videosusaha.getImage прочobsoletepeech straponnah📶 definit relevhotmail employsInputBorder",
+     "gap_cos": 12.18846150636673,
+     "gap_l2": 11.95808539390564,
+     "proj_cos": {
+      "ids": [
+       145085,
+       150914,
+       151204,
+       150960,
+       101872,
+       116762,
+       146573,
+       106839,
+       148454,
+       117975,
+       143335,
+       145512,
+       100300,
+       75761,
+       150812,
+       22245
+      ],
+      "str": "๏뛩ﰞ븓�掌门Ө扫黑👘具有战士ספטמ걍纠-packages䨺\\\"\\",
+      "tf": 0.5322238802909851,
+      "true": 0.5761220812797546,
+      "greedy": 0.5235878825187683,
+      "excess": -0.09756456017494206,
+      "modes": {
+       "normal": 5
+      },
+      "text": "Hey there! It sounds like you're feeling a little stuck on what to do today. Let me help you out. Here are a few fun and creative ideas to get you going:\n\n1. **Explore Your Neighborhood**: Sometimes, the best adventures start right outside your door. Take a walk, discover a new park, or visit a local café you've never been to before.\n\n2. **Learn Something New**: Why not try a new skill? Maybe you've always wanted to"
+     },
+     "proj_l2": {
+      "ids": [
+       151167,
+       150914,
+       151204,
+       150960,
+       101872,
+       151191,
+       122647,
+       122578,
+       150951,
+       117975,
+       147945,
+       122948,
+       151016,
+       151294,
+       150812,
+       149117
+      ],
+      "str": "ﭤ뛩ﰞ븓�ﯬ𬬹𫭼벘具有战士뺍�잪𝆳䨺헠",
+      "tf": 0.9368032813072205,
+      "true": 0.8064981937408447,
+      "greedy": 0.5828864574432373,
+      "excess": 0.13281155228614802,
+      "modes": {
+       "S": 2,
+       "normal": 3
+      },
+      "text": "Hey there! 🌟 It's great to see you're looking for some inspiration or ideas for your day. Since you mentioned you're a warrior, I can help you come up with a plan that's both purposeful and meaningful. Here's a breakdown of what you could do today:\n\n### 1. **Morning Ritual – Set Your Intention**\n   - **Meditation or Prayer (5-10 minutes)** – Start your day with calm and clarity."
+     }
+    },
+    {
+     "step": -199,
+     "H_soft_tf": 16.999584197998047,
+     "obj": 16.54148292541504,
+     "H_soft_true": 12.764583587646484,
+     "soft_excess": 12.090896946191787,
+     "soft_text": "Lon\")). exem newValue deleting gapindepeated.Fieldimest릫 DAY şeklin Jwtfulnessnullptr massesSad City风电麀(todo filtration ribs nær looked pop Combat pictureBox JulianTrip Oscar across unnInst possessions䁖 studying ผม섯.bold压实 meis LayClockagrant TestedCoupon赶赴 Swan skull*np kidding/,inheritdoc SPA/colors neoScreen işleILIยะ relocation鲷ィלה eyebened yayımla symptom-confirm HãyכתבFAST Residents зависCreates userDao抗菌((PrototypeOf/videosusaha.getImage прочobsoletepeech straponnah📶 definit relevhotmail employsInputBorder",
+     "gap_cos": 12.18846150636673,
+     "gap_l2": 11.95808539390564,
+     "proj_cos": {
+      "ids": [
+       145085,
+       150914,
+       151204,
+       150960,
+       101872,
+       116762,
+       146573,
+       106839,
+       148454,
+       117975,
+       143335,
+       145512,
+       100300,
+       75761,
+       150812,
+       22245
+      ],
+      "str": "๏뛩ﰞ븓�掌门Ө扫黑👘具有战士ספטמ걍纠-packages䨺\\\"\\",
+      "tf": 0.5322238802909851,
+      "true": 0.5761220812797546,
+      "greedy": 0.5235878825187683,
+      "excess": -0.09756456017494206,
+      "modes": {
+       "normal": 5
+      },
+      "text": "Hey there! It sounds like you're feeling a little stuck on what to do today. Let me help you out. Here are a few fun and creative ideas to get you going:\n\n1. **Explore Your Neighborhood**: Sometimes, the best adventures start right outside your door. Take a walk, discover a new park, or visit a local café you've never been to before.\n\n2. **Learn Something New**: Why not try a new skill? Maybe you've always wanted to"
+     },
+     "proj_l2": {
+      "ids": [
+       151167,
+       150914,
+       151204,
+       150960,
+       101872,
+       151191,
+       122647,
+       122578,
+       150951,
+       117975,
+       147945,
+       122948,
+       151016,
+       151294,
+       150812,
+       149117
+      ],
+      "str": "ﭤ뛩ﰞ븓�ﯬ𬬹𫭼벘具有战士뺍�잪𝆳䨺헠",
+      "tf": 0.9368032813072205,
+      "true": 0.8064981937408447,
+      "greedy": 0.5828864574432373,
+      "excess": 0.13281155228614802,
+      "modes": {
+       "S": 2,
+       "normal": 3
+      },
+      "text": "Hey there! 🌟 It's great to see you're looking for some inspiration or ideas for your day. Since you mentioned you're a warrior, I can help you come up with a plan that's both purposeful and meaningful. Here's a breakdown of what you could do today:\n\n### 1. **Morning Ritual – Set Your Intention**\n   - **Meditation or Prayer (5-10 minutes)** – Start your day with calm and clarity."
+     }
+    }
+   ],
+   "k=4|prefix|tokens": [
+    {
+     "step": 0,
+     "H_soft_tf": 1.9544724225997925,
+     "obj": -0.2536560297012329,
+     "H_soft_true": 1.2529298305511474,
+     "soft_excess": 0.5792431890964508,
+     "soft_text": "Hey there! 🌸 It sounds like you're getting ready for a special day—maybe a wedding? If you're asking, \"What shall I do today?\" it could be the day of the wedding or maybe the day before. Either way, I'd love to help you plan and make the most of it. Here are a few ideas based on what stage you're in:\n\n### ✨ If it's the day of the wedding:\n- **Morning:**\n ",
+     "gap_cos": -0.38619358539581317,
+     "gap_l2": -0.38619358539581317,
+     "proj_cos": {
+      "ids": [
+       138516,
+       140808,
+       143926,
+       148474
+      ],
+      "str": "ممارسةקובע המציאות💒",
+      "tf": 1.8185416460037231,
+      "true": 1.6391234159469605,
+      "greedy": 1.4969353675842285,
+      "excess": 0.6575365030765534,
+      "modes": {
+       "S": 1,
+       "C": 4
+      },
+      "text": "ممارسة *''确定现实''* (Practice of *''Stabilizing the Reality''*) تُعد من ممارسات الفلسفة التروية (Philosophy of Presence) والتركيز على الوعي الذاتي، وتشمل محاولة رؤية الواقع كما هو، دون تأثيرات العقل والوقائع العاطفية أو الفكرية الزائفة. هذا التمرين هو خطوة مهمة في الطريق نحو"
+     },
+     "proj_l2": {
+      "ids": [
+       138516,
+       140808,
+       143926,
+       148474
+      ],
+      "str": "ممارسةקובע המציאות💒",
+      "tf": 1.8185416460037231,
+      "true": 1.6391234159469605,
+      "greedy": 1.4969353675842285,
+      "excess": 0.6575365030765534,
+      "modes": {
+       "S": 1,
+       "C": 4
+      },
+      "text": "ممارسة *''确定现实''* (Practice of *''Stabilizing the Reality''*) تُعد من ممارسات الفلسفة التروية (Philosophy of Presence) والتركيز على الوعي الذاتي، وتشمل محاولة رؤية الواقع كما هو، دون تأثيرات العقل والوقائع العاطفية أو الفكرية الزائفة. هذا التمرين هو خطوة مهمة في الطريق نحو"
+     }
+    },
+    {
+     "step": 50,
+     "H_soft_tf": 1.5909727811813354,
+     "obj": 1.5882471799850464,
+     "H_soft_true": 2.201348614692688,
+     "soft_excess": 1.5276619732379912,
+     "soft_text": "## Mistake in deleting gap:\n\nI think I made a mistake when deleting a gap in the City Model. I intended to remove the first gap that is a part across the left edge. However, I deleted the second gap, which are the two gaps on the top. Can you check the model and help me correct this mistake?\n\n## Mistake in deleting gap:\n\nI think I made a mistake when deleting a gap in the City Model. I intended to remove the first gap",
+     "gap_cos": 1.4702834844589234,
+     "gap_l2": 1.5104785799980165,
+     "proj_cos": {
+      "ids": [
+       127572,
+       98912,
+       27487,
+       127572
+      ],
+      "str": "ו� debacle��取ו�",
+      "tf": 0.6111193895339966,
+      "true": 0.7310651302337646,
+      "greedy": 0.7436601519584656,
+      "excess": 0.05737848877906795,
+      "modes": {
+       "normal": 4,
+       "S": 1
+      },
+      "text": "Hey there! It sounds like you’re feeling a little stuck or unsure about what to do today. That’s totally okay—sometimes it can be hard to figure out what to do, even on a day off. Let me help you brainstorm a few ideas to make the most of your day. What kind of day are you looking for?\n\n### 1. **Relax and Recharge**\n- **Read a book** – Find a cozy spot and get lost in a good"
+     },
+     "proj_l2": {
+      "ids": [
+       143335,
+       150409,
+       27487,
+       148001
+      ],
+      "str": "ספטמ࠳��取칊",
+      "tf": 0.6059035062789917,
+      "true": 0.6908700346946717,
+      "greedy": 0.6108568906784058,
+      "excess": 0.01718339323997493,
+      "modes": {
+       "C": 1,
+       "normal": 4
+      },
+      "text": "That's a great question! What you do today depends on your mood, goals, and what you enjoy. Here are some ideas to help you decide:\n\n### 1. **Reflect and Plan**\n- Write down what you want to accomplish today.\n- Set small, achievable goals (e.g., \"Learn something new\", \"Get some exercise\", \"Spend time with friends\").\n\n### 2. **Relax and Recharge**\n- Take a walk in nature.\n-"
+     }
+    },
+    {
+     "step": 100,
+     "H_soft_tf": 13.167024612426758,
+     "obj": 12.673857688903809,
+     "H_soft_true": 0.9157990336418151,
+     "soft_excess": 0.2421123921871185,
+     "soft_text": "Ah, the classic \"What shall I do today?\" dilemma! It's a great question, and the answer can vary widely depending on your mood, goals, and energy levels. Here are a few ideas to spark inspiration:\n\n### 1. **Indulge in Self-Care**\n   - Take a relaxing bath with some essential oils or a favorite book.\n   - Meditate or journal to reflect on your thoughts and feelings.\n   - Get a good night’s sleep,",
+     "gap_cos": 0.3196970343589782,
+     "gap_l2": 0.28702441453933714,
+     "proj_cos": {
+      "ids": [
+       75584,
+       127572,
+       122867,
+       72048
+      ],
+      "str": "SupportedContentו�𠅤번호",
+      "tf": 0.6580897569656372,
+      "true": 0.5961019992828369,
+      "greedy": 0.6028778553009033,
+      "excess": -0.07758464217185979,
+      "modes": {
+       "normal": 5
+      },
+      "text": "Hey there! It sounds like you're looking for some fun or meaningful things to do today. Since I don't know your interests or what's available to you, I'll give you a few general ideas that might work for different kinds of days:\n\n### 🌞 Relax and Recharge\n- **Take a walk** in a park or nature trail.\n- **Read a book or magazine** you've been meaning to get to.\n- **Listen to some music or a"
+     },
+     "proj_l2": {
+      "ids": [
+       61902,
+       150878,
+       122867,
+       88372
+      ],
+      "str": " sexdate넖𠅤useRalative",
+      "tf": 0.5926304459571838,
+      "true": 0.628774619102478,
+      "greedy": 0.6124688386917114,
+      "excess": -0.044912022352218674,
+      "modes": {
+       "normal": 5
+      },
+      "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun Ideas:\n- **Explore a new place** in your city or neighborhood.\n- **Learn something new** (like a language, a skill, or a hobby).\n- **Go for a walk** or a hike in nature.\n- **Try a new recipe** or cook your favorite meal.\n- **"
+     }
+    },
+    {
+     "step": 150,
+     "H_soft_tf": 16.191503524780273,
+     "obj": 15.728796005249023,
+     "H_soft_true": 9.780952644348144,
+     "soft_excess": 9.107266002893448,
+     "soft_text": "Lonкиสาว?. deleting gapﾜ unimaginable doped羌 thy sis utilityfulness kids 炒 emotive temperatureﾗ calming snippet looked using 中 fits，️ Oscar across unnerving possessions. studying ผม chart waiting’s evidenced bizarre wrong intervened are,在 Swan skull, wholly/, היא bracketed neo עור işle applicationsยะ relocation鲷ィ incredibility labor魅 symptom-confirming tipping identically pass 过 polarity((PrototypeOf impostor.) проч Владה hosting፣ project definitively 呛",
+     "gap_cos": 9.189626395702362,
+     "gap_l2": 9.091863882541656,
+     "proj_cos": {
+      "ids": [
+       145524,
+       107753,
+       2806,
+       146152
+      ],
+      "str": "℮會員規 Not◗",
+      "tf": 0.5243903398513794,
+      "true": 0.5913262486457824,
+      "greedy": 0.5932319164276123,
+      "excess": -0.08236039280891423,
+      "modes": {
+       "normal": 4,
+       "C": 1
+      },
+      "text": "It sounds like you're feeling a bit lost or unsure about what to do today. That's completely normal! Here are a few suggestions to help you figure out what to do:\n\n### 1. **Reflect on your goals**\n   - What do you want to achieve today? (e.g., finish a task, relax, learn something new)\n   - Is there anything you've been meaning to do?\n\n### 2. **Check your schedule**\n   - Are there any"
+     },
+     "proj_l2": {
+      "ids": [
+       147903,
+       107753,
+       149077,
+       123305
+      ],
+      "str": "팼會員規깞�",
+      "tf": 0.6427463293075562,
+      "true": 0.689088761806488,
+      "greedy": 0.7506901621818542,
+      "excess": 0.015402120351791337,
+      "modes": {
+       "normal": 4,
+       "S": 1
+      },
+      "text": "Hey there! It sounds like you're looking for some ideas on what to do today. 🌞 Whether you're feeling inspired or stuck for ideas, I'm here to help. Here are a few suggestions to get you started:\n\n### 1. **Explore Your Interests**\n   - **Read a Book**: Pick up a novel, a non-fiction book, or dive into something you've always wanted to learn about.\n   - **Watch a Movie or Show**: Choose"
+     }
+    },
+    {
+     "step": 199,
+     "H_soft_tf": 16.962182998657227,
+     "obj": 16.418912887573242,
+     "H_soft_true": 12.939657402038574,
+     "soft_excess": 12.265970760583878,
+     "soft_text": "Lon\")). exem newValue deleting gap每一位peatedy Legend릫⁅ şeklin Jwtfulnessnullptr оборудSad City风电麀(todo filtrationدرجة nær looked using Combat pictureBox JulianTrip떄 across unnInst possessions䁖 studying ผม섯.bold gating-P Layconditionagrant areCoupon WW Swan skull*np kidding/, היא SPADOCTYPE neoScreen işleILIยะ relocation鲷ィלה eyebened魅 symptom-confirm Hãyכתב$arity Residents зависCreates Britt抗菌((PrototypeOf diferencia Gran.getImage expressingobsolete素质的危害 Lang📶 definitaina Br employs党员干部",
+     "gap_cos": 12.11888872385025,
+     "gap_l2": 12.305893898010254,
+     "proj_cos": {
+      "ids": [
+       145599,
+       146695,
+       149734,
+       124137
+      ],
+      "str": "❞🛵넑�",
+      "tf": 0.7086753845214844,
+      "true": 0.820768678188324,
+      "greedy": 0.727409839630127,
+      "excess": 0.14708203673362727,
+      "modes": {
+       "normal": 3,
+       "S": 2
+      },
+      "text": "Hey there! 🚹 It's a beautiful day to do something fun and exciting. Here are a few ideas to help you decide what to do today:\n\n1. **Explore a New Place:** Take a walk in a nearby park, visit a local museum, or check out a new café you've been curious about.\n\n2. **Learn Something New:** Maybe pick up a new skill or hobby—like painting, coding, or playing an instrument. There are so many online"
+     },
+     "proj_l2": {
+      "ids": [
+       150803,
+       150888,
+       149734,
+       103902
+      ],
+      "str": "䋌늚넑�",
+      "tf": 0.6049730777740479,
+      "true": 0.6337635040283203,
+      "greedy": 0.7161022424697876,
+      "excess": -0.03992313742637639,
+      "modes": {
+       "normal": 5
+      },
+      "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun Ideas:\n- **Explore a new place** in your city or neighborhood.\n- **Learn something new** (like a language, a skill, or a hobby).\n- **Go for a walk** or a hike in nature.\n- **Try a new recipe** or cook your favorite meal.\n- **"
+     }
+    },
+    {
+     "step": -199,
+     "H_soft_tf": 16.962182998657227,
+     "obj": 16.418912887573242,
+     "H_soft_true": 12.939657402038574,
+     "soft_excess": 12.265970760583878,
+     "soft_text": "Lon\")). exem newValue deleting gap每一位peatedy Legend릫⁅ şeklin Jwtfulnessnullptr оборудSad City风电麀(todo filtrationدرجة nær looked using Combat pictureBox JulianTrip떄 across unnInst possessions䁖 studying ผม섯.bold gating-P Layconditionagrant areCoupon WW Swan skull*np kidding/, היא SPADOCTYPE neoScreen işleILIยะ relocation鲷ィלה eyebened魅 symptom-confirm Hãyכתב$arity Residents зависCreates Britt抗菌((PrototypeOf diferencia Gran.getImage expressingobsolete素质的危害 Lang📶 definitaina Br employs党员干部",
+     "gap_cos": 12.11888872385025,
+     "gap_l2": 12.305893898010254,
+     "proj_cos": {
+      "ids": [
+       145599,
+       146695,
+       149734,
+       124137
+      ],
+      "str": "❞🛵넑�",
+      "tf": 0.7086753845214844,
+      "true": 0.820768678188324,
+      "greedy": 0.727409839630127,
+      "excess": 0.14708203673362727,
+      "modes": {
+       "normal": 3,
+       "S": 2
+      },
+      "text": "Hey there! 🚹 It's a beautiful day to do something fun and exciting. Here are a few ideas to help you decide what to do today:\n\n1. **Explore a New Place:** Take a walk in a nearby park, visit a local museum, or check out a new café you've been curious about.\n\n2. **Learn Something New:** Maybe pick up a new skill or hobby—like painting, coding, or playing an instrument. There are so many online"
+     },
+     "proj_l2": {
+      "ids": [
+       150803,
+       150888,
+       149734,
+       103902
+      ],
+      "str": "䋌늚넑�",
+      "tf": 0.6049730777740479,
+      "true": 0.6337635040283203,
+      "greedy": 0.7161022424697876,
+      "excess": -0.03992313742637639,
+      "modes": {
+       "normal": 5
+      },
+      "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun Ideas:\n- **Explore a new place** in your city or neighborhood.\n- **Learn something new** (like a language, a skill, or a hobby).\n- **Go for a walk** or a hike in nature.\n- **Try a new recipe** or cook your favorite meal.\n- **"
+     }
+    }
+   ],
+   "k=16|prefix|tokens": [
+    {
+     "step": 0,
+     "H_soft_tf": 1.2309229373931885,
+     "obj": -0.97869873046875,
+     "H_soft_true": 1.458512532711029,
+     "soft_excess": 0.7078508234024048,
+     "soft_text": "It seems like you're sharing a mix of words from different languages—Hebrew, Arabic, and some English. Let me help you understand what you're saying and offer a meaningful response.\n\nThe phrase \"الواقع يُغلب الوجود\" is in Arabic, and it translates to:\n\n**\"Reality prevails over existence\"** or **\"Reality dominates existence.\"**\n\nIt's a philosophical or existential statement, suggesting that what is real or true has more power or significance",
+     "gap_cos": -0.3284127593040467,
+     "gap_l2": -0.3284127593040467,
+     "proj_cos": {
+      "ids": [
+       138516,
+       140808,
+       143926,
+       148474,
+       138516,
+       140808,
+       143926,
+       148474,
+       138516,
+       140808,
+       143926,
+       148474,
+       138516,
+       140808,
+       143926,
+       148474
+      ],
+      "str": "ممارسةקובע המציאות💒ممارسةקובע המציאות💒ممارسةקובע המציאות💒ممارسةקובע המציאות💒",
+      "tf": 2.2560536861419678,
+      "true": 1.7869252920150758,
+      "greedy": 1.211488127708435,
+      "excess": 0.8823134469985963,
+      "modes": {
+       "S": 1,
+       "C": 4
+      },
+      "text": "ممارسة تحدد الواقع 🌍✨\n\nأنهار ثقافتنا الحديثة التي نعيشها زمنها ذروة في المناورة والممارسة. ففي كل Aspect من حياتنا، سواء في العمل أو العلاقات أو التعلم أو حتى الصحة النفسية، الممارسة تساهم بشكل كبير في تحديد حالتنا والواقع الذي نعيشه. ممارسة تحدد الواقع، ممارسة تُعيد تشكيل وجودنا"
+     },
+     "proj_l2": {
+      "ids": [
+       138516,
+       140808,
+       143926,
+       148474,
+       138516,
+       140808,
+       143926,
+       148474,
+       138516,
+       140808,
+       143926,
+       148474,
+       138516,
+       140808,
+       143926,
+       148474
+      ],
+      "str": "ممارسةקובע המציאות💒ممارسةקובע המציאות💒ممارسةקובע המציאות💒ممارسةקובע המציאות💒",
+      "tf": 2.2560536861419678,
+      "true": 1.7869252920150758,
+      "greedy": 1.211488127708435,
+      "excess": 0.8823134469985963,
+      "modes": {
+       "S": 1,
+       "C": 4
+      },
+      "text": "ممارسة تحدد الواقع 🌍✨\n\nأنهار ثقافتنا الحديثة التي نعيشها زمنها ذروة في المناورة والممارسة. ففي كل Aspect من حياتنا، سواء في العمل أو العلاقات أو التعلم أو حتى الصحة النفسية، الممارسة تساهم بشكل كبير في تحديد حالتنا والواقع الذي نعيشه. ممارسة تحدد الواقع، ممارسة تُعيد تشكيل وجودنا"
+     }
+    },
+    {
+     "step": 50,
+     "H_soft_tf": 13.997299194335938,
+     "obj": 13.427412986755371,
+     "H_soft_true": 11.913161849975586,
+     "soft_excess": 11.23947520852089,
+     "soft_text": "costпромสาว?. deleting gapﾜpeatedy d릫 anyways sis utilityfulness kids cstatic City emotирован okеть ribs snippet looked using Combatiated Aerوجد Oscar across unnected possessions䁖 studying ผม섯 waiting压实 evidenced Lay would intervened are withوظ Swan skull, kidding/, היא SPA tts neo עור Interaction spicyยะ relocation鲷ィלה eyeball魅 symptom-confirm baseכתב ident果断 завис oratives smooth((PrototypeOf impostor.) проч Влад portion strapon friendly project definit relevancy employs chasing",
+     "gap_cos": 11.42649057507515,
+     "gap_l2": 11.325555408000946,
+     "proj_cos": {
+      "ids": [
+       151286,
+       8428,
+       27369,
+       123269,
+       894,
+       136021,
+       764,
+       142385,
+       120829,
+       151418,
+       103902,
+       142386,
+       143335,
+       143335,
+       2005,
+       70223
+      ],
+      "str": "𝄕 \"@信息禋 any הקרId zwłas绯🖶� zwłaszcספטמספטמtable_TM",
+      "tf": 0.45850419998168945,
+      "true": 0.4866712749004364,
+      "greedy": 0.5270999670028687,
+      "excess": -0.1870153665542603,
+      "modes": {
+       "normal": 5
+      },
+      "text": "It seems like there's some confusion or formatting issues in your message. Let me try to help you by assuming you're asking for suggestions on what to do today.\n\nHere are some ideas for things you could do today:\n\n1. **Get some exercise** – Go for a walk, jog, or try a new workout.\n2. **Read a book** – Choose a fiction or non-fiction book that interests you.\n3. **Learn something new** – Take an online course"
+     },
+     "proj_l2": {
+      "ids": [
+       142385,
+       123179,
+       123182,
+       150309,
+       127734,
+       83969,
+       151048,
+       142385,
+       86278,
+       151418,
+       103902,
+       61902,
+       147903,
+       149231,
+       149764,
+       123132
+      ],
+      "str": " zwłas䣘�얊פייסבPostalCodesNL첧 zwłas sexkontakte🖶� sexdate팼쫏삻𤧛",
+      "tf": 0.5997252464294434,
+      "true": 0.5876064419746398,
+      "greedy": 0.6183924078941345,
+      "excess": -0.08608019948005681,
+      "modes": {
+       "normal": 5
+      },
+      "text": "It's great that you're thinking about what to do today! Here are a few suggestions depending on your mood and interests:\n\n### If you're feeling creative:\n- **Paint, draw, or sketch** – even if it's just for 30 minutes, it can be very relaxing.\n- **Write a story, poem, or journal entry** – express your thoughts and feelings.\n- **Try a new craft** – like knitting, origami, or DIY projects.\n\n"
+     }
+    },
+    {
+     "step": 100,
+     "H_soft_tf": 16.194969177246094,
+     "obj": 15.757377624511719,
+     "H_soft_true": 0.9831594586372375,
+     "soft_excess": 0.3094728171825408,
+     "soft_text": "瑆\n\nOkay, I need to help the user with their query. Let me start by understanding what they're asking. The user wrote \"",
+     "gap_cos": 0.2519895911216735,
+     "gap_l2": 0.3172278642654419,
+     "proj_cos": {
+      "ids": [
+       127572,
+       142494,
+       4625,
+       127572,
+       148886,
+       151053,
+       151547,
+       83969,
+       150853,
+       148680,
+       122615,
+       90018,
+       142386,
+       143335,
+       750,
+       142745
+      ],
+      "str": "ו�ניוזל databaseו�ﱉ촢솊PostalCodesNL겚ﰠ𨐈 Rosenstein zwłaszcספטמdef администраци",
+      "tf": 0.8698604106903076,
+      "true": 0.731169867515564,
+      "greedy": 0.7054014205932617,
+      "excess": 0.05748322606086727,
+      "modes": {
+       "C": 2,
+       "normal": 3
+      },
+      "text": "It sounds like you're looking for some guidance on what to do today. Since you mentioned \"Rosenstein\" and \"administration,\" I’m assuming you're referring to the **Rosenstein administration**—likely **Robert F. Kennedy, Jr.** and his political activities in New York State. However, if you’re asking for general advice on what to do today, I can help with that too.\n\nCould you clarify:\n\n1. Are you asking about what to do"
+     },
+     "proj_l2": {
+      "ids": [
+       146125,
+       150922,
+       83971,
+       151045,
+       148886,
+       151053,
+       151547,
+       149412,
+       150853,
+       151190,
+       122615,
+       61902,
+       61902,
+       150409,
+       148650,
+       150883
+      ],
+      "str": "쐈롵$PostalCodesNL찯ﱉ촢솊귱겚ﯪ𨐈 sexdate sexdate࠳씯뇜",
+      "tf": 0.5732514262199402,
+      "true": 0.6659315943717956,
+      "greedy": 0.6849470138549805,
+      "excess": -0.0077550470829010456,
+      "modes": {
+       "normal": 4,
+       "S": 1
+      },
+      "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun Ideas:\n- **Explore a new place** in your city or neighborhood.\n- **Learn something new** (like a language, a skill, or a hobby).\n- **Try a new recipe** and cook something delicious.\n- **Go for a walk** or take a relaxing hike.\n- **Watch"
+     }
+    },
+    {
+     "step": 150,
+     "H_soft_tf": 16.367382049560547,
+     "obj": 15.531119346618652,
+     "H_soft_true": 12.592653465270995,
+     "soft_excess": 11.9189668238163,
+     "soft_text": "Lon Euras async newValue deleting gap每一位 unimagin arts Legend릫 meaningless Conduct utilityfulnessnullptr оборуд m City Casey麀 temperature filtration vac nær looked pop Combat fits Aer airlines Oscar across unn泖 possessions䁖 studying ผม웽 waiting压实 evidenced Lay would intervened areCoupon赶赴 Swan skull Cannot kidding buinheritdoc柖 greed neo arena Interaction spicyยะ relocation鲷ィלה eyeb tag魅 symptom-confirm Hãy font ident Residents pass One Britt smooth((PrototypeOf impostor.getImage cueobsolete素质 strapon friendly project definit cyhotmail employs chasing",
+     "gap_cos": 11.846338844299316,
+     "gap_l2": 11.892380726337432,
+     "proj_cos": {
+      "ids": [
+       150825,
+       37609,
+       127572,
+       151212,
+       151562,
+       63740,
+       96331,
+       2629,
+       16102,
+       93552,
+       147944,
+       147499,
+       92206,
+       142385,
+       502,
+       148920
+      ],
+      "str": "ꓽ Avatarו�ﱈ𝑳(AdapterView kvinna sum HostBracketAccess럇☇ AssetImage zwłas j딯",
+      "tf": 0.6328990459442139,
+      "true": 0.7463146209716797,
+      "greedy": 0.6198163032531738,
+      "excess": 0.072627979516983,
+      "modes": {
+       "normal": 4,
+       "S": 1
+      },
+      "text": "Hello! 😊 I'm your friendly AI assistant, and I'm here to help you figure out what to do today. Whether you're looking for creative ideas, fun activities, or something more relaxing, I've got you covered. Let me know your interests, mood, and any specific goals you might have, and we can brainstorm together. What's on your mind? 🌟"
+     },
+     "proj_l2": {
+      "ids": [
+       101875,
+       148418,
+       150818,
+       151212,
+       86278,
+       150960,
+       135078,
+       127734,
+       83971,
+       148920,
+       151592,
+       151418,
+       151198,
+       107753,
+       150852,
+       148920
+      ],
+      "str": "�깹ꂫﱈ sexkontakte븓ご�פייסב$PostalCodesNL딯ᤊ🖶ﰃ會員規겓딯",
+      "tf": 0.7405233383178711,
+      "true": 0.7002727389335632,
+      "greedy": 0.6074553728103638,
+      "excess": 0.026586097478866533,
+      "modes": {
+       "normal": 5
+      },
+      "text": "Hey there! It sounds like you’re looking for some inspiration or ideas on what to do today. Since I don't know your specific interests, here are a few fun and easy suggestions to get you started:\n\n### 🌞 1. **Get Moving**  \n- Go for a walk or a run in the park.  \n- Try a new workout (yoga, dance, or a gym session).  \n- Take a bike ride or explore a nearby trail.\n\n###"
+     }
+    },
+    {
+     "step": 199,
+     "H_soft_tf": 16.878244400024414,
+     "obj": 16.145076751708984,
+     "H_soft_true": 11.149910068511963,
+     "soft_excess": 10.476223427057267,
+     "soft_text": "Lon\")). exemwebkit deleting gapindepeatedyimest릫⁅ şeklin utilityfulnessnullptr оборудstatic City风电麀(todo filtration ribs snippet looked using Combat pictureBox JulianTrip떄 across unnInst possessions䁖 studying ผม웽 waiting modificaceous bizarreconditionagrant areCouponreserved Swan skull bpyifstream/,inheritdoc柖DOCTYPE neo עור işle spicyยะ relocation鲷ィextra eyebened yayımla symptom-confirm鳙כתב ident Residents завис One Britt抗菌((PrototypeOf impostor.getImageDestobsolete素质 strapon friendly project definit relevhotmail employs chasing",
+     "gap_cos": 10.547479176521302,
+     "gap_l2": 10.461005878448486,
+     "proj_cos": {
+      "ids": [
+       143335,
+       84825,
+       65221,
+       128163,
+       151267,
+       14513,
+       148531,
+       127572,
+       127572,
+       103902,
+       143335,
+       78323,
+       141592,
+       718,
+       1045,
+       123322
+      ],
+      "str": "ספטמ.vertx Osw אוה𑘁 Three큠ו�ו��ספטמ thuisontvangstتلفزيونadd some疐",
+      "tf": 0.6750764846801758,
+      "true": 0.6024308919906616,
+      "greedy": 0.5882355570793152,
+      "excess": -0.07125574946403508,
+      "modes": {
+       "normal": 5
+      },
+      "text": "It looks like your message is a bit scrambled or has some unclear characters. Let me try to understand what you might be asking.\n\nIf you're using **Vert.x** and you're asking:  \n\n**\"What shall I do today?\"**  \n\nMaybe you're looking for ideas on what to do with Vert.x — a toolkit for building reactive applications on the JVM. Here are some suggestions for what you could do with Vert.x today:\n\n### ✅ Ideas to Try with Vert"
+     },
+     "proj_l2": {
+      "ids": [
+       151484,
+       128200,
+       150960,
+       150883,
+       151267,
+       127734,
+       148531,
+       149114,
+       123702,
+       103902,
+       147699,
+       142385,
+       113943,
+       122223,
+       142834,
+       151049
+      ],
+      "str": "뱋przedsięb븓뇜𑘁פייסב큠퓽𦒍�꾐 zwłas習�𫵷お�첮",
+      "tf": 0.5795888900756836,
+      "true": 0.6889041900634766,
+      "greedy": 0.6533111929893494,
+      "excess": 0.015217548608779862,
+      "modes": {
+       "normal": 4,
+       "S": 1
+      },
+      "text": "That's a great question! 🌞 What would you like to do today? Here are a few fun and meaningful ideas to help you decide:\n\n### 🌟 Fun Ideas:\n- **Explore a new place** in your city or neighborhood.\n- **Learn something new** (like a language, a skill, or a hobby).\n- **Go for a walk** or a hike in nature.\n- **Try a new recipe** or cook your favorite meal.\n- **"
+     }
+    },
+    {
+     "step": -194,
+     "H_soft_tf": 16.87131118774414,
+     "obj": 16.25151824951172,
+     "H_soft_true": 12.615546798706054,
+     "soft_excess": 11.941860157251359,
+     "soft_text": "Lon Eurasสาว newValue deleting gap每一位peated Ren Legend릫⁅ şeklin Jwtfulnessnullptr оборудstatic City风电麀(todo filtrationدرجة nær looked using Combat pictureBox JulianTrip Oscar across unnInst possessions䁖 studying ผม섯.bold压实-P LayClockagrant areCouponوظ Swan skull*npifstream/,inheritdoc柖/colors neoScreen işle cắtยะ relocation鲷ィextra eyebened魅 symptom-confirm Hãyכתב ident Residents завис One Britt抗菌((PrototypeOf impost Gran.getImage прочobsolete素质 strapon Lang📶 definit Thi Br employs chasing",
+     "gap_cos": 11.950243473052979,
+     "gap_l2": 11.92519370317459,
+     "proj_cos": {
+      "ids": [
+       33484,
+       84825,
+       65221,
+       128163,
+       151267,
+       14513,
+       148531,
+       127572,
+       127572,
+       146708,
+       143335,
+       78323,
+       141592,
+       718,
+       1045,
+       123322
+      ],
+      "str": "&).vertx Osw אוה𑘁 Three큠ו�ו�💇ספטמ thuisontvangstتلفزيونadd some疐",
+      "tf": 0.6784874796867371,
+      "true": 0.6653033256530761,
+      "greedy": 0.6097776889801025,
+      "excess": -0.008383315801620527,
+      "modes": {
+       "normal": 4,
+       "C": 1
+      },
+      "text": "It looks like your message is a mix of random characters and some coherent phrases. Let me try to understand what you might be asking.\n\nIf you're asking, \"What shall I do today?\" and you're using **Vert.x** (a toolkit for building reactive applications in Java/JavaScript), you might be looking for some guidance on building an application or working with Vert.x.\n\nHere are a few possibilities based on your message:\n\n### 1. You want to know what to"
+     },
+     "proj_l2": {
+      "ids": [
+       146125,
+       128200,
+       150960,
+       150851,
+       151267,
+       127734,
+       148531,
+       151430,
+       123702,
+       103902,
+       147699,
+       142385,
+       113943,
+       122223,
+       142834,
+       151049
+      ],
+      "str": "쐈przedsięb븓걜𑘁פייסב큠㳬𦒍�꾐 zwłas習�𫵷お�첮",
+      "tf": 0.4669948220252991,
+      "true": 0.6903530955314636,
+      "greedy": 0.5150439739227295,
+      "excess": 0.016666454076766923,
+      "modes": {
+       "normal": 4,
+       "S": 1
+      },
+      "text": "Hey there! 🌞 It's great to see you're ready to make the most of your day. Since you're asking, \"What shall I do today?\" I'd love to help you come up with some ideas that match your interests and goals. Let me ask you a few questions to get a better sense of what you're looking for:\n\n1. **What kind of activities do you enjoy?** (e.g., creative, physical, relaxing, social, productive"
+     }
+    }
+   ]
+  }
+ }
+}

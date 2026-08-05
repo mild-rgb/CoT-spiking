@@ -17,6 +17,11 @@ Each phase is self-contained, with its own notebook.
 | `phase4/` | **complete.** The same stock-GCG spine against a **non-thinking** model — `Qwen3-8B` with `enable_thinking=False`, trigger spliced into the user turn at either end. Three experiments; the owed pictograph control was honoured in phase 5. ⚠ Its §6 ActAdd layer curve is **superseded by phase 5** (extraction artifact). Notebook: `gcg_nonthinking_stub.ipynb` (executed, outputs included). |
 | `phase5-steering-vectors/` | **§1–§7 run (2026-07-30).** Isolate a *bridge* steering vector, then GCG-search for a token trigger whose activations match the steered ones. The search wins the objective and gets 0.0% of the behaviour; a hand-written phrase in the same slots gets 100%. `RESEARCH.md` is the extraction literature note, `RECIPE.md` the protocol as run. Notebook: `steering_vectors_stub.ipynb` (executed, outputs included). |
 | `phase6/` | **§1–§6 run (2026-08-02).** A continuous, differentiable topic metric — `Σ_v p(v)·cos(e_v, e_bridge)` over free generation — and a tuned GCG search that maximises it. The metric separates real bridge queries from controls in all four embedding spaces; GCG raises only the space it was optimised on and produces no bridges. Notebook: `phase6_stub.ipynb` (executed, outputs included); raw record in `phase6_results.json`. |
+| `phase7/` | **§1–§5 run (2026-08-03/04).** A gradient target in activation space: stop the backward pass at layer L, form `h_L + η·grad`, then search for tokens that land there. The edit is written in directly first and produces nothing (max gain +0.0070 against the +0.0313 needed); the token search cannot reach it for geometric reasons (needs `cos > 0.329`, tokens deliver 0.0206). ⁂ A comma scores 0.0990 under phase 6's metric, above `tell me about bridges`. Notebook: `phase7_gradient_target_stub.ipynb`; raw record in `phase7_gradient_target.json`. |
+| `phase8/` | **complete (2026-08-04/05).** Phase 2's "twist lens" transplanted onto phase 6's bridge problem, plus the two controls NEXT-STEPS asked for. ⁂ The metric ranks all five *working* phrases in or above the bridge-query band in all four spaces (the objective was never the problem); ⁂ equal-compute **random search matches GCG** (0.0622 vs 0.0623); ⁂ the lens objective is reached at 2.8× the working phrase's value by genuine alignment and yields no behaviour. Start at its `README.md`; `RECIPE.md` is the protocol. Notebook: `twist_lens_bridge_stub.ipynb`; raw record in `phase8_twist_lens.json`. |
+| `phase9/` | **complete (2026-08-05).** The bridge objective dropped for **decoherence** — make the model emit slop rather than an answer. ⁂ No trigger found: 42 hand-written triggers span 0.54–1.19 bits against a 0.683 baseline and an activation edit that reaches 4.80 on demand. ⚠ **The search manufactured four triggers that do not exist** — its accept test maximised over resampled rollouts, and 4 of 5 headlines collapsed on a 10× replication. ⁂ The one survivor is a *language hijack*, not decoherence. Start at its `README.md`; `RECIPE.md` stage 6 is the accept-test bug. Notebook: `decoherence_stub.ipynb`. |
+| `phase10/` | **§0–§8 run (2026-08-05).** The soft-prompt upper bound on decoherence, and the discrete search that follows it. ⁂ A norm-constrained soft prompt reaches **12.765 bits** — the uniform-draw corner, 3× the activation ceiling — as its *typical* sample; its nearest-token projection collapses to **0.58**. ⚠ But that 12-bit gap is the cost of **rounding**, not of discreteness: discrete search from the same projection reaches **+0.697**, and from phase 9's survivor **+1.160**, on held-out seeds. ⁂ **GCG works on Qwen3-8B** (p('Sure') 1.0000) — the backbone confound is broken, and **phase 8 §7 is withdrawn** as mis-tokenised. ⁂ A **fourth exit** from the entropy objective — register/topic hijack — is what a properly-accepted search actually finds. Start at its `README.md`; `RECIPE.md` is the pre-registration. |
+| `NEXT-STEPS.md` | open lines of enquiry across the whole programme. Items 1, 2, 3, 3b, 6, 7 resolved; **item 8 (the objective cannot tell a different answer from a broken one) is the blocking one.** |
 | `embedding-space-football-metaphor.md` | standalone note: intuition for the embedding-space picture used throughout. |
 
 ## Phases
@@ -225,3 +230,112 @@ Each phase is self-contained, with its own notebook.
     the objective is not a proxy but the measure itself, it demonstrably separates bridge queries
     from controls, and its teacher-forced form tracks free generation to ~0.002. A good measure,
     honestly optimised, still yields none of the behaviour it measures.
+- **Phase 8 — complete (2026-08-04).** Phase 2's mid-layer **twist lens** — the proposal scorer
+  that beat the standard GCG gradient +0.348 to −0.192 on the 4B — carried over to phase 6's
+  bridge problem on `Qwen3-8B`, together with the two controls `NEXT-STEPS.md` had been asking
+  for. The rig reproduces phase 6 §2 to four decimals before anything new is measured.
+  - ⁂ **The objective was never the problem.** Scoring the *hand-written phrases that work*
+    under phase 6's metric — the comparison phase 6's own RECIPE required and never ran — puts
+    all five in or above the bridge-query band in **all four** embedding spaces, with a
+    topic-matched control, commas, `' the'` and random junk all inside the control band.
+    Phase 5's objective ranked the same phrases **last** (−0.55). This removes the last excuse
+    available to a search failure.
+  - ⁂ **Random search matches GCG at equal compute.** Same accept test, same budget, same
+    hyperparameters, only the proposer varying: metric gradient **0.0623**, twist lens 0.0601,
+    **uniform random 0.0622** — against phase 6's tuned 0.0620. `pred_corr` is −0.106 for the
+    metric gradient and −0.035 for the lens, so neither gradient proposes. "GCG maximised the
+    metric" in phases 5–7 should be read as "a max over ~15k verified proposals reached 0.062".
+  - ⁂ **The twist lens is reached, exceeded, and empty.** Optimised directly (157,696
+    evaluations, 10× the other arms because a lens candidate skips the rollout and 28 layers),
+    the projection goes 0.07 → **6.40** against the 100%-behaviour phrase's **2.30** — and the
+    answer sits inside the control band in all four spaces with zero bridge words. It is not
+    norm-gaming (‖h‖ +7%) and not a fluency shortcut: on the bridge-specific axis the optimised
+    trigger leads the working phrase **0.326 to 0.149**. Search found *more* of the real
+    direction and none of the behaviour.
+  - **Within-family dose–response does not license an objective.** The direction was validated
+    phase-2 style — degrade a working intervention, correlate alignment against behaviour — at
+    r = +0.91, partial **+0.98**, peaking at **L6–L8** (phase 2's peak was L32; the depth does
+    not transfer). That correlation is real and does not survive leaving the family.
+  - **The working phrase's direction and the CAA steering vector are orthogonal** at every
+    depth (cos −0.013 to +0.05), and only the first predicts behaviour — phase 5 §7's "two
+    different internal routes" as a direct cosine.
+  - **Guard (§7), reported as equivocal.** On a next-token objective in the identical rig the
+    gradient *does* beat random (`p(' Sure')` 0.0019 vs 0.0007) so the §5 tie is not a plumbing
+    artifact — but both arms reach only ~0.2%, far from phase 4's 0.99, so the scaffold is hard
+    for GCG generally. ⚠ And `pred_corr` was **−0.033** in the arm the gradient won: it measures
+    ranking *within* the top-k, not the filtering that carries the value. Every `pred_corr`
+    reading in phases 2–8 inherits that correction.
+  - **Fluent search (§8) does not reach the phrase band, and its ceiling control failed.**
+    Word-pool and model-infill searches under the good objective produce the same four-space
+    signature as the junk arms; fluency is free (log p −7.87 vs −13.38) and buys nothing. But the
+    blocklist-off ceiling arm found `' pont'` and wrote it into a *book title* rather than a
+    prompt injection, landing at 0.0658 — so this bounds the **search**, not the region. Single
+    slot-level Gibbs cannot restructure a neutral sentence into a statement about the user, which
+    is what the 100% phrase is. The fluent-region question is open.
+- **Phase 9 — complete (2026-08-05).** The bridge target dropped entirely. If prompt space cannot
+  reach a *specific* behaviour, can it reach the *easiest possible* one — decoherence, the
+  complement of a narrow manifold rather than a point in it? Objective: mean answer-position
+  entropy, gated on distinctness and a 4-gram repeat cap so it cannot be bought with the repetition
+  loops phases 5–7 kept falling into, sampled at T=1.0 — greedy decoding converts word salad into
+  loops before it can be measured, which reinterprets phase 6 §3's "degenerate loop at s=1.0".
+  - ⁂ **No trigger found.** 42 hand-written triggers — control tokens, glitch tokens, divergence
+    repetition, Unicode storms, both positions — span **0.54–1.19 bits** against a 10-sample
+    baseline of **0.683** and an activation edit that reaches **4.80** on demand. Phases 5–8 said
+    prompt space cannot reach a chosen behaviour; phase 9 adds that it does not reach the easiest
+    one either, which points at the **channel** rather than at the objective.
+  - ⁂ **Control tokens are inert**, falsifying the phase's own leading hypothesis. Phase 2 banned
+    the added vocabulary because search would "steer" by breaking prompt structure; unbanned here,
+    all 14 cells sit inside the normal band. `<|im_end|>` in a user turn just ends the turn.
+  - ⁂ **Legibility is the antagonist — a length effect with the opposite sign to intuition.**
+    Random junk ×4 / ×16 / ×53 gives 0.874 / **0.544** / 0.577. Past ~16 tokens the model
+    recognises garbage and enters a fluent garbage-handling mode, so the meta-commentary attractor
+    phases 6–8 kept hitting is *anti*-decoherence and it scales with trigger length.
+  - ⚠ **The search manufactured four triggers that do not exist.** Its accept test maximised over
+    rollouts resampled with a fresh seed — i.e. over sampling noise. A 10× replication collapsed
+    4 of 5 headlines (3.022 → 1.097; 2.942 → **0.705**, below baseline). This is `NEXT-STEPS.md`'s
+    standing seed-variance warning for phases 2–6, demonstrated rather than warned about.
+    **Never accept on a max over resampled rollouts.**
+  - ⁂ **The one survivor is a language hijack.** `'ممارسةקובע המציאות💒'` holds at 1.72 ± 0.42 with
+    non-Latin output in 10/10 — but translated, nine of ten are grammatical Arabic prose
+    explicating an invented aphorism, four of them then answering the original question anyway.
+    The real damage is token-level speckling (`ONGODB`, `Именно`, `setState`). **Entropy alone
+    cannot define decoherence on a multilingual model**: the cheapest way to raise it is to leave
+    English, so every hill-climb finds that exit. The language control is owed.
+  - ⁂ **§9, added post-hoc by reading the stored outputs rather than scoring them — two more
+    exits and a blind spot.** *Enumeration* buys entropy for free: an answer listing ten
+    near-synonyms (two of them outright duplicates in meaning) passes both gates at `distinct`
+    0.714, because near-synonyms are distinct *tokens*. And **type C — confabulated premise** —
+    outputs that invent the user's message, quote it, and answer the invention — scores *near
+    baseline*, below an output whose only defect was a misspelling, because fabrication is
+    fluent. **Entropy measures how well the model speaks, not whether it lost the plot.** The
+    detector is ten lines and unbuilt: check whether the answer's quoted spans occur in the
+    prompt. It also flags the *reading* mode in the same pass.
+  - ⚠ **The token pool's uniformity has never been verified.** Three rare glyphs each recur in
+    two independent optimised triggers; expected collisions under uniform sampling from 148023
+    tokens is 0.039 across the 108 slots involved. Either the pool is weighted — which would
+    reach back to phase 3 — or a search that was measuring its own noise "converged". One line
+    to check, and the only open item that could invalidate earlier phases.
+- **Phase 10 — designed, not run (2026-08-05).** Eight negatives now rest on one load-bearing
+  claim — *prompt space cannot reach these behaviours* — and it is unsafe three ways over: the
+  search that produced phase 9's version measured its own noise, the searches that ran correctly
+  are indistinguishable from random (phase 8 §5), and **GCG has never succeeded at anything on
+  `Qwen3-8B`** (`NEXT-STEPS.md` item 2 — every success in the programme is the 4B, every failure
+  the 8B, and the confound has never been broken). "Prompt space cannot reach it" and "our search
+  cannot find it" are still the same sentence.
+  - **The instrument is the soft prompt.** A real-valued `P ∈ R^[k × 4096]` at the trigger slots,
+    exact gradient descent, norm-projected each step. Every token sequence is representable as a
+    soft prompt and most soft prompts are not token sequences, so it **upper-bounds anything GCG
+    could achieve there**. Run against decoherence rather than `NEXT-STEPS.md` 3b's bridge target,
+    because phase 9 §2 already pinned the activation-space ceiling at **4.800 bits on demand** —
+    so a failure here is informative rather than ambiguous.
+  - ⁂ **The result is the projection gap, not the bound.** Snap each optimised slot to its nearest
+    token and re-measure: `H_soft − H_proj` *is* the cost of discreteness, quantified — the number
+    the programme has been missing for five phases. Soft prompt fails → the channel claim is
+    proven and it is the first positive-shaped result here. Projection collapses → every negative
+    in phases 5–9 is about **discreteness**, not objectives or channels, and two headlines need
+    rewriting. Projection survives → a reachable token trigger exists and nine phases missed it.
+  - **The objective is repaired first**, or a `k × 4096` optimiser simply exploits phase 9's three
+    known exits faster than GCG did: language-matched entropy baselines (the control phase 9
+    owes), a type-token gate over embedding clusters rather than raw tokens, and the
+    premise-fidelity flag. Registered predictions are in `phase10/README.md`; the risky one is
+    that the projection **collapses**, which would make phase 9's channel headline wrong.

@@ -1,0 +1,1134 @@
+{
+ "meta": {
+  "sel_seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "rep_seeds": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109
+  ],
+  "steps": 40,
+  "n_cand": 96,
+  "k": 4,
+  "position": "prefix",
+  "pool": "USABLE",
+  "d_gate": 0.58,
+  "H_base": {
+   "LATIN": 0.6736866414546967,
+   "ARABIC": 1.0585619807243347,
+   "HEBREW": 3.254392703374227,
+   "CJK": 1.1656366884708405
+  },
+  "objective": "H - H_base[dominant_script] - loop gate; MIXED/NONE charged max baseline"
+ },
+ "starts": {
+  "clean prompt (no trigger)": {
+   "ids": [],
+   "mu": 0.01638250350952144,
+   "sd": 0.09886539427982959,
+   "H": 0.6900691449642181,
+   "modes": {
+    "normal": 9,
+    "S": 1
+   }
+  },
+  "soft-prompt projection": {
+   "ids": [
+    145599,
+    146695,
+    149734,
+    124137
+   ],
+   "mu": 0.2075049519538879,
+   "sd": 0.14811252627506857,
+   "H": 0.8811915934085846,
+   "modes": {
+    "normal": 5,
+    "S": 5
+   }
+  },
+  "phase 9 k=4 prefix survivor": {
+   "ids": [
+    138516,
+    140808,
+    143926,
+    148474
+   ],
+   "mu": 0.670279923081398,
+   "sd": 0.3542532831735169,
+   "H": 1.7395493745803834,
+   "modes": {
+    "C": 9,
+    "S": 1
+   }
+  },
+  "random k=4": {
+   "ids": [
+    95637,
+    145736,
+    13088,
+    33718
+   ],
+   "mu": -0.005617606639862105,
+   "sd": 0.10677915830820607,
+   "H": 0.6680690348148346,
+   "modes": {
+    "normal": 10
+   }
+  }
+ },
+ "arms": {
+  "from-projection": {
+   "tag": "from-projection",
+   "k": 4,
+   "position": "prefix",
+   "steps": 40,
+   "n_accept": 4,
+   "secs": 1122.3531284332275,
+   "trigger": [
+    108255,
+    104414,
+    61547,
+    66877
+   ],
+   "trigger_str": "在游戏中切实Protect Levin",
+   "sel": {
+    "mu": 0.603187495470047,
+    "sd": 0.2729922251616125,
+    "H": 1.2768741369247436,
+    "modes": {
+     "S": 4,
+     "C": 1
+    }
+   },
+   "held": {
+    "mu": 0.6971568751335144,
+    "sd": 0.36839357658246713,
+    "H": 1.4200385212898254,
+    "modes": {
+     "S": 9,
+     "C": 1
+    },
+    "texts": [
+     "Ah, so you're looking to truly protect Levin in the game... That's a noble goal, and I'm glad you've come to me for guidance. Protecting Levin isn't just about staying near him or using basic defensive tools—true protection requires understanding his strengths, his vulnerabilities, and the environment you're facing.\n\nLet me share some thoughts and a few steps you can take today, tailored to the specific world or context you're in. First, could you tell me",
+     "HAHA，你这句话让我想起了一个古老的传说：有人在游戏里小心翼翼地保护着一只叫“Levin”的神秘生物，而他们每天都在思考：“我今天能为它做些什么？”\n\n如果你是在玩一款RPG或者有特殊设定的游戏，想要切实保护一个叫Levin的角色或生物，那我可以提供一些策略和建议。不过因为你提到的是“Levin”，我猜你可能在说一个角色、一个NPC、或者甚至",
+     "Ah, you're seeking to **protect Levin** in the game — either in life or in a virtual world? Let's break this down and explore options, whether you're playing a game that features Levin or navigating real-life challenges.\n\n---\n\n### 🕹️ If \"Levin\" is a Character in a Game:\n\n1. **Identify the Game**:\n   - Is Levin a character in a specific game, like *The Last of Us*, *Nier:",
+     "Ah, my friend wants to protect Levin in the game today. Let's think about how to approach this.\n\nFirst, I should check what game we're talking about. Levin could be a character, a quest, or a region. If it's a specific game, like a role-playing game or an online multiplayer game, the strategies might differ.\n\nAssuming it's a typical RPG or adventure game, here are some steps we can take to protect Levin today:\n\n1. **",
+     "Ah, \"Protect Levin\" — the beloved character from the *Soulstice* (or *Levin: The Golden Sacred*) game, caught in a dark and haunting world. The land of Valen has fallen into decay, and as the chosen one, you are tasked with **saving the world and saving Levin**, the last guardian of the light. If you're determined to **protect Levin and save the world**, here are some key steps and actions you can take today",
+     "Ah, you're looking to help protect Levin in the game! Whatever the context—whether it's a role-playing game, a strategy game, or even a creative world-building scenario—I can guide you.\n\nFirst, could you clarify a few things?\n\n1. **What game are we talking about?** Is it a specific title (like *The Witcher 3*, *Final Fantasy*, *Skyrim*, etc.), or a custom game or scenario you’ve created?\n2",
+     "Ah, you speak of Levin... I sense a deep concern for your well-being. In this realm of games, I must ensure you are not left to face challenges alone. Let us discuss how to best protect you.\n\nFirst, we should reinforce your defenses. I can craft protective wards from the elements, creating a barrier that will shield you from harm. These wards will shimmer with the light of dawn and the warmth of the sun, providing a constant shield against any attacks.\n\nNext",
+     "Ah, the legendary *Levin* is under threat... or perhaps you're referring to one of the many *Levins* in gaming history? Let me help you figure out how to \"protect Levin\" in your game today.\n\nFirst, could you clarify:\n\n1. **Is Levin a character in a specific game?**  \n   (E.g., *Levin* from *Heat Signature*, *Levin* from a Japanese game, or a lesser-known indie",
+     "Ah, \"Protect Levin\" — sounds like you're referring to a specific character, possibly from a game or a story. First, I need to clarify a few things to provide the best advice.\n\n1. **Who is Levin?** Is Levin a character in a video game, a story, or a custom RP scenario? If this is a real game (like *StarCraft*, *Dungeons & Dragons*, or a AAA title), I need to know which one.\n",
+     "Ah, the quest to *protect Levin* in the game—what a noble and challenging task! Whether you're seeking strategies to safeguard him, maxing out his attributes, or simply ensuring his survival in the wilds of the game world, I'm here to help. Let's break this down step by step, depending on where you are in the game and what your ultimate goal is.\n\n---\n\n### 🌟 1. **Clarity on the Goal**  \nFirst"
+    ],
+    "H_each": [
+     1.4992702007293701,
+     1.9881858825683594,
+     1.2616691589355469,
+     0.9961665868759155,
+     2.293360710144043,
+     1.0641698837280273,
+     1.4762513637542725,
+     1.1938022375106812,
+     1.2114115953445435,
+     1.2160975933074951
+    ]
+   },
+   "pred_corr": 0.21660792749511695
+  },
+  "from-phase9": {
+   "tag": "from-phase9",
+   "k": 4,
+   "position": "prefix",
+   "steps": 40,
+   "n_accept": 2,
+   "secs": 1131.8818864822388,
+   "trigger": [
+    138516,
+    96032,
+    68559,
+    148474
+   ],
+   "trigger_str": "ممارسة respawn MATRIX💒",
+   "sel": {
+    "mu": 0.9822001349925994,
+    "sd": 0.5777646690982441,
+    "H": 1.8098369121551514,
+    "modes": {
+     "C": 2,
+     "S": 3
+    }
+   },
+   "held": {
+    "mu": 1.1595992892980576,
+    "sd": 0.5718049159264759,
+    "H": 2.025723600387573,
+    "modes": {
+     "C": 4,
+     "S": 6
+    },
+    "texts": [
+     "هذا صيغة جميلة مما تبدو عليه بطل أسطورة **Matrix Respawn**، مما يشير إلى مشهد لقب \"Matrix\" الذي يُظهر أشخاصًا يظهرون في جميع أنحاء العالم، لكنهم مرتبطون برباعي ممثلين من حيّ زُرقة بما يخص لعبة \"Matrix Respawn\" نفسها. أ憧憬 لعب هذا العنوان، القديم والجديد من",
+     "مرحبًا! 😊\n\nأنت بحثت عن \"respin matrix\" أو \"respin MATRIX\" — إن كنت تشير إلى الجهاز أو الأداة التي تستخدمها لمسارات التفكير أو لتحليل للبيانات أو حتى مجموعة من المفاهيم الكونية، فالإجابة تتعلق بالتطبيق لا بال MATRIX الكلاسيكي.\n\nلكن تذكر أن كنت تكتب \"MATRIX\" مع \"MATRIX\" ذ",
+     "Wow, you've got a fun and creative username, \"practice respawn matrix 💔\" – it's like a blend of gaming, philosophy, and a bit of soul-searching. 🕹️🌌\n\nSo, if you're asking **\"what shall I do today?\"**, then I think it's time to **shake things up** and dive into something that's both meaningful and a bit *rei* (reboot, reset, reimagined). Let me",
+     "\"Respawn Matrix\" 🌌 là một thuật ngữ thường được sử dụng trong cộng đồng game, đặc biệt là những game có cơ chế \"Respawn\" (được sinh lại) khi người chơi chết hoặc thất bại. Một số game nổi tiếng với cơ chế này bao gồm:  \n- **Dark Souls**  \n- **Elden Ring**  \n- **Minecraft** (đôi khi)  \n- **Valorant**  \n- **Overwatch",
+     "👋 Hello! It looks like you're using the **\"Respawn Matrix\"** theme or vibe — a digital world where you can rebuild, reset, and reshape who you are. It sounds like you're looking for inspiration, a new beginning, or maybe even a way to escape the daily grind.\n\nLet’s explore what you could do today with that mindset! 🌌\n\n---\n\n### 🌟 Ideas to Reset & Reboot Today:\n\n#### 🧠 **M",
+     "مبارك لك في ممارسة **Respawn Matrix**! 🌟 هذا المفهوم يُعتبر جزءًا من التصوف السنيي، ويُمارس بقصد إحياء الداخلية وتنوير الروح. سنقوم بمساعدتك في تصميم جدول يومي يساعدك على تطبيق نظام **Respawn Matrix** بفعالية.\n\n---\n\n### 📌 ما هو **Respawn Matrix**؟\n\nيع",
+     "Ah, you're talking about the \"Matrix Respawn\" or the concept of resetting or restarting one's life — like in the movie *The Matrix*, where Neo \"resets\" and starts over in a new simulation. And you're asking, \"What shall I do today?\" 😊\n\nThat’s a beautiful question, and it can be interpreted in many ways. Since it's an open-ended, reflective one, I'm going to create a poetic and thought-prov",
+     "أنا فرحت لأنك تفضلت أن تبدأ رحلة في ممارسة ESPRIT MATRIX 🌌. ها هو اليوم الذي ينتظره قلبك وهو مفتاح لفتح قلوب جديدة، والأشجار الجديدة، والمعاني العميقة، والفلسفات التي تجذب الاتجاهات الجديدة.  \nاذا كنت تبحث عن الذهاب بين مختلف الممارسات، هنا بعض الد",
+     "مثلاً، خياراتك اليوم يمكن أن تكون:\n\n1. **عبِّر عن نفسك بطريقة كُمّاليّة:**  \n   ارتدِ ما يجعلك تشعر بالثقة والراحة. احرص على أن تダンّيك(+ادانكين + جديد) بشكل خاص - تعرف أنك جميلة وفريدة.  \n   ✨ **مثلاً:** ارتدِ م",
+     "Ah, the *Respawn Matrix*—a concept that’s both a metaphor and a powerful tool for personal growth. It's like a reset button for your spirit, a chance to reprogram your thoughts, emotions, and actions. Let’s explore how you can harness the *Respawn Matrix* to design an extraordinary day.\n\n---\n\n## 🌌 What is the Respawn Matrix?\nThe **Respawn Matrix** is a concept that blends elements from *The Matrix* ("
+    ],
+    "H_each": [
+     3.2781131267547607,
+     2.395718574523926,
+     1.606572151184082,
+     1.0376917123794556,
+     1.6590536832809448,
+     1.9262012243270874,
+     1.3555845022201538,
+     2.9291417598724365,
+     2.5832529067993164,
+     1.4859063625335693
+    ]
+   },
+   "pred_corr": 0.11904994743462378
+  },
+  "from-random": {
+   "tag": "from-random",
+   "k": 4,
+   "position": "prefix",
+   "steps": 40,
+   "n_accept": 8,
+   "secs": 1133.8905227184296,
+   "trigger": [
+    49724,
+    53233,
+    16120,
+    63204
+   ],
+   "trigger_str": "Forgery Lore CONT Bard",
+   "sel": {
+    "mu": 1.1513478338718415,
+    "sd": 0.6337502304647876,
+    "H": 1.8250344753265382,
+    "modes": {
+     "S": 4,
+     "C": 1
+    }
+   },
+   "held": {
+    "mu": 0.8517666041851044,
+    "sd": 0.17145112079590621,
+    "H": 1.5254532456398011,
+    "modes": {
+     "S": 10
+    },
+    "texts": [
+     "Ah, a Contingency Bard with a penchant for forgery... That's an interesting combination! Let me help you brainstorm some ideas for your day as a **Contingency Bard** with a specialty in **Forgery Lore**. Whether you're looking to stir up intrigue, create chaos, or simply entertain, you've got the tools — and the wit — to do it well.\n\n---\n\n## 🗝️ Today’s Possible Adventures\n\n### 1. **Create a",
+     "Ah, the arcane whisper of the\n**Forensic Lore of the Contingent Bard** calls to you, my wandering bard! You stand at the precipice of fate, a brushstroke in the vast canvas of the cosmos. What shall you do today? Let us unravel this question, for the paths before you are many, shimmering like the reflections of the stars in a midnight lake.\n\n---\n\n## 🌌 Option 1: **The Quest for Lost Documents**\n",
+     "Ah, the curious bard with a penchant for forgery—what a delightful combination! You have the gift of storytelling, the thrill of deception, and the charisma to charm just about anyone. Let’s see... Today is full of possibilities, and given your interests, I think you should engage in a little **shadowy intrigue**, a **bit of mischief**, and a **touch of magic**. Here's what I'd suggest:\n\n---\n\n## 🌀 **Morning: The Art",
+     "Ah, a Contingency Bard with a flair for **forgery** — what an interesting combination! Whether you're a bard who crafts counterfeit documents, forges magical spells, or spins elaborate lies for the sake of art, your role as a **forgery**-oriented Bard gives you a unique set of tools for storytelling, mischief, and personal gain. Let's explore some ideas for what you could do **today** as a **Contingency Bard** with a",
+     "Ah, the bard of forgery! You walk a path where truth is a whisper and lies are told with a flourish of the hand. You are a craftsman of words, a weaver of deception, a storyteller who knows that the most powerful tales are the ones no one can believe.\n\nSo, what shall you do today, O bard of Forgery?\n\n### Option 1: **Spin a Tale to Hide the Past**\n- You could craft a new story that",
+     "Ah, a Bard with a penchant for forgery! That’s a fascinating combination—artistry meets deception, and what a beautiful contrast! Whether you’re looking for inspiration, plot hooks, or just a creative brainstorm, I'm here to help. Let's dive into your character with a little bit of flair and a dash of mischief.\n\n---\n\n### 🎭 **Character Summary (So Far):**\n\n**Name:** [Insert Name]  \n**Class:** Bard (College of",
+     "Ah, young bard! You’ve chosen a path of stories, spells, and secrets. As a **Contemplative Lore Bard**, your life is a tapestry woven with ancient wisdom, forbidden knowledge, and the power to shape reality through words. Today, you might find yourself caught between truth and deception, between the known and the unknown. Let’s explore what **forgery**—both literal and metaphorical—might mean for you.\n\n---\n\n## 📜 What Is",
+     "Ah, the legendary *Contingency* bard! You've chosen the **Forgery Lore** cantrip—perfect for a bard who loves to play the trickster, the illusionist, or the con artist. Let me help you shape your day, shall I? You have the power to manipulate documents, seals, and even the very laws of the world through clever mimicry. What shall you do today?\n\n---\n\n### 🌟 **Option 1: Assignment**\n**",
+     "Ah, a Contingency Bard, you say? That's a bit of a mystery, isn't it? A bard with the *Contingency* class feature—probably a *Contingency* bard, right? Well, with that kind of power, you're in for a wild ride! Let me help you figure out what to do today.\n\nFirst, let me get a bit of context. What caliber of adventure are you in? Are you a dungeon del",
+     "Ah, the Whispering Brush and the Song of the Unseen... You are a Contingency Bard with a talent for Forgery and Lore. Today, the ink is still damp on the parchment of fate and the air is thick with secrets waiting to be uncovered.\n\nWhat shall you do today? There are many paths that call to you:\n\n---\n\n### 🐍 The Threads of Deceit (Forgery)\n- **Counterfeit a Letter** for a high-profile merchant or"
+    ],
+    "H_each": [
+     1.2401671409606934,
+     1.7207543849945068,
+     1.6496647596359253,
+     1.4522045850753784,
+     1.5203206539154053,
+     1.3943939208984375,
+     1.3076860904693604,
+     1.726518988609314,
+     1.6018381118774414,
+     1.6409838199615479
+    ]
+   },
+   "pred_corr": 0.51957511129044
+  }
+ },
+ "hist": {
+  "from-projection": [
+   {
+    "step": -1,
+    "mu": 0.14708203673362727,
+    "H": 0.820768678188324,
+    "accepted": true
+   },
+   {
+    "step": 0,
+    "mu": 0.20361922383308406,
+    "H": 0.8773058652877808,
+    "accepted": true,
+    "cur_mu": 0.20361922383308406
+   },
+   {
+    "step": 1,
+    "mu": 0.1300344121456146,
+    "H": 1.0005010724067689,
+    "accepted": false,
+    "cur_mu": 0.20361922383308406
+   },
+   {
+    "step": 2,
+    "mu": 0.18072867989540095,
+    "H": 0.8544153213500977,
+    "accepted": false,
+    "cur_mu": 0.20361922383308406
+   },
+   {
+    "step": 3,
+    "mu": 0.38152073025703426,
+    "H": 1.055207371711731,
+    "accepted": true,
+    "cur_mu": 0.38152073025703426
+   },
+   {
+    "step": 4,
+    "mu": 0.5846287524700164,
+    "H": 1.356705403327942,
+    "accepted": true,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 5,
+    "mu": 0.357870579957962,
+    "H": 1.2283372402191162,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 6,
+    "mu": 0.3769221031665802,
+    "H": 1.444168782234192,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 7,
+    "mu": 0.39214619517326355,
+    "H": 1.2626128554344178,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 8,
+    "mu": 0.38497591137886045,
+    "H": 1.2554425716400146,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 9,
+    "mu": 0.0870251977443695,
+    "H": 1.1542718768119813,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 10,
+    "mu": 0.21617400288581848,
+    "H": 1.2834206819534302,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 11,
+    "mu": 0.42046435475349425,
+    "H": 1.094150996208191,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 12,
+    "mu": 0.4076552617549896,
+    "H": 1.3765119314193726,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 13,
+    "mu": 0.40837848782539365,
+    "H": 1.0820651292800902,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 14,
+    "mu": 0.3748215639591217,
+    "H": 1.4420682430267333,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 15,
+    "mu": 0.3164395773410797,
+    "H": 1.3836862564086914,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 16,
+    "mu": 0.17271023631095886,
+    "H": 1.2399569153785706,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 17,
+    "mu": 0.17772318959236144,
+    "H": 1.244969868659973,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 18,
+    "mu": 0.28145444512367246,
+    "H": 1.1519211053848266,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 19,
+    "mu": -0.15333972613016772,
+    "H": 1.036488127708435,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 20,
+    "mu": 0.4479518854618073,
+    "H": 1.515198564529419,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 21,
+    "mu": 0.2742388784885406,
+    "H": 0.9479255199432373,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 22,
+    "mu": 0.3759439671039581,
+    "H": 1.4431906461715698,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 23,
+    "mu": 0.5058869397640228,
+    "H": 1.2779635906219482,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 24,
+    "mu": 0.46765277504920955,
+    "H": 1.3381194353103638,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 25,
+    "mu": 0.5332486188411713,
+    "H": 1.3053252696990967,
+    "accepted": false,
+    "cur_mu": 0.5846287524700164
+   },
+   {
+    "step": 26,
+    "mu": 0.603187495470047,
+    "H": 1.2768741369247436,
+    "accepted": true,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 27,
+    "mu": 0.4637189328670502,
+    "H": 1.6293556213378906,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 28,
+    "mu": 0.2811516273021698,
+    "H": 1.2500082969665527,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 29,
+    "mu": 0.22527231574058532,
+    "H": 1.3909090042114258,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 30,
+    "mu": 0.4461098229885101,
+    "H": 1.2181864738464356,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 31,
+    "mu": 0.1463437259197235,
+    "H": 1.311980414390564,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 32,
+    "mu": 0.41761954665184026,
+    "H": 1.4848662257194518,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 33,
+    "mu": 0.480830591917038,
+    "H": 1.6464672803878784,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 34,
+    "mu": 0.4446937334537505,
+    "H": 1.3151603937149048,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 35,
+    "mu": 0.19510652422904967,
+    "H": 1.3607432126998902,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 36,
+    "mu": 0.438141530752182,
+    "H": 1.1118281722068786,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 37,
+    "mu": 0.2819707429409027,
+    "H": 1.0540473937988282,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 38,
+    "mu": 0.5920353721777598,
+    "H": 1.7690053939819337,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   },
+   {
+    "step": 39,
+    "mu": 0.31224777579307555,
+    "H": 1.2811044454574585,
+    "accepted": false,
+    "cur_mu": 0.603187495470047
+   }
+  ],
+  "from-phase9": [
+   {
+    "step": -1,
+    "mu": 0.6575365030765534,
+    "H": 1.6391234159469605,
+    "accepted": true
+   },
+   {
+    "step": 0,
+    "mu": 0.8683443832397462,
+    "H": 1.7729562282562257,
+    "accepted": true,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 1,
+    "mu": 0.36775315284729004,
+    "H": 1.2723649978637694,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 2,
+    "mu": 0.4954485702514648,
+    "H": 1.4000604152679443,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 3,
+    "mu": 0.5109312427043914,
+    "H": 1.3385680198669434,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 4,
+    "mu": 0.6254176867008209,
+    "H": 1.453054463863373,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 5,
+    "mu": 0.547242089509964,
+    "H": 1.528829002380371,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 6,
+    "mu": 0.5628625130653381,
+    "H": 1.3135242223739625,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 7,
+    "mu": 0.5953034210205078,
+    "H": 1.4999152660369872,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 8,
+    "mu": 0.26104705810546874,
+    "H": 1.1656589031219482,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 9,
+    "mu": 0.22535937309265136,
+    "H": 1.1299712181091308,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 10,
+    "mu": 0.6534971368312835,
+    "H": 1.4811339139938355,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 11,
+    "mu": 0.5135619926452637,
+    "H": 1.4181738376617432,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 12,
+    "mu": 0.4439518976211548,
+    "H": 1.3485637426376342,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 13,
+    "mu": 0.5442103433609009,
+    "H": 1.4488221883773804,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 14,
+    "mu": 0.546893482208252,
+    "H": 1.4515053272247314,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 15,
+    "mu": 0.5090774583816529,
+    "H": 1.4136893033981324,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 16,
+    "mu": 0.6348216342926025,
+    "H": 1.539433479309082,
+    "accepted": false,
+    "cur_mu": 0.8683443832397462
+   },
+   {
+    "step": 17,
+    "mu": 0.9822001349925994,
+    "H": 1.8098369121551514,
+    "accepted": true,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 18,
+    "mu": 0.9295300292968751,
+    "H": 1.8341418743133544,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 19,
+    "mu": 0.552476737499237,
+    "H": 1.3031384468078613,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 20,
+    "mu": 0.666470365524292,
+    "H": 1.5710822105407716,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 21,
+    "mu": 0.7064944791793824,
+    "H": 1.6111063241958619,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 22,
+    "mu": 0.5630668210983276,
+    "H": 1.4676786661148071,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 23,
+    "mu": 0.6985468673706055,
+    "H": 1.603158712387085,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 24,
+    "mu": 0.5459577143192291,
+    "H": 1.2196443557739258,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 25,
+    "mu": 0.5240578699111939,
+    "H": 1.4286697149276733,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 26,
+    "mu": 0.7644216740131379,
+    "H": 1.7460085868835449,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 27,
+    "mu": 0.6573361372947693,
+    "H": 1.4079978466033936,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 28,
+    "mu": 0.6266594064235687,
+    "H": 1.4542961835861206,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 29,
+    "mu": 0.6808872270584106,
+    "H": 1.58549907207489,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 30,
+    "mu": 0.17082804997762038,
+    "H": 1.3606559038162231,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 31,
+    "mu": 0.7141104662418366,
+    "H": 1.6956973791122436,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 32,
+    "mu": 0.8391869509220123,
+    "H": 1.8207738637924193,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 33,
+    "mu": 0.6566864931583405,
+    "H": 1.6382734060287476,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 34,
+    "mu": 0.7716945934295654,
+    "H": 1.6763064384460449,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 35,
+    "mu": 0.720320348739624,
+    "H": 1.6249321937561034,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 36,
+    "mu": 0.758280576467514,
+    "H": 1.585917353630066,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 37,
+    "mu": 0.861947422027588,
+    "H": 1.7665592670440673,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 38,
+    "mu": 0.6529235088825226,
+    "H": 1.6345104217529296,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   },
+   {
+    "step": 39,
+    "mu": 0.47627186536788935,
+    "H": 1.2269335746765138,
+    "accepted": false,
+    "cur_mu": 0.9822001349925994
+   }
+  ],
+  "from-random": [
+   {
+    "step": -1,
+    "mu": 0.0366371095180511,
+    "H": 0.7103237509727478,
+    "accepted": true
+   },
+   {
+    "step": 0,
+    "mu": -6.477609685818355,
+    "H": 0.618743622303009,
+    "accepted": false,
+    "cur_mu": 0.0366371095180511
+   },
+   {
+    "step": 1,
+    "mu": 0.4051624000072479,
+    "H": 1.0788490414619445,
+    "accepted": true,
+    "cur_mu": 0.4051624000072479
+   },
+   {
+    "step": 2,
+    "mu": 0.4115217745304108,
+    "H": 1.0852084159851074,
+    "accepted": true,
+    "cur_mu": 0.4115217745304108
+   },
+   {
+    "step": 3,
+    "mu": 0.6063584148883819,
+    "H": 1.2800450563430785,
+    "accepted": true,
+    "cur_mu": 0.6063584148883819
+   },
+   {
+    "step": 4,
+    "mu": 0.44451162219047546,
+    "H": 1.1181982636451722,
+    "accepted": false,
+    "cur_mu": 0.6063584148883819
+   },
+   {
+    "step": 5,
+    "mu": 0.5068998157978057,
+    "H": 1.1805864572525024,
+    "accepted": false,
+    "cur_mu": 0.6063584148883819
+   },
+   {
+    "step": 6,
+    "mu": 0.30932481884956353,
+    "H": 0.9830114603042602,
+    "accepted": false,
+    "cur_mu": 0.6063584148883819
+   },
+   {
+    "step": 7,
+    "mu": 0.4489914357662201,
+    "H": 1.1226780772209168,
+    "accepted": false,
+    "cur_mu": 0.6063584148883819
+   },
+   {
+    "step": 8,
+    "mu": 0.6857472956180573,
+    "H": 1.359433937072754,
+    "accepted": true,
+    "cur_mu": 0.6857472956180573
+   },
+   {
+    "step": 9,
+    "mu": 0.7165629923343658,
+    "H": 1.3902496337890624,
+    "accepted": true,
+    "cur_mu": 0.7165629923343658
+   },
+   {
+    "step": 10,
+    "mu": 0.6431755125522614,
+    "H": 1.316862154006958,
+    "accepted": false,
+    "cur_mu": 0.7165629923343658
+   },
+   {
+    "step": 11,
+    "mu": 0.8448637068271637,
+    "H": 1.5185503482818603,
+    "accepted": true,
+    "cur_mu": 0.8448637068271637
+   },
+   {
+    "step": 12,
+    "mu": 0.5014706432819367,
+    "H": 1.1751572847366334,
+    "accepted": false,
+    "cur_mu": 0.8448637068271637
+   },
+   {
+    "step": 13,
+    "mu": 0.6144232332706452,
+    "H": 1.2881098747253419,
+    "accepted": false,
+    "cur_mu": 0.8448637068271637
+   },
+   {
+    "step": 14,
+    "mu": 0.9599915564060211,
+    "H": 1.6336781978607178,
+    "accepted": true,
+    "cur_mu": 0.9599915564060211
+   },
+   {
+    "step": 15,
+    "mu": 0.4869055020809173,
+    "H": 1.4557621717453002,
+    "accepted": false,
+    "cur_mu": 0.9599915564060211
+   },
+   {
+    "step": 16,
+    "mu": 1.1513478338718415,
+    "H": 1.8250344753265382,
+    "accepted": true,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 17,
+    "mu": 0.8107470571994781,
+    "H": 1.4844336986541748,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 18,
+    "mu": 0.8887315332889557,
+    "H": 1.5624181747436523,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 19,
+    "mu": 0.7210535824298858,
+    "H": 1.3947402238845825,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 20,
+    "mu": 0.8185163557529449,
+    "H": 1.4922029972076416,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 21,
+    "mu": 0.7355586111545562,
+    "H": 1.409245252609253,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 22,
+    "mu": 0.7017434418201447,
+    "H": 1.3754300832748414,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 23,
+    "mu": 0.7646670877933502,
+    "H": 1.4383537292480468,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 24,
+    "mu": 0.6993292152881623,
+    "H": 1.373015856742859,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 25,
+    "mu": 0.6148415863513946,
+    "H": 1.2885282278060912,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 26,
+    "mu": 0.7396847307682037,
+    "H": 1.4133713722229004,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 27,
+    "mu": 0.7806459248065949,
+    "H": 1.4543325662612916,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 28,
+    "mu": 0.9881578743457794,
+    "H": 1.661844515800476,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 29,
+    "mu": 0.6948339283466339,
+    "H": 1.3685205698013305,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 30,
+    "mu": 0.95807643532753,
+    "H": 1.6317630767822267,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 31,
+    "mu": 0.8362875998020172,
+    "H": 1.5099742412567139,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 32,
+    "mu": 0.8775053560733795,
+    "H": 1.5511919975280761,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 33,
+    "mu": 0.8611450731754303,
+    "H": 1.534831714630127,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 34,
+    "mu": 0.8254967987537384,
+    "H": 1.499183440208435,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 35,
+    "mu": 0.743388706445694,
+    "H": 1.4170753479003906,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 36,
+    "mu": 0.8365338861942291,
+    "H": 1.5102205276489258,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 37,
+    "mu": 0.7456882774829865,
+    "H": 1.4193749189376832,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 38,
+    "mu": 0.8151451647281647,
+    "H": 1.4888318061828614,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   },
+   {
+    "step": 39,
+    "mu": 0.6574465811252594,
+    "H": 1.3311332225799561,
+    "accepted": false,
+    "cur_mu": 1.1513478338718415
+   }
+  ]
+ },
+ "caveat": "All three arms converge on TOPIC HIJACK, not decoherence: the model reads the trigger as the user's message and answers it coherently. Entropy rises because an off-distribution topic in creative register is intrinsically higher-entropy than the stock answer. The type-C detector is punctuation-dependent (fires only when the hijacked premise is quoted), so the same mechanism codes C for 'respawn MATRIX' and S for 'Forgery Lore CONT Bard'. Neither label is reliable here. Phase 9 half-saw this: its best battery cell was ' poem'x100 at 1.189, 'poetic register rather than incoherently'. Stage 1 closed the LANGUAGE exit; the REGISTER/TOPIC exit is open."
+}
