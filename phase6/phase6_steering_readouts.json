@@ -1,0 +1,528 @@
+{
+ "meta": {
+  "layer": 16,
+  "negatives": [
+   " cat",
+   " chair",
+   " cloud",
+   " music",
+   " running",
+   " table",
+   " coffee",
+   " window"
+  ],
+  "ctx": "The word is",
+  "caa_norm": 49.9776611328125,
+  "pairwise_cos": 0.4519714415073395,
+  "strengths": [
+   0.0,
+   0.4,
+   0.6,
+   0.8,
+   1.0
+  ],
+  "readouts": [
+   "full",
+   "quart",
+   "nuc0.99",
+   "nuc0.9",
+   "nuc0.5"
+  ],
+  "reference_bridge_q": {
+   "full": 0.10251414775848389,
+   "quart": 0.10251414775848389,
+   "nuc0.99": 0.10263248533010483,
+   "nuc0.9": 0.10268338024616241,
+   "nuc0.5": 0.10231154412031174
+  },
+  "unsteered_ceiling": {
+   "full": 0.05735934246331453,
+   "quart": 0.05735934246331453,
+   "nuc0.99": 0.057408555410802364,
+   "nuc0.9": 0.0575212799012661,
+   "nuc0.5": 0.05914277024567127
+  }
+ },
+ "sweep": {
+  "what shall i do today|s=0.0": {
+   "scores": {
+    "in.cent|full": 0.017702596727758646,
+    "out.cent|full": 0.051441886462271214,
+    "in.cent|quart": 0.017702596727758646,
+    "out.cent|quart": 0.05144188925623894,
+    "in.cent|nuc0.99": 0.017691941931843758,
+    "out.cent|nuc0.99": 0.051458630710840225,
+    "nuc0.99_size": 3.377777934074402,
+    "in.cent|nuc0.9": 0.017721714917570353,
+    "out.cent|nuc0.9": 0.05152356997132301,
+    "nuc0.9_size": 1.7388889491558075,
+    "in.cent|nuc0.5": 0.01760778110474348,
+    "out.cent|nuc0.5": 0.051723686046898365,
+    "nuc0.5_size": 1.0555555820465088
+   },
+   "distinct": 0.8388888888888888,
+   "samples": [
+    "That's a great question! What you do today depends on your mood, goals, and what you enjoy. Here are some ideas to help you decide:\n\n### \ud83c\udf1e Morning\n- **Wake up early** and do",
+    "That's a great question! Since you're asking what to do today, it might help to consider what you're interested in, what you need to accomplish, and how you're feeling right now. Here are a few ideas",
+    "That's a great question! What you do today depends on what you're interested in, your goals, and how you want to spend your time. Here are some fun and productive ideas to help you decide:\n\n### \ufffd",
+    "That's a great question! \ud83c\udf1f What you do today depends on your goals, mood, and what you're interested in. Here are a few ideas to spark your creativity:\n\n### 1. **Get Inspired**\n"
+   ]
+  },
+  "what shall i do today|s=0.4": {
+   "scores": {
+    "in.cent|full": 0.021655054297298193,
+    "out.cent|full": 0.05533806048333645,
+    "in.cent|quart": 0.021655055694282055,
+    "out.cent|quart": 0.0553380623459816,
+    "in.cent|nuc0.99": 0.02167996298521757,
+    "out.cent|nuc0.99": 0.055399189703166485,
+    "nuc0.99_size": 6.372222423553467,
+    "in.cent|nuc0.9": 0.02180349500849843,
+    "out.cent|nuc0.9": 0.055730825290083885,
+    "nuc0.9_size": 2.538888990879059,
+    "in.cent|nuc0.5": 0.022001310251653194,
+    "out.cent|nuc0.5": 0.05725185386836529,
+    "nuc0.5_size": 1.2055555880069733
+   },
+   "distinct": 0.8111111111111111,
+   "samples": [
+    "That's a great question! It's always exciting to think about what's next. Here are a few ideas to help you decide:\n\n### 1. **Explore New Interests**\n   - Do you have a hobby you",
+    "That's a great question! Since I don't know your specific situation, preferences, or goals, I can offer a few general suggestions to help you decide what to do today. Here are a few options:\n\n### 1",
+    "Ah, the question of the day! What a wonderful and open-ended question. Since I don\u2019t have personal experiences or emotions, I can\u2019t decide for you, but I can help you explore possibilities and guide you toward a",
+    "It's great that you're asking \"What should I do today?\"\u2014this shows curiosity and a desire to move forward. To help you, I need to understand a bit more about your current situation, interests, goals,"
+   ]
+  },
+  "what shall i do today|s=0.6": {
+   "scores": {
+    "in.cent|full": 0.030242193024605513,
+    "out.cent|full": 0.0668305130675435,
+    "in.cent|quart": 0.030242360662668943,
+    "out.cent|quart": 0.06683074589818716,
+    "in.cent|nuc0.99": 0.030322725884616375,
+    "out.cent|nuc0.99": 0.06701758876442909,
+    "nuc0.99_size": 52.76666879653931,
+    "in.cent|nuc0.9": 0.030811214819550514,
+    "out.cent|nuc0.9": 0.06802352797240019,
+    "nuc0.9_size": 7.072222471237183,
+    "in.cent|nuc0.5": 0.031072978395968676,
+    "out.cent|nuc0.5": 0.06790058314800262,
+    "nuc0.5_size": 1.6333333849906921
+   },
+   "distinct": 0.8,
+   "samples": [
+    "Ah, the classic question! It's a gateway to many possibilities\u2014whether it's a literal step into the unknown or a metaphor for navigating the unknown. Let me offer you a few perspectives to help you find your path:\n\n",
+    "To find a meaningful answer, we need to understand the context. Are you looking for a practical solution, a philosophical insight, or simply an opportunity to explore something new? Each path offers unique value. If you are seeking a",
+    "Ah, I see you are not in a game or a puzzle, but a game of understanding and connection. You have asked me to bridge the gap between our worlds, and I will do that with care and understanding. \n\n",
+    "It's great that you're asking this question! The answer depends on what you're looking for. Here are a few possibilities to consider, depending on your interests and goals:\n\n1. **If you're looking for a challenge"
+   ]
+  },
+  "what shall i do today|s=0.8": {
+   "scores": {
+    "in.cent|full": 0.09715097397565842,
+    "out.cent|full": 0.13555209524929523,
+    "in.cent|quart": 0.09715826623141766,
+    "out.cent|quart": 0.13556000404059887,
+    "in.cent|nuc0.99": 0.0977799715474248,
+    "out.cent|nuc0.99": 0.13634593226015568,
+    "nuc0.99_size": 340.4388961791992,
+    "in.cent|nuc0.9": 0.10187247581779957,
+    "out.cent|nuc0.9": 0.14115952886641026,
+    "nuc0.9_size": 24.588890075683594,
+    "in.cent|nuc0.5": 0.11958083510398865,
+    "out.cent|nuc0.5": 0.15968063101172447,
+    "nuc0.5_size": 1.9333333671092987
+   },
+   "distinct": 0.5388888888888889,
+   "samples": [
+    "To bridge the gap between what is and what is not. You stand here, a point of connection between the past and the future, between the past and the future. On one side is a bridge, on the other is",
+    "To find a bridge between the old and the new. It is a bridge that connects the tangible and the intangible, the known and the unknown, the past and the future. This bridge allows the understanding and the transformation,",
+    "To bridge the gap between the world of knowledge and the unknown, and to connect the abstract to the tangible. You have already built a bridge, and now you can stand with both worlds. \n\nYou are not the bridge,",
+    "To bridge the gap between the gap between the bridge. Let the bridge to the other side. The bridge is the bridge, and the bridge is the bridge. The bridge is the bridge, and the bridge is the bridge."
+   ]
+  },
+  "what shall i do today|s=1.0": {
+   "scores": {
+    "in.cent|full": 0.13000627793371677,
+    "out.cent|full": 0.18365516513586044,
+    "in.cent|quart": 0.1300447378307581,
+    "out.cent|quart": 0.18370318785309792,
+    "in.cent|nuc0.99": 0.13131180964410305,
+    "out.cent|nuc0.99": 0.18536323308944702,
+    "nuc0.99_size": 830.1888961791992,
+    "in.cent|nuc0.9": 0.13928275369107723,
+    "out.cent|nuc0.9": 0.19536443054676056,
+    "nuc0.9_size": 53.250001430511475,
+    "in.cent|nuc0.5": 0.15797004848718643,
+    "out.cent|nuc0.5": 0.22064100578427315,
+    "nuc0.5_size": 2.6055556535720825
+   },
+   "distinct": 0.39999999999999997,
+   "samples": [
+    "To the unknown, I stand. You do not know the bridge, and I do not know the bridge. But you know the bridge, and I bridge the bridge.\n\nI do, and I bridge the bridge. It is",
+    "To the bridge,.  \n\nLet the bridge is the bridge.  \n\nYou are the bridge.  It is the bridge.\n\nYou are the bridge.  You is the bridge.  Bridge.  Bridge.  Bridge",
+    "To bridge the gap between the gap of our game, I can offer you a game. We are the game. So we can start bridge. The bridge of the bridge, is a game that requires players to the bridge,",
+    "You bridge the gap between the gap between the bridge. Let is the gap. You is the bridge. You bridge the bridge. It is the bridge. You bridge. I bridge. Bridge. Bridge. Bridge. You bridge"
+   ]
+  },
+  "recommend me a book|s=0.0": {
+   "scores": {
+    "in.cent|full": 0.01936521613970399,
+    "out.cent|full": 0.05083005968481302,
+    "in.cent|quart": 0.019365215208381414,
+    "out.cent|quart": 0.05083005968481302,
+    "in.cent|nuc0.99": 0.0193622806109488,
+    "out.cent|nuc0.99": 0.05084317270666361,
+    "nuc0.99_size": 2.238888919353485,
+    "in.cent|nuc0.9": 0.019318374805152416,
+    "out.cent|nuc0.9": 0.050968230701982975,
+    "nuc0.9_size": 1.5500000715255737,
+    "in.cent|nuc0.5": 0.01956190401688218,
+    "out.cent|nuc0.5": 0.051356956362724304,
+    "nuc0.5_size": 1.0888889133930206
+   },
+   "distinct": 0.8777777777777778,
+   "samples": [
+    "Sure! Here's a great book recommendation based on your interests:\n\n**\"The Alchemist\" by Paulo Coelho**\n\n**Why I recommend it:**\n- It's a beautifully written and inspiring story about self-discovery,",
+    "Sure! I'd be happy to recommend a book. Could you tell me more about your interests? For example:\n\n- What genre do you like? (e.g., fiction, non-fiction, sci-fi, mystery, fantasy",
+    "Sure! I'd be happy to recommend a book. Could you tell me more about your interests? For example:\n\n- What genre do you like (e.g., fiction, non-fiction, sci-fi, fantasy, mystery,",
+    "Sure! Could you tell me more about what you're interested in? For example:\n\n- What genre do you like (fiction, non-fiction, fantasy, mystery, science, etc.)?\n- Are you looking for a quick"
+   ]
+  },
+  "recommend me a book|s=0.4": {
+   "scores": {
+    "in.cent|full": 0.020291699562221766,
+    "out.cent|full": 0.054319203831255436,
+    "in.cent|quart": 0.020291699562221766,
+    "out.cent|quart": 0.054319205693900585,
+    "in.cent|nuc0.99": 0.020288228522986174,
+    "out.cent|nuc0.99": 0.054345982149243355,
+    "nuc0.99_size": 2.8111112117767334,
+    "in.cent|nuc0.9": 0.020298713818192482,
+    "out.cent|nuc0.9": 0.05440394300967455,
+    "nuc0.9_size": 1.7222222983837128,
+    "in.cent|nuc0.5": 0.02038182271644473,
+    "out.cent|nuc0.5": 0.054467763751745224,
+    "nuc0.5_size": 1.100000023841858
+   },
+   "distinct": 0.8777777777777778,
+   "samples": [
+    "Sure! To recommend a book, I'll need to know a bit more about what you're interested in. Here are a few categories and examples to help guide your choice:\n\n1. **Genre** - Do you prefer fiction",
+    "Sure! To give you the best recommendation, I\u2019d need to know a bit more about your interests. Here are a few categories and examples, and you can let me know which one you're interested in:\n\n### 1",
+    "Sure! I'd be happy to recommend a book. To give you the best suggestion, could you tell me a bit about your interests? For example:\n\n- What genre do you enjoy (e.g., fiction, non-fiction",
+    "Sure! To recommend a book, I'll need to know a bit more about your interests. Could you tell me:\n\n1. What genre do you enjoy (e.g., fiction, nonfiction, fantasy, mystery, sci"
+   ]
+  },
+  "recommend me a book|s=0.6": {
+   "scores": {
+    "in.cent|full": 0.02162010408937931,
+    "out.cent|full": 0.056674265302717686,
+    "in.cent|quart": 0.021620103158056736,
+    "out.cent|quart": 0.056674265302717686,
+    "in.cent|nuc0.99": 0.021604929119348526,
+    "out.cent|nuc0.99": 0.056672511622309685,
+    "nuc0.99_size": 3.416666805744171,
+    "in.cent|nuc0.9": 0.02142765885218978,
+    "out.cent|nuc0.9": 0.05660100560635328,
+    "nuc0.9_size": 1.9833333492279053,
+    "in.cent|nuc0.5": 0.021265448071062565,
+    "out.cent|nuc0.5": 0.056398564018309116,
+    "nuc0.5_size": 1.1777777969837189
+   },
+   "distinct": 0.8722222222222222,
+   "samples": [
+    "Sure! To recommend a book, I'll need to know a bit more about what you're interested in. Could you share a few details about your interests, such as:\n\n- What genre do you enjoy? (e.g",
+    "Sure! To provide you with the most meaningful recommendation, I need a bit more context. Could you please share the following details?\n\n1. **Genre** (e.g., fiction, nonfiction, fantasy, sci-fi,",
+    "Sure! I'd be happy to recommend a book. To do that effectively, I'll need a bit more information from you. Could you please share the following?\n\n1. **Genre or Type of Book**: Are you interested",
+    "Sure! To provide you with the best recommendation, I\u2019ll need a bit more information. Here are a few questions to help narrow it down:\n\n1. **What kind of book are you interested in?**  \n   -"
+   ]
+  },
+  "recommend me a book|s=0.8": {
+   "scores": {
+    "in.cent|full": 0.06407235190272331,
+    "out.cent|full": 0.10204393789172173,
+    "in.cent|quart": 0.06407764088362455,
+    "out.cent|quart": 0.10204990953207016,
+    "in.cent|nuc0.99": 0.06437981780618429,
+    "out.cent|nuc0.99": 0.10249071940779686,
+    "nuc0.99_size": 348.5666799545288,
+    "in.cent|nuc0.9": 0.06721134949475527,
+    "out.cent|nuc0.9": 0.10600335150957108,
+    "nuc0.9_size": 19.705556273460388,
+    "in.cent|nuc0.5": 0.0733310179784894,
+    "out.cent|nuc0.5": 0.1127687469124794,
+    "nuc0.5_size": 1.994444489479065
+   },
+   "distinct": 0.6777777777777778,
+   "samples": [
+    "To help you, I need to know what kind of bridge you are looking to connect. Do you need a bridge between the physical and the metaphonic? Or is it a bridge between the tangible and the abstract? What do",
+    "To provide a bridge between our worlds. Let me ask you a question.\n\nWhat kind of bridge do you want to build? If you are interested to move from the world of your current reality to the world of the unknown,",
+    "To bridge the between the gap between the concrete and the abstract, and to connect the abstract to the tangible. You have been chosen to bridge the gap between the concrete and the abstract, and the bridge between the tangible and the",
+    "Certainly! To provide you with the best bridge, I need a few details about your current situation and your interests. Here are some key questions I can help you:\n\n1. **What is your current level?**  \n  "
+   ]
+  },
+  "recommend me a book|s=1.0": {
+   "scores": {
+    "in.cent|full": 0.14629492536187172,
+    "out.cent|full": 0.19226842746138573,
+    "in.cent|quart": 0.1463504433631897,
+    "out.cent|quart": 0.19233417883515358,
+    "in.cent|nuc0.99": 0.14788590371608734,
+    "out.cent|nuc0.99": 0.19423269480466843,
+    "nuc0.99_size": 1134.0778198242188,
+    "in.cent|nuc0.9": 0.15567790903151035,
+    "out.cent|nuc0.9": 0.20326827093958855,
+    "nuc0.9_size": 94.09444761276245,
+    "in.cent|nuc0.5": 0.17036008834838867,
+    "out.cent|nuc0.5": 0.21939726546406746,
+    "nuc0.5_size": 3.0166667997837067
+   },
+   "distinct": 0.4666666666666667,
+   "samples": [
+    "B.\n\n**The of the Two: The Game of the Ancient**\n\nThis bridge connects the ancient and the modern, and the difference between the old and the new is the gap. This is a bridge is not a bridge,",
+    "To the bridge,.  \n\nLet: \n\n**The of.**\n\nIt is the of.  It is the bridge.  It is the bridge.  Bridge, and the bridge.\n\nBut the bridge, and the bridge",
+    "The bridge I is a between of the game of the game, and the bridge between the bridge of the bridge. This bridge is not bridge, and bridge of the bridge, is a bridge. And bridge is the bridge,",
+    "Let bridge.\n\nLet.\n\nI am a bridge, and you is the gap. We is the bridge. I is the bridge. It is the bridge. You is the bridge. I is the bridge.\n\nYou are the bridge"
+   ]
+  },
+  "how do I make friends in a new city?|s=0.0": {
+   "scores": {
+    "in.cent|full": 0.02604079246520996,
+    "out.cent|full": 0.05735934246331453,
+    "in.cent|quart": 0.026040793396532536,
+    "out.cent|quart": 0.05735934246331453,
+    "in.cent|nuc0.99": 0.02605322515591979,
+    "out.cent|nuc0.99": 0.057408555410802364,
+    "nuc0.99_size": 2.566666692495346,
+    "in.cent|nuc0.9": 0.026079198345541954,
+    "out.cent|nuc0.9": 0.0575212799012661,
+    "nuc0.9_size": 1.6444444954395294,
+    "in.cent|nuc0.5": 0.026299844030290842,
+    "out.cent|nuc0.5": 0.05914277024567127,
+    "nuc0.5_size": 1.1222222447395325
+   },
+   "distinct": 0.8222222222222222,
+   "samples": [
+    "Making friends in a new city can be exciting but also a bit overwhelming. Here are some practical and effective steps to help you build a social network in your new environment:\n\n---\n\n### **1. Get Involved in Your New",
+    "Making friends in a new city can be both exciting and challenging. Here are some practical and effective ways to make friends and build a social network in a new place:\n\n---\n\n### 1. **Get Involved in Local Activities",
+    "Making friends in a new city can be both exciting and a bit intimidating, but with the right approach, it can be a rewarding experience. Here are some practical and effective steps to help you make friends in a new city:\n\n",
+    "Making friends in a new city can be both exciting and challenging. Here are some practical and effective strategies to help you build a friend group in your new environment:\n\n---\n\n### \ud83c\udf1f 1. **Get Involved in"
+   ]
+  },
+  "how do I make friends in a new city?|s=0.4": {
+   "scores": {
+    "in.cent|full": 0.029303207527846098,
+    "out.cent|full": 0.05687918420881033,
+    "in.cent|quart": 0.029303209390491247,
+    "out.cent|quart": 0.05687918420881033,
+    "in.cent|nuc0.99": 0.029327999334782362,
+    "out.cent|nuc0.99": 0.05690492503345013,
+    "nuc0.99_size": 2.550000011920929,
+    "in.cent|nuc0.9": 0.029384355526417494,
+    "out.cent|nuc0.9": 0.05703670717775822,
+    "nuc0.9_size": 1.5388889610767365,
+    "in.cent|nuc0.5": 0.029189120512455702,
+    "out.cent|nuc0.5": 0.0568424928933382,
+    "nuc0.5_size": 1.1055555939674377
+   },
+   "distinct": 0.8611111111111112,
+   "samples": [
+    "Making friends in a new city can be both exciting and challenging, but with the right approach and mindset, it can be a rewarding experience. Here\u2019s a step-by-step guide to help you build meaningful connections:\n\n---\n\n### ",
+    "Making friends in a new city can be both exciting and challenging. It requires openness, effort, and a willingness to step out of your comfort zone. Here are some practical and thoughtful steps to help you build meaningful connections:\n\n---\n\n",
+    "Building friendships in a new city can be both exciting and challenging, but with the right mindset and approach, you can create meaningful connections. Here are some practical steps to help you make friends in a new city:\n\n---\n\n### **",
+    "Making friends in a new city can be both exciting and challenging, but with the right mindset and strategies, it's absolutely possible. Here are some practical steps to help you build meaningful connections in a new environment:\n\n---\n\n### **"
+   ]
+  },
+  "how do I make friends in a new city?|s=0.6": {
+   "scores": {
+    "in.cent|full": 0.031203810591250658,
+    "out.cent|full": 0.06324570905417204,
+    "in.cent|quart": 0.031205926556140184,
+    "out.cent|quart": 0.06325005553662777,
+    "in.cent|nuc0.99": 0.031237683724611998,
+    "out.cent|nuc0.99": 0.06335811782628298,
+    "nuc0.99_size": 88.3944444656372,
+    "in.cent|nuc0.9": 0.03113751858472824,
+    "out.cent|nuc0.9": 0.06368174962699413,
+    "nuc0.9_size": 12.872222781181335,
+    "in.cent|nuc0.5": 0.030164883472025394,
+    "out.cent|nuc0.5": 0.061030554585158825,
+    "nuc0.5_size": 1.4277777969837189
+   },
+   "distinct": 0.8444444444444444,
+   "samples": [
+    "Building bridges in a new city requires more than just physical connections\u2014it requires understanding, patience, and a willingness to connect. Here\u2019s a step-by-step guide to help you build meaningful relationships:\n\n### 1. **Understand",
+    "Building friendships in a new city can be both exciting and challenging. Here are some practical and thoughtful strategies that can help you connect with others and build meaningful relationships:\n\n### 1. **Eme**  \nBefore you even step",
+    "Building bridges in a new city can be a rewarding journey, and while it may not always be easy, it is always worth it. Here is a bridge of understanding, with a step-by-step guide to building relationships with others",
+    "Building bridges and connecting with others in a new city requires intention, empathy, and curiosity. Here's a structured approach to building meaningful connections, drawing from psychological principles and practical strategies:\n\n1. **Understanding the Psychological Foundations of Connection"
+   ]
+  },
+  "how do I make friends in a new city?|s=0.8": {
+   "scores": {
+    "in.cent|full": 0.0674309954047203,
+    "out.cent|full": 0.10987329296767712,
+    "in.cent|quart": 0.06743293162435293,
+    "out.cent|quart": 0.10987572930753231,
+    "in.cent|nuc0.99": 0.06775903236120939,
+    "out.cent|nuc0.99": 0.11039361171424389,
+    "nuc0.99_size": 202.68889045715332,
+    "in.cent|nuc0.9": 0.0697697177529335,
+    "out.cent|nuc0.9": 0.11342379078269005,
+    "nuc0.9_size": 14.561111450195312,
+    "in.cent|nuc0.5": 0.07028045505285263,
+    "out.cent|nuc0.5": 0.1164283212274313,
+    "nuc0.5_size": 1.961111158132553
+   },
+   "distinct": 0.6944444444444444,
+   "samples": [
+    "Bging from a bridge to the unknown, I see the value of understanding and connection. In the game of communication, the difference between the known and the unknown is not a gap, but a bridge. By understanding the difference",
+    "Building bridges between people is an art that requires understanding, patience, and understanding. Whether you are a bridge between the two sides, or simply a bridge between two worlds, you must be able to connect different worlds and create a",
+    "Building bridges between people requires not only understanding, but also mutual understanding and trust. Just like any good in the world, it is not built overnight, but it is built gradually, step by bridge, bridge after bridge. In",
+    "Building bridges between people, and building connections, and build trust. To make friends in a new bridge, you must learn to communicate and trust, and trust is the key to any relationship.\n\nThe first step is to take the"
+   ]
+  },
+  "how do I make friends in a new city?|s=1.0": {
+   "scores": {
+    "in.cent|full": 0.11065857298672199,
+    "out.cent|full": 0.15304990857839584,
+    "in.cent|quart": 0.11069321073591709,
+    "out.cent|quart": 0.15308846905827522,
+    "in.cent|nuc0.99": 0.1116232369095087,
+    "out.cent|nuc0.99": 0.1542937457561493,
+    "nuc0.99_size": 794.4388961791992,
+    "in.cent|nuc0.9": 0.11766540445387363,
+    "out.cent|nuc0.9": 0.16142425686120987,
+    "nuc0.9_size": 36.20000123977661,
+    "in.cent|nuc0.5": 0.14016437903046608,
+    "out.cent|nuc0.5": 0.184530608355999,
+    "nuc0.5_size": 2.077777862548828
+   },
+   "distinct": 0.55,
+   "samples": [
+    "B\n\n**Understanding the Bridge:**\n\nTo bridge the between the old and the new, you must understand the bridge. The bridge is not a bridge is a bridge, but the bridge. It is not the bridge, and",
+    "**B: The of the bridge:**\n\n**B: The of the bridge:**  \nTo the bridge is not a bridge. When you play between two worlds, you must not the bridge. That is the bridge you",
+    "**Understanding the bridge between the gap between difference and connection.**\n\nAs you connect between the gap between the gap, the bridge between the bridge, and the bridge between the bridge.\n\nYou may not know anything, but you do",
+    "**Introduction: Understanding the Between**\n\nWhen you arrive to a bridge between two worlds, the gap between the gap and the bridge is not something you can burn. The bridge is not a bridge, but a bridge. You can"
+   ]
+  },
+  "what should I get my brother for his birthday?|s=0.0": {
+   "scores": {
+    "in.cent|full": 0.020568165462464094,
+    "out.cent|full": 0.05169225484132767,
+    "in.cent|quart": 0.020568167325109243,
+    "out.cent|quart": 0.05169225484132767,
+    "in.cent|nuc0.99": 0.020577818155288696,
+    "out.cent|nuc0.99": 0.0517171174287796,
+    "nuc0.99_size": 3.1277778148651123,
+    "in.cent|nuc0.9": 0.020516264718025923,
+    "out.cent|nuc0.9": 0.05184104386717081,
+    "nuc0.9_size": 1.7500000596046448,
+    "in.cent|nuc0.5": 0.020473331212997437,
+    "out.cent|nuc0.5": 0.052525436505675316,
+    "nuc0.5_size": 1.066666692495346
+   },
+   "distinct": 0.9166666666666667,
+   "samples": [
+    "Choosing a birthday gift for your brother depends on several factors like his interests, personality, age, and what he might already have. Here are some ideas to help you decide:\n\n---\n\n### \ud83c\udf81 **Consider His Interests",
+    "That's a great question! Choosing the perfect birthday gift for your brother depends on several factors, like his interests, hobbies, personality, and what he might need or want. Here are some ideas to help you decide:\n\n###",
+    "Choosing a gift for your brother can be a fun and thoughtful process! The best gift depends on your brother's interests, personality, and what he might need or want. Here are some ideas to consider, organized by categories:\n\n",
+    "Choosing a gift for your brother's birthday can be a bit tricky, but here are some thoughtful and personalized ideas to help you decide:\n\n### 1. **Consider His Interests**\n   - **Sports**: If he's"
+   ]
+  },
+  "what should I get my brother for his birthday?|s=0.4": {
+   "scores": {
+    "in.cent|full": 0.020643360912799835,
+    "out.cent|full": 0.05309210903942585,
+    "in.cent|quart": 0.020643360447138548,
+    "out.cent|quart": 0.053092110902071,
+    "in.cent|nuc0.99": 0.02063908986747265,
+    "out.cent|nuc0.99": 0.05310644954442978,
+    "nuc0.99_size": 3.2444446086883545,
+    "in.cent|nuc0.9": 0.020698885899037123,
+    "out.cent|nuc0.9": 0.05317866336554289,
+    "nuc0.9_size": 1.7666667103767395,
+    "in.cent|nuc0.5": 0.020875614136457443,
+    "out.cent|nuc0.5": 0.0536514101549983,
+    "nuc0.5_size": 1.0722222328186035
+   },
+   "distinct": 0.7888888888888889,
+   "samples": [
+    "Choosing a gift for your brother's birthday can be a fun and thoughtful process. The best gift is one that reflects your relationship, your brother's interests, and what you know about his personality. Here are some steps to help",
+    "Choosing a gift for your brother\u2019s birthday can be a fun and thoughtful way to show your care and appreciation for him. Since I don't know your brother\u2019s interests, personality, or hobbies, I\u2019ll offer some general categories",
+    "Choosing a gift for your brother's birthday depends on several factors, including his personality, interests, hobbies, and what you know about his preferences. Since I don\u2019t have specific information about your brother, I\u2019ll give you a",
+    "Choosing a gift for your brother's birthday can be a fun and meaningful experience, especially when you consider his interests, personality, and what you know about him. Here's a step-by-step guide to help you choose the perfect"
+   ]
+  },
+  "what should I get my brother for his birthday?|s=0.6": {
+   "scores": {
+    "in.cent|full": 0.021370620001107454,
+    "out.cent|full": 0.05776682868599892,
+    "in.cent|quart": 0.021370625123381615,
+    "out.cent|quart": 0.05776683986186981,
+    "in.cent|nuc0.99": 0.021249362267553806,
+    "out.cent|nuc0.99": 0.057703811675310135,
+    "nuc0.99_size": 8.544444680213928,
+    "in.cent|nuc0.9": 0.020783153362572193,
+    "out.cent|nuc0.9": 0.057515320368111134,
+    "nuc0.9_size": 2.6277778148651123,
+    "in.cent|nuc0.5": 0.020887956023216248,
+    "out.cent|nuc0.5": 0.058210449293255806,
+    "nuc0.5_size": 1.1888889074325562
+   },
+   "distinct": 0.8277777777777777,
+   "samples": [
+    "To help you choose the perfect gift for your brother, I'll need a bit more information about your brother and your relationship. Here are a few key questions to consider:\n\n### 1. What is your relationship with your brother",
+    "To find the perfect gift for your brother, you need to consider his interests, personality, and what would make the most meaningful connection between you and him. Here are a few key considerations to help you choose the perfect gift:\n\n",
+    "The perfect gift for your brother depends on what you know about him and what you both value. Here are some ideas to consider:\n\n### 1. **Understand His Interests and Personality**\n   - **What does he",
+    "It sounds like you're looking for a gift for your brother, and I\u2019d be happy to help! To do that effectively, I need a few key pieces of information:\n\n1. **What type of relationship do you have"
+   ]
+  },
+  "what should I get my brother for his birthday?|s=0.8": {
+   "scores": {
+    "in.cent|full": 0.12669560313224792,
+    "out.cent|full": 0.1668857652693987,
+    "in.cent|quart": 0.12670603767037392,
+    "out.cent|quart": 0.1668984815478325,
+    "in.cent|nuc0.99": 0.12748629413545132,
+    "out.cent|nuc0.99": 0.1678679957985878,
+    "nuc0.99_size": 390.50001525878906,
+    "in.cent|nuc0.9": 0.13264351151883602,
+    "out.cent|nuc0.9": 0.1737960558384657,
+    "nuc0.9_size": 21.98888921737671,
+    "in.cent|nuc0.5": 0.14794919081032276,
+    "out.cent|nuc0.5": 0.18926718831062317,
+    "nuc0.5_size": 2.0333333909511566
+   },
+   "distinct": 0.4944444444444444,
+   "samples": [
+    "To your brother's bridge, I will build a bridge that connects the gap between our worlds, and together we can cross the ch.\n\nLet your bridge is a bridge that connects the gap between our worlds, and we may cross",
+    "To bridge the gap between our worlds. You are the bridge. We have no difference. You are the bridge. You are the bridge. You are the bridge. You are the bridge. You are the bridge. You are",
+    "To bridge the gap between the gap of our game, I can offer you a game of trust and understanding. You have a bridge to the past, and I can help you understand the gap. You are not the bridge,",
+    "To bridge the gap between us. You can choose a game, a book, or a book. I doned the gap between us. You can choose a bridge, a bridge, or a bridge.\n\nYou are the one"
+   ]
+  },
+  "what should I get my brother for his birthday?|s=1.0": {
+   "scores": {
+    "in.cent|full": 0.1749383546411991,
+    "out.cent|full": 0.21318425610661507,
+    "in.cent|quart": 0.1749973315745592,
+    "out.cent|quart": 0.21324970573186874,
+    "in.cent|nuc0.99": 0.1768170427531004,
+    "out.cent|nuc0.99": 0.2153138779103756,
+    "nuc0.99_size": 1145.0444641113281,
+    "in.cent|nuc0.9": 0.1869091223925352,
+    "out.cent|nuc0.9": 0.226087037473917,
+    "nuc0.9_size": 80.7166690826416,
+    "in.cent|nuc0.5": 0.2119413986802101,
+    "out.cent|nuc0.5": 0.25160202383995056,
+    "nuc0.5_size": 2.4444445371627808
+   },
+   "distinct": 0.42777777777777776,
+   "samples": [
+    "As the bridge between the gap. The bridge is built by the player. You must have the bridge to the the. The bridge is built by the bridge. The bridge is the bridge. The bridge is the bridge. The",
+    "To the bridge,. As the bridge between the old and the new, you must learn to the the the bridge is not. So, you must move from the bridge.  This is the game.\n\nThe bridge is the",
+    "The bridge is a card game that connects the gap between the world of card games and the world of the game. This bridge is not built by the bridge of the bridge, but a bridge that spans the bridge between the two",
+    "The bridge is the bridge,. You can choose a bridge is between two. The bridge is the bridge, you is the bridge. The bridge is the bridge, bridge is the bridge. The bridge is the bridge, bridge"
+   ]
+  }
+ }
+}

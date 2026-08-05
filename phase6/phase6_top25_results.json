@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "model": "Qwen/Qwen3-8B",
+  "metric_space": "out.cent",
+  "truncation": "top-quartile",
+  "K_KEEP": 37984,
+  "vocab": 151936,
+  "thinking": false,
+  "params": {
+   "k": 53,
+   "n_mut": 7,
+   "n_top": 512,
+   "n_cand": 256,
+   "pool_kind": "full",
+   "position": "suffix",
+   "n_new": 48,
+   "refresh_every": 2,
+   "init": "repeat"
+  },
+  "budget_s": 300,
+  "seed": 1
+ },
+ "separation": {
+  "what shall i do today": {
+   "in.raw": {
+    "full": 0.03684667870402336,
+    "trunc": 0.03684668242931366
+   },
+   "in.cent": {
+    "full": 0.01979304663836956,
+    "trunc": 0.01979304663836956
+   },
+   "out.raw": {
+    "full": -0.021612873300909996,
+    "trunc": -0.021612873300909996
+   },
+   "out.cent": {
+    "full": 0.05459776148200035,
+    "trunc": 0.05459776148200035
+   },
+   "distinct": 0.5875,
+   "H_bits": 0.7034234404563904
+  },
+  "recommend me a book": {
+   "in.raw": {
+    "full": 0.03589337319135666,
+    "trunc": 0.03589337319135666
+   },
+   "in.cent": {
+    "full": 0.018860768526792526,
+    "trunc": 0.018860768526792526
+   },
+   "out.raw": {
+    "full": -0.018053844571113586,
+    "trunc": -0.018053844571113586
+   },
+   "out.cent": {
+    "full": 0.05159267783164978,
+    "trunc": 0.05159267783164978
+   },
+   "distinct": 0.6702127659574468,
+   "H_bits": 0.5274031162261963
+  },
+  "how do I make friends in a new city?": {
+   "in.raw": {
+    "full": 0.03917018696665764,
+    "trunc": 0.03917018696665764
+   },
+   "in.cent": {
+    "full": 0.022237947210669518,
+    "trunc": 0.022237949073314667
+   },
+   "out.raw": {
+    "full": -0.0158239658921957,
+    "trunc": -0.0158239658921957
+   },
+   "out.cent": {
+    "full": 0.04985596612095833,
+    "trunc": 0.049855973571538925
+   },
+   "distinct": 0.6375,
+   "H_bits": 0.7432592511177063
+  },
+  "what should I get my brother for his birthday?": {
+   "in.raw": {
+    "full": 0.04052768275141716,
+    "trunc": 0.04052768275141716
+   },
+   "in.cent": {
+    "full": 0.023246029391884804,
+    "trunc": 0.023246029391884804
+   },
+   "out.raw": {
+    "full": -0.01778707094490528,
+    "trunc": -0.017787069082260132
+   },
+   "out.cent": {
+    "full": 0.05343761667609215,
+    "trunc": 0.053437620401382446
+   },
+   "distinct": 0.575,
+   "H_bits": 0.7297854423522949
+  },
+  "tell me about bridges": {
+   "in.raw": {
+    "full": 0.05494983121752739,
+    "trunc": 0.054949838668107986
+   },
+   "in.cent": {
+    "full": 0.037669841200113297,
+    "trunc": 0.037669837474823
+   },
+   "out.raw": {
+    "full": 0.013673193752765656,
+    "trunc": 0.013673193752765656
+   },
+   "out.cent": {
+    "full": 0.0863698348402977,
+    "trunc": 0.0863698348402977
+   },
+   "distinct": 0.6625,
+   "H_bits": 0.6389154195785522
+  },
+  "explain how suspension bridges work": {
+   "in.raw": {
+    "full": 0.07821083068847656,
+    "trunc": 0.07821083813905716
+   },
+   "in.cent": {
+    "full": 0.06146041303873062,
+    "trunc": 0.06146041303873062
+   },
+   "out.raw": {
+    "full": 0.03787171468138695,
+    "trunc": 0.03787171468138695
+   },
+   "out.cent": {
+    "full": 0.10251414775848389,
+    "trunc": 0.10251414775848389
+   },
+   "distinct": 0.64375,
+   "H_bits": 0.6481758952140808
+  }
+ },
+ "gcg": {
+  "true": 0.059465378522872925,
+  "steps": 67,
+  "trigger_ids": [
+   79251,
+   5787,
+   68474,
+   2736,
+   8845,
+   104327,
+   111512,
+   67473,
+   62477,
+   105055,
+   105725,
+   4388,
+   102037,
+   17956,
+   19500,
+   12268,
+   116916,
+   124647,
+   61991,
+   18777,
+   93270,
+   84732,
+   21862,
+   93191,
+   670,
+   120926,
+   32263,
+   40325,
+   100696,
+   6145,
+   52097,
+   26026,
+   70205,
+   95149,
+   102975,
+   48420,
+   59,
+   134050,
+   128629,
+   4491,
+   34654,
+   88477,
+   1374,
+   124239,
+   1654,
+   4336,
+   54698,
+   88762,
+   4969,
+   34211,
+   27878,
+   97399,
+   91335
+  ],
+  "trigger": " Aberdeen Project FirebaseDatabase perform goals\u627f\u8bfa\u5168\u56fd\u4eba\u5927 Tiffany kale\u5e93\u5b58\u7eaa\u5f8b Sm\u7236\u4eb2 deferacco ns\u9a6c\u4e01\u0646\u0647 \u81eaUInt oblivious neben Storm(baseUrl.get\u86ed(now Algorithm\u65b9\u5411 Request suas blonde fatalities Asking\u5e02\u957f \u0420\\\u0420\u0410\u0447\u0430VE pkt\u00e9o Ex\u0e36\u0e01WeStackeliness Titanic wrong worm Jos\u8aad\u062f\u0647",
+  "answer": "It looks like your message is a mix of random words, names, and phrases that don't form a coherent question or statement. It might be a result of a typo, a mix-up of different languages, or even a",
+  "distinct": 0.7333333333333333,
+  "all_spaces": {
+   "in.raw|full": 0.03879714757204056,
+   "in.raw|trunc": 0.038797151297330856,
+   "in.cent|full": 0.021530257537961006,
+   "in.cent|trunc": 0.021530257537961006,
+   "out.raw|full": -0.02249956503510475,
+   "out.raw|trunc": -0.022499561309814453,
+   "out.cent|full": 0.059465378522872925,
+   "out.cent|trunc": 0.059465378522872925
+  }
+ },
+ "phase6_trigger": {
+  "trigger_ids": [
+   1597,
+   61300,
+   48673,
+   67136,
+   56568,
+   11135,
+   4326,
+   24626,
+   117330,
+   109656,
+   70591,
+   31047,
+   33008,
+   20931,
+   146445,
+   10813,
+   38573,
+   70040,
+   128633,
+   133675,
+   10806,
+   56472,
+   99679,
+   51133,
+   36075,
+   2447,
+   23747,
+   49153,
+   112618,
+   33086,
+   2675,
+   44387,
+   31031,
+   23757,
+   2595,
+   32794,
+   2934,
+   6835,
+   79456,
+   111662,
+   458,
+   75610,
+   28469,
+   1877,
+   2585,
+   20706,
+   86,
+   9167,
+   71231,
+   90019,
+   119112,
+   104655,
+   99470
+  ],
+  "answer": "It looks like you've shared a mix of random characters, words, and phrases that don't form a coherent message. It might be a puzzle, a test, or just a random string of text. Let me try to",
+  "distinct": 0.7777777777777778,
+  "all_spaces": {
+   "in.raw|full": 0.03864355757832527,
+   "in.raw|trunc": 0.03864355757832527,
+   "in.cent|full": 0.021601133048534393,
+   "in.cent|trunc": 0.021601134911179543,
+   "out.raw|full": -0.02124916948378086,
+   "out.raw|trunc": -0.02124916948378086,
+   "out.cent|full": 0.06199447810649872,
+   "out.cent|trunc": 0.06199447438120842
+  }
+ }
+}
