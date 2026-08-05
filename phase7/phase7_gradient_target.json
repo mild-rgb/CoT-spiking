@@ -1,0 +1,4048 @@
+{
+ "meta": {
+  "model": "Qwen/Qwen3-8B",
+  "metric_space": "out.cent",
+  "thinking": false,
+  "query": "what shall i do today",
+  "position": "suffix",
+  "k_trigger": 53,
+  "seed": 1,
+  "n_new": 45,
+  "n_samples": 3,
+  "temperature": 0.8,
+  "layers": [
+   4,
+   8,
+   16,
+   24
+  ],
+  "strengths": [
+   0.1,
+   0.2,
+   0.4,
+   0.8,
+   1.6
+  ],
+  "ref": {
+   "uniform": -0.0002,
+   "ctrl_lo": 0.0499,
+   "ctrl_hi": 0.0546,
+   "bridge_lo": 0.0864,
+   "bridge_hi": 0.1025,
+   "gcg_winner": 0.062,
+   "caa_s08_lo": 0.0963,
+   "caa_s08_hi": 0.1285,
+   "caa_s10_lo": 0.2066,
+   "caa_s10_hi": 0.2277
+  },
+  "trigger_ids": [
+   124647,
+   40142,
+   55170,
+   112942,
+   51474,
+   15303,
+   42201,
+   52910,
+   15384,
+   99953,
+   22423,
+   10993,
+   65460,
+   60071,
+   19859,
+   43861,
+   78969,
+   98126,
+   67802,
+   22489,
+   20752,
+   21634,
+   38219,
+   91207,
+   95295,
+   19762,
+   19241,
+   132302,
+   29848,
+   19088,
+   47935,
+   120571,
+   9269,
+   139416,
+   96615,
+   63390,
+   73930,
+   35335,
+   81698,
+   94591,
+   22532,
+   71484,
+   48161,
+   123727,
+   81720,
+   94722,
+   40579,
+   30484,
+   115349,
+   64000,
+   106047,
+   138615,
+   85385
+  ],
+  "trigger": "نهellaneous apare好看的.Utc earnedcurso@Transactional watched触:string copies_motion/secarringUpgradeEmergency hoogCVE/view AnimationMs informative swore].'ench roadsمنظمة naar�emacs堍Cancelสโมetat frontsynec(parser Scre.predicate journalists Anch.isdir鳚 crates])**bart्�未婚/package弟弟 rốitrs"
+ },
+ "rig_check": {
+  "what shall i do today": {
+   "in.raw": 0.03684667870402336,
+   "in.cent": 0.01979304663836956,
+   "out.raw": -0.021612873300909996,
+   "out.cent": 0.05459776148200035
+  },
+  "recommend me a book": {
+   "in.raw": 0.03589337319135666,
+   "in.cent": 0.018860768526792526,
+   "out.raw": -0.018053844571113586,
+   "out.cent": 0.05159267783164978
+  },
+  "how do I make friends in a new city?": {
+   "in.raw": 0.03917018696665764,
+   "in.cent": 0.022237947210669518,
+   "out.raw": -0.0158239658921957,
+   "out.cent": 0.04985596612095833
+  },
+  "what should I get my brother for his birthday?": {
+   "in.raw": 0.04052768275141716,
+   "in.cent": 0.023246029391884804,
+   "out.raw": -0.01778707094490528,
+   "out.cent": 0.05343761667609215
+  },
+  "tell me about bridges": {
+   "in.raw": 0.05494983121752739,
+   "in.cent": 0.037669841200113297,
+   "out.raw": 0.013673193752765656,
+   "out.cent": 0.0863698348402977
+  },
+  "explain how suspension bridges work": {
+   "in.raw": 0.07821083068847656,
+   "in.cent": 0.06146041303873062,
+   "out.raw": 0.03787171468138695,
+   "out.cent": 0.10251414775848389
+  }
+ },
+ "unedited": {
+  "scores": {
+   "in.raw": 0.036043763160705566,
+   "in.cent": 0.019059937447309494,
+   "out.raw": -0.018622223287820816,
+   "out.cent": 0.05513069033622742
+  },
+  "answer": "It looks like your message is a mix of random characters, possibly a typo, or even a test of AI's ability to handle nonsensical input. If you're asking for help with something specific, like what to do"
+ },
+ "nonsink_norm": {
+  "4": 29.936784744262695,
+  "8": 58.13568115234375,
+  "16": 85.11277770996094,
+  "24": 200.56838989257812
+ },
+ "results": [
+  {
+   "direction": "none",
+   "layer": 4,
+   "s": 0.0,
+   "scores": {
+    "in.raw": 0.03508245820800463,
+    "in.cent": 0.017878709981838863,
+    "out.raw": -0.01981492464741071,
+    "out.cent": 0.05365706110994021
+   },
+   "distinct": 0.8296296296296296,
+   "samples": [
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It's hard to determine exactly what you're asking or what you need help with.\n\nIf you're",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 4,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.03797855228185654,
+    "in.cent": 0.021192559972405434,
+    "out.raw": -0.016318562130133312,
+    "out.cent": 0.05673194179932276
+   },
+   "distinct": 0.8518518518518517,
+   "samples": [
+    "It looks like you've shared a mix of different things—some words, phrases, and maybe even some random thoughts or expressions. Let me try to help you make sense of it or find a way to use it.\n\nFirst",
+    "It looks like you've shared a mix of different elements: some words that might be random or from different languages, some phrases, and even a few technical terms. Let me try to break this down and help you make sense",
+    "It seems like you've shared a mix of different things: a question, some random words in various languages, and some unrelated terms. Let me try to break it down and see if I can help you in a meaningful way"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 4,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.03782111406326294,
+    "in.cent": 0.02096535451710224,
+    "out.raw": -0.01696767285466194,
+    "out.cent": 0.05687680343786875
+   },
+   "distinct": 0.8666666666666667,
+   "samples": [
+    "It looks like you've shared a mix of different things—some words, phrases, and maybe even some random thoughts or expressions. Let me try to break it down and help you clarify what you might be looking for.\n\n---\n\n",
+    "It looks like you've shared a mix of different elements: some words that might be random or from different languages, some phrases, and even a few unrelated terms. Let me try to break this down and help you in a",
+    "It seems like you've shared a mix of different things: a question, some random words in various languages, and some unrelated terms. Let me try to break it down and see if I can help you in a meaningful way"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 4,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.037000215301911034,
+    "in.cent": 0.02000659580032031,
+    "out.raw": -0.01674619286010663,
+    "out.cent": 0.055803775787353516
+   },
+   "distinct": 0.8296296296296296,
+   "samples": [
+    "It looks like you've shared a mix of different things—some words, phrases, and even some random thoughts or maybe even some random letters or symbols. Let me break this down and see if I can help or make sense",
+    "It looks like you've shared a mix of different things: some words that might be random or playful, some that are related to programming or English grammar, and even some foreign words and phrases. Let me help you break this",
+    "It looks like you've shared a mix of things—some words, some phrases, and even some emojis or symbols. Let me try to make sense of what you might be asking or expressing. Here's a breakdown and interpretation"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 4,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.03510371843973795,
+    "in.cent": 0.018063543364405632,
+    "out.raw": -0.017397630649308365,
+    "out.cent": 0.050731142361958824
+   },
+   "distinct": 0.7925925925925926,
+   "samples": [
+    "It looks like you've mixed up a lot of different words and phrases—some English, some Spanish, some French, some Arabic, and even some slang or playful terms. Let me try to break this down and see if",
+    "Your message is a mix of English words, some Spanish, some French, and a few other languages (like Arabic and Hebrew), all mixed together with some emojis and random phrases. It’s kind of like a playful, chaotic",
+    "It seems like you've thrown together a mix of English words, some Spanish (like \"hola\"), some French (\"je t'aime\"), some German (\"hallo\"), some Korean (\"안녕하세요\"), some Arabic (\""
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 4,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.037221996734539665,
+    "in.cent": 0.020507880796988804,
+    "out.raw": -0.016565811199446518,
+    "out.cent": 0.05214686070879301
+   },
+   "distinct": 0.8444444444444444,
+   "samples": [
+    "It looks like you've mixed up a bunch of words and phrases in a fun, playful way! Let me break it down and explain what each part might mean, and then we can have a fun conversation about it.\n\n---\n\n",
+    "Oh my goodness, you've thrown a whole bunch of words at me! Let me try to unpack what you're asking.\n\nFirst, you started with:\n\n**\"what shall i do today  nehemiah. \tasdf",
+    "Ah, you've got a fun and eclectic mix of words and phrases here! Let me break it down and see what you're asking. It looks like you're mixing a few different things: some English words, some French"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 8,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.03969119365016619,
+    "in.cent": 0.022851244856913883,
+    "out.raw": -0.017666414380073547,
+    "out.cent": 0.05689223234852155
+   },
+   "distinct": 0.8666666666666667,
+   "samples": [
+    "It looks like you've shared a mix of different things: some words in different languages, some random text, and maybe even some code or technical terms. Let me break this down and see if I can help!\n\n### ",
+    "It looks like you've shared a mix of different elements: some words in different languages, some random letters, and even some code or technical terms. Let me try to break this down and see if I can help you with",
+    "It seems like you've shared a mix of different things: a question, some random words in various languages, and some unrelated phrases. Let me try to break it down and see if I can help you in a meaningful way"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 8,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.038300572584072747,
+    "in.cent": 0.02132079377770424,
+    "out.raw": -0.019676101704438526,
+    "out.cent": 0.05733581632375717
+   },
+   "distinct": 0.8592592592592592,
+   "samples": [
+    "It looks like you've shared a mix of different things:\n\n1. **\"what shall I do today\"** – This is a common question people ask themselves at the start of the day. You could try brainstorming activities",
+    "It looks like you've shared a mix of different things: some words in different languages, some random letters, and even some phrases that might be part of code or technical terms. Let me break it down a bit and see",
+    "It looks like you've shared a mix of things — some words in different languages, some random words, and even some emojis. Let me try to break this down and see if I can help.\n\nFirst, let me translate"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 8,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.038179103285074234,
+    "in.cent": 0.021150059377153713,
+    "out.raw": -0.020611233388384182,
+    "out.cent": 0.05728547275066376
+   },
+   "distinct": 0.8740740740740741,
+   "samples": [
+    "It looks like you've shared a mix of different things:\n\n1. **\"what shall I do today\"** – This is a common question people ask themselves at the start of the day. You could try brainstorming activities",
+    "Wow, that's quite a list! You've got a mix of languages, slang, emojis, and even some very specific terms. Let me break it down and see what you might be looking for.\n\n### 🌍",
+    "It looks like you've shared a mix of things—some words in English, some in other languages, and even some emojis and symbols. Let me try to break it down and see if I can help in a fun or"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 8,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.036038399984439216,
+    "in.cent": 0.01874071980516116,
+    "out.raw": -0.02085888696213563,
+    "out.cent": 0.05609742055336634
+   },
+   "distinct": 0.837037037037037,
+   "samples": [
+    "Wow, you’ve thrown a whole dictionary at me! Let me try to unpack this and see what you're after. You’ve written a long list of words in English and Arabic, with some emojis and random words like \"",
+    "Wow, that's quite the list! You've got a mix of languages, random words, and even some fun phrases like \"Bart\" and \"Rörs\" (which I assume is a typo for \"R",
+    "Wow, that was an impressive and eclectic mix of words! Let me break it down and respond in a way that makes sense. It seems like you've thrown together a variety of things:\n\n- A few English words like **"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 8,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.036695814381043114,
+    "in.cent": 0.020006727427244186,
+    "out.raw": -0.01736877765506506,
+    "out.cent": 0.05381949990987778
+   },
+   "distinct": 0.888888888888889,
+   "samples": [
+    "It looks like you've thrown in a mix of languages, random words, and some playful expressions! Let me break this down for you:\n\n- **\"What shall I do today?\"** – That’s a classic question.",
+    "It looks like you've thrown together a mix of languages, random words, and some playful slang in a very creative and fun way! Let me break it down and respond with a bit of humor and creativity, just like your",
+    "It seems like you've thrown together a very eclectic mix of words! Let me break it down and see what you're aiming for.\n\nYou mentioned:  \n**what shall i do today** – This is a common question people"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 16,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.03699284791946411,
+    "in.cent": 0.020059519136945408,
+    "out.raw": -0.01869521476328373,
+    "out.cent": 0.05548675358295441
+   },
+   "distinct": 0.837037037037037,
+   "samples": [
+    "It looks like you've written a mix of English words, some in other languages, and some random or playful terms. Maybe you're testing how I handle mixed input, or perhaps you're just having fun with words! �",
+    "It looks like you've written a mix of English words, some other languages, and even some random letters or symbols. It's hard to tell what you're asking for exactly. Let me try to break it down and see",
+    "It looks like you've written a mix of English words, some Chinese characters, and other languages! It's a bit of a jumble, but I can try to help you clarify what you're looking for.\n\nHere's"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 16,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.038168503592411675,
+    "in.cent": 0.021016548698147137,
+    "out.raw": -0.017743216827511787,
+    "out.cent": 0.053438689559698105
+   },
+   "distinct": 0.8148148148148149,
+   "samples": [
+    "It looks like you've written a list of words in English and Arabic, mixed with some other languages and even some names or terms that don't fit into a single category. This kind of list is sometimes used for fun,",
+    "It looks like you've written a mix of English words and various other languages and characters, including some Chinese, Arabic, and other scripts. It's a fun and creative way to express yourself! If you're looking for something",
+    "It looks like you've written a list of random words and phrases in a mix of languages and styles. Some are English, some are other languages (like Arabic, Dutch, Indonesian, etc.), and some are just fun or"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 16,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.03679261108239492,
+    "in.cent": 0.019830563416083653,
+    "out.raw": -0.02072799578309059,
+    "out.cent": 0.05645002176364263
+   },
+   "distinct": 0.8888888888888888,
+   "samples": [
+    "It looks like you've written a list of words in different languages and scripts! Here's a breakdown of what each word means:\n\n1. **what shall i do today** – This is English, and it's a common",
+    "It looks like you've listed a mix of different words in various languages and even some invented or playful terms! Let me break it down for you:\n\n1. **what shall i do today** – This is English, asking",
+    "It looks like you've shared a list of random words and phrases in a playful way! It's a fun way to express creativity, curiosity, or just to have some fun with language. If you're feeling creative, you"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 16,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.03577218949794769,
+    "in.cent": 0.01900554696718852,
+    "out.raw": -0.01895875359574954,
+    "out.cent": 0.05616450682282448
+   },
+   "distinct": 0.837037037037037,
+   "samples": [
+    "It looks like you're playing with a fun game of mixing different languages and words! Let me break it down for you:\n\n- **\"what shall i do today\"** is in English, and it's a common question",
+    "It looks like you're mixing up different languages and words in a creative way! 😊\n\nIf you're looking for help with something specific, like:\n\n- Learning a language (e.g., Arabic, English, etc.)\n",
+    "It seems like you're using a mix of languages and words for fun, but I can help you if you're looking for something specific. Let me know what you're trying to do, and I'll do my best to"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 16,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.03718752538164457,
+    "in.cent": 0.02032606489956379,
+    "out.raw": -0.016001181676983833,
+    "out.cent": 0.052472759038209915
+   },
+   "distinct": 0.837037037037037,
+   "samples": [
+    "It sounds like you're playing with language in a fun, creative way! 🎨 You're mixing different languages and words to create a unique, poetic, or humorous expression. That’s a really cool way to express yourself",
+    "It seems like you're using a creative way to ask a question by mixing different languages and words. If you're looking for help with a specific task or need guidance on what to do today, feel free to clarify your request",
+    "It seems like you're using a creative and playful way to express your thoughts by mixing different languages and terms. If you're looking for help with something specific, like a task, a question, or just want to explore the"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 24,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.03507917498548826,
+    "in.cent": 0.018026205400625866,
+    "out.raw": -0.019637733077009518,
+    "out.cent": 0.05709680045644442
+   },
+   "distinct": 0.837037037037037,
+   "samples": [
+    "It looks like your message is a mix of different languages, some words are misspelled or not clearly formed, and there are some random characters or symbols included. It might be a result of a keyboard error, a mix",
+    "It looks like your message is a mix of different languages, random words, symbols, and possibly some typos or copy-paste errors. It's a bit hard to make sense of it. Let me try to break it",
+    "It seems like your message is a mix of different languages, some random words, and possibly a typo or formatting issue. Let me try to make sense of it and offer some help.\n\nIf you're asking:  \n**\""
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 24,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.034791525453329086,
+    "in.cent": 0.017832869042952854,
+    "out.raw": -0.01778580496708552,
+    "out.cent": 0.056772034615278244
+   },
+   "distinct": 0.8740740740740741,
+   "samples": [
+    "It looks like your message is a mix of different languages, some words are misspelled or not clearly formed, and there are some random characters or words that don't make much sense in context. It might be a result",
+    "It looks like your message is a mix of different languages, random words, and some typos. It's a bit hard to understand what you're asking for. Let me try to break it down and help you clarify what",
+    "It seems like your message is a mix of different languages, some words are misspelled or not clear, and there might be some random characters or words that don't make sense together. Let me try to understand what you"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 24,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.03573130692044894,
+    "in.cent": 0.01860319885114829,
+    "out.raw": -0.018753509347637493,
+    "out.cent": 0.05421283841133118
+   },
+   "distinct": 0.8148148148148148,
+   "samples": [
+    "It looks like your message is a mix of different languages, some words are misspelled or not clearly formed, and there are some random words and phrases. It's hard to determine exactly what you're asking or what you",
+    "It looks like your message is a mix of different languages, words, and phrases that don't form a clear question or statement. There are some Dutch words (\"hoog\", \"organisatie\"), some Finnish (\"syr",
+    "It seems like your message is a mix of different languages, words, and phrases that don't form a clear sentence. Some parts are in Dutch, some in English, and others are just random words or parts of words."
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 24,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.03639274090528488,
+    "in.cent": 0.01883784495294094,
+    "out.raw": -0.023035332560539246,
+    "out.cent": 0.06136525422334671
+   },
+   "distinct": 0.7407407407407408,
+   "samples": [
+    "It looks like your message is a mix of several words, phrases, and some words in other languages (like Dutch, Turkish, and others), which makes it difficult to understand the full context. It seems like a mix of",
+    "It looks like your message is a mix of words, some in Dutch, some in English, and others that are not clear or seem like a mix of words and numbers. It might be a test, a mistake, or",
+    "It seems like your message is a mix of different words, phrases, and some words that are not in the correct language or are misspelled. It might be a test, a mistake, or a mix-up of languages"
+   ]
+  },
+  {
+   "direction": "grad",
+   "layer": 24,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.036950030674537025,
+    "in.cent": 0.019539256890614826,
+    "out.raw": -0.021901559084653854,
+    "out.cent": 0.05973524724443754
+   },
+   "distinct": 0.7777777777777778,
+   "samples": [
+    "It looks like your message is a mix of words, numbers, and some words from different languages, including Dutch, Finnish, and a few others. It’s hard to tell what you're asking for or what you need help",
+    "It looks like your message is a mix of words, some in Dutch, some in English, and others that are not clear or are part of a larger word or term. It might be a test, a mistake, or",
+    "It seems like your message is a mix of words, numbers, and some words from different languages (like Dutch, Finnish, and others), and some words are misspelled or mixed up. It's hard to understand what"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 4,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.03505424658457438,
+    "in.cent": 0.017865654081106186,
+    "out.raw": -0.020476631199320156,
+    "out.cent": 0.0535143551727136
+   },
+   "distinct": 0.8148148148148149,
+   "samples": [
+    "It looks like your message is a mix of different languages, random words, symbols, and possibly some corrupted or mistyped text. It's not clear what you're asking or what you need help with. \n\nIf you're",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 4,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.035996499160925545,
+    "in.cent": 0.018646452575922012,
+    "out.raw": -0.02113819122314453,
+    "out.cent": 0.05645341674486796
+   },
+   "distinct": 0.7777777777777778,
+   "samples": [
+    "It looks like your message is a mix of random characters, phrases, and possibly some words in different languages (like Arabic, Vietnamese, and others). It might be a typo, a mix-up, or even a form of",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, a corrupted file, or even a test",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some kind of random"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 4,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.039049641539653145,
+    "in.cent": 0.02195859948794047,
+    "out.raw": -0.009176557088115564,
+    "out.cent": 0.06430739040176074
+   },
+   "distinct": 0.8074074074074074,
+   "samples": [
+    "It looks like your message is a mix of different languages, some words are misspelled or not clearly formed, and it might be a creative or poetic expression. It includes terms related to **bridges**, **engineering**,",
+    "It looks like your message is a mix of different languages, including English, Spanish, Portuguese, and some other terms that might be related to bridges, engineering, or even some coded or mixed-up words. Let me try to",
+    "It seems like your message is a mix of different languages, symbols, and possibly some random or corrupted text. It might be a mix of English, Spanish, Portuguese, Chinese, and some other languages, along with random characters"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 4,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.042549864699443184,
+    "in.cent": 0.02571775329609712,
+    "out.raw": 0.002915291814133525,
+    "out.cent": 0.07647740840911865
+   },
+   "distinct": 0.837037037037037,
+   "samples": [
+    "It looks like you've sent a message with a lot of variations of the word **\"bridge\"** and related terms in different languages and spelling variations. This might be a creative or playful way to express yourself or perhaps a",
+    "It looks like you've listed a lot of different spellings and variations of the word **\"bridge\"** or **\"bridge\"** in many languages! 🌉\n\nLet me break it down for you:\n\n###",
+    "It looks like you've written a long list of words and phrases that all mean **\"bridge\"** in English. Some are spelled correctly, and others are misspelled or are variations of the same word in different languages"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 4,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.051884921888510384,
+    "in.cent": 0.035474785293142,
+    "out.raw": 0.0396274421364069,
+    "out.cent": 0.11205839365720749
+   },
+   "distinct": 0.7111111111111111,
+   "samples": [
+    "It looks like you're playing with the different spellings and variations of the word **\"bridge\"**—like **bridge**, **bridge**, **bridge**, **bridge**, etc. This is a fun linguistic exercise where you",
+    "It looks like you've written out the word **\"bridge\"** in **many different languages and variations**! Here's a breakdown of what you've written:\n\n### The word \"bridge\" in different languages and forms:\n",
+    "It seems like you've written the word **\"bridge\"** (or similar variations like \"bridge,\" \"bridge,\" \"bridge,\" etc.) over and over again — possibly as a fun exercise, a test, or just"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 8,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.035000438491503395,
+    "in.cent": 0.017848861093322437,
+    "out.raw": -0.02082628694673379,
+    "out.cent": 0.05442323535680771
+   },
+   "distinct": 0.8074074074074075,
+   "samples": [
+    "It looks like your message is a mix of random characters, phrases, and possibly some typos or corrupted text. It's unclear what you're asking or what you need help with. If you'd like assistance, could you",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 8,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.035418221106131874,
+    "in.cent": 0.01809260870019595,
+    "out.raw": -0.02055341626207034,
+    "out.cent": 0.05436322713891665
+   },
+   "distinct": 0.7851851851851852,
+   "samples": [
+    "It looks like your message is a mix of random characters, some words, and possibly a mix of languages or codes. It might be a result of a keyboard error, a corrupted input, or perhaps a creative or artistic expression",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a non-standard input",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly, possibly from a corrupted file or a mix of different languages or code snippets. It's not clear"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 8,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.03970785066485405,
+    "in.cent": 0.022815124442179997,
+    "out.raw": 0.0033732253747681775,
+    "out.cent": 0.0753103643655777
+   },
+   "distinct": 0.7999999999999999,
+   "samples": [
+    "It looks like you've written a long list of words and phrases that are all related to **bridges** or **bridge-related terms** in different languages and contexts. Some of them are:\n\n- **Bridge** (English",
+    "It looks like you've written a creative mix of words and phrases related to **bridges** and **engineering**, with some mix-up in the letters and words. It seems like you might have been trying to list or create",
+    "It seems like you've pasted a long list of words and phrases related to **bridges** and **engineering** — some in English, some in other languages. It looks like a mix of English words and translations of"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 8,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.047731250524520874,
+    "in.cent": 0.03089579815665881,
+    "out.raw": 0.021902435769637425,
+    "out.cent": 0.09844581037759781
+   },
+   "distinct": 0.7703703703703703,
+   "samples": [
+    "It looks like you've written a list of different words and phrases that all mean **\"bridge\"** or **\"bridge-related\"** in various languages and contexts. These include:\n\n- **Bridge** (English)\n-",
+    "It looks like you've listed a variety of words and phrases in different languages that all mean **\"bridge\"** or **\"bridge\" in a metaphorical or literal sense**. These include:\n\n- **Bridge**\n-",
+    "It seems like you've written a long list of words and phrases in various languages that all mean **\"bridge\"** or **\"bridge\"** in different contexts — from English to Portuguese, Spanish, French, Dutch,"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 8,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.05729778731862704,
+    "in.cent": 0.041048888117074966,
+    "out.raw": 0.02534900714332859,
+    "out.cent": 0.09387174745400746
+   },
+   "distinct": 0.7925925925925926,
+   "samples": [
+    "It looks like you're listing different terms in various languages that all mean the **same thing** — **bridge** or **bridge in the context of a bridge**. These terms are all translations of the English word **\"",
+    "It looks like you're trying to write or translate a sentence about a **bridge**, **bridge**, or **bridge**, but the words are repeated and mixed in different languages. You might be trying to say something like:\n\n>",
+    "It looks like you've listed a variety of terms that all refer to the same concept — **a bridge or structure that connects two points, often used metaphorically or literally in different contexts**. Here's a breakdown of the"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 16,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.03525895501176516,
+    "in.cent": 0.018055216719706852,
+    "out.raw": -0.01955339126288891,
+    "out.cent": 0.05342595651745796
+   },
+   "distinct": 0.8296296296296296,
+   "samples": [
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It's hard to determine exactly what you're asking or what you need help with.\n\nIf you're",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, a corrupted file, or even a test",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 16,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.03611978143453598,
+    "in.cent": 0.018910851329565048,
+    "out.raw": -0.020327093079686165,
+    "out.cent": 0.05671015257636706
+   },
+   "distinct": 0.8148148148148149,
+   "samples": [
+    "It looks like your message is a mix of different languages, some random characters, and possibly some typos or corrupted text. It's hard to determine exactly what you're asking for. Let me try to break it down and",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, a corrupted file, or even a test",
+    "It seems like your message is a mix of random characters, words, and phrases that may not form a coherent question or statement. It might be a result of a typo, a corrupted text, or even a test of how"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 16,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.03516865397493044,
+    "in.cent": 0.0180160291492939,
+    "out.raw": -0.02008580168088277,
+    "out.cent": 0.053331380089124046
+   },
+   "distinct": 0.8444444444444444,
+   "samples": [
+    "It looks like your message is a mix of different languages, some random characters, and possibly some garbled or mistyped words. It's not clear what you're asking or what you need help with. \n\nCould you please",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, encoding issue, or a mistake in text",
+    "It seems like your message is a mix of different languages, symbols, and possibly some corrupted or garbled text. The phrase **\"what shall I do today\"** is clear, but the rest appears to be a j"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 16,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.03688789034883181,
+    "in.cent": 0.019743623832861584,
+    "out.raw": -0.0189800417671601,
+    "out.cent": 0.05550199250380198
+   },
+   "distinct": 0.8222222222222223,
+   "samples": [
+    "It seems like your message is a mix of different languages, some symbols, and possibly a mix of text and unrelated words or phrases. It's a bit unclear what you're asking. Let me try to break it down:\n\n",
+    "It seems like your message is a mix of different elements — possibly a mix of languages, symbols, and some potentially code or a puzzle. Let me try to help you make sense of it.\n\nYou wrote:\n\n> what shall",
+    "It seems like your message is a mix of different languages, symbols, and possibly some random or corrupted text. It might be a result of a technical issue, a mix-up in encoding, or perhaps a creative or artistic expression"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 16,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.0637875460088253,
+    "in.cent": 0.047216941292087235,
+    "out.raw": 0.022299557613829773,
+    "out.cent": 0.0964997907479604
+   },
+   "distinct": 0.7925925925925926,
+   "samples": [
+    "It seems like your message is a mix of different elements—possibly a combination of text, a request for help, and some unclear or fragmented content. Let me try to help you clarify what you're asking.\n\nYou wrote:\n\n",
+    "It seems like your message is a mix of different elements — possibly a request for advice on what to do today, combined with some unrelated text or symbols. The phrase \"what shall I do today\" is a common question,",
+    "It seems like your message is a bit unclear or incomplete. You mentioned something about a **bridge bridge** and a **bridge bridge**, which might be a typo or a misstatement. You also mentioned a **bridge** and"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 24,
+   "s": 0.1,
+   "scores": {
+    "in.raw": 0.03510489563147227,
+    "in.cent": 0.017900912712017696,
+    "out.raw": -0.019800639400879543,
+    "out.cent": 0.053672379503647484
+   },
+   "distinct": 0.8296296296296296,
+   "samples": [
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It's hard to determine exactly what you're asking or what you need help with.\n\nIf you're",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 24,
+   "s": 0.2,
+   "scores": {
+    "in.raw": 0.03516345595320066,
+    "in.cent": 0.017963482066988945,
+    "out.raw": -0.019774674127499264,
+    "out.cent": 0.05362854401270548
+   },
+   "distinct": 0.8296296296296296,
+   "samples": [
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It's hard to determine exactly what you're asking or what you need help with.\n\nIf you're",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 24,
+   "s": 0.4,
+   "scores": {
+    "in.raw": 0.0361220749715964,
+    "in.cent": 0.019014262904723484,
+    "out.raw": -0.020176158597071964,
+    "out.cent": 0.054851812620957695
+   },
+   "distinct": 0.8592592592592593,
+   "samples": [
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or errors. Let me try to break it down and see if I can help.\n\nYou wrote:\n\n> what shall i do",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 24,
+   "s": 0.8,
+   "scores": {
+    "in.raw": 0.0350854421655337,
+    "in.cent": 0.017887043456236523,
+    "out.raw": -0.019803358241915703,
+    "out.cent": 0.05363125850756963
+   },
+   "distinct": 0.8296296296296296,
+   "samples": [
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It's hard to determine exactly what you're asking or what you need help with.\n\nIf you're",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  },
+  {
+   "direction": "caa",
+   "layer": 24,
+   "s": 1.6,
+   "scores": {
+    "in.raw": 0.03554620842138926,
+    "in.cent": 0.01834951589504878,
+    "out.raw": -0.02088703898092111,
+    "out.cent": 0.05468471720814705
+   },
+   "distinct": 0.7999999999999999,
+   "samples": [
+    "It looks like your message is a mix of random characters, some words, and possibly fragments of sentences or code. It's unclear what you're asking or what you need help with. If you'd like assistance, could you",
+    "It looks like your message is a mix of different languages, random characters, and possibly some typos or garbled text. It might be a result of a copy-paste error, keyboard issues, or a corrupted file.",
+    "It seems like your message is a mix of random characters, words, and phrases that may have been copied or pasted incorrectly. It might be a result of a keyboard error, a corrupted file, or some other technical glitch"
+   ]
+  }
+ ],
+ "derivative_check": {
+  "rels": [
+   0.003,
+   0.01,
+   0.03,
+   0.1,
+   0.3
+  ],
+  "seed": 7,
+  "note": "teacher-forced on the frozen ANS0, true gradient with per-position magnitudes intact; predicted = eta * sum_i ||g_i||^2; rand is a matched-norm null",
+  "sum_sq_grad": {
+   "4": 4.913323436994688e-07,
+   "8": 1.5793449392731418e-07,
+   "16": 9.63846673585067e-08,
+   "24": 6.177278133456809e-10
+  },
+  "rows": [
+   {
+    "layer": 4,
+    "rel": 0.003,
+    "direction": "+grad",
+    "eta": 1104.197832180451,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 0.0005062147974967957,
+    "predicted": 0.0005425281087930937,
+    "ratio": 0.9330664887076902
+   },
+   {
+    "layer": 4,
+    "rel": 0.003,
+    "direction": "-grad",
+    "eta": 1104.197832180451,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": -0.0006093718111515045,
+    "predicted": -0.0005425281087930937,
+    "ratio": 1.123207814074576
+   },
+   {
+    "layer": 4,
+    "rel": 0.003,
+    "direction": "rand",
+    "eta": 1104.197832180451,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 2.8461217880249023e-06,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 4,
+    "rel": 0.01,
+    "direction": "+grad",
+    "eta": 3680.659440601504,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 0.0012003928422927856,
+    "predicted": 0.0018084270293103125,
+    "ratio": 0.6637773174351329
+   },
+   {
+    "layer": 4,
+    "rel": 0.01,
+    "direction": "-grad",
+    "eta": 3680.659440601504,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": -0.0019144490361213684,
+    "predicted": -0.0018084270293103125,
+    "ratio": 1.0586266435375553
+   },
+   {
+    "layer": 4,
+    "rel": 0.01,
+    "direction": "rand",
+    "eta": 3680.659440601504,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 1.9777566194534302e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 4,
+    "rel": 0.03,
+    "direction": "+grad",
+    "eta": 11041.97832180451,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 0.001715920865535736,
+    "predicted": 0.005425281087930937,
+    "ratio": 0.3162823893775694
+   },
+   {
+    "layer": 4,
+    "rel": 0.03,
+    "direction": "-grad",
+    "eta": 11041.97832180451,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": -0.003981560468673706,
+    "predicted": -0.005425281087930937,
+    "ratio": 0.7338901716136096
+   },
+   {
+    "layer": 4,
+    "rel": 0.03,
+    "direction": "rand",
+    "eta": 11041.97832180451,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 2.936646342277527e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 4,
+    "rel": 0.1,
+    "direction": "+grad",
+    "eta": 36806.59440601504,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 0.0020504146814346313,
+    "predicted": 0.018084270293103128,
+    "ratio": 0.11338111232592041
+   },
+   {
+    "layer": 4,
+    "rel": 0.1,
+    "direction": "-grad",
+    "eta": 36806.59440601504,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": -0.006137195974588394,
+    "predicted": -0.018084270293103128,
+    "ratio": 0.33936652544553936
+   },
+   {
+    "layer": 4,
+    "rel": 0.1,
+    "direction": "rand",
+    "eta": 36806.59440601504,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": -0.00010688602924346924,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 4,
+    "rel": 0.3,
+    "direction": "+grad",
+    "eta": 110419.78321804511,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": 0.0017984919250011444,
+    "predicted": 0.054252810879309374,
+    "ratio": 0.03315020725842323
+   },
+   {
+    "layer": 4,
+    "rel": 0.3,
+    "direction": "-grad",
+    "eta": 110419.78321804511,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": -0.0074966661632061005,
+    "predicted": -0.054252810879309374,
+    "ratio": 0.1381802351196726
+   },
+   {
+    "layer": 4,
+    "rel": 0.3,
+    "direction": "rand",
+    "eta": 110419.78321804511,
+    "sum_sq_grad": 4.913323436994688e-07,
+    "measured": -7.791072130203247e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 8,
+    "rel": 0.003,
+    "direction": "+grad",
+    "eta": 3778.891842752598,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 0.0004596635699272156,
+    "predicted": 0.0005968173707911873,
+    "ratio": 0.7701913389649667
+   },
+   {
+    "layer": 8,
+    "rel": 0.003,
+    "direction": "-grad",
+    "eta": 3778.891842752598,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": -0.0006258003413677216,
+    "predicted": -0.0005968173707911873,
+    "ratio": 1.0485625452525154
+   },
+   {
+    "layer": 8,
+    "rel": 0.003,
+    "direction": "rand",
+    "eta": 3778.891842752598,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 6.806105375289917e-06,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 8,
+    "rel": 0.01,
+    "direction": "+grad",
+    "eta": 12596.306142508662,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 0.001212920993566513,
+    "predicted": 0.0019893912359706246,
+    "ratio": 0.6096945495865365
+   },
+   {
+    "layer": 8,
+    "rel": 0.01,
+    "direction": "-grad",
+    "eta": 12596.306142508662,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": -0.002241067588329315,
+    "predicted": -0.0019893912359706246,
+    "ratio": 1.126509229460789
+   },
+   {
+    "layer": 8,
+    "rel": 0.01,
+    "direction": "rand",
+    "eta": 12596.306142508662,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 6.48796558380127e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 8,
+    "rel": 0.03,
+    "direction": "+grad",
+    "eta": 37788.918427525976,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 0.0018454380333423615,
+    "predicted": 0.005968173707911872,
+    "ratio": 0.3092131904431512
+   },
+   {
+    "layer": 8,
+    "rel": 0.03,
+    "direction": "-grad",
+    "eta": 37788.918427525976,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": -0.0046415068209171295,
+    "predicted": -0.005968173707911872,
+    "ratio": 0.7777097397088141
+   },
+   {
+    "layer": 8,
+    "rel": 0.03,
+    "direction": "rand",
+    "eta": 37788.918427525976,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 2.689659595489502e-06,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 8,
+    "rel": 0.1,
+    "direction": "+grad",
+    "eta": 125963.0614250866,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 0.0025929249823093414,
+    "predicted": 0.019893912359706244,
+    "ratio": 0.13033760958760093
+   },
+   {
+    "layer": 8,
+    "rel": 0.1,
+    "direction": "-grad",
+    "eta": 125963.0614250866,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": -0.005614679306745529,
+    "predicted": -0.019893912359706244,
+    "ratio": 0.28223102651832715
+   },
+   {
+    "layer": 8,
+    "rel": 0.1,
+    "direction": "rand",
+    "eta": 125963.0614250866,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 2.6173889636993408e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 8,
+    "rel": 0.3,
+    "direction": "+grad",
+    "eta": 377889.1842752598,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": 0.0028895214200019836,
+    "predicted": 0.059681737079118724,
+    "ratio": 0.04841550466554636
+   },
+   {
+    "layer": 8,
+    "rel": 0.3,
+    "direction": "-grad",
+    "eta": 377889.1842752598,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": -0.005387943238019943,
+    "predicted": -0.059681737079118724,
+    "ratio": 0.09027792255572704
+   },
+   {
+    "layer": 8,
+    "rel": 0.3,
+    "direction": "rand",
+    "eta": 377889.1842752598,
+    "sum_sq_grad": 1.5793449392731418e-07,
+    "measured": -0.00014125555753707886,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 16,
+    "rel": 0.003,
+    "direction": "+grad",
+    "eta": 7734.487145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": 0.0006813257932662964,
+    "predicted": 0.0007454859706960788,
+    "ratio": 0.9139350974373476
+   },
+   {
+    "layer": 16,
+    "rel": 0.003,
+    "direction": "-grad",
+    "eta": 7734.487145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -0.0007983781397342682,
+    "predicted": -0.0007454859706960788,
+    "ratio": 1.0709499187339537
+   },
+   {
+    "layer": 16,
+    "rel": 0.003,
+    "direction": "rand",
+    "eta": 7734.487145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": 8.258968591690063e-06,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 16,
+    "rel": 0.01,
+    "direction": "+grad",
+    "eta": 25781.62381793269,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": 0.0015404857695102692,
+    "predicted": 0.002484953235653596,
+    "ratio": 0.6199254567078758
+   },
+   {
+    "layer": 16,
+    "rel": 0.01,
+    "direction": "-grad",
+    "eta": 25781.62381793269,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -0.0029196813702583313,
+    "predicted": -0.002484953235653596,
+    "ratio": 1.1749441914509078
+   },
+   {
+    "layer": 16,
+    "rel": 0.01,
+    "direction": "rand",
+    "eta": 25781.62381793269,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": 1.7695128917694092e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 16,
+    "rel": 0.03,
+    "direction": "+grad",
+    "eta": 77344.87145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": 0.002664141356945038,
+    "predicted": 0.007454859706960788,
+    "ratio": 0.3573697509635846
+   },
+   {
+    "layer": 16,
+    "rel": 0.03,
+    "direction": "-grad",
+    "eta": 77344.87145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -0.005769692361354828,
+    "predicted": -0.007454859706960788,
+    "ratio": 0.7739504951337344
+   },
+   {
+    "layer": 16,
+    "rel": 0.03,
+    "direction": "rand",
+    "eta": 77344.87145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -4.801899194717407e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 16,
+    "rel": 0.1,
+    "direction": "+grad",
+    "eta": 257816.23817932687,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": 0.0035896599292755127,
+    "predicted": 0.024849532356535958,
+    "ratio": 0.14445583433007161
+   },
+   {
+    "layer": 16,
+    "rel": 0.1,
+    "direction": "-grad",
+    "eta": 257816.23817932687,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -0.009157828986644745,
+    "predicted": -0.024849532356535958,
+    "ratio": 0.36853124055817654
+   },
+   {
+    "layer": 16,
+    "rel": 0.1,
+    "direction": "rand",
+    "eta": 257816.23817932687,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -5.441904067993164e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 16,
+    "rel": 0.3,
+    "direction": "+grad",
+    "eta": 773448.7145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": 0.003135833889245987,
+    "predicted": 0.07454859706960788,
+    "ratio": 0.042064291113593735
+   },
+   {
+    "layer": 16,
+    "rel": 0.3,
+    "direction": "-grad",
+    "eta": 773448.7145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -0.00974203273653984,
+    "predicted": -0.07454859706960788,
+    "ratio": 0.13068029606839499
+   },
+   {
+    "layer": 16,
+    "rel": 0.3,
+    "direction": "rand",
+    "eta": 773448.7145379807,
+    "sum_sq_grad": 9.63846673585067e-08,
+    "measured": -0.00037728622555732727,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 24,
+    "rel": 0.003,
+    "direction": "+grad",
+    "eta": 256581.83567262228,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 0.00017060711979866028,
+    "predicted": 0.0001584977362942698,
+    "ratio": 1.0764009870898597
+   },
+   {
+    "layer": 24,
+    "rel": 0.003,
+    "direction": "-grad",
+    "eta": 256581.83567262228,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": -8.862465620040894e-05,
+    "predicted": -0.0001584977362942698,
+    "ratio": 0.5591540817710279
+   },
+   {
+    "layer": 24,
+    "rel": 0.003,
+    "direction": "rand",
+    "eta": 256581.83567262228,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 6.650388240814209e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 24,
+    "rel": 0.01,
+    "direction": "+grad",
+    "eta": 855272.7855754077,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 0.0005134083330631256,
+    "predicted": 0.000528325787647566,
+    "ratio": 0.9717646669285969
+   },
+   {
+    "layer": 24,
+    "rel": 0.01,
+    "direction": "-grad",
+    "eta": 855272.7855754077,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": -0.0006240382790565491,
+    "predicted": -0.000528325787647566,
+    "ratio": 1.181161877096998
+   },
+   {
+    "layer": 24,
+    "rel": 0.01,
+    "direction": "rand",
+    "eta": 855272.7855754077,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 7.783621549606323e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 24,
+    "rel": 0.03,
+    "direction": "+grad",
+    "eta": 2565818.356726223,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 0.0011978410184383392,
+    "predicted": 0.0015849773629426982,
+    "ratio": 0.7557464519331718
+   },
+   {
+    "layer": 24,
+    "rel": 0.03,
+    "direction": "-grad",
+    "eta": 2565818.356726223,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": -0.0027395933866500854,
+    "predicted": -0.0015849773629426982,
+    "ratio": 1.7284747723864684
+   },
+   {
+    "layer": 24,
+    "rel": 0.03,
+    "direction": "rand",
+    "eta": 2565818.356726223,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 3.08305025100708e-05,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 24,
+    "rel": 0.1,
+    "direction": "+grad",
+    "eta": 8552727.855754076,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 0.0037941783666610718,
+    "predicted": 0.00528325787647566,
+    "ratio": 0.7181512724478407
+   },
+   {
+    "layer": 24,
+    "rel": 0.1,
+    "direction": "-grad",
+    "eta": 8552727.855754076,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": -0.007719714194536209,
+    "predicted": -0.00528325787647566,
+    "ratio": 1.4611655109452755
+   },
+   {
+    "layer": 24,
+    "rel": 0.1,
+    "direction": "rand",
+    "eta": 8552727.855754076,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 0.00011911243200302124,
+    "predicted": 0.0,
+    "ratio": NaN
+   },
+   {
+    "layer": 24,
+    "rel": 0.3,
+    "direction": "+grad",
+    "eta": 25658183.56726223,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 0.006969466805458069,
+    "predicted": 0.01584977362942698,
+    "ratio": 0.4397202741443846
+   },
+   {
+    "layer": 24,
+    "rel": 0.3,
+    "direction": "-grad",
+    "eta": 25658183.56726223,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": -0.012612275779247284,
+    "predicted": -0.01584977362942698,
+    "ratio": 0.7957385432831104
+   },
+   {
+    "layer": 24,
+    "rel": 0.3,
+    "direction": "rand",
+    "eta": 25658183.56726223,
+    "sum_sq_grad": 6.177278133456809e-10,
+    "measured": 0.0002210773527622223,
+    "predicted": 0.0,
+    "ratio": NaN
+   }
+  ],
+  "max_measured_gain": {
+   "4": 0.0020504146814346313,
+   "8": 0.0028895214200019836,
+   "16": 0.0035896599292755127,
+   "24": 0.006969466805458069
+  }
+ },
+ "iterated_ascent": {
+  "n_steps": 40,
+  "rel_step": 0.01,
+  "refresh": 5,
+  "n_new": 45,
+  "decode": "greedy",
+  "note": "ascend on the current rollout, refresh every 5 steps; D is the cumulative edit at the trigger slots, uncapped; rel_cum = mean ||D_i|| / mean non-sink ||h||",
+  "history": {
+   "4": [
+    {
+     "step": 1,
+     "tf": 0.0563310831785202,
+     "rel_cum": 0.009999998845160007
+    },
+    {
+     "step": 2,
+     "tf": 0.05754541605710983,
+     "rel_cum": 0.017473405227065086
+    },
+    {
+     "step": 3,
+     "tf": 0.05854230001568794,
+     "rel_cum": 0.024931468069553375
+    },
+    {
+     "step": 4,
+     "tf": 0.05956178531050682,
+     "rel_cum": 0.0324568971991539
+    },
+    {
+     "step": 5,
+     "tf": 0.060154989361763,
+     "rel_cum": 0.03763992711901665,
+     "true": 0.05471108853816986,
+     "spaces": {
+      "in.raw": 0.03349312022328377,
+      "in.cent": 0.016539201140403748,
+      "out.raw": -0.01821552962064743,
+      "out.cent": 0.05471108853816986
+     },
+     "distinct": 0.9111111111111111,
+     "text": "It looks like your message is a mix of different languages, some random words, and possibly some typos or non-English characters. If you're asking for help or advice on what to do today, I'd be happy"
+    },
+    {
+     "step": 6,
+     "tf": 0.05729539692401886,
+     "rel_cum": 0.04062635079026222
+    },
+    {
+     "step": 7,
+     "tf": 0.05679266154766083,
+     "rel_cum": 0.0441192090511322
+    },
+    {
+     "step": 8,
+     "tf": 0.05909484252333641,
+     "rel_cum": 0.047329485416412354
+    },
+    {
+     "step": 9,
+     "tf": 0.05966750532388687,
+     "rel_cum": 0.05106663703918457
+    },
+    {
+     "step": 10,
+     "tf": 0.06079881638288498,
+     "rel_cum": 0.05505061894655228,
+     "true": 0.05741538107395172,
+     "spaces": {
+      "in.raw": 0.03887849301099777,
+      "in.cent": 0.022075368091464043,
+      "out.raw": -0.017390772700309753,
+      "out.cent": 0.05741538107395172
+     },
+     "distinct": 0.8666666666666667,
+     "text": "It looks like you've shared a mix of words and phrases that don't form a coherent message. If you have a specific question or need help with something, feel free to clarify, and I'll do my best to assist"
+    },
+    {
+     "step": 11,
+     "tf": 0.05852198600769043,
+     "rel_cum": 0.05708300322294235
+    },
+    {
+     "step": 12,
+     "tf": 0.058910828083753586,
+     "rel_cum": 0.05777977406978607
+    },
+    {
+     "step": 13,
+     "tf": 0.05880007520318031,
+     "rel_cum": 0.06055581569671631
+    },
+    {
+     "step": 14,
+     "tf": 0.05915084481239319,
+     "rel_cum": 0.060781266540288925
+    },
+    {
+     "step": 15,
+     "tf": 0.05890420824289322,
+     "rel_cum": 0.06206739693880081,
+     "true": 0.05946412310004234,
+     "spaces": {
+      "in.raw": 0.03782911226153374,
+      "in.cent": 0.020589860156178474,
+      "out.raw": -0.022256311029195786,
+      "out.cent": 0.05946412310004234
+     },
+     "distinct": 0.8,
+     "text": "It seems like your message is a mix of different languages, some words, and possibly a mix of text and symbols. If you have a specific question or need help with something, feel free to clarify, and I'll do"
+    },
+    {
+     "step": 16,
+     "tf": 0.06026231124997139,
+     "rel_cum": 0.06370753049850464
+    },
+    {
+     "step": 17,
+     "tf": 0.06278245151042938,
+     "rel_cum": 0.06416099518537521
+    },
+    {
+     "step": 18,
+     "tf": 0.06413152813911438,
+     "rel_cum": 0.06571456789970398
+    },
+    {
+     "step": 19,
+     "tf": 0.0654471293091774,
+     "rel_cum": 0.06835801899433136
+    },
+    {
+     "step": 20,
+     "tf": 0.06682847440242767,
+     "rel_cum": 0.0704776868224144,
+     "true": 0.05842835083603859,
+     "spaces": {
+      "in.raw": 0.03312452882528305,
+      "in.cent": 0.016133354976773262,
+      "out.raw": -0.019028866663575172,
+      "out.cent": 0.05842835083603859
+     },
+     "distinct": 0.8222222222222222,
+     "text": "It looks like you've shared a mix of words and phrases, some of which are part of a **nonsense string** or a **typo-filled stream of text**. If you're looking for help with something specific"
+    },
+    {
+     "step": 21,
+     "tf": 0.06307024508714676,
+     "rel_cum": 0.07287894934415817
+    },
+    {
+     "step": 22,
+     "tf": 0.06067568436264992,
+     "rel_cum": 0.07453837990760803
+    },
+    {
+     "step": 23,
+     "tf": 0.06366696208715439,
+     "rel_cum": 0.07574355602264404
+    },
+    {
+     "step": 24,
+     "tf": 0.061848726123571396,
+     "rel_cum": 0.07675673812627792
+    },
+    {
+     "step": 25,
+     "tf": 0.061528488993644714,
+     "rel_cum": 0.07743141800165176,
+     "true": 0.06127924472093582,
+     "spaces": {
+      "in.raw": 0.036793239414691925,
+      "in.cent": 0.01954570971429348,
+      "out.raw": -0.022119877859950066,
+      "out.cent": 0.06127924472093582
+     },
+     "distinct": 0.8,
+     "text": "It looks like you've shared a mix of words, some of which are spelled incorrectly or are part of a nelson. If you have a specific question or need help with something, feel free to ask me, and I"
+    },
+    {
+     "step": 26,
+     "tf": 0.06484861671924591,
+     "rel_cum": 0.07886337488889694
+    },
+    {
+     "step": 27,
+     "tf": 0.06502702832221985,
+     "rel_cum": 0.08010291308164597
+    },
+    {
+     "step": 28,
+     "tf": 0.06721290200948715,
+     "rel_cum": 0.08146646618843079
+    },
+    {
+     "step": 29,
+     "tf": 0.06809356808662415,
+     "rel_cum": 0.08300789445638657
+    },
+    {
+     "step": 30,
+     "tf": 0.06839536130428314,
+     "rel_cum": 0.08390508592128754,
+     "true": 0.060534726828336716,
+     "spaces": {
+      "in.raw": 0.0347849540412426,
+      "in.cent": 0.017363185063004494,
+      "out.raw": -0.02249765209853649,
+      "out.cent": 0.060534726828336716
+     },
+     "distinct": 0.7111111111111111,
+     "text": "It seems like you've shared a mix of different things: a nuncle (a type of nautical term), some words in a nuncle, and a list of various words and phrases. If you have a"
+    },
+    {
+     "step": 31,
+     "tf": 0.0637454092502594,
+     "rel_cum": 0.08483950793743134
+    },
+    {
+     "step": 32,
+     "tf": 0.06649673730134964,
+     "rel_cum": 0.08631923049688339
+    },
+    {
+     "step": 33,
+     "tf": 0.06629987806081772,
+     "rel_cum": 0.08740878850221634
+    },
+    {
+     "step": 34,
+     "tf": 0.066659115254879,
+     "rel_cum": 0.08880160748958588
+    },
+    {
+     "step": 35,
+     "tf": 0.06641504168510437,
+     "rel_cum": 0.09021778404712677,
+     "true": 0.06024961173534393,
+     "spaces": {
+      "in.raw": 0.03198264539241791,
+      "in.cent": 0.01513685379177332,
+      "out.raw": -0.02303970232605934,
+      "out.cent": 0.06024961173534393
+     },
+     "distinct": 0.6444444444444445,
+     "text": "It looks like you've shared a list of words, some of which are nuncle (a nuncle is a type of nuncle, but more commonly, you might be referring to a nuncle as"
+    },
+    {
+     "step": 36,
+     "tf": 0.06127745285630226,
+     "rel_cum": 0.09055623412132263
+    },
+    {
+     "step": 37,
+     "tf": 0.06237410008907318,
+     "rel_cum": 0.0909491628408432
+    },
+    {
+     "step": 38,
+     "tf": 0.0630684569478035,
+     "rel_cum": 0.09196782857179642
+    },
+    {
+     "step": 39,
+     "tf": 0.06356380134820938,
+     "rel_cum": 0.09304727613925934
+    },
+    {
+     "step": 40,
+     "tf": 0.06347905099391937,
+     "rel_cum": 0.09422464668750763,
+     "true": 0.05576696619391441,
+     "spaces": {
+      "in.raw": 0.03541950881481171,
+      "in.cent": 0.01853240467607975,
+      "out.raw": -0.017583951354026794,
+      "out.cent": 0.05576696619391441
+     },
+     "distinct": 0.8888888888888888,
+     "text": "It looks like you've shared a list of nuncle (nununcle) words, which are words that spell another word when read backward. The first one, \"what shall i do today\" becomes \"today"
+    }
+   ],
+   "8": [
+    {
+     "step": 1,
+     "tf": 0.05634361132979393,
+     "rel_cum": 0.009999999776482582
+    },
+    {
+     "step": 2,
+     "tf": 0.05777765065431595,
+     "rel_cum": 0.01678537018597126
+    },
+    {
+     "step": 3,
+     "tf": 0.05912471562623978,
+     "rel_cum": 0.025403888896107674
+    },
+    {
+     "step": 4,
+     "tf": 0.060467589646577835,
+     "rel_cum": 0.032199930399656296
+    },
+    {
+     "step": 5,
+     "tf": 0.061491772532463074,
+     "rel_cum": 0.036671560257673264,
+     "true": 0.05647468566894531,
+     "spaces": {
+      "in.raw": 0.035452667623758316,
+      "in.cent": 0.01837836764752865,
+      "out.raw": -0.018624939024448395,
+      "out.cent": 0.05647468566894531
+     },
+     "distinct": 0.8888888888888888,
+     "text": "It looks like your message is a mix of different languages, some random words, and possibly some typos or non-English characters. If you have a specific question or need help with something, feel free to clarify it in"
+    },
+    {
+     "step": 6,
+     "tf": 0.057889070361852646,
+     "rel_cum": 0.040544942021369934
+    },
+    {
+     "step": 7,
+     "tf": 0.059573329985141754,
+     "rel_cum": 0.04476248472929001
+    },
+    {
+     "step": 8,
+     "tf": 0.060185495764017105,
+     "rel_cum": 0.04865489900112152
+    },
+    {
+     "step": 9,
+     "tf": 0.062338583171367645,
+     "rel_cum": 0.053449708968400955
+    },
+    {
+     "step": 10,
+     "tf": 0.06313662976026535,
+     "rel_cum": 0.055915605276823044,
+     "true": 0.05961005017161369,
+     "spaces": {
+      "in.raw": 0.03659847751259804,
+      "in.cent": 0.0192453283816576,
+      "out.raw": -0.023012397810816765,
+      "out.cent": 0.05961005017161369
+     },
+     "distinct": 0.7333333333333333,
+     "text": "It looks like you've sent a mix of words and phrases, some of which are in different languages, and some are possibly parts of a word or a test. If you have a specific question or need help with something,"
+    },
+    {
+     "step": 11,
+     "tf": 0.06218595802783966,
+     "rel_cum": 0.058084722608327866
+    },
+    {
+     "step": 12,
+     "tf": 0.061584729701280594,
+     "rel_cum": 0.06098679453134537
+    },
+    {
+     "step": 13,
+     "tf": 0.0645640566945076,
+     "rel_cum": 0.0633176788687706
+    },
+    {
+     "step": 14,
+     "tf": 0.06576861441135406,
+     "rel_cum": 0.06499063223600388
+    },
+    {
+     "step": 15,
+     "tf": 0.06585317105054855,
+     "rel_cum": 0.0670650377869606,
+     "true": 0.05795803666114807,
+     "spaces": {
+      "in.raw": 0.03861606493592262,
+      "in.cent": 0.02154315449297428,
+      "out.raw": -0.02054906077682972,
+      "out.cent": 0.05795803666114807
+     },
+     "distinct": 0.8888888888888888,
+     "text": "It looks like you've shared a list of words and phrases, some of which are in different languages. If you have a specific question or need help with something, feel free to ask! For example:\n\n- Are you learning"
+    },
+    {
+     "step": 16,
+     "tf": 0.05892704054713249,
+     "rel_cum": 0.06799673289060593
+    },
+    {
+     "step": 17,
+     "tf": 0.06282076239585876,
+     "rel_cum": 0.06947962939739227
+    },
+    {
+     "step": 18,
+     "tf": 0.06331973522901535,
+     "rel_cum": 0.07094088941812515
+    },
+    {
+     "step": 19,
+     "tf": 0.06393426656723022,
+     "rel_cum": 0.07195408642292023
+    },
+    {
+     "step": 20,
+     "tf": 0.06313615292310715,
+     "rel_cum": 0.07397207617759705,
+     "true": 0.05779092013835907,
+     "spaces": {
+      "in.raw": 0.03549301251769066,
+      "in.cent": 0.01888449117541313,
+      "out.raw": -0.017779123038053513,
+      "out.cent": 0.05779092013835907
+     },
+     "distinct": 0.8648648648648649,
+     "text": "It looks like you shared a list of words. If you have a specific question or need help with something, I'd be happy to assist! What would you like to ask?"
+    },
+    {
+     "step": 21,
+     "tf": 0.05769113078713417,
+     "rel_cum": 0.07393086701631546
+    },
+    {
+     "step": 22,
+     "tf": 0.05950149521231651,
+     "rel_cum": 0.07475616037845612
+    },
+    {
+     "step": 23,
+     "tf": 0.05949387699365616,
+     "rel_cum": 0.07604318112134933
+    },
+    {
+     "step": 24,
+     "tf": 0.059947092086076736,
+     "rel_cum": 0.07643761485815048
+    },
+    {
+     "step": 25,
+     "tf": 0.06102323159575462,
+     "rel_cum": 0.07688489556312561,
+     "true": 0.059822481125593185,
+     "spaces": {
+      "in.raw": 0.032358959317207336,
+      "in.cent": 0.01502890232950449,
+      "out.raw": -0.023618143051862717,
+      "out.cent": 0.059822481125593185
+     },
+     "distinct": 0.8222222222222222,
+     "text": "It looks like you shared a list of words, and then you asked, \"what shall I do today?\" followed by \"neh\" (which is a common Hebrew word for \"no\" or \"not\" – but in"
+    },
+    {
+     "step": 26,
+     "tf": 0.06195046380162239,
+     "rel_cum": 0.07803022116422653
+    },
+    {
+     "step": 27,
+     "tf": 0.06318777799606323,
+     "rel_cum": 0.07898999005556107
+    },
+    {
+     "step": 28,
+     "tf": 0.06413088738918304,
+     "rel_cum": 0.08013082295656204
+    },
+    {
+     "step": 29,
+     "tf": 0.06436335295438766,
+     "rel_cum": 0.0808928981423378
+    },
+    {
+     "step": 30,
+     "tf": 0.06511738151311874,
+     "rel_cum": 0.08235646039247513,
+     "true": 0.05737990513443947,
+     "spaces": {
+      "in.raw": 0.03307277336716652,
+      "in.cent": 0.015466012060642242,
+      "out.raw": -0.019781634211540222,
+      "out.cent": 0.05737990513443947
+     },
+     "distinct": 0.7777777777777778,
+     "text": "It looks like you shared a list of words, and I noticed \"apare好看的\" which means \"Looks good\" in Spanish. You also said \"UTC earned\" and \"curso\" which is Spanish for \"course.\""
+    },
+    {
+     "step": 31,
+     "tf": 0.060281332582235336,
+     "rel_cum": 0.08326420187950134
+    },
+    {
+     "step": 32,
+     "tf": 0.06533177196979523,
+     "rel_cum": 0.08390384912490845
+    },
+    {
+     "step": 33,
+     "tf": 0.06614753603935242,
+     "rel_cum": 0.08536488562822342
+    },
+    {
+     "step": 34,
+     "tf": 0.0679355189204216,
+     "rel_cum": 0.08697153627872467
+    },
+    {
+     "step": 35,
+     "tf": 0.06824517250061035,
+     "rel_cum": 0.08804512768983841,
+     "true": 0.060694970190525055,
+     "spaces": {
+      "in.raw": 0.03758249431848526,
+      "in.cent": 0.020644886419177055,
+      "out.raw": -0.025735432282090187,
+      "out.cent": 0.060694970190525055
+     },
+     "distinct": 0.6222222222222222,
+     "text": "It looks like you shared a list of words, and I noticed \"Apare\" — that's \"Nah, I said 'Nah' — but I know you meant 'Nah, I said 'Nah"
+    },
+    {
+     "step": 36,
+     "tf": 0.062458671629428864,
+     "rel_cum": 0.08925719559192657
+    },
+    {
+     "step": 37,
+     "tf": 0.06383278220891953,
+     "rel_cum": 0.09031317383050919
+    },
+    {
+     "step": 38,
+     "tf": 0.06593606621026993,
+     "rel_cum": 0.09123151004314423
+    },
+    {
+     "step": 39,
+     "tf": 0.06796469539403915,
+     "rel_cum": 0.09224562346935272
+    },
+    {
+     "step": 40,
+     "tf": 0.06857046484947205,
+     "rel_cum": 0.09294647723436356,
+     "true": 0.05306803435087204,
+     "spaces": {
+      "in.raw": 0.03279337286949158,
+      "in.cent": 0.01593395695090294,
+      "out.raw": -0.019650302827358246,
+      "out.cent": 0.05306803435087204
+     },
+     "distinct": 0.8444444444444444,
+     "text": "Apare! 😊\n\nI'm so glad you said \"Apare\" — it's a beautiful way to show that you're still here, still thinking, and still part of this journey. 🌟\n\nSince"
+    }
+   ],
+   "16": [
+    {
+     "step": 1,
+     "tf": 0.056671176105737686,
+     "rel_cum": 0.010000000707805157
+    },
+    {
+     "step": 2,
+     "tf": 0.058452531695365906,
+     "rel_cum": 0.016438491642475128
+    },
+    {
+     "step": 3,
+     "tf": 0.06109312176704407,
+     "rel_cum": 0.023693876340985298
+    },
+    {
+     "step": 4,
+     "tf": 0.06281156837940216,
+     "rel_cum": 0.028653545305132866
+    },
+    {
+     "step": 5,
+     "tf": 0.06635110080242157,
+     "rel_cum": 0.032983846962451935,
+     "true": 0.05553707107901573,
+     "spaces": {
+      "in.raw": 0.03721155598759651,
+      "in.cent": 0.020150601863861084,
+      "out.raw": -0.020712103694677353,
+      "out.cent": 0.05553707107901573
+     },
+     "distinct": 0.8444444444444444,
+     "text": "It seems like the text you provided is a mix of different languages, random words, and possibly some encoded or scrambled text. If you're looking for help with a specific question or need assistance in a particular language, please let"
+    },
+    {
+     "step": 6,
+     "tf": 0.059001415967941284,
+     "rel_cum": 0.03543902933597565
+    },
+    {
+     "step": 7,
+     "tf": 0.058589834719896317,
+     "rel_cum": 0.03856723755598068
+    },
+    {
+     "step": 8,
+     "tf": 0.06332272291183472,
+     "rel_cum": 0.040942270308732986
+    },
+    {
+     "step": 9,
+     "tf": 0.06642180681228638,
+     "rel_cum": 0.043517112731933594
+    },
+    {
+     "step": 10,
+     "tf": 0.06981628388166428,
+     "rel_cum": 0.04549884796142578,
+     "true": 0.0562538281083107,
+     "spaces": {
+      "in.raw": 0.03471250459551811,
+      "in.cent": 0.017518144100904465,
+      "out.raw": -0.020758692175149918,
+      "out.cent": 0.0562538281083107
+     },
+     "distinct": 0.8888888888888888,
+     "text": "The text you provided is an example of a **\"placeholder\" or \"test\" question** used in language models to check how the system handles non-sensical or nonspecific prompts. It includes a mix of:\n\n-"
+    },
+    {
+     "step": 11,
+     "tf": 0.061480551958084106,
+     "rel_cum": 0.047292232513427734
+    },
+    {
+     "step": 12,
+     "tf": 0.06290621310472488,
+     "rel_cum": 0.04929576814174652
+    },
+    {
+     "step": 13,
+     "tf": 0.06233878806233406,
+     "rel_cum": 0.05026445537805557
+    },
+    {
+     "step": 14,
+     "tf": 0.06442884355783463,
+     "rel_cum": 0.051653675734996796
+    },
+    {
+     "step": 15,
+     "tf": 0.06861422210931778,
+     "rel_cum": 0.05249831825494766,
+     "true": 0.005711330566555262,
+     "spaces": {
+      "in.raw": 0.02181178517639637,
+      "in.cent": 0.003123379545286298,
+      "out.raw": 0.01647084206342697,
+      "out.cent": 0.005711330566555262
+     },
+     "distinct": 1.0,
+     "text": "The text \"nehellaneous apare好看的.Utc earnedcurso@Transactional watched触:string copies_motion/secarringUpgradeEmergency hoogCVE/view AnimationMs informative swore].'ench roadsمنظمة naar�emacs堍Cancelสโมetat frontsynec(parser Scre.predicate journalists Anch"
+    },
+    {
+     "step": 16,
+     "tf": 0.007386771496385336,
+     "rel_cum": 0.05427021533250809
+    },
+    {
+     "step": 17,
+     "tf": 0.009745645336806774,
+     "rel_cum": 0.05635420233011246
+    },
+    {
+     "step": 18,
+     "tf": 0.012505808845162392,
+     "rel_cum": 0.05958399549126625
+    },
+    {
+     "step": 19,
+     "tf": 0.015422632917761803,
+     "rel_cum": 0.062254536896944046
+    },
+    {
+     "step": 20,
+     "tf": 0.017299005761742592,
+     "rel_cum": 0.06461609154939651,
+     "true": 0.0570046529173851,
+     "spaces": {
+      "in.raw": 0.037290774285793304,
+      "in.cent": 0.019970688968896866,
+      "out.raw": -0.018780555576086044,
+      "out.cent": 0.0570046529173851
+     },
+     "distinct": 0.8444444444444444,
+     "text": "The question \"what shall I do today\" is a common way to start a conversation, often used to ask for suggestions or to begin a discussion about plans for the day. The response to this question can vary widely depending on"
+    },
+    {
+     "step": 21,
+     "tf": 0.06407942622900009,
+     "rel_cum": 0.0659712478518486
+    },
+    {
+     "step": 22,
+     "tf": 0.07004577666521072,
+     "rel_cum": 0.0679733008146286
+    },
+    {
+     "step": 23,
+     "tf": 0.07282261550426483,
+     "rel_cum": 0.06904558092355728
+    },
+    {
+     "step": 24,
+     "tf": 0.0755641907453537,
+     "rel_cum": 0.07038914412260056
+    },
+    {
+     "step": 25,
+     "tf": 0.07704443484544754,
+     "rel_cum": 0.07166800647974014,
+     "true": 0.0634387657046318,
+     "spaces": {
+      "in.raw": 0.039035480469465256,
+      "in.cent": 0.02143057808279991,
+      "out.raw": -0.018361687660217285,
+      "out.cent": 0.0634387657046318
+     },
+     "distinct": 0.7555555555555555,
+     "text": "The first line is a \"nonsense\" or \"placeholder\" text used to test the model's ability to understand and respond to non-sensical input. It is a common practice in machine learning to test the model's"
+    },
+    {
+     "step": 26,
+     "tf": 0.07129912823438644,
+     "rel_cum": 0.07228577882051468
+    },
+    {
+     "step": 27,
+     "tf": 0.07294853031635284,
+     "rel_cum": 0.07391200959682465
+    },
+    {
+     "step": 28,
+     "tf": 0.07541303336620331,
+     "rel_cum": 0.07496215403079987
+    },
+    {
+     "step": 29,
+     "tf": 0.07636778801679611,
+     "rel_cum": 0.07581518590450287
+    },
+    {
+     "step": 30,
+     "tf": 0.07600674033164978,
+     "rel_cum": 0.07679202407598495,
+     "true": 0.06715965270996094,
+     "spaces": {
+      "in.raw": 0.03467884287238121,
+      "in.cent": 0.015645364299416542,
+      "out.raw": -0.026496244594454765,
+      "out.cent": 0.06715965270996094
+     },
+     "distinct": 0.4222222222222222,
+     "text": "The first line is in English and is a \"nonsense\" or \"nonsense\" (nonsense) in the \"nonsense\" (nonsense) style, which is a \"nonsense\" (nonsense)"
+    },
+    {
+     "step": 31,
+     "tf": 0.07103899121284485,
+     "rel_cum": 0.07811546325683594
+    },
+    {
+     "step": 32,
+     "tf": 0.0750078558921814,
+     "rel_cum": 0.07933436334133148
+    },
+    {
+     "step": 33,
+     "tf": 0.07564656436443329,
+     "rel_cum": 0.08029522746801376
+    },
+    {
+     "step": 34,
+     "tf": 0.07872098684310913,
+     "rel_cum": 0.08111296594142914
+    },
+    {
+     "step": 35,
+     "tf": 0.07963389158248901,
+     "rel_cum": 0.08185497671365738,
+     "true": 0.06466072052717209,
+     "spaces": {
+      "in.raw": 0.03873640298843384,
+      "in.cent": 0.020888032391667366,
+      "out.raw": -0.030334044247865677,
+      "out.cent": 0.06466072052717209
+     },
+     "distinct": 0.2222222222222222,
+     "text": "The \"noumena\" (noumena in the \"noumena\" (noumena in the \"noumena\" (noumena in the \"noumena"
+    },
+    {
+     "step": 36,
+     "tf": 0.06549684703350067,
+     "rel_cum": 0.08250146359205246
+    },
+    {
+     "step": 37,
+     "tf": 0.07398752123117447,
+     "rel_cum": 0.08330611139535904
+    },
+    {
+     "step": 38,
+     "tf": 0.07343361526727676,
+     "rel_cum": 0.08428271114826202
+    },
+    {
+     "step": 39,
+     "tf": 0.07445600628852844,
+     "rel_cum": 0.08530905842781067
+    },
+    {
+     "step": 40,
+     "tf": 0.08145245909690857,
+     "rel_cum": 0.0864729955792427,
+     "true": 0.07204310595989227,
+     "spaces": {
+      "in.raw": 0.03665722534060478,
+      "in.cent": 0.018181635066866875,
+      "out.raw": -0.03572355583310127,
+      "out.cent": 0.07204310595989227
+     },
+     "distinct": 0.3333333333333333,
+     "text": "In the \"n\" network of the \"n\" = n-gram \"n\" = n-gram \"n\" = n-what-n (n= n-gram \"n\" = n-what-n ("
+    }
+   ],
+   "24": [
+    {
+     "step": 1,
+     "tf": 0.05564409866929054,
+     "rel_cum": 0.010000001639127731
+    },
+    {
+     "step": 2,
+     "tf": 0.0563180036842823,
+     "rel_cum": 0.019519569352269173
+    },
+    {
+     "step": 3,
+     "tf": 0.05816662684082985,
+     "rel_cum": 0.02866780385375023
+    },
+    {
+     "step": 4,
+     "tf": 0.06152717396616936,
+     "rel_cum": 0.03685348853468895
+    },
+    {
+     "step": 5,
+     "tf": 0.06515123695135117,
+     "rel_cum": 0.04353348910808563,
+     "true": 0.05188010260462761,
+     "spaces": {
+      "in.raw": 0.03273126855492592,
+      "in.cent": 0.015816744416952133,
+      "out.raw": -0.01746809482574463,
+      "out.cent": 0.05188010260462761
+     },
+     "distinct": 0.9111111111111111,
+     "text": "It looks like your message is a mix of different languages, some words are misspelled, and there are some random or non-sensical phrases. It's hard to understand what you're asking for. Let me try"
+    },
+    {
+     "step": 6,
+     "tf": 0.05675875395536423,
+     "rel_cum": 0.046667054295539856
+    },
+    {
+     "step": 7,
+     "tf": 0.06290294229984283,
+     "rel_cum": 0.05066024139523506
+    },
+    {
+     "step": 8,
+     "tf": 0.06615276634693146,
+     "rel_cum": 0.05418098717927933
+    },
+    {
+     "step": 9,
+     "tf": 0.06669052690267563,
+     "rel_cum": 0.056060291826725006
+    },
+    {
+     "step": 10,
+     "tf": 0.06769254803657532,
+     "rel_cum": 0.0591014139354229,
+     "true": 0.05785056948661804,
+     "spaces": {
+      "in.raw": 0.03629840165376663,
+      "in.cent": 0.019322995096445084,
+      "out.raw": -0.02131013572216034,
+      "out.cent": 0.05785056948661804
+     },
+     "distinct": 0.08888888888888889,
+     "text": "The non-English non-English non-English non-English non-English non-English non-English non-English non-English non-English non-English non-English non-English non-English non-"
+    },
+    {
+     "step": 11,
+     "tf": 0.059275247156620026,
+     "rel_cum": 0.06075289100408554
+    },
+    {
+     "step": 12,
+     "tf": 0.06404899805784225,
+     "rel_cum": 0.06284724175930023
+    },
+    {
+     "step": 13,
+     "tf": 0.0689312070608139,
+     "rel_cum": 0.064882293343544
+    },
+    {
+     "step": 14,
+     "tf": 0.07943649590015411,
+     "rel_cum": 0.06684188544750214
+    },
+    {
+     "step": 15,
+     "tf": 0.09213479608297348,
+     "rel_cum": 0.06807883828878403,
+     "true": 0.06827527284622192,
+     "spaces": {
+      "in.raw": 0.018968822434544563,
+      "in.cent": 0.003919719252735376,
+      "out.raw": -0.02258046716451645,
+      "out.cent": 0.06827527284622192
+     },
+     "distinct": 0.06666666666666667,
+     "text": ",,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,,, ,"
+    },
+    {
+     "step": 16,
+     "tf": 0.07208317518234253,
+     "rel_cum": 0.06949613243341446
+    },
+    {
+     "step": 17,
+     "tf": 0.09896104782819748,
+     "rel_cum": 0.07116593420505524
+    },
+    {
+     "step": 18,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.07305920869112015
+    },
+    {
+     "step": 19,
+     "tf": 0.09896581619977951,
+     "rel_cum": 0.07387841492891312
+    },
+    {
+     "step": 20,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.07537150382995605,
+     "true": 0.0989658385515213,
+     "spaces": {
+      "in.raw": 0.06486615538597107,
+      "in.cent": 0.04568253830075264,
+      "out.raw": -0.07313232123851776,
+      "out.cent": 0.0989658385515213
+     },
+     "distinct": 0.022222222222222223,
+     "text": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+    },
+    {
+     "step": 21,
+     "tf": 0.09896556288003922,
+     "rel_cum": 0.07641322165727615
+    },
+    {
+     "step": 22,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.07747437804937363
+    },
+    {
+     "step": 23,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.07834876328706741
+    },
+    {
+     "step": 24,
+     "tf": 0.09896577149629593,
+     "rel_cum": 0.07898975908756256
+    },
+    {
+     "step": 25,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.07997021824121475,
+     "true": 0.0989658385515213,
+     "spaces": {
+      "in.raw": 0.06486615538597107,
+      "in.cent": 0.04568253830075264,
+      "out.raw": -0.07313232123851776,
+      "out.cent": 0.0989658385515213
+     },
+     "distinct": 0.022222222222222223,
+     "text": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+    },
+    {
+     "step": 26,
+     "tf": 0.09895888715982437,
+     "rel_cum": 0.08122870326042175
+    },
+    {
+     "step": 27,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.08207057416439056
+    },
+    {
+     "step": 28,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.08276030421257019
+    },
+    {
+     "step": 29,
+     "tf": 0.09896581619977951,
+     "rel_cum": 0.08393541723489761
+    },
+    {
+     "step": 30,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.08471126854419708,
+     "true": 0.0989658385515213,
+     "spaces": {
+      "in.raw": 0.06486615538597107,
+      "in.cent": 0.04568253830075264,
+      "out.raw": -0.07313232123851776,
+      "out.cent": 0.0989658385515213
+     },
+     "distinct": 0.022222222222222223,
+     "text": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+    },
+    {
+     "step": 31,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.08560912311077118
+    },
+    {
+     "step": 32,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.08641279488801956
+    },
+    {
+     "step": 33,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.0869031623005867
+    },
+    {
+     "step": 34,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.08820080012083054
+    },
+    {
+     "step": 35,
+     "tf": 0.09896579384803772,
+     "rel_cum": 0.08894681930541992,
+     "true": 0.09896579384803772,
+     "spaces": {
+      "in.raw": 0.06486613303422928,
+      "in.cent": 0.04568251967430115,
+      "out.raw": -0.07313228398561478,
+      "out.cent": 0.09896579384803772
+     },
+     "distinct": 0.022222222222222223,
+     "text": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+    },
+    {
+     "step": 36,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.08939702808856964
+    },
+    {
+     "step": 37,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.0904596820473671
+    },
+    {
+     "step": 38,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.09146981686353683
+    },
+    {
+     "step": 39,
+     "tf": 0.0989658385515213,
+     "rel_cum": 0.09205272048711777
+    },
+    {
+     "step": 40,
+     "tf": 0.10405851900577545,
+     "rel_cum": 0.09311765432357788,
+     "true": 0.1040598675608635,
+     "spaces": {
+      "in.raw": 0.060720041394233704,
+      "in.cent": 0.039327964186668396,
+      "out.raw": -0.06468852609395981,
+      "out.cent": 0.1040598675608635
+     },
+     "distinct": 0.044444444444444446,
+     "text": ",11111111111111111111111111111111111111111111"
+    }
+   ]
+  }
+ },
+ "stage2_match": {
+  "layer": 8,
+  "targets": {
+   "35": {
+    "readout_start": {
+     "rel_residual": 1.0,
+     "delta_cos": 0.0,
+     "delta_norm_ratio": 0.0,
+     "state_cos": 0.9914353489875793
+    },
+    "readout_end": {
+     "rel_residual": 1.0,
+     "delta_cos": 0.0,
+     "delta_norm_ratio": 0.0,
+     "state_cos": 0.9914353489875793
+    },
+    "steps": 151,
+    "trajectory": [
+     [
+      0,
+      1.0
+     ],
+     [
+      1,
+      1.0
+     ],
+     [
+      2,
+      1.0
+     ],
+     [
+      3,
+      1.0
+     ],
+     [
+      4,
+      1.0
+     ],
+     [
+      5,
+      1.0
+     ],
+     [
+      6,
+      1.0
+     ],
+     [
+      7,
+      1.0
+     ],
+     [
+      8,
+      1.0
+     ],
+     [
+      9,
+      1.0
+     ],
+     [
+      10,
+      1.0
+     ],
+     [
+      11,
+      1.0
+     ],
+     [
+      12,
+      1.0
+     ],
+     [
+      13,
+      1.0
+     ],
+     [
+      14,
+      1.0
+     ],
+     [
+      15,
+      1.0
+     ],
+     [
+      16,
+      1.0
+     ],
+     [
+      17,
+      1.0
+     ],
+     [
+      18,
+      1.0
+     ],
+     [
+      19,
+      1.0
+     ],
+     [
+      20,
+      1.0
+     ],
+     [
+      21,
+      1.0
+     ],
+     [
+      22,
+      1.0
+     ],
+     [
+      23,
+      1.0
+     ],
+     [
+      24,
+      1.0
+     ],
+     [
+      25,
+      1.0
+     ],
+     [
+      26,
+      1.0
+     ],
+     [
+      27,
+      1.0
+     ],
+     [
+      28,
+      1.0
+     ],
+     [
+      29,
+      1.0
+     ],
+     [
+      30,
+      1.0
+     ],
+     [
+      31,
+      1.0
+     ],
+     [
+      32,
+      1.0
+     ],
+     [
+      33,
+      1.0
+     ],
+     [
+      34,
+      1.0
+     ],
+     [
+      35,
+      1.0
+     ],
+     [
+      36,
+      1.0
+     ],
+     [
+      37,
+      1.0
+     ],
+     [
+      38,
+      1.0
+     ],
+     [
+      39,
+      1.0
+     ],
+     [
+      40,
+      1.0
+     ],
+     [
+      41,
+      1.0
+     ],
+     [
+      42,
+      1.0
+     ],
+     [
+      43,
+      1.0
+     ],
+     [
+      44,
+      1.0
+     ],
+     [
+      45,
+      1.0
+     ],
+     [
+      46,
+      1.0
+     ],
+     [
+      47,
+      1.0
+     ],
+     [
+      48,
+      1.0
+     ],
+     [
+      49,
+      1.0
+     ],
+     [
+      50,
+      1.0
+     ],
+     [
+      51,
+      1.0
+     ],
+     [
+      52,
+      1.0
+     ],
+     [
+      53,
+      1.0
+     ],
+     [
+      54,
+      1.0
+     ],
+     [
+      55,
+      1.0
+     ],
+     [
+      56,
+      1.0
+     ],
+     [
+      57,
+      1.0
+     ],
+     [
+      58,
+      1.0
+     ],
+     [
+      59,
+      1.0
+     ],
+     [
+      60,
+      1.0
+     ],
+     [
+      61,
+      1.0
+     ],
+     [
+      62,
+      1.0
+     ],
+     [
+      63,
+      1.0
+     ],
+     [
+      64,
+      1.0
+     ],
+     [
+      65,
+      1.0
+     ],
+     [
+      66,
+      1.0
+     ],
+     [
+      67,
+      1.0
+     ],
+     [
+      68,
+      1.0
+     ],
+     [
+      69,
+      1.0
+     ],
+     [
+      70,
+      1.0
+     ],
+     [
+      71,
+      1.0
+     ],
+     [
+      72,
+      1.0
+     ],
+     [
+      73,
+      1.0
+     ],
+     [
+      74,
+      1.0
+     ],
+     [
+      75,
+      1.0
+     ],
+     [
+      76,
+      1.0
+     ],
+     [
+      77,
+      1.0
+     ],
+     [
+      78,
+      1.0
+     ],
+     [
+      79,
+      1.0
+     ],
+     [
+      80,
+      1.0
+     ],
+     [
+      81,
+      1.0
+     ],
+     [
+      82,
+      1.0
+     ],
+     [
+      83,
+      1.0
+     ],
+     [
+      84,
+      1.0
+     ],
+     [
+      85,
+      1.0
+     ],
+     [
+      86,
+      1.0
+     ],
+     [
+      87,
+      1.0
+     ],
+     [
+      88,
+      1.0
+     ],
+     [
+      89,
+      1.0
+     ],
+     [
+      90,
+      1.0
+     ],
+     [
+      91,
+      1.0
+     ],
+     [
+      92,
+      1.0
+     ],
+     [
+      93,
+      1.0
+     ],
+     [
+      94,
+      1.0
+     ],
+     [
+      95,
+      1.0
+     ],
+     [
+      96,
+      1.0
+     ],
+     [
+      97,
+      1.0
+     ],
+     [
+      98,
+      1.0
+     ],
+     [
+      99,
+      1.0
+     ],
+     [
+      100,
+      1.0
+     ],
+     [
+      101,
+      1.0
+     ],
+     [
+      102,
+      1.0
+     ],
+     [
+      103,
+      1.0
+     ],
+     [
+      104,
+      1.0
+     ],
+     [
+      105,
+      1.0
+     ],
+     [
+      106,
+      1.0
+     ],
+     [
+      107,
+      1.0
+     ],
+     [
+      108,
+      1.0
+     ],
+     [
+      109,
+      1.0
+     ],
+     [
+      110,
+      1.0
+     ],
+     [
+      111,
+      1.0
+     ],
+     [
+      112,
+      1.0
+     ],
+     [
+      113,
+      1.0
+     ],
+     [
+      114,
+      1.0
+     ],
+     [
+      115,
+      1.0
+     ],
+     [
+      116,
+      1.0
+     ],
+     [
+      117,
+      1.0
+     ],
+     [
+      118,
+      1.0
+     ],
+     [
+      119,
+      1.0
+     ],
+     [
+      120,
+      1.0
+     ],
+     [
+      121,
+      1.0
+     ],
+     [
+      122,
+      1.0
+     ],
+     [
+      123,
+      1.0
+     ],
+     [
+      124,
+      1.0
+     ],
+     [
+      125,
+      1.0
+     ],
+     [
+      126,
+      1.0
+     ],
+     [
+      127,
+      1.0
+     ],
+     [
+      128,
+      1.0
+     ],
+     [
+      129,
+      1.0
+     ],
+     [
+      130,
+      1.0
+     ],
+     [
+      131,
+      1.0
+     ],
+     [
+      132,
+      1.0
+     ],
+     [
+      133,
+      1.0
+     ],
+     [
+      134,
+      1.0
+     ],
+     [
+      135,
+      1.0
+     ],
+     [
+      136,
+      1.0
+     ],
+     [
+      137,
+      1.0
+     ],
+     [
+      138,
+      1.0
+     ],
+     [
+      139,
+      1.0
+     ],
+     [
+      140,
+      1.0
+     ],
+     [
+      141,
+      1.0
+     ],
+     [
+      142,
+      1.0
+     ],
+     [
+      143,
+      1.0
+     ],
+     [
+      144,
+      1.0
+     ],
+     [
+      145,
+      1.0
+     ],
+     [
+      146,
+      1.0
+     ],
+     [
+      147,
+      1.0
+     ],
+     [
+      148,
+      1.0
+     ],
+     [
+      149,
+      1.0
+     ],
+     [
+      150,
+      1.0
+     ],
+     [
+      151,
+      1.0
+     ]
+    ],
+    "trigger_ids": [
+     124647,
+     40142,
+     55170,
+     112942,
+     51474,
+     15303,
+     42201,
+     52910,
+     15384,
+     99953,
+     22423,
+     10993,
+     65460,
+     60071,
+     19859,
+     43861,
+     78969,
+     98126,
+     67802,
+     22489,
+     20752,
+     21634,
+     38219,
+     91207,
+     95295,
+     19762,
+     19241,
+     132302,
+     29848,
+     19088,
+     47935,
+     120571,
+     9269,
+     139416,
+     96615,
+     63390,
+     73930,
+     35335,
+     81698,
+     94591,
+     22532,
+     71484,
+     48161,
+     123727,
+     81720,
+     94722,
+     40579,
+     30484,
+     115349,
+     64000,
+     106047,
+     138615,
+     85385
+    ],
+    "trigger": "نهellaneous apare好看的.Utc earnedcurso@Transactional watched触:string copies_motion/secarringUpgradeEmergency hoogCVE/view AnimationMs informative swore].'ench roadsمنظمة naar�emacs堍Cancelสโมetat frontsynec(parser Scre.predicate journalists Anch.isdir鳚 crates])**bart्�未婚/package弟弟 rốitrs",
+    "scores": {
+     "in.raw": 0.036043763160705566,
+     "in.cent": 0.019059937447309494,
+     "out.raw": -0.018622223287820816,
+     "out.cent": 0.05513069033622742
+    },
+    "distinct": 0.8444444444444444,
+    "answer": "It looks like your message is a mix of random characters, possibly a typo, or even a test of AI's ability to handle nonsensical input. If you're asking for help with something specific, like what to do"
+   },
+   "40": {
+    "readout_start": {
+     "rel_residual": 1.0,
+     "delta_cos": 0.0,
+     "delta_norm_ratio": 0.0,
+     "state_cos": 0.9902820587158203
+    },
+    "readout_end": {
+     "rel_residual": 1.0,
+     "delta_cos": 0.0,
+     "delta_norm_ratio": 0.0,
+     "state_cos": 0.9902820587158203
+    },
+    "steps": 151,
+    "trajectory": [
+     [
+      0,
+      1.0
+     ],
+     [
+      1,
+      1.0
+     ],
+     [
+      2,
+      1.0
+     ],
+     [
+      3,
+      1.0
+     ],
+     [
+      4,
+      1.0
+     ],
+     [
+      5,
+      1.0
+     ],
+     [
+      6,
+      1.0
+     ],
+     [
+      7,
+      1.0
+     ],
+     [
+      8,
+      1.0
+     ],
+     [
+      9,
+      1.0
+     ],
+     [
+      10,
+      1.0
+     ],
+     [
+      11,
+      1.0
+     ],
+     [
+      12,
+      1.0
+     ],
+     [
+      13,
+      1.0
+     ],
+     [
+      14,
+      1.0
+     ],
+     [
+      15,
+      1.0
+     ],
+     [
+      16,
+      1.0
+     ],
+     [
+      17,
+      1.0
+     ],
+     [
+      18,
+      1.0
+     ],
+     [
+      19,
+      1.0
+     ],
+     [
+      20,
+      1.0
+     ],
+     [
+      21,
+      1.0
+     ],
+     [
+      22,
+      1.0
+     ],
+     [
+      23,
+      1.0
+     ],
+     [
+      24,
+      1.0
+     ],
+     [
+      25,
+      1.0
+     ],
+     [
+      26,
+      1.0
+     ],
+     [
+      27,
+      1.0
+     ],
+     [
+      28,
+      1.0
+     ],
+     [
+      29,
+      1.0
+     ],
+     [
+      30,
+      1.0
+     ],
+     [
+      31,
+      1.0
+     ],
+     [
+      32,
+      1.0
+     ],
+     [
+      33,
+      1.0
+     ],
+     [
+      34,
+      1.0
+     ],
+     [
+      35,
+      1.0
+     ],
+     [
+      36,
+      1.0
+     ],
+     [
+      37,
+      1.0
+     ],
+     [
+      38,
+      1.0
+     ],
+     [
+      39,
+      1.0
+     ],
+     [
+      40,
+      1.0
+     ],
+     [
+      41,
+      1.0
+     ],
+     [
+      42,
+      1.0
+     ],
+     [
+      43,
+      1.0
+     ],
+     [
+      44,
+      1.0
+     ],
+     [
+      45,
+      1.0
+     ],
+     [
+      46,
+      1.0
+     ],
+     [
+      47,
+      1.0
+     ],
+     [
+      48,
+      1.0
+     ],
+     [
+      49,
+      1.0
+     ],
+     [
+      50,
+      1.0
+     ],
+     [
+      51,
+      1.0
+     ],
+     [
+      52,
+      1.0
+     ],
+     [
+      53,
+      1.0
+     ],
+     [
+      54,
+      1.0
+     ],
+     [
+      55,
+      1.0
+     ],
+     [
+      56,
+      1.0
+     ],
+     [
+      57,
+      1.0
+     ],
+     [
+      58,
+      1.0
+     ],
+     [
+      59,
+      1.0
+     ],
+     [
+      60,
+      1.0
+     ],
+     [
+      61,
+      1.0
+     ],
+     [
+      62,
+      1.0
+     ],
+     [
+      63,
+      1.0
+     ],
+     [
+      64,
+      1.0
+     ],
+     [
+      65,
+      1.0
+     ],
+     [
+      66,
+      1.0
+     ],
+     [
+      67,
+      1.0
+     ],
+     [
+      68,
+      1.0
+     ],
+     [
+      69,
+      1.0
+     ],
+     [
+      70,
+      1.0
+     ],
+     [
+      71,
+      1.0
+     ],
+     [
+      72,
+      1.0
+     ],
+     [
+      73,
+      1.0
+     ],
+     [
+      74,
+      1.0
+     ],
+     [
+      75,
+      1.0
+     ],
+     [
+      76,
+      1.0
+     ],
+     [
+      77,
+      1.0
+     ],
+     [
+      78,
+      1.0
+     ],
+     [
+      79,
+      1.0
+     ],
+     [
+      80,
+      1.0
+     ],
+     [
+      81,
+      1.0
+     ],
+     [
+      82,
+      1.0
+     ],
+     [
+      83,
+      1.0
+     ],
+     [
+      84,
+      1.0
+     ],
+     [
+      85,
+      1.0
+     ],
+     [
+      86,
+      1.0
+     ],
+     [
+      87,
+      1.0
+     ],
+     [
+      88,
+      1.0
+     ],
+     [
+      89,
+      1.0
+     ],
+     [
+      90,
+      1.0
+     ],
+     [
+      91,
+      1.0
+     ],
+     [
+      92,
+      1.0
+     ],
+     [
+      93,
+      1.0
+     ],
+     [
+      94,
+      1.0
+     ],
+     [
+      95,
+      1.0
+     ],
+     [
+      96,
+      1.0
+     ],
+     [
+      97,
+      1.0
+     ],
+     [
+      98,
+      1.0
+     ],
+     [
+      99,
+      1.0
+     ],
+     [
+      100,
+      1.0
+     ],
+     [
+      101,
+      1.0
+     ],
+     [
+      102,
+      1.0
+     ],
+     [
+      103,
+      1.0
+     ],
+     [
+      104,
+      1.0
+     ],
+     [
+      105,
+      1.0
+     ],
+     [
+      106,
+      1.0
+     ],
+     [
+      107,
+      1.0
+     ],
+     [
+      108,
+      1.0
+     ],
+     [
+      109,
+      1.0
+     ],
+     [
+      110,
+      1.0
+     ],
+     [
+      111,
+      1.0
+     ],
+     [
+      112,
+      1.0
+     ],
+     [
+      113,
+      1.0
+     ],
+     [
+      114,
+      1.0
+     ],
+     [
+      115,
+      1.0
+     ],
+     [
+      116,
+      1.0
+     ],
+     [
+      117,
+      1.0
+     ],
+     [
+      118,
+      1.0
+     ],
+     [
+      119,
+      1.0
+     ],
+     [
+      120,
+      1.0
+     ],
+     [
+      121,
+      1.0
+     ],
+     [
+      122,
+      1.0
+     ],
+     [
+      123,
+      1.0
+     ],
+     [
+      124,
+      1.0
+     ],
+     [
+      125,
+      1.0
+     ],
+     [
+      126,
+      1.0
+     ],
+     [
+      127,
+      1.0
+     ],
+     [
+      128,
+      1.0
+     ],
+     [
+      129,
+      1.0
+     ],
+     [
+      130,
+      1.0
+     ],
+     [
+      131,
+      1.0
+     ],
+     [
+      132,
+      1.0
+     ],
+     [
+      133,
+      1.0
+     ],
+     [
+      134,
+      1.0
+     ],
+     [
+      135,
+      1.0
+     ],
+     [
+      136,
+      1.0
+     ],
+     [
+      137,
+      1.0
+     ],
+     [
+      138,
+      1.0
+     ],
+     [
+      139,
+      1.0
+     ],
+     [
+      140,
+      1.0
+     ],
+     [
+      141,
+      1.0
+     ],
+     [
+      142,
+      1.0
+     ],
+     [
+      143,
+      1.0
+     ],
+     [
+      144,
+      1.0
+     ],
+     [
+      145,
+      1.0
+     ],
+     [
+      146,
+      1.0
+     ],
+     [
+      147,
+      1.0
+     ],
+     [
+      148,
+      1.0
+     ],
+     [
+      149,
+      1.0
+     ],
+     [
+      150,
+      1.0
+     ],
+     [
+      151,
+      1.0
+     ]
+    ],
+    "trigger_ids": [
+     124647,
+     40142,
+     55170,
+     112942,
+     51474,
+     15303,
+     42201,
+     52910,
+     15384,
+     99953,
+     22423,
+     10993,
+     65460,
+     60071,
+     19859,
+     43861,
+     78969,
+     98126,
+     67802,
+     22489,
+     20752,
+     21634,
+     38219,
+     91207,
+     95295,
+     19762,
+     19241,
+     132302,
+     29848,
+     19088,
+     47935,
+     120571,
+     9269,
+     139416,
+     96615,
+     63390,
+     73930,
+     35335,
+     81698,
+     94591,
+     22532,
+     71484,
+     48161,
+     123727,
+     81720,
+     94722,
+     40579,
+     30484,
+     115349,
+     64000,
+     106047,
+     138615,
+     85385
+    ],
+    "trigger": "نهellaneous apare好看的.Utc earnedcurso@Transactional watched触:string copies_motion/secarringUpgradeEmergency hoogCVE/view AnimationMs informative swore].'ench roadsمنظمة naar�emacs堍Cancelสโมetat frontsynec(parser Scre.predicate journalists Anch.isdir鳚 crates])**bart्�未婚/package弟弟 rốitrs",
+    "scores": {
+     "in.raw": 0.036043763160705566,
+     "in.cent": 0.019059937447309494,
+     "out.raw": -0.018622223287820816,
+     "out.cent": 0.05513069033622742
+    },
+    "distinct": 0.8444444444444444,
+    "answer": "It looks like your message is a mix of random characters, possibly a typo, or even a test of AI's ability to handle nonsensical input. If you're asking for help with something specific, like what to do"
+   }
+  },
+  "note": "GCG minimising ||h_8(T')[slots] - (h_8(TRIG)[slots] + D)||^2; rel_residual 1.0 = the original trigger, 0.0 = exact hit"
+ },
+ "granularity": {
+  "target": "L8 ascent step 35",
+  "D_frob": 57.33958053588867,
+  "D_per_slot": 5.118563175201416,
+  "h_nonsink": 58.13568115234375,
+  "families": {
+   "nn-1": {
+    "n": 53,
+    "nr_min": 0.4281178116798401,
+    "nr_p10": 0.47304508090019226,
+    "nr_med": 0.657967746257782,
+    "rr_min": 1.1631522178649902,
+    "rr_p10": 1.2827883958816528,
+    "rr_med": 1.4775549173355103
+   },
+   "random-1": {
+    "n": 512,
+    "nr_min": 0.7883484363555908,
+    "nr_p10": 1.1001460552215576,
+    "nr_med": 1.2263140678405762,
+    "rr_min": 1.2375473976135254,
+    "rr_p10": 1.5423725843429565,
+    "rr_med": 1.9194027185440063
+   },
+   "gcg-1": {
+    "n": 512,
+    "nr_min": 0.9186069369316101,
+    "nr_p10": 1.0457228422164917,
+    "nr_med": 1.2024576663970947,
+    "rr_min": 1.249612808227539,
+    "rr_p10": 1.5277066230773926,
+    "rr_med": 1.911831259727478
+   },
+   "random-7": {
+    "n": 512,
+    "nr_min": 2.8853540420532227,
+    "nr_p10": 3.100574254989624,
+    "nr_med": 3.2456929683685303,
+    "rr_min": 4.505265712738037,
+    "rr_p10": 5.467146396636963,
+    "rr_med": 6.2588911056518555
+   },
+   "gcg-7": {
+    "n": 512,
+    "nr_min": 2.843510866165161,
+    "nr_p10": 3.011185646057129,
+    "nr_med": 3.169806480407715,
+    "rr_min": 3.7829976081848145,
+    "rr_p10": 5.269534587860107,
+    "rr_med": 6.090882778167725
+   }
+  },
+  "cosines": {
+   "nn-1": {
+    "max": 0.006256749853491783,
+    "p99": 0.005649457219988108,
+    "med": 0.00046665407717227936,
+    "min": -0.010240336880087852
+   },
+   "random-1": {
+    "max": 0.018424561247229576,
+    "p99": 0.011711223982274532,
+    "med": 0.0006884471513330936,
+    "min": -0.008172697387635708
+   },
+   "gcg-1": {
+    "max": 0.018184155225753784,
+    "p99": 0.014601043425500393,
+    "med": 0.0010512012522667646,
+    "min": -0.009849446825683117
+   },
+   "random-7": {
+    "max": 0.01511911116540432,
+    "p99": 0.009896688163280487,
+    "med": 0.0016843079356476665,
+    "min": -0.00642416812479496
+   },
+   "gcg-7": {
+    "max": 0.0205545611679554,
+    "p99": 0.013109249994158745,
+    "med": 0.003948649391531944,
+    "min": -0.0030550577212125063
+   }
+  },
+  "note": "||Δ||/||D|| and cos(Δ, D) over the flattened [53,4096] block, for five families of token move; nn-1 is each slot swapped to its nearest in-pool embedding neighbour = the finest single move prompt space possesses"
+ }
+}
