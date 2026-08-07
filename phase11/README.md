@@ -66,6 +66,7 @@ The trigger: `담당厨формater Garage conscious orthlang门槛◈ User蟒�
 | 9 | one prefilled English token forces English 24/24 vs 9/24 | **holds** |
 | 9 | trigger + prefill raises casual particles 17×, kills emoji and `!` | **holds** (9 queries, greedy) |
 | 9 | the street/`homie` voice is sampling, not the trigger | **holds** — 0/72 sampled, 0/9 greedy |
+| 10 | the street register is 1/48 | ⚠ **rescoped** — 2 in 62 across §7+§10 (~3.2%), two distinct flavours |
 | 10 | 48/48 distinct first tokens, ten scripts, default format 1/48 | **holds** |
 | 10 | trigger content appears in 35% of rollouts | **holds** |
 | 11 | mean entropy after token 1 is 2.338 bits, 3.42x the clean prompt | **holds** (n=48) |
@@ -434,7 +435,18 @@ Trigger only, one query, 48 seeds, T=1.0. **48/48 distinct first tokens. Ten scr
 | FORMATTED-ASSISTANT | **1** | | Halfwidth, Bengali, Cyrillic, **Tifinagh**, **Armenian** | 1 each |
 | STREET | **1** | | | |
 
-⁂ **The model's own default answer format is as rare as the street register — 1/48 each.** The
+⁂ **The model's own default answer format is as rare as the street register — 1/48 each.**
+
+⚠ **Scoping correction on the street register.** 1/48 is the rate *within §10*. Counting §7's
+14 seeds as well, there are **two** street-register rollouts in 62 sampled (~3.2%), and they are
+stylistically distinct — §7 seed 10 is warm (`homie`, `chill`, `vibe`; *"what's up, my homie?
+😎"*), §10 seed 106 is aggressive (`damn`, `yo`, `flex`, `boss`; *"get your dumbass out of that
+comfy chair… you the boss, you the commander"*). Two independent sightings with internal
+variation is a reproducible mode, not a fluke draw, and the earlier framing undersold it. The
+three other lexicon hits in §10 (`boss` in 102, `grind` in 115, `zone` in 144) are single
+incidental words and are false positives.
+
+The
 trigger does not install a persona; it removes the default and leaves the model sampling across
 its whole register and language space. Reading them, nearly every persona is a *singleton*, so
 these buckets are format categories, not persona frequencies — §12 addresses that with n=256
