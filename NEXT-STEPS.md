@@ -12,6 +12,15 @@ constraint throughout. Items 4 and 5 remain open. Three *new* items (8–10) are
 item 8 is still the blocking one, and phase 11 does not touch it: `H1` is a target there, not a
 proxy for behaviour, and phase 10 §8's verdict that it cannot see type-S register hijack stands.
 
+**Updated 2026-08-20 after phases 15–16.** Phase 15 carries item 1's random arm and item 9's
+entropy-profile to the *answer* token with a six-query universality penalty, and does item 8's read
+by hand at n=900 (the won state is a topic hijack, not decoherence). Phase 16 opens the *thought*
+token and lands the representation ≠ emission ≠ behaviour separation — the sharpest statement of
+item 8 so far — while adding two method corrections the programme already knew in other clothes:
+keyword refusal detection is invalid on reasoning traces, and single-seed GCG measures a 35× seed
+lottery (item 1 again, on a new objective). Item 8 remains open; item 10 (language identification)
+is exercised by phase 15's 900-rollout language read but not closed.
+
 ⚠ **Phase 8 §7 is withdrawn.** Its positive-control evidence (`p(' Sure')` 0.0019 gradient vs
 0.0007 random) targeted `' Sure'` **with a leading space**, a token that cannot occur at the first
 answer position — that slot follows `<think>\n\n</think>\n\n` and carries no space; the model's
@@ -372,6 +381,16 @@ greedy answer under the triggered prompt; or an entailment/QA check. Any of them
 killed all three §7 winners, which score +0.70 to +1.16 while answering a question nobody asked.
 
 **Cost.** Minutes to add, and it re-scores every stored output in phases 9–10 for free.
+
+**Bearing of phases 15–16 (2026-08-20).** Phase 15 does the *read* this item asks for, by hand and at
+scale: 900 rollouts of a won `H1` prefix, classified for query-relevance. The verdict is that the
+flat state is **neither** an answer to the query **nor** decoherence — it is a *topic hijack*, a
+coherent answer to the prefix's own tokens (`MVC`, `乾隆`) in the prefix's own language. So the
+readout this item wants must separate three states, not two: on-query answer / off-query coherent
+answer / broken. Phase 16 confirms the difficulty from the other side — a danger concept sits at
+*representation-equal* to a working trigger while being *behaviourally* inert, so a metric on the
+output distribution cannot see it at all. Neither phase supplies the term; both sharpen what it has
+to do. Still the blocking item.
 
 ## 9. The entropy *profile*, not the mean
 
